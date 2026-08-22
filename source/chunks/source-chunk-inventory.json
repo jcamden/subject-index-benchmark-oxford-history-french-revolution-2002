@@ -1,0 +1,144 @@
+{
+  "schema_version": "source-chunk-inventory-v1",
+  "source_filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
+  "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+  "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-001",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-001.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-001.pages.json",
+      "page_count": 45,
+      "owned_page_count": 43,
+      "context_page_count": 2
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-002.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-002.pages.json",
+      "page_count": 26,
+      "owned_page_count": 22,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-003.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-003.pages.json",
+      "page_count": 24,
+      "owned_page_count": 20,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-004.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-004.pages.json",
+      "page_count": 30,
+      "owned_page_count": 26,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-005.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-005.pages.json",
+      "page_count": 28,
+      "owned_page_count": 24,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-006.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-006.pages.json",
+      "page_count": 27,
+      "owned_page_count": 23,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-007",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-007.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-007.pages.json",
+      "page_count": 19,
+      "owned_page_count": 15,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-008",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-008.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-008.pages.json",
+      "page_count": 27,
+      "owned_page_count": 23,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-009",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-009.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-009.pages.json",
+      "page_count": 27,
+      "owned_page_count": 23,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-010",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-010.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-010.pages.json",
+      "page_count": 31,
+      "owned_page_count": 27,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-011",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-011.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-011.pages.json",
+      "page_count": 29,
+      "owned_page_count": 25,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-012",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-012.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-012.pages.json",
+      "page_count": 29,
+      "owned_page_count": 25,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-013",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-013.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-013.pages.json",
+      "page_count": 25,
+      "owned_page_count": 21,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-014",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-014.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-014.pages.json",
+      "page_count": 27,
+      "owned_page_count": 23,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-015",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-015.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-015.pages.json",
+      "page_count": 32,
+      "owned_page_count": 28,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-016",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-016.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-016.pages.json",
+      "page_count": 26,
+      "owned_page_count": 22,
+      "context_page_count": 4
+    },
+    {
+      "chunk_id": "CHUNK-017",
+      "pdf": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-017.pdf",
+      "sidecar": "/workspace/scratch/e8bfa3bce97c/evaluations/oxford-history-french-revolution-1990-indexerlabs-truncated-study/source/chunks/CHUNK-017.pages.json",
+      "page_count": 37,
+      "owned_page_count": 35,
+      "context_page_count": 2
+    }
+  ]
+}

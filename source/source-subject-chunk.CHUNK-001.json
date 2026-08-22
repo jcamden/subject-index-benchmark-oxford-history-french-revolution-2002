@@ -1,0 +1,547 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "oxford-history-french-revolution-1990-indexerlabs-truncated",
+  "chunk": {
+    "chunk_id": "CHUNK-001",
+    "chapter_labels": ["Chapter 1: France under Louis XVI"],
+    "owned_document_pages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+    "context_document_pages": [44, 45]
+  },
+  "candidate_blindness": "preserved",
+  "page_review": {
+    "expected_owned_pages": 43,
+    "reviewed_owned_pages": 43,
+    "indexable_source_words": 19778,
+    "word_count_method": "Words extracted from owned pages 1-43 after removing page numbers, running heads, and map-source furniture; substantive body text, quotations, and map caption retained.",
+    "excluded_regions": [
+      {"document_pages": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43], "role": "running furniture and page numbers"},
+      {"document_page": 3, "role": "map source credit only; map and caption retained"}
+    ],
+    "unavailable_regions": [
+      {"role": "chapter endnotes", "reason": "Absent from the supplied special edition."}
+    ],
+    "complete": true
+  },
+  "subjects": [
+    {
+      "local_subject_id": "CHUNK-001-S001",
+      "label": "France before 1789—territorial, institutional, and legal diversity",
+      "priority": "essential",
+      "meaning": "The kingdom was a historically accumulated composite whose provinces, generalities, judicial ressorts, dioceses, laws, measures, taxes, and customs barriers overlapped rather than forming a uniform state.",
+      "stance": "Treat diversity as entrenched and functional as well as apparently irrational; do not reduce it to administrative chaos alone.",
+      "acceptable_access": ["France—administrative divisions", "France—regional diversity", "provincial administration", "legal diversity", "Old Regime institutions"],
+      "relationships": [{"type": "parent_of", "targets": ["CHUNK-001-S002", "CHUNK-001-S003"]}],
+      "reader_tasks": ["Find why royal France lacked uniform territorial, legal, and fiscal institutions."],
+      "evidence": [
+        {"document_page": 2, "source_page_label": "2", "locator_class": "principal", "evidence_summary": "Provinces, generalities, intendants, and parlementary ressorts followed distinct historical logics."},
+        {"document_page": 4, "source_page_label": "4", "locator_class": "principal", "evidence_summary": "Customary and Roman law, weights, measures, tax regimes, and internal customs varied sharply by district."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S002",
+      "label": "Royal monarchy—sacral authority and inherited forms",
+      "priority": "major",
+      "meaning": "Louis XVI's coronation embodied divine-right kingship through oaths, regalia, anointing, and healing ritual, while also exposing the mixture of meaningful authority and inherited formalism.",
+      "stance": "Preserve the chapter's ambivalence: the rites remained emotionally powerful but were also historically opaque and partly empty.",
+      "acceptable_access": ["monarchy—sacral character", "Louis XVI—coronation", "divine-right monarchy", "royal ritual"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S030"]}],
+      "reader_tasks": ["Retrieve the religious and ceremonial foundations of Bourbon kingship."],
+      "evidence": [
+        {"document_page": 1, "source_page_label": "1", "locator_class": "principal", "evidence_summary": "Coronation, oath, holy oil, regalia, and royal touch dramatized the monarch's sacred status."},
+        {"document_page": 2, "source_page_label": "2", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Royal powers and forms were products of a long, tortuous, often haphazard evolution."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S003",
+      "label": "Regional economies, communications, and identities",
+      "priority": "major",
+      "meaning": "Geography, transport, language, climate, provincial institutions, and access to maritime trade produced sharply differentiated regional economies and identities.",
+      "stance": "Treat regions as materially and culturally distinct without implying that they were separate national economies.",
+      "acceptable_access": ["France—regional economies", "communications", "provincial identities", "economic geography"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S001"]}, {"type": "related", "targets": ["CHUNK-001-S010"]}],
+      "reader_tasks": ["Locate the comparison of metropolitan, Atlantic, Mediterranean, mountain, and eastern France."],
+      "evidence": [
+        {"document_page": 5, "source_page_label": "5", "locator_class": "principal", "evidence_summary": "The Paris basin's roads, rivers, commercial agriculture, literacy, and French language contrasted with western bocage and Breton distinctiveness."},
+        {"document_page": 7, "source_page_label": "7", "locator_class": "supporting", "evidence_summary": "The Midi combined linguistic, climatic, religious, and autonomous provincial features."},
+        {"document_page": 9, "source_page_label": "9", "locator_class": "supporting", "evidence_summary": "Alsace's German language, religious pluralism, Rhine trade, and advanced cultivation marked an eastern pattern."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S004",
+      "label": "Agriculture—low productivity and obstacles to improvement",
+      "priority": "essential",
+      "meaning": "French agriculture was conservative and low-yield because holdings were fragmented, capital and manure scarce, fallow extensive, markets limited, and most cultivators aimed at subsistence rather than reinvestment.",
+      "stance": "Present backwardness as structural and regionally uneven, not as simple peasant irrationality.",
+      "acceptable_access": ["agriculture", "agricultural productivity", "agrarian economy", "farming methods"],
+      "relationships": [{"type": "parent_of", "targets": ["CHUNK-001-S005", "CHUNK-001-S006", "CHUNK-001-S007"]}],
+      "reader_tasks": ["Find the chapter's explanation for low agricultural productivity."],
+      "evidence": [
+        {"document_page": 9, "source_page_label": "9", "locator_class": "principal", "evidence_summary": "Young's critique leads into morcellation, partible inheritance, small ownership, and métayage."},
+        {"document_page": 10, "source_page_label": "10", "locator_class": "principal", "evidence_summary": "Grain monoculture, scarce manure, fallow, and limited crop rotation constrained yields."},
+        {"document_page": 11, "source_page_label": "11", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Outside a narrow commercial sector, little surplus was reinvested and transport restricted markets."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S005",
+      "label": "Peasant landholding, partible inheritance, and sharecropping",
+      "priority": "major",
+      "meaning": "Partible inheritance fragmented ownership; millions of small proprietors and widespread métayage organized cultivation in tiny, precarious units.",
+      "stance": "Treat fragmentation and sharecropping as adaptations to legal inheritance and unpredictable yields as well as barriers to investment.",
+      "acceptable_access": ["peasant landholding", "partible inheritance", "morcellation", "sharecropping", "métayage"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S004"]}],
+      "reader_tasks": ["Retrieve the structure of rural property and tenancy."],
+      "evidence": [{"document_page": 9, "source_page_label": "9", "locator_class": "principal", "evidence_summary": "Partible inheritance, four million small owner-occupiers, fragmented estates, and sharecropping are explained together."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S006",
+      "label": "Grain economy, food security, and crop diversification",
+      "priority": "major",
+      "meaning": "Fear of famine sustained grain-centred subsistence, while maize, potatoes, and fodder rotations made only regional advances constrained by climate and fertilizer needs.",
+      "stance": "Do not equate reluctance to diversify with ignorance; the source presents it as a response to recurrent food insecurity.",
+      "acceptable_access": ["grain economy", "famine", "crop diversification", "maize", "potatoes", "crop rotation"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S004"]}, {"type": "related", "targets": ["CHUNK-001-S018"]}],
+      "reader_tasks": ["Find why grain dominated cultivation and why alternative crops spread unevenly."],
+      "evidence": [{"document_page": 10, "source_page_label": "10", "locator_class": "principal", "evidence_summary": "Famine fears, maize and potato adoption, manure shortage, fallow, and Flemish rotation are compared."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S007",
+      "label": "Agrarian burdens—taxes, tithes, corvée, and feudal dues",
+      "priority": "essential",
+      "meaning": "Peasant production bore overlapping fiscal, ecclesiastical, labor, and seigneurial charges, with feudal rights varying from token rents to monopolies, courts, and substantial levies.",
+      "stance": "Preserve both the variability of 'feudalism' and its material burden; avoid treating all tenures as identical.",
+      "acceptable_access": ["feudalism—agrarian burdens", "seigneurial dues", "tithes", "corvée", "peasant taxation"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S004"]}, {"type": "related", "targets": ["CHUNK-001-S012"]}],
+      "reader_tasks": ["Retrieve the burdens reducing peasant output and profit."],
+      "evidence": [
+        {"document_page": 11, "source_page_label": "11", "locator_class": "principal", "evidence_summary": "Taxes, tithes, road corvée, seigneurial rents, hunting rights, banalités, and manorial courts are quantified and distinguished."},
+        {"document_page": 12, "source_page_label": "12", "locator_class": "supporting", "evidence_summary": "Domaine congéable illustrates ambiguous mixtures of ownership, lease, and feudal tenure."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S008",
+      "label": "Agrarian crisis under Louis XVI",
+      "priority": "essential",
+      "meaning": "After mid-century prosperity, unstable harvests and volatile wine and forage output squeezed small proprietors, tenants, and sharecroppers while rents and land values continued to rise.",
+      "stance": "Distinguish the continued gains of landlords and large farmers from growing insecurity below them.",
+      "acceptable_access": ["agricultural crisis", "harvest fluctuations", "rural economy under Louis XVI", "rents and land values"],
+      "relationships": [{"type": "consequence_of", "targets": ["CHUNK-001-S004"]}, {"type": "cause_of", "targets": ["CHUNK-001-S011", "CHUNK-001-S018"]}],
+      "reader_tasks": ["Find the deterioration of rural conditions from the late 1760s to 1789."],
+      "evidence": [{"document_page": 12, "source_page_label": "12", "locator_class": "principal", "evidence_summary": "Harvest volatility, crop failures, livestock distress, rising rents, and unequal rural outcomes define the reign's agrarian disruption."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S009",
+      "label": "Rural industry and textiles",
+      "priority": "major",
+      "meaning": "Most manufacturing, including much textile production, depended on dispersed peasant labor organized and financed through towns; harvest-driven purchasing power made demand unstable.",
+      "stance": "Do not project a sharp agricultural-industrial divide onto the economy.",
+      "acceptable_access": ["rural industry", "cottage industry", "textile industry", "proto-industry", "manufacturing"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S010", "CHUNK-001-S014"]}],
+      "reader_tasks": ["Retrieve the integration of peasant households into textile and other manufacturing."],
+      "evidence": [
+        {"document_page": 12, "source_page_label": "12", "locator_class": "principal", "evidence_summary": "Construction, metallurgy, and textiles relied heavily on migrant or household peasant labor."},
+        {"document_page": 13, "source_page_label": "13", "locator_class": "supporting", "evidence_summary": "Harvest-sensitive domestic demand destabilized most textiles, while export-oriented cotton expanded."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S010",
+      "label": "Colonial and Atlantic economy—trade, slavery, and port growth",
+      "priority": "major",
+      "meaning": "Sugar, coffee, and other colonial commodities produced by enslaved labor drove Atlantic trade and the prosperity of major ports, especially through Saint-Domingue and re-export markets.",
+      "stance": "Make enslaved labor integral to, not incidental to, the account of colonial wealth.",
+      "acceptable_access": ["colonial trade", "Atlantic economy", "slavery", "Saint-Domingue", "ports—commercial growth"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S003", "CHUNK-001-S011"]}],
+      "reader_tasks": ["Find the relationship between Caribbean slavery, overseas trade, and French port prosperity."],
+      "evidence": [{"document_page": 13, "source_page_label": "13", "locator_class": "principal", "evidence_summary": "Saint-Domingue, enslaved labor, the slave trade, fivefold overseas-trade growth, and booming ports are treated as one Atlantic system."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S011",
+      "label": "Dual economy—maritime prosperity and interior stagnation",
+      "priority": "major",
+      "meaning": "Internationally connected coasts and lower river valleys prospered while the populous interior remained poorly connected, sluggish, and increasingly strained by climate and population.",
+      "stance": "Present the two economies as tenuously linked rather than wholly separate.",
+      "acceptable_access": ["French economy—regional dualism", "maritime economy", "interior economy", "economic inequality—regions"],
+      "relationships": [{"type": "synthesis_of", "targets": ["CHUNK-001-S003", "CHUNK-001-S008", "CHUNK-001-S010"]}],
+      "reader_tasks": ["Retrieve the chapter's synthesis of coastal prosperity and interior distress."],
+      "evidence": [{"document_page": 14, "source_page_label": "14", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The author explicitly distinguishes two tenuously linked French economies and their divergent prospects."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S012",
+      "label": "Poverty, demographic pressure, and precarious livelihoods",
+      "priority": "essential",
+      "meaning": "Chronic underemployment, population growth, prices outpacing wages, and family dependency left roughly a third of the population poor even in normal times and millions more vulnerable in crises.",
+      "stance": "Explain poverty structurally rather than as moral failure.",
+      "acceptable_access": ["poverty", "population growth", "underemployment", "wages and prices", "precarious livelihoods"],
+      "relationships": [{"type": "parent_of", "targets": ["CHUNK-001-S013", "CHUNK-001-S014"]}, {"type": "consequence_of", "targets": ["CHUNK-001-S008"]}],
+      "reader_tasks": ["Find the scale and economic causes of poverty under Louis XVI."],
+      "evidence": [
+        {"document_page": 14, "source_page_label": "14", "locator_class": "principal", "evidence_summary": "Eight million were poor in normal times, with rising prices, stagnant wages, and family formation producing beggary."},
+        {"document_page": 16, "source_page_label": "16", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The economy could not provide a decent living for all those born in the countryside."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S013",
+      "label": "Poor relief and its institutional crisis",
+      "priority": "major",
+      "meaning": "Ecclesiastical charity, hospitals, poorhouses, workhouses, and charitable workshops became less adequate as demand rose and endowments, investment income, and purchasing power declined.",
+      "stance": "Treat philanthropic and governmental innovations as limited experiments, not a functioning national welfare system.",
+      "acceptable_access": ["poor relief", "charity", "hospitals", "dépôts de mendicité", "ateliers de charité"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S012"]}, {"type": "related", "targets": ["CHUNK-001-S027"]}],
+      "reader_tasks": ["Retrieve why traditional poor relief failed and what new remedies were attempted."],
+      "evidence": [{"document_page": 15, "source_page_label": "15", "locator_class": "principal", "evidence_summary": "Bread doles, hospitals, endowments, Masonic charity, philanthropic societies, workhouses, and workshops are assessed as inadequate."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S014",
+      "label": "Marginal survival—begging, crime, prostitution, and abandoned children",
+      "priority": "major",
+      "meaning": "People excluded from stable work resorted to begging, smuggling, theft, poaching, prostitution, and child abandonment; mortality among institutionalized foundlings was extreme.",
+      "stance": "Frame these behaviors as survival strategies under poverty while preserving the chapter's account of elite fear and moralization.",
+      "acceptable_access": ["begging", "crime and poverty", "prostitution", "foundlings", "child abandonment", "vagrancy"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S012"]}],
+      "reader_tasks": ["Find the social consequences and survival practices associated with destitution."],
+      "evidence": [
+        {"document_page": 15, "source_page_label": "15", "locator_class": "principal", "evidence_summary": "Begging, intimidation, theft, smuggling, poaching, and prostitution are linked to lack of work."},
+        {"document_page": 16, "source_page_label": "16", "locator_class": "principal", "evidence_summary": "Foundling numbers tripled, institutions relied on wet nurses, and most children died before age five."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S015",
+      "label": "Peasantry—mixed livelihoods and village communities",
+      "priority": "essential",
+      "meaning": "The four-fifths of French people classed as peasants survived through combinations of land, wage labor, cottage industry, migration, and communal resources; village institutions defended customary rights.",
+      "stance": "Reject an isolated subsistence-peasant model: rural households were mobile, occupationally mixed, and connected to towns.",
+      "acceptable_access": ["peasantry", "village communities", "rural livelihoods", "common rights", "rural migration"],
+      "relationships": [{"type": "parent_of", "targets": ["CHUNK-001-S016"]}, {"type": "related", "targets": ["CHUNK-001-S009", "CHUNK-001-S017"]}],
+      "reader_tasks": ["Retrieve how peasant households and village communities secured their livelihoods."],
+      "evidence": [
+        {"document_page": 16, "source_page_label": "16", "locator_class": "principal", "evidence_summary": "Peasant livelihood makeshifts included land, labor, cottage industry, migration, commons, gleaning, and grazing."},
+        {"document_page": 17, "source_page_label": "17", "locator_class": "supporting", "evidence_summary": "Communities used courts and resistance against lords, tithe owners, and enclosure."},
+        {"document_page": 18, "source_page_label": "18", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Markets, cottage industry, and migration interlocked urban and rural life."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S016",
+      "label": "Rural hierarchy—prosperous peasants and coqs de village",
+      "priority": "major",
+      "meaning": "A small independent peasant elite controlled equipment, credit, jobs, and local offices, accumulated property through foreclosure, and competed with priests, outsiders, and lords for authority.",
+      "stance": "Do not treat village solidarity as classless; common resistance coexisted with sharp internal hierarchy.",
+      "acceptable_access": ["coqs de village", "prosperous peasants", "rural elites", "village hierarchy"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S015"]}, {"type": "contrast", "targets": ["CHUNK-001-S012"]}],
+      "reader_tasks": ["Find the role and power of prosperous peasants within villages."],
+      "evidence": [{"document_page": 17, "source_page_label": "17", "locator_class": "principal", "evidence_summary": "Independent yeomen controlled land, equipment, credit, offices, and resistance to external rivals."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S017",
+      "label": "Urbanization and urban social structure",
+      "priority": "major",
+      "meaning": "Eighteenth-century towns grew through rural immigration and concentrated wealth, education, and dynamism, but most inhabitants remained poor and unskilled.",
+      "stance": "Preserve the contrast between urban growth and the persistence of mass urban poverty.",
+      "acceptable_access": ["urbanization", "towns", "urban growth", "urban society", "rural-urban migration"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S012", "CHUNK-001-S015"]}],
+      "reader_tasks": ["Retrieve the scale, sources, and social character of urban growth."],
+      "evidence": [
+        {"document_page": 18, "source_page_label": "18", "locator_class": "principal", "evidence_summary": "Rapid growth in major cities and increased urban share are set against stagnant bypassed towns."},
+        {"document_page": 18, "source_page_label": "18", "locator_class": "supporting", "evidence_summary": "Unskilled workers, servants, and precarious casual occupations dominated ordinary urban life."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S018",
+      "label": "Artisans, guilds, and labor relations",
+      "priority": "major",
+      "meaning": "Skilled trades were organized through apprenticeships, journeymen, compagnonnages, and guild masters; small workshops fostered craft solidarity even as regulation, inflation, and employer controls produced unrest.",
+      "stance": "Avoid depicting guilds solely as closed monopolies or labor relations solely as class conflict; the source stresses both hierarchy and solidarity.",
+      "acceptable_access": ["guilds", "artisans", "journeymen", "compagnonnages", "labor relations", "industrial unrest"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S009", "CHUNK-001-S019"]}],
+      "reader_tasks": ["Find the organization and tensions of skilled urban work."],
+      "evidence": [
+        {"document_page": 19, "source_page_label": "19", "locator_class": "principal", "evidence_summary": "Apprenticeship, journeymanship, compagnonnages, guild masters, and access to mastership are explained."},
+        {"document_page": 20, "source_page_label": "20", "locator_class": "principal", "evidence_summary": "Factories, attempted guild abolition, the livret, strikes, and craft solidarity are compared."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S019",
+      "label": "Subsistence politics, bread riots, and the Flour War",
+      "priority": "essential",
+      "meaning": "Ordinary people claimed a moral right to affordable bread and collective price-setting; grain liberalization amid scarcity helped produce the widespread Flour War of 1775.",
+      "stance": "Treat rioters primarily as precarious working people defending livelihoods, not as a criminal underclass.",
+      "acceptable_access": ["bread riots", "subsistence politics", "Flour War", "grain trade", "moral economy", "Turgot—grain policy"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S006", "CHUNK-001-S012", "CHUNK-001-S018"]}],
+      "reader_tasks": ["Retrieve why bread prices generated collective violence and how policy contributed to the Flour War."],
+      "evidence": [
+        {"document_page": 21, "source_page_label": "21", "locator_class": "principal", "evidence_summary": "Popular price-fixing, anti-hoarding action, magistrates' obligations, and grain-control experiments establish subsistence politics."},
+        {"document_page": 22, "source_page_label": "22", "locator_class": "principal", "evidence_summary": "The Flour War's spread and repression are followed by an interpretation of rioters as people with everything to lose."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S020",
+      "label": "Bourgeoisie—wealth, expansion, and cultural power",
+      "priority": "essential",
+      "meaning": "A rapidly growing bourgeoisie owned much commercial, industrial, landed, office, and financial wealth and drove urban building, luxury consumption, education, print, and associational culture.",
+      "stance": "Treat the bourgeoisie as internally unequal but increasingly weighty; avoid assuming a single revolutionary class consciousness.",
+      "acceptable_access": ["bourgeoisie", "middle classes", "bourgeois wealth", "bourgeois culture", "social elites"],
+      "relationships": [{"type": "parent_of", "targets": ["CHUNK-001-S021", "CHUNK-001-S022"]}, {"type": "related", "targets": ["CHUNK-001-S023"]}],
+      "reader_tasks": ["Find the economic and cultural significance of the bourgeoisie before 1789."],
+      "evidence": [
+        {"document_page": 22, "source_page_label": "22", "locator_class": "principal", "evidence_summary": "The bourgeoisie's numbers and dominant urban status are defined."},
+        {"document_page": 23, "source_page_label": "23", "locator_class": "principal", "evidence_summary": "Its holdings and role in consumption, education, print, libraries, clubs, and theatres are surveyed."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S021",
+      "label": "Bourgeois strategies—land, professions, and venal office",
+      "priority": "major",
+      "meaning": "Commercial fortunes were converted into secure land, education, professional careers, and purchasable public offices that offered dignity, stability, and sometimes hereditary status.",
+      "stance": "Emphasize movement away from commerce as a durable social strategy, despite contemporary praise of merchants.",
+      "acceptable_access": ["bourgeoisie—social advancement", "land purchase", "professions", "venality of office", "public offices"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S020"]}, {"type": "cause_of", "targets": ["CHUNK-001-S022"]}],
+      "reader_tasks": ["Retrieve how bourgeois families translated business wealth into status and office."],
+      "evidence": [
+        {"document_page": 24, "source_page_label": "24", "locator_class": "principal", "evidence_summary": "Land purchase and withdrawal from trade are presented as standard bourgeois strategies."},
+        {"document_page": 25, "source_page_label": "25", "locator_class": "principal", "evidence_summary": "More than 70,000 venal offices embodied capital investment and the pursuit of professional dignity."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S022",
+      "label": "Ennoblement and bourgeois-noble mobility",
+      "priority": "major",
+      "meaning": "Office purchase, especially King's Secretary posts, enabled substantial movement into nobility, while barriers such as ancestry rules and the Ségur Ordinance sharpened status resentment.",
+      "stance": "Present the boundary between bourgeoisie and nobility as permeable but socially contentious, not as a fixed caste divide.",
+      "acceptable_access": ["ennoblement", "social mobility", "bourgeoisie and nobility", "King's Secretaries", "Ségur Ordinance"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S020"]}, {"type": "related", "targets": ["CHUNK-001-S023", "CHUNK-001-S024"]}],
+      "reader_tasks": ["Find the routes and barriers by which wealthy commoners entered noble status."],
+      "evidence": [
+        {"document_page": 26, "source_page_label": "26", "locator_class": "principal", "evidence_summary": "Ennobling offices moved thousands into nobility while professional bourgeois resented wealthy leapfroggers."},
+        {"document_page": 27, "source_page_label": "27", "locator_class": "supporting", "evidence_summary": "Ancestry requirements and the Ségur Ordinance appeared to close desirable public employments."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S023",
+      "label": "Nobility—privilege, wealth, and public power",
+      "priority": "essential",
+      "meaning": "Nobles formed a privileged legal order with precedence and fiscal advantages, controlled large shares of land, office, finance, industry, Church revenue, military command, and high administration.",
+      "stance": "Recognize extensive privilege and dominance while preserving internal diversity and frequent bourgeois origins of wealth.",
+      "acceptable_access": ["nobility", "noble privilege", "Second Estate", "noble wealth", "nobles—public office"],
+      "relationships": [{"type": "parent_of", "targets": ["CHUNK-001-S024"]}, {"type": "related", "targets": ["CHUNK-001-S022", "CHUNK-001-S025"]}],
+      "reader_tasks": ["Retrieve the legal, fiscal, economic, and political bases of noble predominance."],
+      "evidence": [
+        {"document_page": 27, "source_page_label": "27", "locator_class": "principal", "evidence_summary": "Noble order, precedence, legal privileges, exemptions, and the ideology of warrior service are detailed."},
+        {"document_page": 28, "source_page_label": "28", "locator_class": "principal", "evidence_summary": "Land, feudal rights, offices, finance, heavy industry, Church positions, and administration demonstrate noble power."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S024",
+      "label": "Noble inequality—plutocracy, poor nobility, robe, and sword",
+      "priority": "major",
+      "meaning": "France was governed by a wealthy plutocracy rather than the whole noble order; impoverished provincial nobles defended pedigree, dues, and military vocation against both moneyed nobles and bourgeois advancement.",
+      "stance": "Do not equate nobility with wealth or unified interests.",
+      "acceptable_access": ["nobility—economic inequality", "poor nobility", "nobility of the robe", "nobility of the sword", "plutocracy"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S023"]}, {"type": "related", "targets": ["CHUNK-001-S025"]}],
+      "reader_tasks": ["Find distinctions among wealthy elites, provincial gentry, robe nobles, and sword nobles."],
+      "evidence": [
+        {"document_page": 29, "source_page_label": "29", "locator_class": "principal", "evidence_summary": "Poor provincial nobles relied on status, dues, and prejudice while wealth opened court and elite society."},
+        {"document_page": 30, "source_page_label": "30", "locator_class": "principal", "evidence_summary": "Sword-noble military claims, poor-nobility debate, military schools, and Ségur reform are linked."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S025",
+      "label": "Armed forces—reform, recruitment, and social separation",
+      "priority": "major",
+      "meaning": "Postwar army reform followed Prussian models, but noble officer recruitment, limited militia conscription, regional enlistment, and officer-soldier distance kept the army socially segmented and remote from much of France.",
+      "stance": "Do not treat the army as a uniformly militarizing national institution.",
+      "acceptable_access": ["army", "military reform", "militia", "officer corps", "Prussian influence"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S023", "CHUNK-001-S026"]}],
+      "reader_tasks": ["Retrieve how military reform and recruitment reflected noble privilege and regional inequality."],
+      "evidence": [
+        {"document_page": 30, "source_page_label": "30", "locator_class": "principal", "evidence_summary": "Military schools and the Ségur Ordinance sought a professional noble officer corps."},
+        {"document_page": 31, "source_page_label": "31", "locator_class": "principal", "evidence_summary": "Prussian reforms, volunteer recruitment, militia unpopularity, regional concentration, and officer distance are assessed."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S026",
+      "label": "Navy—professional competence, expansion, and fiscal cost",
+      "priority": "major",
+      "meaning": "Naval service relied more on competence and maritime recruitment than the army, and large-scale expansion helped win American independence but intensified the monarchy's fiscal crisis.",
+      "stance": "Preserve both the strategic success and the unsustainable financial burden of naval policy.",
+      "acceptable_access": ["navy", "naval expansion", "American War of Independence", "Cherbourg harbor", "defence spending"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S025", "CHUNK-001-S030"]}],
+      "reader_tasks": ["Find the social organization, wartime achievement, and fiscal consequences of naval expansion."],
+      "evidence": [{"document_page": 32, "source_page_label": "32", "locator_class": "principal", "evidence_summary": "Naval schools, red and blue officers, conscription, expansion, American victory, Cherbourg, and bankruptcy are connected."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S027",
+      "label": "Catholic Church—wealth, privilege, and corporate organization",
+      "priority": "essential",
+      "meaning": "The First Estate owned extensive land and tithes, enjoyed tax exemption, and used representative assemblies, an agency, internal levies, and credit to negotiate its contribution to the state.",
+      "stance": "Distinguish ordinary-tax exemption from complete non-contribution and preserve unequal burdens within the clergy.",
+      "acceptable_access": ["Catholic Church", "clergy", "First Estate", "Church property", "clerical taxation", "tithes"],
+      "relationships": [{"type": "parent_of", "targets": ["CHUNK-001-S028", "CHUNK-001-S029"]}, {"type": "related", "targets": ["CHUNK-001-S007", "CHUNK-001-S013"]}],
+      "reader_tasks": ["Retrieve the institutional, fiscal, and economic position of the Church."],
+      "evidence": [
+        {"document_page": 33, "source_page_label": "33", "locator_class": "principal", "evidence_summary": "Clerical numbers, distribution, land, tithes, tax exemption, General Assembly, Agency, and free gifts are surveyed."},
+        {"document_page": 34, "source_page_label": "34", "locator_class": "supporting", "evidence_summary": "Parish clergy bore a disproportionate share of clerical taxation while wealthy corporations dominated decisions."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S028",
+      "label": "Clerical hierarchy, noble patronage, and parish-priest grievances",
+      "priority": "major",
+      "meaning": "Royal and court patronage filled wealthy sees and abbeys with nobles, while parish priests resented unequal wealth, impropriated tithes, fixed congrues, exclusion from governance, and episcopal despotism.",
+      "stance": "Treat the clergy as deeply stratified rather than a single privileged bloc.",
+      "acceptable_access": ["clergy—social divisions", "bishops—noble patronage", "parish priests", "revolt of the curés", "portion congrue"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S027"]}],
+      "reader_tasks": ["Find the contrast between aristocratic Church leadership and parish-clergy discontent."],
+      "evidence": [
+        {"document_page": 34, "source_page_label": "34", "locator_class": "principal", "evidence_summary": "Court patronage, aristocratic episcopacy, lucrative benefices, and Talleyrand's rapid advancement illustrate hierarchy."},
+        {"document_page": 35, "source_page_label": "35", "locator_class": "principal", "evidence_summary": "Impropriated tithes, congrues, exclusion, and diocesan assemblies generated parish-priest grievances."},
+        {"document_page": 36, "source_page_label": "36", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Suppression of the revolt of the curés ended protest without addressing its causes."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S029",
+      "label": "Church reform, religious intolerance, and political power",
+      "priority": "major",
+      "meaning": "The Church responded selectively to criticism through Jesuit expulsion and monastic consolidation while retaining monopoly worship, Protestant disabilities, education, relief, censorship, and political influence.",
+      "stance": "Present reform as limited and defensive; do not imply that institutional criticism had already removed Catholic monopoly.",
+      "acceptable_access": ["Church reform", "Jesuits—expulsion", "monastic reform", "religious toleration", "Protestants", "Church—political power"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S027"]}, {"type": "related", "targets": ["CHUNK-001-S031"]}],
+      "reader_tasks": ["Retrieve the limits of Church reform and the scope of Catholic institutional power."],
+      "evidence": [
+        {"document_page": 35, "source_page_label": "35", "locator_class": "principal", "evidence_summary": "Jesuit expulsion, Commission of Regulars, and dissolution of small houses show selective defensive reform."},
+        {"document_page": 36, "source_page_label": "36", "locator_class": "principal", "evidence_summary": "Catholic monopoly, Protestant disabilities, education, poor relief, censorship, and the pulpit underpinned political power."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S030",
+      "label": "Justice, policing, and the parlements",
+      "priority": "essential",
+      "meaning": "A thin police presence and fragmented venal judicial system coexisted with powerful parlements that combined appellate, administrative, and legislative-registration roles and mobilized public opinion against royal policy.",
+      "stance": "Treat parlements as both courts and political actors, neither elected representatives nor mere royal departments.",
+      "acceptable_access": ["parlements", "judicial system", "law enforcement", "policing", "remonstrances", "lit de justice"],
+      "relationships": [{"type": "parent_of", "targets": ["CHUNK-001-S031", "CHUNK-001-S032"]}, {"type": "related", "targets": ["CHUNK-001-S001"]}],
+      "reader_tasks": ["Find how justice and law enforcement worked and why parlements became political opponents of the Crown."],
+      "evidence": [
+        {"document_page": 36, "source_page_label": "36", "locator_class": "principal", "evidence_summary": "Small police forces, many magistrates, and proliferating courts created costly jurisdictional complexity."},
+        {"document_page": 37, "source_page_label": "37", "locator_class": "principal", "evidence_summary": "Parlementary appeal, administration, registration, remonstrance, publicity, strikes, and lit de justice are explained."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S031",
+      "label": "Maupeou reform, parlementary restoration, and monarchical legitimacy",
+      "priority": "essential",
+      "meaning": "Maupeou's 1771 suppression and remaking of the parlements attacked venality and obstruction but was seen as despotic; Louis XVI restored the old courts without restoring their credibility or public confidence in monarchy.",
+      "stance": "Preserve the double damage: reform discredited both parlements as constitutional checks and the Crown as law-bound authority.",
+      "acceptable_access": ["Maupeou reform", "parlements—suppression and restoration", "Louis XVI—restoration of parlements", "despotism", "monarchical legitimacy"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S030"]}, {"type": "related", "targets": ["CHUNK-001-S002"]}],
+      "reader_tasks": ["Retrieve why the Maupeou crisis damaged both judicial and royal legitimacy."],
+      "evidence": [
+        {"document_page": 38, "source_page_label": "38", "locator_class": "principal", "evidence_summary": "Maupeou exiled magistrates, abolished parlementary venality, remodeled courts, and failed to win public opinion before restoration."},
+        {"document_page": 39, "source_page_label": "39", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Restoration could not rebuild parlementary credibility or erase the Crown's demonstrated capacity for despotism."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S032",
+      "label": "Governing elites—robe, finance, and court patronage",
+      "priority": "essential",
+      "meaning": "Government rested on interconnected robe magistrates and administrators, financiers who managed revenue and credit, and courtiers whose proximity to royal favor yielded offices, pensions, influence, and policy power.",
+      "stance": "Treat these as overlapping elite networks rather than sharply separated estates or bureaucratic departments.",
+      "acceptable_access": ["governing elites", "nobility of the robe", "financiers", "Farmers-General", "Court of Versailles", "court patronage"],
+      "relationships": [{"type": "child_of", "targets": ["CHUNK-001-S030"]}, {"type": "related", "targets": ["CHUNK-001-S023", "CHUNK-001-S033"]}],
+      "reader_tasks": ["Find the elite networks that staffed, financed, and influenced royal government."],
+      "evidence": [
+        {"document_page": 40, "source_page_label": "40", "locator_class": "principal", "evidence_summary": "Robe magistrates supplied masters of requests, intendants, councillors, and ministers through close family networks."},
+        {"document_page": 41, "source_page_label": "41", "locator_class": "principal", "evidence_summary": "Financiers and Farmers-General handled public funds and credit, amassed wealth, and attracted hatred."},
+        {"document_page": 42, "source_page_label": "42", "locator_class": "principal", "evidence_summary": "Versailles converted royal proximity into status, pensions, office, influence, and dependence."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-001-S033",
+      "label": "Louis XVI—accession, character, and dependence on Maurepas",
+      "priority": "major",
+      "meaning": "The inexperienced twenty-year-old king combined education, piety, duty, and good intentions with insecurity and limited political mastery, making him dependent on the restored elder statesman Maurepas amid court intrigue.",
+      "stance": "Avoid caricature: the source credits conscientious intentions but doubts the superiority of talent needed to master faction and inherited problems.",
+      "acceptable_access": ["Louis XVI—accession", "Louis XVI—character", "Maurepas", "royal decision-making", "court intrigue"],
+      "relationships": [{"type": "related", "targets": ["CHUNK-001-S002", "CHUNK-001-S032"]}],
+      "reader_tasks": ["Retrieve the chapter's assessment of Louis XVI at accession and his reliance on Maurepas."],
+      "evidence": [
+        {"document_page": 42, "source_page_label": "42", "locator_class": "supporting", "evidence_summary": "Maurepas's court rehabilitation and control over appointments illustrate personal patronage in government."},
+        {"document_page": 43, "source_page_label": "43", "locator_class": "principal", "evidence_summary": "Youth, inadequate preparation, piety, duty, insecurity, good intentions, and dependence on experienced advice frame the king's accession."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    }
+  ],
+  "exclusions": [
+    {"label": "Arthur Young", "reason": "Recurring evidentiary observer in this chapter, but not independently analyzed here; his arguments are captured under agriculture and regional economy."},
+    {"label": "Jean Calas", "reason": "Brief anticipatory example with substantive treatment deferred to a later chapter."},
+    {"label": "Robespierre and Barnave", "reason": "Biographical examples used to illustrate professional bourgeois life and status resentment; not independently treated in this chapter."},
+    {"label": "Individual ports, provinces, towns, crops, and trades", "reason": "Included as access terms only when they carry a sustained analytical role; isolated examples are excluded by default."},
+    {"label": "Chapter 2 context-page subjects", "reason": "Pages 44-45 were read for boundary context but are owned by CHUNK-002 and create no CHUNK-001 judgments."}
+  ],
+  "uncertainties": [
+    {"item": "Regional access granularity", "alternatives": ["one synthetic regional-economy subject", "separate benchmark subjects for major provinces and ports"], "evidence_needed": "Whole-book synthesis must determine which regions recur with independent explanatory roles.", "confidence": "medium"},
+    {"item": "Arthur Young as an independently searchable person", "alternatives": ["exclude as evidentiary observer", "retain as optional recurring commentator"], "evidence_needed": "Assess recurrence and authorial use across later chapters during whole-source synthesis.", "confidence": "medium"}
+  ]
+}
