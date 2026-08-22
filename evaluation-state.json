@@ -3,7 +3,7 @@
   "evaluation_id": "oxford-history-french-revolution-1990-indexerlabs-truncated",
   "artifact_manifest_path": "artifact-manifest.json",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-22T16:30:49Z",
+  "updated_at": "2026-08-22T17:22:07Z",
   "source": {
     "title": "The Oxford History of the French Revolution (1990 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
@@ -109,10 +109,11 @@
     },
     "source_subject_discovery": {
       "status": "in_progress",
-      "updated_at": "2026-08-22T16:30:49Z",
+      "updated_at": "2026-08-22T17:22:07Z",
       "notes": [
         "CHUNK-001 complete; 16 source chunks remain.",
-        "CHUNK-001 v2 reassessment complete; 16 source chunks remain."
+        "CHUNK-001 v2 reassessment complete; 16 source chunks remain.",
+        "CHUNK-002 high-depth candidate-blind discovery complete; 15 source chunks remain."
       ]
     },
     "benchmark_freeze": {
@@ -655,6 +656,17 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-22T16:30:49Z"
+    },
+    {
+      "artifact_id": "ART-F56C785C509B",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-002.json",
+      "sha256": "89cf41457ecbf53759b99c6d1889b61593e153060420ab6c153a2c1e7f1003a9",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-22T17:22:07Z"
     }
   ],
   "blockers": []

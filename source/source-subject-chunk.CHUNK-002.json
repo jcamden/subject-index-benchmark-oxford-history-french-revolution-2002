@@ -1,0 +1,1430 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "oxford-history-french-revolution-1990-indexerlabs-truncated",
+  "chunk": {
+    "chunk_id": "CHUNK-002",
+    "chapter_labels": ["Chapter 2: Enlightened Opinion"],
+    "owned_document_pages": [44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65],
+    "context_document_pages": [42,43,66,67]
+  },
+  "candidate_blindness": "preserved",
+  "page_review": {
+    "expected_owned_pages": 22,
+    "reviewed_owned_pages": 22,
+    "indexable_source_words": 10088,
+    "word_count_method": "Words extracted from owned pages 44-65 after removing page numbers and running heads; chapter body text and block quotations retained.",
+    "excluded_regions": [
+      {
+        "document_pages": [44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65],
+        "role": "running furniture and page numbers"
+      }
+    ],
+    "unavailable_regions": [
+      {
+        "role": "chapter endnotes",
+        "reason": "Absent from the supplied special edition. Superscript note markers remain in the body text, but their note text is unavailable and excluded from discovery."
+      }
+    ],
+    "complete": true
+  },
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "policy_path": "source/evaluation-policy.v2.json",
+    "policy_sha256": "1e31b084a606604e9b8691390c00900aa8224d0af0cb32ad87f60473281b0523",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "source_chunk_pdf_sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+    "source_chunk_sidecar_sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5"
+  },
+  "selection_method": {
+    "unit": "independently searchable source subject rather than proposed index heading",
+    "principles": [
+      "Retain principal subjects and significant localized or subsidiary subjects even when confined to one passage.",
+      "Split subjects when a reader could plausibly seek one without the other or when a combined label would overstate page support.",
+      "Retain named people, institutions, works, and events only when the chapter analyzes them, uses them as sustained explanatory cases, or makes them independently useful to scholarly readers.",
+      "Use optional only for defensible supplemental access whose absence would not materially reduce usefulness.",
+      "Do not use density calibration to set the subject count or priority."
+    ]
+  },
+  "discovery_assessment": {
+    "reasoning_pass": "initial high-depth candidate-blind discovery",
+    "page_level_review_complete": true,
+    "density_used_as_subject_quota": false,
+    "subject_count": 96,
+    "priority_counts": {"essential": 37, "major": 59, "optional": 0, "exclude_by_default": 0},
+    "priority_status": "provisional until whole-source synthesis"
+  },
+  "subjects": [
+    {
+      "local_subject_id": "CHUNK-002-S001",
+      "label": "French cultural prestige and the European imitation of Versailles",
+      "priority": "major",
+      "meaning": "Louis XIV's court, palace, gardens, architecture, furnishings, and fashions established a model copied by rulers and elites across eighteenth-century Europe.",
+      "stance": "Treat cultural prestige as a durable political legacy of Louis XIV, not as proof that French dominance was uncontested or permanent.",
+      "acceptable_access": ["French cultural prestige", "Versailles—European influence", "Louis XIV—cultural legacy"],
+      "relationships": [{"type": "related", "target_labels": ["French language as European lingua franca", "Court of Versailles"]}],
+      "reader_tasks": ["Find how French court culture became a European model."],
+      "evidence": [{"document_page": 44, "source_page_label": "44", "locator_class": "principal", "evidence_summary": "European royal residences and elite taste are presented as imitations of Versailles and French cultural forms."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S002",
+      "label": "French language as a European lingua franca and vehicle of political observation",
+      "priority": "major",
+      "meaning": "French became the preferred language of courts and cultivated society across much of Europe, enabling educated readers to follow French affairs and consume French print directly.",
+      "stance": "Preserve both the breadth of francophone culture and the chapter's link between linguistic access, informed judgment, and the spread of French ideas.",
+      "acceptable_access": ["French language—European use", "francophone public sphere", "French political and literary influence"],
+      "relationships": [{"type": "enables", "target_labels": ["European circulation of French journalism", "French cultural prestige"]}],
+      "reader_tasks": ["Retrieve why readers outside France could readily follow French politics and literature."],
+      "evidence": [
+        {"document_page": 44, "source_page_label": "44", "locator_class": "principal", "evidence_summary": "French is described as the language of courts and cultivated society across most of Europe."},
+        {"document_page": 45, "source_page_label": "45", "locator_class": "supporting", "evidence_summary": "The expanding French-language press supplied the transnational reading public created by this linguistic reach."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S003",
+      "label": "National-cultural backlash against French dominance",
+      "priority": "major",
+      "meaning": "By the 1770s writers in Germany and Italy attacked their compatriots' deference to French language and culture, although the reaction remained limited.",
+      "stance": "Do not imply that backlash had already displaced French prestige; it marks an emerging countercurrent.",
+      "acceptable_access": ["French cultural influence—backlash", "cultural nationalism", "Herder and Alfieri—anti-French reaction"],
+      "relationships": [{"type": "contrast", "target_labels": ["French cultural prestige", "French language as European lingua franca"]}],
+      "reader_tasks": ["Find the early resistance to French cultural predominance."],
+      "evidence": [{"document_page": 44, "source_page_label": "44", "locator_class": "principal", "evidence_summary": "Herder and Alfieri exemplify a small but visible reaction against cultural dependence on France."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S004",
+      "label": "Expansion and diversification of the French periodical press",
+      "priority": "essential",
+      "meaning": "The number and variety of journals rose sharply during the eighteenth century, widening access to political, religious, learned, literary, and general news.",
+      "stance": "Treat expansion as a structural enlargement of the informed public, while retaining the fragility of many individual journals.",
+      "acceptable_access": ["periodical press—growth", "journals—eighteenth-century expansion", "French journalism"],
+      "relationships": [{"type": "supports", "target_labels": ["Public opinion as an informed tribunal", "European circulation of French journalism"]}],
+      "reader_tasks": ["Find how the journal market expanded and diversified before 1789."],
+      "evidence": [
+        {"document_page": 45, "source_page_label": "45", "locator_class": "principal", "evidence_summary": "The chapter traces the increase from twenty-two to seventy-nine journals and the emergence of specialized and independent publications."},
+        {"document_page": 46, "source_page_label": "46", "locator_class": "supporting", "evidence_summary": "Rising demand during the politically eventful 1770s enlarged circulation."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S005",
+      "label": "Government censorship and the limits of supervising journalism",
+      "priority": "major",
+      "meaning": "Semi-official journals remained closely censored, but the multiplying press exceeded the government's capacity for comprehensive supervision.",
+      "stance": "Avoid portraying censorship as absent; the point is declining practical control amid continued legal authority and selective repression.",
+      "acceptable_access": ["press censorship", "journals—government supervision", "semi-official press"],
+      "relationships": [{"type": "constraint_on", "target_labels": ["Expansion of the periodical press", "Clandestine and foreign publishing"]}],
+      "reader_tasks": ["Retrieve why formal censorship could not contain the expanding journal market."],
+      "evidence": [{"document_page": 45, "source_page_label": "45", "locator_class": "principal", "evidence_summary": "Official controls are contrasted with the volume, variety, and elusiveness of newer journals."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S006",
+      "label": "Nouvelles ecclésiastiques and clandestine Jansenist journalism",
+      "priority": "major",
+      "meaning": "The Jansenist Nouvelles ecclésiastiques maintained a sustained critique of the established Church while repeatedly evading efforts to locate and suppress its presses.",
+      "stance": "Treat the journal as an organized political-religious intervention, not merely as a title in a list of periodicals.",
+      "acceptable_access": ["Nouvelles ecclésiastiques", "Jansenist press", "clandestine journalism"],
+      "relationships": [{"type": "instrument_of", "target_labels": ["Jansenism and Unigenitus", "Pamphlet conflict and the formation of public opinion"]}],
+      "reader_tasks": ["Find the role of the clandestine Jansenist press in criticizing Church authority."],
+      "evidence": [{"document_page": 45, "source_page_label": "45", "locator_class": "principal", "evidence_summary": "The journal's regular criticism and successful evasion of police searches are independently described."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S007",
+      "label": "Linguet, oppositional journalism, and publication beyond French jurisdiction",
+      "priority": "major",
+      "meaning": "Linguet's Annales survived his imprisonment through surrogates, popularized his attack on arbitrary detention, and later operated from the Austrian Netherlands to escape French control.",
+      "stance": "Preserve his unpredictability and personal notoriety; do not turn him into a consistent revolutionary ideologue.",
+      "acceptable_access": ["Linguet, Simon-Nicolas-Henri", "Annales politiques civiles et littéraires", "Bastille—Linguet", "offshore publishing"],
+      "relationships": [{"type": "case_of", "target_labels": ["Limits of press censorship", "Criticism of despotism"]}],
+      "reader_tasks": ["Retrieve how Linguet used journalism and foreign publication to challenge arbitrary authority."],
+      "evidence": [{"document_page": 45, "source_page_label": "45", "locator_class": "principal", "evidence_summary": "His journal, Bastille imprisonment, best-selling prison memoir, and move outside French jurisdiction form a sustained case."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S008",
+      "label": "Foreign-published French-language press and cross-border political information",
+      "priority": "major",
+      "meaning": "French-language journals printed in Holland, Avignon, Prussian territories, and independent Bouillon supplied detailed reporting and intellectual criticism beyond ordinary French jurisdiction.",
+      "stance": "Do not equate all foreign journals with radicalism; their outlooks ranged from conservative to anticlerical and anti-authoritarian.",
+      "acceptable_access": ["French-language press abroad", "Gazette de Leyde", "cross-border publishing", "foreign journals—France"],
+      "relationships": [{"type": "alternative_channel", "target_labels": ["Government censorship", "European circulation of French journalism"]}],
+      "reader_tasks": ["Find how foreign presses widened access to French political and intellectual news."],
+      "evidence": [{"document_page": 45, "source_page_label": "45", "locator_class": "principal", "evidence_summary": "Several extraterritorial journals are compared by location, outlook, and political value."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S009",
+      "label": "Growth of newspaper circulation, provincial papers, and a mass news readership",
+      "priority": "major",
+      "meaning": "Political upheavals increased demand for news; foreign and domestic circulation rose, provincial centers acquired papers, and a daily Paris press reached an audience far larger than copy totals alone.",
+      "stance": "Treat the reported readership as an estimate and the press as expanding, not universally accessible.",
+      "acceptable_access": ["newspapers—circulation", "provincial press", "Journal de Paris", "news readership"],
+      "relationships": [{"type": "expands", "target_labels": ["Public opinion", "Reading public"]}],
+      "reader_tasks": ["Retrieve the scale and geographic spread of newspaper reading by the 1780s."],
+      "evidence": [{"document_page": 46, "source_page_label": "46", "locator_class": "principal", "evidence_summary": "Gazette circulation, provincial newspaper growth, daily publication, sales, and estimated readership are quantified."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S010",
+      "label": "Acceleration of French book production before the Revolution",
+      "priority": "major",
+      "meaning": "Book production expanded through the century and accelerated dramatically after the 1770s despite unstable censorship and trade policies.",
+      "stance": "Preserve the evidentiary caution: the trend is reconstructed from fragmentary evidence, not a complete national count.",
+      "acceptable_access": ["book production—growth", "French publishing industry", "print expansion before 1789"],
+      "relationships": [{"type": "parallel_to", "target_labels": ["Expansion of the periodical press", "Reading public"]}],
+      "reader_tasks": ["Find the trajectory of book production in the decades before 1789."],
+      "evidence": [{"document_page": 46, "source_page_label": "46", "locator_class": "principal", "evidence_summary": "The chapter identifies steady expansion followed by rapid post-1770 growth."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S011",
+      "label": "Book licensing through privilege, tacit permission, and simple tolerance",
+      "priority": "major",
+      "meaning": "The state administered a graded publishing system in which fully approved works received privilege, doubtful works often received tacit permission, and still more suspect works could circulate by simple tolerance.",
+      "stance": "Do not reduce the system to a binary of legal and illegal publication; its flexibility helped accommodate print growth while preserving official control.",
+      "acceptable_access": ["book censorship—privilege", "tacit permission", "simple tolerance", "Director of the Book Trade"],
+      "relationships": [{"type": "institutional_mechanism", "target_labels": ["Book production", "Malesherbes and the Encyclopédie"]}],
+      "reader_tasks": ["Retrieve the practical hierarchy by which books could be authorized or tolerated."],
+      "evidence": [{"document_page": 46, "source_page_label": "46", "locator_class": "principal", "evidence_summary": "The licensing categories, censor board, standards, and expanding number of censors are explained."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S012",
+      "label": "Parlementary and Sorbonne condemnation of books as unintended publicity",
+      "priority": "major",
+      "meaning": "Works lacking full privilege remained vulnerable to condemnation and ceremonial destruction by courts or the Sorbonne, but such persecution often advertised the books it sought to suppress.",
+      "stance": "Preserve the paradox between real legal danger and the commercial value of notoriety.",
+      "acceptable_access": ["book burning", "parlements—literary censorship", "Sorbonne—book condemnation", "censorship as publicity"],
+      "relationships": [{"type": "paradox_of", "target_labels": ["Book licensing", "Encyclopédie—reception"]}],
+      "reader_tasks": ["Find why judicial condemnation could increase a prohibited work's audience."],
+      "evidence": [{"document_page": 46, "source_page_label": "46", "locator_class": "principal", "evidence_summary": "Independent judicial condemnation and public destruction are linked to greater notoriety."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S013",
+      "label": "Foreign book imports, smuggling, protectionism, and the 1783 trade disruption",
+      "priority": "major",
+      "meaning": "A substantial foreign French-language book trade entered through legal and clandestine routes; high duties and compulsory Paris inspection attempted to curb piracy and illicit content but destabilized distribution and raised costs.",
+      "stance": "Treat smuggling and regulation as structural features of the market rather than isolated abuses.",
+      "acceptable_access": ["book trade—foreign imports", "book smuggling", "Paris booksellers' guild—1783", "import duties—books"],
+      "relationships": [{"type": "constraint_on", "target_labels": ["Book production and circulation", "Government censorship"]}],
+      "reader_tasks": ["Retrieve how cross-border supply and state trade controls shaped access to books."],
+      "evidence": [
+        {"document_page": 46, "source_page_label": "46", "locator_class": "principal", "evidence_summary": "Foreign printing centers, unauthorized routes, customs evasion, and import duties are described."},
+        {"document_page": 47, "source_page_label": "47", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The 1783 Paris inspection rule is shown making transport prohibitively expensive and throwing the trade into disorder."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S014",
+      "label": "Literacy and the popular market for the blue library",
+      "priority": "major",
+      "meaning": "More than a third of the population could read and write, sustaining a market for cheap almanacs and traditional tales distributed by traveling hawkers.",
+      "stance": "Do not infer broad access to sophisticated Enlightenment print from basic literacy or popular-book consumption.",
+      "acceptable_access": ["literacy", "blue library", "popular literature", "almanacs and chapbooks"],
+      "relationships": [{"type": "contrast", "target_labels": ["Cultivated reading public", "Price barriers to books"]}],
+      "reader_tasks": ["Find the extent and character of popular reading below the elite book market."],
+      "evidence": [{"document_page": 47, "source_page_label": "47", "locator_class": "principal", "evidence_summary": "Literacy and the cheap itinerant market are distinguished from sophisticated book and journal readership."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S015",
+      "label": "Price barriers and the social inequality of access to print",
+      "priority": "major",
+      "meaning": "Journal subscriptions and books cost too much for most artisans, and even comfortable readers needed collective institutions to sustain broad access to current literature.",
+      "stance": "Treat economic exclusion as a central limit on the numerical reach of enlightened opinion.",
+      "acceptable_access": ["books—affordability", "journal subscriptions—cost", "reading—social inequality"],
+      "relationships": [{"type": "drives", "target_labels": ["Subscription libraries and reading rooms"]}],
+      "reader_tasks": ["Retrieve why literacy did not translate into equal access to sophisticated print."],
+      "evidence": [{"document_page": 47, "source_page_label": "47", "locator_class": "principal", "evidence_summary": "Subscription prices are compared with skilled and ordinary artisan earnings."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S016",
+      "label": "Subscription libraries and reading rooms as shared access institutions",
+      "priority": "major",
+      "meaning": "Provincial subscription libraries and reading rooms lowered the cost of following literature and political news and sometimes added spaces for conversation.",
+      "stance": "Do not describe these institutions as socially universal; fees still selected a comparatively prosperous reading public.",
+      "acceptable_access": ["subscription libraries", "reading rooms", "institutional reading", "circulating libraries"],
+      "relationships": [{"type": "broadens_access_to", "target_labels": ["Books and journals", "Cultivated reading public"]}],
+      "reader_tasks": ["Find how collective reading institutions reduced the cost of literary access."],
+      "evidence": [{"document_page": 47, "source_page_label": "47", "locator_class": "principal", "evidence_summary": "The spread, fees, collections, and reading purpose of provincial libraries and rooms are described."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S017",
+      "label": "Literary societies as institutions of discussion, lectures, and public competition",
+      "priority": "major",
+      "meaning": "Literary societies combined libraries and journal subscriptions with debate, public readings, lectures, concerts, and essay competitions, creating organized settings for enlightened sociability.",
+      "stance": "Preserve their select social character despite formal openness and their difference from passive reading rooms.",
+      "acceptable_access": ["literary societies", "enlightened sociability", "public lectures", "essay competitions"],
+      "relationships": [{"type": "related", "target_labels": ["Provincial academies", "Freemasonry", "Public opinion"]}],
+      "reader_tasks": ["Retrieve the activities through which provincial societies turned reading into discussion."],
+      "evidence": [{"document_page": 47, "source_page_label": "47", "locator_class": "principal", "evidence_summary": "Membership, libraries, debates, public sessions, lectures, and competitions are set out as a distinct institutional form."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S018",
+      "label": "Provincial academies—growth, exclusivity, prestige, and literary careers",
+      "priority": "major",
+      "meaning": "Royal academies multiplied, commanded cultural authority through selective membership and public sessions, favored nobles disproportionately, and could launch careers through essay competitions.",
+      "stance": "Balance their cultural pre-eminence against their narrow, socially exclusive membership.",
+      "acceptable_access": ["provincial academies", "academies—social exclusivity", "Académie de Dijon", "essay competitions"],
+      "relationships": [{"type": "elite_form_of", "target_labels": ["Literary societies", "Cultivated reading public"]}],
+      "reader_tasks": ["Find the institutional power and social limits of provincial academies."],
+      "evidence": [
+        {"document_page": 47, "source_page_label": "47", "locator_class": "supporting", "evidence_summary": "Academies are distinguished by election, limited membership, and royal letters patent."},
+        {"document_page": 48, "source_page_label": "48", "locator_class": "principal", "evidence_summary": "Their numerical growth, noble overrepresentation, prestige, public sessions, and Rousseau's Dijon success are assessed."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S019",
+      "label": "Social and geographic composition of the cultivated reading public",
+      "priority": "essential",
+      "meaning": "Readers of sophisticated print were chiefly nobles, clergy, lawyers, magistrates, administrators, officers, and other professional bourgeois, concentrated in towns and less strongly represented among merchants and manufacturers.",
+      "stance": "Avoid treating the bourgeoisie as a single uniformly enlightened class; occupation, education, residence, and disposable income mattered.",
+      "acceptable_access": ["reading public—social composition", "cultivated elite", "professional bourgeoisie—reading", "merchants—literary culture"],
+      "relationships": [{"type": "conditioned_by", "target_labels": ["Education", "Price barriers", "Urban life"]}],
+      "reader_tasks": ["Retrieve who made up the enlightened reading classes and who was relatively absent."],
+      "evidence": [{"document_page": 48, "source_page_label": "48", "locator_class": "principal", "evidence_summary": "The chapter compares nobles, clergy, professionals, merchants, manufacturers, and commercial versus uncommercial towns."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S020",
+      "label": "Suppression of the Jesuits and institutional upheaval in secondary education",
+      "priority": "major",
+      "meaning": "The expulsion and dissolution of the Jesuits broke the uniformity of Catholic elite education, dispersed their colleges among varied successors, and left France without a kingdom-wide replacement system.",
+      "stance": "Do not equate institutional disruption with educational collapse; the result was greater diversity, not simple disappearance.",
+      "acceptable_access": ["Jesuits—educational suppression", "Jesuit colleges", "secondary education—reorganization", "education after 1764"],
+      "relationships": [{"type": "cause_of", "target_labels": ["Diversification of college education", "Catholic institutional conflict"]}],
+      "reader_tasks": ["Find how the suppression of the Jesuits changed French higher schooling."],
+      "evidence": [
+        {"document_page": 48, "source_page_label": "48", "locator_class": "principal", "evidence_summary": "Jesuit dominance, expulsion, college sequestration, and varied institutional successors are described."},
+        {"document_page": 49, "source_page_label": "49", "locator_class": "supporting", "evidence_summary": "The resulting generation experienced more varied schooling and increased boarding."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S021",
+      "label": "Classical and Catholic foundations of the college curriculum",
+      "priority": "major",
+      "meaning": "Elite secondary education still centered on years of Latin and Roman culture, reinforced by Catholic orthodoxy, with only limited additions such as geography and French history.",
+      "stance": "Do not portray the curriculum as wholly secularized or modernized before the Revolution.",
+      "acceptable_access": ["college curriculum", "classical education", "Latin instruction", "Catholic education"],
+      "relationships": [{"type": "contrast", "target_labels": ["Newtonian science in colleges", "Enlightenment criticism"]}],
+      "reader_tasks": ["Retrieve the traditional intellectual formation received by the educated elite."],
+      "evidence": [{"document_page": 49, "source_page_label": "49", "locator_class": "principal", "evidence_summary": "The duration, content, and religious aims of the humanities curriculum are specified."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S022",
+      "label": "Natural science, Newtonian physics, and experimental reason in the colleges",
+      "priority": "essential",
+      "meaning": "Advanced college courses spread the methods and findings of the scientific revolution, including Newtonian physics, behind a formally Aristotelian facade.",
+      "stance": "Preserve the coexistence of institutional tradition and substantive intellectual change.",
+      "acceptable_access": ["Newtonian physics—education", "scientific revolution—colleges", "experimental method", "philosophy curriculum"],
+      "relationships": [{"type": "intellectual_basis_for", "target_labels": ["Rational criticism of human institutions", "Enlightenment"]}],
+      "reader_tasks": ["Find how modern science entered otherwise traditional French schooling."],
+      "evidence": [{"document_page": 49, "source_page_label": "49", "locator_class": "principal", "evidence_summary": "The diffusion of rational, experimental science from the 1690s and the normalization of Newtonian teaching by the 1760s are explained."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S023",
+      "label": "Transfer of rational utility tests from nature to human affairs",
+      "priority": "essential",
+      "meaning": "Students trained to judge nature by demonstrable operation and useful results could extend the same standards to social and political institutions despite lessons in obedience and orthodoxy.",
+      "stance": "Treat this as an interpretive pathway and intellectual possibility, not a deterministic claim that scientific education made every student a reformer.",
+      "acceptable_access": ["reason—application to society", "utility as test of institutions", "scientific method and reform"],
+      "relationships": [{"type": "bridge_between", "target_labels": ["Newtonian education", "Enlightenment critical program"]}],
+      "reader_tasks": ["Retrieve how scientific habits of thought could encourage criticism of human institutions."],
+      "evidence": [{"document_page": 49, "source_page_label": "49", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The chapter explicitly links evaluation of natural phenomena by results to possible judgment of human affairs."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S024",
+      "label": "The Enlightenment as rational criticism directed toward utility and human happiness",
+      "priority": "essential",
+      "meaning": "The Enlightenment is defined as a movement of criticism that subjected institutions and beliefs to rational tests of improvement, usefulness, and contribution to human happiness.",
+      "stance": "Preserve the movement's reformist and practical orientation without reducing its diversity to one doctrine.",
+      "acceptable_access": ["Enlightenment—definition", "rational criticism", "utility and human happiness", "philosophy—reform"],
+      "relationships": [{"type": "parent_or_synthesis", "target_labels": ["Philosophes as public intellectuals", "Progress", "Religious criticism", "Political and economic reform"]}],
+      "reader_tasks": ["Find the chapter's core definition of the Enlightenment and its standard of judgment."],
+      "evidence": [{"document_page": 49, "source_page_label": "49", "locator_class": "principal", "evidence_summary": "The movement's critical, rational, useful, and humanitarian aims are stated directly."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S025",
+      "label": "Philosophes as public-facing independent thinkers and popularizers",
+      "priority": "essential",
+      "meaning": "Enlightenment writers styled themselves independent thinkers committed to practical improvement and sought influence through polemic, simplification, and appeal to the educated public.",
+      "stance": "Do not confuse their activist self-conception with the older ideal of detached philosophical contemplation.",
+      "acceptable_access": ["philosophes", "public intellectuals", "Enlightenment—popularization", "polemic and reform"],
+      "relationships": [{"type": "agent_of", "target_labels": ["Enlightenment critical program", "Public opinion"]}],
+      "reader_tasks": ["Retrieve what philosophes believed their social role to be."],
+      "evidence": [{"document_page": 49, "source_page_label": "49", "locator_class": "principal", "evidence_summary": "The chapter defines philosophes by independence, practical improvement, and appeal to the educated public."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S026",
+      "label": "Voltaire—English influences and the Lettres philosophiques",
+      "priority": "major",
+      "meaning": "Voltaire's English experience exposed him to religious pluralism, toleration, Locke, Newton, and Bacon; his Lettres philosophiques transmitted those ideas to French readers and won success despite condemnation.",
+      "stance": "Treat England as a formative intellectual encounter, not as an unqualified constitutional model or simple conversion.",
+      "acceptable_access": ["Voltaire—England", "Lettres philosophiques", "Locke and Newton in France", "religious toleration—Voltaire"],
+      "relationships": [{"type": "transmits", "target_labels": ["English thought", "Religious toleration", "Scientific reason"]}],
+      "reader_tasks": ["Find how Voltaire's English experience reshaped French intellectual debate."],
+      "evidence": [
+        {"document_page": 49, "source_page_label": "49", "locator_class": "supporting", "evidence_summary": "Voltaire is introduced as the exemplary Enlightenment public writer."},
+        {"document_page": 50, "source_page_label": "50", "locator_class": "principal", "evidence_summary": "His English discoveries, their publication, censorship, and French reception are traced."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S027",
+      "label": "Voltaire as anti-clerical campaigner, maker of public opinion, and revolutionary ancestor",
+      "priority": "essential",
+      "meaning": "From Ferney Voltaire used correspondence, celebrity, and propaganda campaigns against intolerance and miscarriages of justice, becoming a model for later writers and revolutionaries.",
+      "stance": "Preserve his preference for strong benevolent monarchy and avoid recasting him as a revolutionary democrat.",
+      "acceptable_access": ["Voltaire—campaigns", "Voltaire—anti-clericalism", "Voltaire—public opinion", "Voltaire—revolutionary legacy"],
+      "relationships": [{"type": "agent_of", "target_labels": ["Calas and Sirven campaigns", "Criminal-justice reform", "Public opinion"]}],
+      "reader_tasks": ["Retrieve why Voltaire became the archetype of the campaigning philosophe."],
+      "evidence": [
+        {"document_page": 50, "source_page_label": "50", "locator_class": "principal", "evidence_summary": "Ferney, international celebrity, propaganda, and later revolutionary memory are synthesized."},
+        {"document_page": 55, "source_page_label": "55", "locator_class": "supporting", "evidence_summary": "The Calas, Sirven, and penal campaigns demonstrate his practical method."},
+        {"document_page": 56, "source_page_label": "56", "locator_class": "synthesis_or_conclusion", "evidence_summary": "His successful mobilization of opinion is identified as a model for later public causes."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S028",
+      "label": "Montesquieu—comparative and historically conditioned analysis of government",
+      "priority": "major",
+      "meaning": "In The Spirit of the Laws Montesquieu treated forms of government as products of natural and historical circumstances rather than freely interchangeable constitutional designs.",
+      "stance": "Preserve his analytical and contextual method; do not present the work solely as a prescription for separation of powers.",
+      "acceptable_access": ["Montesquieu", "The Spirit of the Laws", "government—historical conditions", "comparative political thought"],
+      "relationships": [{"type": "intellectual_basis_for", "target_labels": ["Despotism and intermediary powers", "Separation of powers"]}],
+      "reader_tasks": ["Find Montesquieu's account of why governments differ across societies."],
+      "evidence": [{"document_page": 50, "source_page_label": "50", "locator_class": "principal", "evidence_summary": "The work's analytical aim and its natural-historical explanation of political forms are stated."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S029",
+      "label": "Montesquieu—despotism, legal monarchy, and intermediary powers",
+      "priority": "essential",
+      "meaning": "Montesquieu distinguished capricious despotism from lawful monarchy and argued that nobles and parlements could buffer subjects against monarchical degeneration into arbitrary power.",
+      "stance": "Do not treat every later invocation of despotism as faithful to Montesquieu; political actors broadened the term for tactical use.",
+      "acceptable_access": ["Montesquieu—despotism", "intermediary powers", "parlements—constitutional role", "nobility—political buffer"],
+      "relationships": [{"type": "influences", "target_labels": ["Maupeou coup", "Parlementary opposition", "Provincial representation"]}],
+      "reader_tasks": ["Retrieve why nobles and parlements claimed Montesquieu's authority against the Crown."],
+      "evidence": [
+        {"document_page": 50, "source_page_label": "50", "locator_class": "principal", "evidence_summary": "Despotism and the need for intermediary powers are introduced."},
+        {"document_page": 51, "source_page_label": "51", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Later political bodies appropriate his authority and broaden the charge of despotism."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S030",
+      "label": "Separation and balance of powers as safeguards of political liberty",
+      "priority": "essential",
+      "meaning": "Montesquieu's ideal of moderate government located liberty in a balance among executive, legislative, and judicial powers capable of checking one another.",
+      "stance": "Retain the chapter's warning that his account misread aspects of the English constitution even as its abstract principles became highly influential.",
+      "acceptable_access": ["separation of powers", "balance of powers", "political liberty—Montesquieu", "English constitution—Montesquieu"],
+      "relationships": [{"type": "contrast", "target_labels": ["Despotism"]}, {"type": "influences", "target_labels": ["American constitutionalism", "French Revolution"]}],
+      "reader_tasks": ["Find the constitutional mechanism Montesquieu associated with liberty."],
+      "evidence": [{"document_page": 51, "source_page_label": "51", "locator_class": "principal", "evidence_summary": "Moderation, three governmental arms, mutual checks, English misinterpretation, and transatlantic influence are explained."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S031",
+      "label": "Persecution and anti-clerical conflict as sources of Enlightenment solidarity",
+      "priority": "major",
+      "meaning": "Harassment by the Church and clerically influenced authorities helped disparate speculative writers recognize a shared movement and common cause.",
+      "stance": "Do not imply complete doctrinal unity; solidarity arose partly from common enemies and experiences of repression.",
+      "acceptable_access": ["Enlightenment—movement formation", "persecution of philosophes", "Church and Enlightenment"],
+      "relationships": [{"type": "cause_of", "target_labels": ["Encyclopédie collaboration", "Enlightenment common purpose"]}],
+      "reader_tasks": ["Retrieve how repression helped the Enlightenment cohere as a movement."],
+      "evidence": [{"document_page": 51, "source_page_label": "51", "locator_class": "principal", "evidence_summary": "Persecution is identified as a source of common purpose among speculative writers."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S032",
+      "label": "The Encyclopédie as a collaborative project of critical knowledge",
+      "priority": "essential",
+      "meaning": "Diderot and D'Alembert transformed a translated reference project into a multi-author work intended both to organize knowledge and cultivate critical, philosophic reflection.",
+      "stance": "Do not reduce the Encyclopédie either to a neutral reference work or to a simple revolutionary manifesto.",
+      "acceptable_access": ["Encyclopédie", "Diderot and D'Alembert", "encyclopedic knowledge", "critical reference works"],
+      "relationships": [{"type": "embodies", "target_labels": ["Enlightenment critical program", "Philosophes as public intellectuals"]}],
+      "reader_tasks": ["Find the Encyclopédie's intended intellectual function beyond factual compilation."],
+      "evidence": [{"document_page": 51, "source_page_label": "51", "locator_class": "principal", "evidence_summary": "Origins, editors, collaborative scope, and commitment to critical reflection are described."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S033",
+      "label": "Censorship of the Encyclopédie and Malesherbes's tacit protection",
+      "priority": "major",
+      "meaning": "Repeated attacks and suspension culminated in withdrawal of the Encyclopédie's privilege, but Malesherbes allowed publication to continue under tacit permission until completion.",
+      "stance": "Preserve the unstable combination of official repression, administrative protection, and continued production.",
+      "acceptable_access": ["Encyclopédie—censorship", "Malesherbes—book trade", "Encyclopédie—publication privilege", "tacit permission"],
+      "relationships": [{"type": "case_of", "target_labels": ["Book licensing", "Limits of censorship"]}],
+      "reader_tasks": ["Retrieve how the Encyclopédie survived loss of formal authorization."],
+      "evidence": [{"document_page": 51, "source_page_label": "51", "locator_class": "principal", "evidence_summary": "Suspensions, attacks, withdrawal of privilege, Malesherbes's intervention, and completion are traced."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S034",
+      "label": "Encyclopédie—mass reception, notoriety, and the culture of encyclopedism",
+      "priority": "essential",
+      "meaning": "Expanded editions and smaller formats created a large market; notoriety, irreverence, and contempt for authority made the work influential, while encyclopedism came to signify independent judgment.",
+      "stance": "Recognize both the work's reference quality and the anti-authoritarian reputation that chiefly drove sales.",
+      "acceptable_access": ["Encyclopédie—reception", "encyclopedism", "Encyclopédie—editions", "independent thought"],
+      "relationships": [{"type": "diffuses", "target_labels": ["Critical thinking", "Religious criticism", "Indifference to authority"]}],
+      "reader_tasks": ["Find why the Encyclopédie became a best-seller and a symbol of independent thought."],
+      "evidence": [{"document_page": 52, "source_page_label": "52", "locator_class": "principal", "evidence_summary": "Editions, sales, notoriety, irreverence, and the later meaning of encyclopedism are assessed."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S035",
+      "label": "Diderot—later political and economic radicalism under habits of concealment",
+      "priority": "major",
+      "meaning": "Disillusioned with the Encyclopédie, Diderot moved toward political and economic radicalism while habits formed under censorship kept much of that development obscured from contemporaries.",
+      "stance": "Do not infer that his public reputation in 1784 matched his later-recognized radical importance.",
+      "acceptable_access": ["Diderot—radicalism", "Diderot—censorship", "Diderot—later thought"],
+      "relationships": [{"type": "related", "target_labels": ["Encyclopédie", "Histoire philosophique des deux Indes"]}],
+      "reader_tasks": ["Retrieve the difference between Diderot's later thought and his contemporary public reputation."],
+      "evidence": [{"document_page": 52, "source_page_label": "52", "locator_class": "principal", "evidence_summary": "His disillusionment, radical turn, concealment, and public reputation at death are contrasted."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S036",
+      "label": "Enlightenment faith in progress through the arts, sciences, and institutional improvement",
+      "priority": "essential",
+      "meaning": "Mainstream enlightened thought treated material and intellectual progress as a winning struggle against superstition and as a force improving human welfare and institutions.",
+      "stance": "Preserve the movement's optimism while noting shocks such as the Lisbon earthquake and the existence of dissenting positions.",
+      "acceptable_access": ["progress—Enlightenment", "arts and sciences—human improvement", "philosophic optimism"],
+      "relationships": [{"type": "orthodoxy_contrasted_by", "target_labels": ["Rousseau's critique of progress"]}],
+      "reader_tasks": ["Find the dominant Enlightenment expectation of progressive improvement."],
+      "evidence": [{"document_page": 52, "source_page_label": "52", "locator_class": "principal", "evidence_summary": "Progress, victory over superstition, material improvement, and continued belief after natural catastrophe are synthesized."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S037",
+      "label": "Rousseau's critique of progress and belief in natural human goodness",
+      "priority": "essential",
+      "meaning": "Rousseau rejected the orthodox claim that arts and sciences improved humanity, arguing instead that social institutions corrupted people who were naturally good.",
+      "stance": "Treat his position as a foundational dissent within the Enlightenment, not as simple rejection of reason or all reform.",
+      "acceptable_access": ["Rousseau—critique of progress", "natural goodness", "institutions—human corruption", "Discourse on the Arts and Sciences"],
+      "relationships": [{"type": "contrast", "target_labels": ["Enlightenment progress", "Encyclopedism"]}],
+      "reader_tasks": ["Retrieve Rousseau's challenge to the Enlightenment's dominant theory of progress."],
+      "evidence": [{"document_page": 52, "source_page_label": "52", "locator_class": "principal", "evidence_summary": "His Dijon argument, natural-goodness intuition, break with leading philosophes, and critique of institutions are linked."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S038",
+      "label": "Rousseau's sentimental novels, education, innocence, and virtue",
+      "priority": "major",
+      "meaning": "Julie and Émile used an emotionally direct style to dramatize innocence and virtue preserved against the corrupting snares of established society, winning a vast European readership.",
+      "stance": "Do not collapse these works into a political program; their primary treatment here concerns moral sentiment and social corruption.",
+      "acceptable_access": ["Rousseau—Julie", "Émile", "sentimentalism", "education and natural virtue"],
+      "relationships": [{"type": "expresses", "target_labels": ["Natural human goodness", "Corrupting institutions"]}],
+      "reader_tasks": ["Find how Rousseau's fiction made natural innocence emotionally compelling."],
+      "evidence": [
+        {"document_page": 52, "source_page_label": "52", "locator_class": "supporting", "evidence_summary": "His emotional style and European impact are introduced."},
+        {"document_page": 53, "source_page_label": "53", "locator_class": "principal", "evidence_summary": "Julie and Émile are interpreted through innocence, virtue, and corrupt society."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S039",
+      "label": "The Social Contract—legitimate authority, natural liberty, and the scale of republican government",
+      "priority": "essential",
+      "meaning": "Rousseau's Social Contract offered a theoretical account of legitimate political authority compatible with natural liberty and warned that its model could function only in small city-states.",
+      "stance": "Do not present the work as a direct blueprint for wholesale French revolution or a program designed for a large monarchy.",
+      "acceptable_access": ["Social Contract", "political legitimacy—Rousseau", "natural liberty", "small republics"],
+      "relationships": [{"type": "contains", "target_labels": ["General will"]}, {"type": "later_reinterpreted_by", "target_labels": ["French revolutionaries"]}],
+      "reader_tasks": ["Retrieve Rousseau's theoretical problem and the limits he placed on its practical scale."],
+      "evidence": [{"document_page": 53, "source_page_label": "53", "locator_class": "principal", "evidence_summary": "The work's theoretical aim, liberty problem, and restriction to small city-states are explicitly distinguished from a program for change."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S040",
+      "label": "The general will—Rousseau's meaning, popular reinterpretation, and revolutionary appropriation",
+      "priority": "essential",
+      "meaning": "Rousseau's infallible general will was not necessarily majority opinion, but common usage quickly simplified it into majority will and later revolutionaries treated it as part of a program for national regeneration.",
+      "stance": "Preserve the distinction between Rousseau's qualified concept and its later political simplification.",
+      "acceptable_access": ["general will", "Rousseau—majority rule", "Rousseau—revolutionary legacy", "national regeneration"],
+      "relationships": [{"type": "concept_with_changed_meaning", "target_labels": ["Social Contract", "French Revolution"]}],
+      "reader_tasks": ["Find how the general will changed meaning between Rousseau and revolutionary reception."],
+      "evidence": [{"document_page": 53, "source_page_label": "53", "locator_class": "principal", "evidence_summary": "The concept's original qualification, rapid equation with majority will, and later revolutionary use are contrasted."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S041",
+      "label": "Rousseau's natural religion, civil religion, and prosecution for irreligion",
+      "priority": "major",
+      "meaning": "The religious passages of the Social Contract and Émile criticized clerical Christianity and affirmed a benevolent natural deity, provoking condemnation, an arrest decree, and exile.",
+      "stance": "Preserve Rousseau's emotional religiosity; he appeared blasphemous to the devout but was not simply an atheist.",
+      "acceptable_access": ["Rousseau—religion", "civil religion", "Profession of Faith of the Savoyard Vicar", "Émile—condemnation"],
+      "relationships": [{"type": "case_of", "target_labels": ["Church response to irreligion", "Religious toleration"]}],
+      "reader_tasks": ["Retrieve why Rousseau's religious rather than political claims triggered prosecution."],
+      "evidence": [{"document_page": 53, "source_page_label": "53", "locator_class": "principal", "evidence_summary": "The condemned religious passages, arrest decree, flight, natural religion, and clerical critique are explained."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S042",
+      "label": "The Catholic Church's defensive struggle against philosophic irreligion",
+      "priority": "major",
+      "meaning": "As irreligious criticism grew, clerics and pious officeholders made refutation and suppression of philosophic impiety a central task, but internal Church division weakened the effort.",
+      "stance": "Do not portray the Church as a unified or wholly passive victim; it actively resisted but was compromised by its own conflicts.",
+      "acceptable_access": ["Catholic Church—Enlightenment", "irreligion—clerical response", "anti-philosophe literature"],
+      "relationships": [{"type": "conflict_with", "target_labels": ["Philosophes", "Jansenism", "Religious toleration"]}],
+      "reader_tasks": ["Find how the Church responded to the expansion of irreligious criticism."],
+      "evidence": [{"document_page": 53, "source_page_label": "53", "locator_class": "principal", "evidence_summary": "Printed refutations and suppression by religious lay authorities are set against deep ecclesiastical disunity."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S043",
+      "label": "Jansenism, Unigenitus, and prolonged division within French Catholicism",
+      "priority": "major",
+      "meaning": "The bull Unigenitus generated a half-century conflict in which Jansenists opposed lax theology, papal and episcopal power, and Jesuit influence, exposing deep fractures in Church and State.",
+      "stance": "Do not reduce Jansenism to an Enlightenment ally; its own religious rigor and political objectives were distinct.",
+      "acceptable_access": ["Jansenism", "Unigenitus", "Catholic divisions", "Jansenists and Jesuits"],
+      "relationships": [{"type": "cause_of", "target_labels": ["Jesuit suppression", "Nouvelles ecclésiastiques", "Religious discredit"]}],
+      "reader_tasks": ["Retrieve the doctrinal and institutional issues behind the Unigenitus conflict."],
+      "evidence": [
+        {"document_page": 53, "source_page_label": "53", "locator_class": "supporting", "evidence_summary": "The controversy is introduced as a major source of Church division."},
+        {"document_page": 54, "source_page_label": "54", "locator_class": "principal", "evidence_summary": "Jansenist positions, anti-Jesuit aims, persecution, and duration of the conflict are detailed."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S044",
+      "label": "Jesuit suppression, convulsionary excesses, and the discrediting of religious conflict",
+      "priority": "major",
+      "meaning": "Jansenist magistrates engineered the Jesuits' downfall, philosophes opportunistically claimed it as enlightened victory, and persecution and convulsionary spectacle discredited all sides.",
+      "stance": "Preserve the mismatch between Jansenist aims and philosophic retrospective claims; no faction emerges with clean credit.",
+      "acceptable_access": ["Jesuits—suppression", "convulsionaries of Saint-Médard", "Jansenists—parlement of Paris", "religious controversy—discredit"],
+      "relationships": [{"type": "episode_within", "target_labels": ["Jansenism and Unigenitus", "Church reform"]}],
+      "reader_tasks": ["Find why the Jesuit defeat did not simply amount to an Enlightenment triumph."],
+      "evidence": [{"document_page": 54, "source_page_label": "54", "locator_class": "principal", "evidence_summary": "Jansenist responsibility, philosophic claims, sacramental persecution, and convulsionary behavior are evaluated together."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S045",
+      "label": "Changing Catholic piety and the decline of monastic and devotional practices",
+      "priority": "major",
+      "meaning": "Orthodox believers increasingly favored less ostentatious piety, endowed fewer masses, lit fewer candles, withdrew from confraternities and ascetic monastic ideals, and tolerated suppression or merger of small monasteries.",
+      "stance": "Do not equate changing observance with complete secularization or universal unbelief; the chapter describes altered sensibility within as well as outside orthodoxy.",
+      "acceptable_access": ["Catholic piety—change", "monastic decline", "religious confraternities", "devotional practices"],
+      "relationships": [{"type": "evidence_of", "target_labels": ["Religious reform", "Decline of traditional religious authority"]}],
+      "reader_tasks": ["Retrieve how religious practice and attitudes toward monasteries changed among the orthodox."],
+      "evidence": [{"document_page": 54, "source_page_label": "54", "locator_class": "principal", "evidence_summary": "Changes in wills, masses, candles, confraternities, monastic austerity, and monastery suppression are synthesized."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S046",
+      "label": "French Protestants—from legal nonexistence to de facto toleration",
+      "priority": "essential",
+      "meaning": "After the revocation of Nantes, Protestants lacked legal civil status and pastors faced death; by the 1760s persecution largely ceased, services were tacitly protected, and disability laws approached repeal.",
+      "stance": "Distinguish practical toleration from full legal equality, which had not yet been achieved.",
+      "acceptable_access": ["Protestants—legal disabilities", "religious toleration—Protestants", "revocation of the Edict of Nantes", "Protestant worship"],
+      "relationships": [{"type": "transition", "target_labels": ["Religious intolerance", "Calas and Sirven affairs"]}],
+      "reader_tasks": ["Find the shift from formal persecution to practical toleration of French Protestants."],
+      "evidence": [
+        {"document_page": 54, "source_page_label": "54", "locator_class": "principal", "evidence_summary": "Legal disabilities, capital penalties, the cessation of persecution, and official evasion are traced."},
+        {"document_page": 55, "source_page_label": "55", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Educated consensus and the expectation of formal abrogation are stated."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S047",
+      "label": "The Calas and Sirven affairs—judicial persecution and Voltaire's toleration campaigns",
+      "priority": "essential",
+      "meaning": "Voltaire treated the condemnation of Protestant families at Toulouse as products of superstitious bigotry, mobilized educated opinion, and secured royal rehabilitation of Calas and later the Sirvens.",
+      "stance": "Preserve the cases as campaigns against judicial and religious intolerance; do not imply that the underlying prosecutions were representative of every court or that toleration was already complete.",
+      "acceptable_access": ["Calas affair", "Sirven affair", "Voltaire—religious toleration", "Toulouse parlement—Protestants"],
+      "relationships": [{"type": "case_of", "target_labels": ["Religious intolerance", "Public opinion campaigns", "Judicial miscarriage"]}],
+      "reader_tasks": ["Retrieve how the Calas and Sirven cases changed educated attitudes toward Protestant persecution."],
+      "evidence": [{"document_page": 55, "source_page_label": "55", "locator_class": "principal", "evidence_summary": "The prosecutions, Voltaire's interventions, rehabilitation, and wider effect on conscience are narrated."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S048",
+      "label": "Cruel punishment, torture, and public execution under the ancien-régime criminal law",
+      "priority": "essential",
+      "meaning": "Breaking on the wheel, judicial torture, burning, and spectacular public execution exposed a criminal law increasingly judged cruel, irrational, inconsistent, and unsafe for the innocent.",
+      "stance": "Treat exemplary cases as evidence of the penal system and its public critique, not as isolated sensational anecdotes.",
+      "acceptable_access": ["criminal justice—punishment", "judicial torture", "public executions", "penal cruelty"],
+      "relationships": [{"type": "problem_addressed_by", "target_labels": ["Beccaria and penal reform", "Voltaire's justice campaigns"]}],
+      "reader_tasks": ["Find the penal practices that enlightened critics identified as barbarous."],
+      "evidence": [
+        {"document_page": 55, "source_page_label": "55", "locator_class": "principal", "evidence_summary": "Calas, Damiens, and La Barre illustrate torture, wheel-breaking, burning, and spectacular punishment."},
+        {"document_page": 56, "source_page_label": "56", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Mid-1780s cases renew attention to cruelty, inconsistency, and inadequate protection of innocence."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S049",
+      "label": "The Damiens and La Barre cases as symbols of penal and religious barbarity",
+      "priority": "major",
+      "meaning": "The elaborately tortured execution of Damiens for regicide and the torture and burning of La Barre for adolescent sacrilege exemplified punishments that critics treated as grotesque and disproportionate.",
+      "stance": "Keep the cases distinct in meaning—regicide precedent versus blasphemy prosecution—while recognizing their shared function in the chapter's penal critique.",
+      "acceptable_access": ["Damiens, Robert-François", "La Barre, Jean-François de", "regicide—punishment", "blasphemy—punishment"],
+      "relationships": [{"type": "case_of", "target_labels": ["Penal cruelty", "Voltaire's justice campaigns"]}],
+      "reader_tasks": ["Retrieve the two exemplary punishments used to demonstrate the cruelty of criminal law."],
+      "evidence": [{"document_page": 55, "source_page_label": "55", "locator_class": "principal", "evidence_summary": "The crimes, judicial rationales, punishments, spectatorship, and Voltaire's use of the cases are narrated."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S050",
+      "label": "Beccaria, penal reform, codification, and the slow retreat from judicial torture",
+      "priority": "major",
+      "meaning": "Beccaria's call for proportionate, humane, torture-free punishment inspired Voltaire and promised comprehensive legal reform, but the monarchy delivered little beyond abolishing torture used to obtain confessions in 1780.",
+      "stance": "Distinguish announced reform from implemented change and the partial 1780 measure from abolition of all torture or cruel punishment.",
+      "acceptable_access": ["Beccaria, Cesare", "Of Crimes and Punishments", "criminal-law reform", "torture—abolition in 1780", "legal codification"],
+      "relationships": [{"type": "reform_response_to", "target_labels": ["Penal cruelty", "Judicial miscarriages"]}],
+      "reader_tasks": ["Find the intellectual program and limited governmental results of penal reform before 1789."],
+      "evidence": [
+        {"document_page": 55, "source_page_label": "55", "locator_class": "principal", "evidence_summary": "Beccaria's work, Voltaire's support, the promise of codification, delay, and the 1780 reform are connected."},
+        {"document_page": 56, "source_page_label": "56", "locator_class": "supporting", "evidence_summary": "New miscarriages show why concern survived the limited reform."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S051",
+      "label": "Mid-1780s judicial miscarriages and uncensored legal briefs",
+      "priority": "major",
+      "meaning": "A younger generation of polemicists exploited new miscarriages of justice through widely circulated legal briefs exempt from censorship, renewing public concern for innocence and legal consistency.",
+      "stance": "Treat the briefs as a mechanism of public mobilization rather than evidence that courts had ceased to function.",
+      "acceptable_access": ["judicial miscarriages—1780s", "legal briefs", "mémoires judiciaires", "justice campaigns"],
+      "relationships": [{"type": "revives", "target_labels": ["Penal reform", "Public opinion campaigns"]}],
+      "reader_tasks": ["Retrieve how legal advocacy brought miscarriages of justice before a mass reading public."],
+      "evidence": [{"document_page": 56, "source_page_label": "56", "locator_class": "principal", "evidence_summary": "The cases, younger polemicists, mass distribution of uncensored briefs, and renewed reform concern are linked."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S052",
+      "label": "Public opinion—from private belief to an informed and authoritative tribunal",
+      "priority": "essential",
+      "meaning": "During the mid-eighteenth century public opinion came to mean informed collective judgment, imagined as a tribunal whose verdict was final and generally correct.",
+      "stance": "Present this as a historical change in political language and authority, not as proof that public opinion was unified or reliably rational.",
+      "acceptable_access": ["public opinion—concept", "tribunal of public opinion", "informed judgment", "opinion—eighteenth-century meaning"],
+      "relationships": [{"type": "parent_or_synthesis", "target_labels": ["Voltaire's campaigns", "Printed remonstrances", "Government publicity", "Necker"]}],
+      "reader_tasks": ["Find how the meaning and claimed authority of public opinion changed."],
+      "evidence": [{"document_page": 56, "source_page_label": "56", "locator_class": "principal", "evidence_summary": "Earlier opinion as mere belief is contrasted with informed, directed judgment and the tribunal metaphor."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S053",
+      "label": "Philosophes' ambition to direct and govern public opinion",
+      "priority": "essential",
+      "meaning": "After successful campaigns such as Calas, philosophes believed disciplined publicity could direct collective judgment and thereby influence rulers and society.",
+      "stance": "Do not credit philosophes with inventing public mobilization or controlling opinion without limits; earlier religious and judicial actors had already used similar methods.",
+      "acceptable_access": ["philosophes—public opinion", "Voltaire—opinion", "public campaigns", "opinion and political influence"],
+      "relationships": [{"type": "claim_over", "target_labels": ["Public opinion"]}, {"type": "preceded_by", "target_labels": ["Religious pamphlet wars", "Printed remonstrances"]}],
+      "reader_tasks": ["Retrieve why philosophes believed control of opinion could reshape politics."],
+      "evidence": [{"document_page": 56, "source_page_label": "56", "locator_class": "principal", "evidence_summary": "Rousseau's description of directed opinion and Voltaire's claim that philosophers govern it are evaluated."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S054",
+      "label": "Religious pamphlet wars and printed remonstrances as precursors of politicized opinion",
+      "priority": "major",
+      "meaning": "Jansenists, Jesuits, and parlements had already appealed beyond official institutions through clandestine journals, pamphlets, and public distribution of remonstrances before philosophes claimed the field.",
+      "stance": "Preserve the mixed religious, judicial, and political origins of the public sphere; it was not created solely by secular Enlightenment writers.",
+      "acceptable_access": ["public opinion—origins", "pamphlet wars", "parlementary remonstrances—publication", "Jansenist and Jesuit publicity"],
+      "relationships": [{"type": "historical_precursor_to", "target_labels": ["Philosophes' public campaigns", "Open political discussion"]}],
+      "reader_tasks": ["Find the institutional actors who politicized print before the philosophes."],
+      "evidence": [{"document_page": 56, "source_page_label": "56", "locator_class": "principal", "evidence_summary": "Religious journals, pamphleteering, and public remonstrances are traced back before mid-century philosophic campaigns."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S055",
+      "label": "Breakdown of political censorship and the government's turn to managing opinion",
+      "priority": "essential",
+      "meaning": "The final effort to suppress discussion of religion, administration, and finance failed in the early 1760s; ministers increasingly explained, refuted, and propagandized their policies rather than relying on silence.",
+      "stance": "Do not imply a free press; censorship persisted, but the state could no longer prevent political discussion and therefore entered it.",
+      "acceptable_access": ["political censorship—breakdown", "government propaganda", "royal edicts—preambles", "Maupeou—publicity"],
+      "relationships": [{"type": "institutional_response_to", "target_labels": ["Public opinion", "Printed remonstrances"]}],
+      "reader_tasks": ["Retrieve how the monarchy shifted from suppressing public debate to competing within it."],
+      "evidence": [
+        {"document_page": 56, "source_page_label": "56", "locator_class": "principal", "evidence_summary": "The 1758-64 suppression effort, contested works, and prohibition on state-finance publications are described."},
+        {"document_page": 57, "source_page_label": "57", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S056",
+      "label": "Open constitutional discussion as a perceived route toward revolution",
+      "priority": "essential",
+      "meaning": "Once government and opponents debated state institutions publicly, observers feared that widespread constitutional analysis and loss of deference would eventually produce revolutions.",
+      "stance": "Treat the prediction as a contemporary anxiety and authorial foreshadowing, not as proof of an inevitable linear path to 1789.",
+      "acceptable_access": ["constitutional debate", "public knowledge—revolution", "political discussion—consequences", "revolution—intellectual preconditions"],
+      "relationships": [{"type": "consequence_of", "target_labels": ["Public opinion", "Breakdown of censorship"]}],
+      "reader_tasks": ["Find why public analysis of the constitution appeared politically destabilizing."],
+      "evidence": [{"document_page": 57, "source_page_label": "57", "locator_class": "synthesis_or_conclusion", "evidence_summary": "An observer explicitly links widening constitutional knowledge and uncontrolled reply to future revolution."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S057",
+      "label": "The Seven Years War as a catalyst for public criticism and institutional inquest",
+      "priority": "essential",
+      "meaning": "Defeat, the unpopular Austrian alliance, rising taxes, and heavy borrowing without visible gains provoked a searching public examination of French institutions and governance.",
+      "stance": "Do not treat the war as the sole cause of criticism; it accelerated and focused pressures already developing.",
+      "acceptable_access": ["Seven Years War—domestic consequences", "military defeat—public opinion", "war finance—criticism", "institutional inquest"],
+      "relationships": [{"type": "cause_of", "target_labels": ["Economic reform debate", "Crisis of confidence around 1770"]}],
+      "reader_tasks": ["Retrieve how military defeat widened criticism of state and society."],
+      "evidence": [{"document_page": 57, "source_page_label": "57", "locator_class": "principal", "evidence_summary": "Aimlessness, defeat, cost, taxes, borrowing, and the resulting inquest are connected."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S058",
+      "label": "The 1763 reform consultation and the government's turn from parlements to Economists",
+      "priority": "major",
+      "meaning": "The Crown unprecedentedly invited parlements to propose economic and fiscal reform, found their answers unconstructive, then favored the untested theories of the Economists, aggravating magistrates' pretensions and grievances.",
+      "stance": "Preserve the failed consultation and political cost; do not describe the turn to theory as a consensual technocratic choice.",
+      "acceptable_access": ["parlements—reform proposals of 1763", "Economists", "economic reform—government consultation"],
+      "relationships": [{"type": "transition_to", "target_labels": ["Physiocracy", "Parlementary opposition"]}],
+      "reader_tasks": ["Find how the postwar reform inquest redirected ministers toward Physiocratic theory."],
+      "evidence": [{"document_page": 57, "source_page_label": "57", "locator_class": "principal", "evidence_summary": "The consultation, disappointing proposals, inflated parliamentary claims, and ministerial turn to Economists are narrated."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S059",
+      "label": "Physiocracy—natural economic order, agriculture, and productive wealth",
+      "priority": "essential",
+      "meaning": "Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth.",
+      "stance": "Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism.",
+      "acceptable_access": ["Physiocracy", "Quesnay, François", "natural economic order", "agriculture—productive sector", "Tableau économique"],
+      "relationships": [{"type": "intellectual_basis_for", "target_labels": ["Grain-trade liberalization", "Turgot's reforms"]}],
+      "reader_tasks": ["Retrieve the central theory of wealth advanced by the Physiocrats."],
+      "evidence": [{"document_page": 57, "source_page_label": "57", "locator_class": "principal", "evidence_summary": "Quesnay's natural order, the productive status of agriculture, principal authors, and the name Physiocracy are explained."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S060",
+      "label": "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+      "priority": "essential",
+      "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+      "stance": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+      "acceptable_access": ["Physiocracy—legal despotism", "economic freedom—state intervention", "guilds and privileges—reform", "poor peasant poor kingdom"],
+      "relationships": [{"type": "doctrine_applied_to", "target_labels": ["Grain trade", "Provincial assemblies", "Fiscal reform"]}],
+      "reader_tasks": ["Find why Physiocratic liberalization implied unusually strong governmental action."],
+      "evidence": [
+        {"document_page": 57, "source_page_label": "57", "locator_class": "principal", "evidence_summary": "Free markets, legal despotism, ministerial attraction, and fiscal logic are laid out."},
+        {"document_page": 58, "source_page_label": "58", "locator_class": "supporting", "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S061",
+      "label": "Grain-trade controls and the liberalization measures of 1763–1764",
+      "priority": "essential",
+      "meaning": "Traditional controls over prices, exports, and interprovincial movement protected bread supply and order; Physiocratic ministers opened the internal market and conditionally permitted export.",
+      "stance": "Treat the old controls as a subsistence policy with political logic, not merely irrational interference, and the reform as an experiment grounded in recent good harvests.",
+      "acceptable_access": ["grain trade—controls", "grain-trade liberalization", "free trade in grain—1763", "grain exports—1764"],
+      "relationships": [{"type": "policy_test_of", "target_labels": ["Physiocracy", "Subsistence politics"]}],
+      "reader_tasks": ["Retrieve what the grain reforms changed and why the trade had previously been regulated."],
+      "evidence": [{"document_page": 58, "source_page_label": "58", "locator_class": "principal", "evidence_summary": "The apparatus of control, its public-order rationale, Physiocratic promise, and 1763-64 decrees are described."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S062",
+      "label": "Crop failure, bread riots, and the conflict between market theory and subsistence rights",
+      "priority": "essential",
+      "meaning": "Bad harvests exposed the grain experiment: shortages and high prices produced riots and a debate between long-run market incentives and the immediate claim that the king must preserve subjects' lives.",
+      "stance": "Do not attribute scarcity solely to liberalization; the chapter says crop failures drove shortages while freedom was blamed for worsening them.",
+      "acceptable_access": ["bread riots", "grain shortages", "subsistence rights", "free trade—grain debate", "Bordeaux bread riot of 1773"],
+      "relationships": [{"type": "crisis_of", "target_labels": ["Grain liberalization", "Crown's subsistence obligation"]}],
+      "reader_tasks": ["Find the competing market and subsistence arguments revealed by the grain crisis."],
+      "evidence": [{"document_page": 58, "source_page_label": "58", "locator_class": "principal", "evidence_summary": "Harvest failure, scarcity, public debate, riots, price arguments, and royal duty are brought into direct conflict."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S063",
+      "label": "The famine pact as a conspiracy explanation of grain policy",
+      "priority": "major",
+      "meaning": "Attempts to restore confidence through preferential contracting instead fostered belief that ministers and a private monopoly were deliberately profiting by starving the people.",
+      "stance": "Record the famine pact as a powerful accusation and belief, not as a demonstrated government conspiracy.",
+      "acceptable_access": ["famine pact", "grain monopoly—conspiracy", "subsistence conspiracy", "Terray—famine pact"],
+      "relationships": [{"type": "consequence_of", "target_labels": ["Grain-policy distrust", "Credulity and conspiracy belief"]}],
+      "reader_tasks": ["Retrieve how distrust of grain policy crystallized into a conspiracy theory."],
+      "evidence": [{"document_page": 58, "source_page_label": "58", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Preferential contracts and policy reversals are linked to accusations of a profit-making famine pact."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S064",
+      "label": "The general crisis of confidence in French government around 1770",
+      "priority": "essential",
+      "meaning": "Military humiliation, fiscal controversy, unpopular diplomacy, court scandal, grain fears, bankruptcy, tax pressure, and the attack on parlements converged into a broad loss of confidence.",
+      "stance": "Treat the crisis as cumulative and multi-causal rather than reducible to one minister, mistress, policy, or war.",
+      "acceptable_access": ["government confidence—collapse around 1770", "political crisis—late Louis XV", "ancien régime legitimacy"],
+      "relationships": [{"type": "parent_or_synthesis", "target_labels": ["Austrian alliance", "Terray", "Maupeou", "Court politics", "Famine pact"]}],
+      "reader_tasks": ["Find the intersecting developments that undermined confidence by the end of Louis XV's reign."],
+      "evidence": [
+        {"document_page": 58, "source_page_label": "58", "locator_class": "supporting", "evidence_summary": "Grain controversy and the famine pact reveal acute administrative distrust."},
+        {"document_page": 59, "source_page_label": "59", "locator_class": "principal", "evidence_summary": "Diplomatic, court, fiscal, and constitutional grievances are synthesized as a general crisis."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S065",
+      "label": "The unpopular Austrian alliance and Marie Antoinette's dynastic marriage",
+      "priority": "major",
+      "meaning": "The alliance with France's traditional Austrian enemy remained unpopular, and its renewal through the heir's marriage to Marie Antoinette was marred by a fatal Paris crowd disaster interpreted as an omen.",
+      "stance": "Do not project all later hostility to the queen backward; the passage identifies an early diplomatic and symbolic burden.",
+      "acceptable_access": ["Austrian alliance", "Marie Antoinette—marriage", "Paris wedding disaster of 1770", "diplomatic revolution—unpopularity"],
+      "relationships": [{"type": "contributes_to", "target_labels": ["Crisis of confidence", "Marie Antoinette—public hostility"]}],
+      "reader_tasks": ["Retrieve why the Austrian marriage carried political liabilities from the outset."],
+      "evidence": [{"document_page": 58, "source_page_label": "58", "locator_class": "principal", "evidence_summary": "Alliance unpopularity, the 1770 marriage, crowd deaths, and bitter memories of court celebration are linked."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S066",
+      "label": "Mme Du Barry, Choiseul, Terray, and the political discredit of Louis XV's court",
+      "priority": "major",
+      "meaning": "The king's final mistress became associated with Choiseul's fall and the rise of Maupeou and Terray; Terray's bankruptcy, tax revision, and grain-policy reputation deepened perceptions of corruption and extortion.",
+      "stance": "Do not make sexual scandal alone the cause of political crisis; court associations magnified substantive fiscal and constitutional grievances.",
+      "acceptable_access": ["Mme Du Barry—politics", "Choiseul—fall", "Terray, Joseph-Marie", "Louis XV—late court scandal"],
+      "relationships": [{"type": "contributes_to", "target_labels": ["Crisis of confidence", "Maupeou coup", "Famine pact"]}],
+      "reader_tasks": ["Find how court sexual politics became entangled with ministerial and fiscal discontent."],
+      "evidence": [{"document_page": 59, "source_page_label": "59", "locator_class": "principal", "evidence_summary": "Du Barry's position, ministerial associations, Terray's measures, and reputational effects are analyzed together."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S067",
+      "label": "Maupeou's destruction of the parlements and the debate over despotism",
+      "priority": "essential",
+      "meaning": "Maupeou's remaking of the parlements provoked nationwide protest; most philosophes saw the loss of intermediary powers as exposure to despotism, while Voltaire supported reform against courts he regarded as obscurantist.",
+      "stance": "Preserve the split among philosophes and the parlements' flaws; opposition to Maupeou did not make the magistracy uniformly liberal.",
+      "acceptable_access": ["Maupeou coup", "parlements—suppression", "despotism—Maupeou", "Voltaire—Maupeou"],
+      "relationships": [{"type": "tests", "target_labels": ["Montesquieu's intermediary powers", "Parlementary constitutionalism"]}],
+      "reader_tasks": ["Retrieve why Maupeou's reform was interpreted as a decisive constitutional crisis."],
+      "evidence": [{"document_page": 59, "source_page_label": "59", "locator_class": "principal", "evidence_summary": "National protest, Voltaire's minority support, Diderot's warning, and Montesquieu's influence are contrasted."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S068",
+      "label": "Revival of the Estates-General as an imagined constitutional alternative",
+      "priority": "essential",
+      "meaning": "Opposition to Maupeou revived calls for the Estates-General, an institution not assembled since 1614 and poorly understood but presumed to possess greater national authority than the parlements.",
+      "stance": "Treat the Estates-General at this stage as a vague but durable political idea, not a settled constitutional program.",
+      "acceptable_access": ["Estates-General—revival", "Maupeou opposition—Estates-General", "national representation before 1789"],
+      "relationships": [{"type": "alternative_to", "target_labels": ["Parlements", "Ministerial despotism"]}],
+      "reader_tasks": ["Find when and why the Estates-General re-entered political discussion."],
+      "evidence": [{"document_page": 59, "source_page_label": "59", "locator_class": "principal", "evidence_summary": "Printed opposition introduces the Estates-General, notes public ignorance of its powers, and traces the idea's persistence."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S069",
+      "label": "Louis XVI's accession—hopes for renewal and sexualized public ridicule",
+      "priority": "major",
+      "meaning": "The new king initially carried hopes for a clean break with Louis XV, but failure to produce an heir and his private marital difficulties quickly became material for corrosive public pamphleteering.",
+      "stance": "Preserve the contrast between initial confidence and later ridicule without treating reproductive satire as a complete measure of royal legitimacy.",
+      "acceptable_access": ["Louis XVI—accession hopes", "Louis XVI—heir", "royal sexuality—pamphlets", "political satire"],
+      "relationships": [{"type": "transition_within", "target_labels": ["Crisis of confidence", "Marie Antoinette—public hostility"]}],
+      "reader_tasks": ["Retrieve how expectations surrounding the new king turned into ridicule."],
+      "evidence": [
+        {"document_page": 59, "source_page_label": "59", "locator_class": "principal", "evidence_summary": "The accession is presented as a new start followed by doubts about producing an heir."},
+        {"document_page": 60, "source_page_label": "60", "locator_class": "supporting", "evidence_summary": "The birth timeline and pamphlet attacks on the royal marriage are continued."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S070",
+      "label": "Marie Antoinette—foreign ties, extravagance, political meddling, and popular hostility",
+      "priority": "major",
+      "meaning": "The queen's Austrian identity, spending, favorites, political interventions, and family diplomacy made her a persuasive target for rumor and hostility even when specific accusations were false.",
+      "stance": "Distinguish documented indiscretion and unpopularity from fabricated responsibility for the necklace fraud.",
+      "acceptable_access": ["Marie Antoinette—public image", "Marie Antoinette—Austrian influence", "Marie Antoinette—extravagance", "anti-queen pamphlets"],
+      "relationships": [{"type": "contributes_to", "target_labels": ["Court disrepute", "Diamond Necklace affair"]}],
+      "reader_tasks": ["Find the cumulative sources of public hostility toward Marie Antoinette."],
+      "evidence": [{"document_page": 60, "source_page_label": "60", "locator_class": "principal", "evidence_summary": "Extravagance, political conduct, Austrian diplomacy, rumor, and popular humiliation are analyzed."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S071",
+      "label": "The Diamond Necklace affair, Rohan's trial, and the humiliation of the queen",
+      "priority": "major",
+      "meaning": "Although Marie Antoinette was uninvolved in the necklace swindle, Rohan's public trial, acquittal, celebration, and subsequent exile confirmed damaging assumptions about her conduct and deepened hostility to the court.",
+      "stance": "State the queen's noninvolvement clearly while preserving the affair's reputational and political consequences.",
+      "acceptable_access": ["Diamond Necklace affair", "Rohan, Cardinal de", "Marie Antoinette—necklace scandal", "Rohan trial"],
+      "relationships": [{"type": "cause_of", "target_labels": ["Court disrepute", "Marie Antoinette—public hostility"]}],
+      "reader_tasks": ["Retrieve why an affair in which the queen was innocent nevertheless damaged her profoundly."],
+      "evidence": [{"document_page": 60, "source_page_label": "60", "locator_class": "principal", "evidence_summary": "The fraud, Rohan's motives, trial, acquittal, punishment of perpetrators, public celebration, and royal response are traced."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S072",
+      "label": "The renewed disrepute of the royal court and disclosure of its costs",
+      "priority": "major",
+      "meaning": "The necklace scandal returned the court to the disrepute of Louis XV's final years, and the first disclosure of its cost to taxpayers in 1787 reinforced the political damage.",
+      "stance": "Do not claim court expenditure alone caused the fiscal crisis; its importance here is reputational and symbolic.",
+      "acceptable_access": ["Court of Versailles—disrepute", "court expenditure—1787 disclosure", "royal court—public image"],
+      "relationships": [{"type": "consequence_of", "target_labels": ["Diamond Necklace affair", "Marie Antoinette—public hostility"]}],
+      "reader_tasks": ["Find how scandal and financial disclosure damaged the court's standing."],
+      "evidence": [{"document_page": 60, "source_page_label": "60", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The scandal's effect on the entire court and the later revelation of taxpayer cost are explicitly linked."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S073",
+      "label": "Restored parlements—popular return, internal faction, and loss of constitutional confidence",
+      "priority": "major",
+      "meaning": "The parlements returned amid celebration after Louis XVI's accession but squandered credit through disputes between exiled and collaborating magistrates and through limited resistance after the Turgot episode.",
+      "stance": "Do not treat restoration as recovery of durable constitutional authority; public confidence in the courts continued to erode.",
+      "acceptable_access": ["parlements—restoration", "returner and remainer magistrates", "parlement of Paris—decline", "Turgot—parlementary resistance"],
+      "relationships": [{"type": "leads_to_search_for", "target_labels": ["Provincial representation", "Alternatives to despotism"]}],
+      "reader_tasks": ["Retrieve why restoring the parlements did not resolve the search for constitutional protection."],
+      "evidence": [{"document_page": 60, "source_page_label": "60", "locator_class": "principal", "evidence_summary": "Popular return, internal quarrels, the Turgot stand, later passivity, and a contemporary judgment of decline are traced."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S074",
+      "label": "Intendants—enlightened rationalization, administrative activism, and unaccountable power",
+      "priority": "essential",
+      "meaning": "Provincial intendants pursued practical, rationalizing reforms in health, streets, markets, and poor relief, but their broad discretion, tax role, and lack of accountability made enlightened administration look like local despotism.",
+      "stance": "Preserve the tension: opponents could share the reform goals while rejecting the intendant's authority and methods.",
+      "acceptable_access": ["intendants—administration", "enlightened administration", "provincial despotism", "administrative rationalization"],
+      "relationships": [{"type": "problem_prompting", "target_labels": ["Provincial estates", "Representative administration"]}],
+      "reader_tasks": ["Find why reform-minded intendants intensified demands for accountable provincial government."],
+      "evidence": [
+        {"document_page": 60, "source_page_label": "60", "locator_class": "principal", "evidence_summary": "Their initiative, expanding scope, reform mission, and tax association are introduced."},
+        {"document_page": 61, "source_page_label": "61", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Specific interventions and the Besançon parlement's accountability critique expose the conflict between ends and authority."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S075",
+      "label": "Provincial estates and representative bodies as counterweights to administrative despotism",
+      "priority": "essential",
+      "meaning": "Existing provincial estates could bargain with intendants and share powers, prompting magistrates and reformers to advocate new or restored representative bodies elsewhere.",
+      "stance": "Do not idealize traditional estates; even Physiocrats doubted their heterogeneous and historically particular composition.",
+      "acceptable_access": ["provincial estates", "pays d'états", "provincial representation", "administrative counterweights"],
+      "relationships": [{"type": "alternative_to", "target_labels": ["Intendant administration", "Ministerial despotism"]}],
+      "reader_tasks": ["Retrieve why provincial representation appeared to offer protection against arbitrary administration."],
+      "evidence": [{"document_page": 61, "source_page_label": "61", "locator_class": "principal", "evidence_summary": "Existing estates, bargaining power, Breton clashes, parliamentary advocacy, and Physiocratic reservations are compared."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S076",
+      "label": "Turgot and Dupont de Nemours—hierarchical assemblies of landowners",
+      "priority": "major",
+      "meaning": "Turgot and Dupont proposed a uniform representative hierarchy beginning with village municipalities and rising through provincial assemblies, based on landownership rather than inherited provincial forms.",
+      "stance": "Treat the scheme as an unrealized reform design distinct from both traditional estates and Necker's later experiments.",
+      "acceptable_access": ["Turgot—assemblies", "Dupont de Nemours—provincial reform", "municipal assemblies", "landowner representation"],
+      "relationships": [{"type": "reform_model_for", "target_labels": ["Provincial representation", "Necker's provincial administrations"]}],
+      "reader_tasks": ["Find the representative-administrative hierarchy envisioned by Turgot and Dupont."],
+      "evidence": [{"document_page": 61, "source_page_label": "61", "locator_class": "principal", "evidence_summary": "The uniform landowner-based hierarchy from municipality to province is described as their preferred alternative."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S077",
+      "label": "Necker's provincial administrations in Berry and Upper Guyenne",
+      "priority": "major",
+      "meaning": "Necker created nominated mixed-estate bodies as adjuncts to intendants in Berry and Upper Guyenne; unlike a projected third body, they functioned through 1789 as practical models of representative administration.",
+      "stance": "Do not present them as democratically elected sovereign provinces; their membership was nominated, estate-weighted, and attached to generalities.",
+      "acceptable_access": ["Necker—provincial administrations", "Berry provincial assembly", "Upper Guyenne provincial assembly", "representative administration"],
+      "relationships": [{"type": "partial_implementation_of", "target_labels": ["Provincial representation", "Administrative reform"]}],
+      "reader_tasks": ["Retrieve the design, composition, geography, and durability of Necker's provincial experiments."],
+      "evidence": [
+        {"document_page": 61, "source_page_label": "61", "locator_class": "principal", "evidence_summary": "Their establishment, composition, relation to intendants, and initial provinces are specified."},
+        {"document_page": 62, "source_page_label": "62", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The abandoned Boulogne proposal and continued operation of the two assemblies establish their model status."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S078",
+      "label": "Necker as Protestant outsider, salon-made public figure, and opponent of free grain trade",
+      "priority": "major",
+      "meaning": "A self-made Swiss Protestant banker, Necker entered intellectual society through his wife's salon, attacked Turgot's grain policy during the Flour War, and converted public popularity into appointment despite exclusion from established circles.",
+      "stance": "Do not portray his rise as technocratic merit alone; cultivated reputation, political controversy, social outsider status, and the shortage of orthodox candidates all mattered.",
+      "acceptable_access": ["Necker—rise", "Neckeromania", "Necker—grain trade", "Mme Necker—salon", "Flour War—Necker"],
+      "relationships": [{"type": "contrast", "target_labels": ["Turgot", "Physiocratic grain freedom"]}],
+      "reader_tasks": ["Find how Necker built authority outside the normal ministerial establishment."],
+      "evidence": [{"document_page": 62, "source_page_label": "62", "locator_class": "principal", "evidence_summary": "Origin, faith, banking career, salon cultivation, grain book, popularity, and Treasury appointment are connected."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S079",
+      "label": "Necker's administrative reforms in accounting, taxation, venality, and provincial government",
+      "priority": "major",
+      "meaning": "As director of the treasury Necker reorganized central accounts and taxation, surveyed venal offices, and used provincial assemblies partly to offset parliamentary influence.",
+      "stance": "Distinguish this reform program from the later retrospective mythology surrounding his finances and from the wartime borrowing detailed in the next chapter.",
+      "acceptable_access": ["Necker—administrative reforms", "central accounting", "venality of offices—survey", "taxation—Necker"],
+      "relationships": [{"type": "includes", "target_labels": ["Provincial administrations", "Financial administration"]}],
+      "reader_tasks": ["Retrieve the nonpublicity reforms Necker attempted during his first ministry."],
+      "evidence": [{"document_page": 62, "source_page_label": "62", "locator_class": "principal", "evidence_summary": "Accounting, taxation, venality, and provincial-assembly initiatives are enumerated as substantive reforms."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S080",
+      "label": "Necker's cultivation of public opinion, resignation, and De l'Administration des Finances",
+      "priority": "essential",
+      "meaning": "Necker treated public opinion as a political force, tried unsuccessfully to convert popularity into influence over high policy, resigned in protest, and published a detailed defense positioning himself as the minister public confidence required.",
+      "stance": "Preserve both the novelty and the limits of publicity: public acclaim did not compel Louis XVI to grant power or prevent dismissal.",
+      "acceptable_access": ["Necker—public opinion", "Necker—resignation of 1781", "De l'Administration des Finances", "Necker—public reputation"],
+      "relationships": [{"type": "case_of", "target_labels": ["Government management of opinion", "Ministerial publicity"]}],
+      "reader_tasks": ["Find how Necker converted administration into a public claim to political authority."],
+      "evidence": [{"document_page": 62, "source_page_label": "62", "locator_class": "principal", "evidence_summary": "Opinion strategy, failed bid for policy power, resignation, published defense, best-seller status, and recall claim are analyzed."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S081",
+      "label": "Vergennes, French intervention in America, and restored international prestige",
+      "priority": "major",
+      "meaning": "French land and naval support helped force British recognition of American independence while Vergennes preserved European peace, avenging the Seven Years War and restoring national prestige.",
+      "stance": "Balance genuine strategic success against the domestic costs and ideological consequences developed alongside it.",
+      "acceptable_access": ["American War of Independence—French intervention", "Vergennes", "French foreign policy—1783", "international prestige"],
+      "relationships": [{"type": "contrast_with", "target_labels": ["American war—financial cost", "Seven Years War defeat"]}],
+      "reader_tasks": ["Retrieve why ministers could defend American intervention as a major success."],
+      "evidence": [
+        {"document_page": 62, "source_page_label": "62", "locator_class": "supporting", "evidence_summary": "The chapter introduces the successful policy as the strongest ministerial claim to public confidence."},
+        {"document_page": 63, "source_page_label": "63", "locator_class": "principal", "evidence_summary": "British recognition, French military contribution, continental peace, Vergennes's role, and restored prestige are summarized."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S082",
+      "label": "Domestic costs and political discontents produced by French involvement in America",
+      "priority": "major",
+      "meaning": "Despite victory, the American intervention imposed heavy costs and introduced republican, representative, anti-noble, and regenerative comparisons that sharpened discontent within France.",
+      "stance": "Do not reduce the American impact to debt alone or claim it mechanically caused revolution; financial and ideological effects were distinct but reinforcing.",
+      "acceptable_access": ["American War—cost to France", "American Revolution—impact on France", "French discontent—America"],
+      "relationships": [{"type": "parent_or_synthesis", "target_labels": ["American liberty and representation", "Order of Cincinnati controversy", "Political regeneration"]}],
+      "reader_tasks": ["Find the domestic liabilities created by a successful foreign policy."],
+      "evidence": [{"document_page": 63, "source_page_label": "63", "locator_class": "principal", "evidence_summary": "The chapter explicitly turns from prestige to cost and the wider range of French discontents raised by America."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S083",
+      "label": "American liberty and representation as resonant languages in pre-revolutionary France",
+      "priority": "essential",
+      "meaning": "American resistance used the language of liberty and representation that already animated French opposition to despotism, allowing parliamentary and educated audiences to identify with the colonial cause.",
+      "stance": "Do not assume detailed knowledge of America; ideological resonance preceded and exceeded first-hand information.",
+      "acceptable_access": ["American Revolution—French reception", "liberty—American influence", "representation—American influence", "John Adams—Bordeaux"],
+      "relationships": [{"type": "reinforces", "target_labels": ["French constitutional debate", "Opposition to despotism"]}],
+      "reader_tasks": ["Retrieve why American political language immediately echoed French grievances."],
+      "evidence": [{"document_page": 63, "source_page_label": "63", "locator_class": "principal", "evidence_summary": "Colonial arguments and the Bordeaux magistrate's welcome to Adams connect American liberty to French parliamentary resistance."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S084",
+      "label": "The Histoire philosophique des deux Indes—anti-colonial critique and prophecy of independence",
+      "priority": "major",
+      "meaning": "The collaborative work published under Raynal's name attacked European expansion, predicted colonial independence, and gained extraordinary authority as the American revolt appeared to confirm it.",
+      "stance": "Do not attribute the entire work to Raynal alone or infer that its contributors shared one settled colonial doctrine.",
+      "acceptable_access": ["Histoire philosophique des deux Indes", "Raynal, Guillaume-Thomas", "colonialism—Enlightenment critique", "Diderot—colonial critique"],
+      "relationships": [{"type": "prepares_reception_of", "target_labels": ["American independence", "Political regeneration"]}],
+      "reader_tasks": ["Find the major French work that framed colonial independence before the American victory."],
+      "evidence": [{"document_page": 63, "source_page_label": "63", "locator_class": "principal", "evidence_summary": "Authorship, attack on expansion, prediction, publication success, and relation to American events are explained."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S085",
+      "label": "Transmission of American political ideas through documents, propaganda, and returning veterans",
+      "priority": "major",
+      "meaning": "Translations of key pamphlets, declarations, and state constitutions, Franklin's propaganda, and the return of thousands of French soldiers gradually supplied concrete information about the new republic.",
+      "stance": "Preserve the sequence from initially imaginative enthusiasm to better-informed postwar interest.",
+      "acceptable_access": ["American political documents—French translations", "Declaration of Independence—France", "American veterans—France", "Common Sense—French reception"],
+      "relationships": [{"type": "channel_for", "target_labels": ["American liberty and representation", "Political regeneration"]}],
+      "reader_tasks": ["Retrieve the routes by which American political experience reached French readers."],
+      "evidence": [{"document_page": 63, "source_page_label": "63", "locator_class": "principal", "evidence_summary": "Limited first-hand knowledge, translated documents, soldiers, and the growth of better information are distinguished."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S086",
+      "label": "Benjamin Franklin's Parisian propaganda and the ideal of republican simplicity",
+      "priority": "major",
+      "meaning": "Franklin's scientific fame, homespun style, and carefully cultivated simplicity won court and salon society, making him an embodied advertisement for American and Rousseauistic virtue.",
+      "stance": "Preserve the calculated and socially paradoxical character of the performance: simplicity succeeded amid elite metropolitan glitter.",
+      "acceptable_access": ["Franklin, Benjamin—France", "American propaganda—Franklin", "republican simplicity", "Franklin—Paris salons"],
+      "relationships": [{"type": "symbol_of", "target_labels": ["American virtue", "Rousseauistic simplicity"]}],
+      "reader_tasks": ["Find how Franklin made the American republic culturally attractive in Paris."],
+      "evidence": [
+        {"document_page": 63, "source_page_label": "63", "locator_class": "principal", "evidence_summary": "Scientific fame, ambassadorial propaganda, simple style, and elite appeal are introduced."},
+        {"document_page": 64, "source_page_label": "64", "locator_class": "supporting", "evidence_summary": "His comfort within metropolitan society and sponsorship of anti-noble criticism complicate the image."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S087",
+      "label": "The Order of Cincinnati controversy and Mirabeau's attack on hereditary nobility",
+      "priority": "major",
+      "meaning": "Franklin prompted Mirabeau to condemn the hereditary Order of Cincinnati, allowing an American military society and its French members to become a vehicle for the first open attack on noble principle.",
+      "stance": "Do not treat all American veterans or the Order itself as anti-noble; the controversy exposed a contradiction between republican ideals and hereditary distinction.",
+      "acceptable_access": ["Order of Cincinnati", "Mirabeau—Considerations on the Order of Cincinnatus", "nobility—criticism", "Lafayette—Cincinnati"],
+      "relationships": [{"type": "case_of", "target_labels": ["American influence on French society", "Criticism of nobility"]}],
+      "reader_tasks": ["Retrieve how an American institution provoked criticism of hereditary privilege in France."],
+      "evidence": [{"document_page": 64, "source_page_label": "64", "locator_class": "principal", "evidence_summary": "Franklin's sponsorship, Mirabeau's work, the hereditary order, and French officers' display are linked."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S088",
+      "label": "American independence as proof that political regeneration and institutional reconstruction were possible",
+      "priority": "essential",
+      "meaning": "America demonstrated that established authority could be overthrown and institutions rebuilt on rational and freer foundations, turning regeneration from utopian speculation into visible experience.",
+      "stance": "Treat this demonstrative effect as more important than accurate knowledge of American conditions; do not claim the American model transferred directly or uniformly.",
+      "acceptable_access": ["American Revolution—political regeneration", "new beginnings—America", "institutional reconstruction", "American example—France"],
+      "relationships": [{"type": "makes_conceivable", "target_labels": ["French desire for change", "Revolutionary regeneration"]}],
+      "reader_tasks": ["Find the chapter's central claim about what America proved to French observers."],
+      "evidence": [{"document_page": 64, "source_page_label": "64", "locator_class": "principal", "evidence_summary": "Overthrow of authority and rational institutional rebuilding are identified as the decisive meaning of America."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S089",
+      "label": "A general restlessness and desire for change before 1789",
+      "priority": "essential",
+      "meaning": "American example, technological wonders, new cures, reform projects, and regenerated institutions fed a broad expectation that inherited limits could be overcome.",
+      "stance": "Do not treat restlessness as a single organized revolutionary movement; it was a diffuse cultural disposition open to incompatible projects.",
+      "acceptable_access": ["desire for change", "pre-revolutionary restlessness", "regeneration—cultural expectation", "innovation before 1789"],
+      "relationships": [{"type": "parent_or_synthesis", "target_labels": ["American regeneration", "Ballooning", "Mesmerism", "Freemasonry"]}],
+      "reader_tasks": ["Retrieve the broader cultural mood connecting political and scientific innovation."],
+      "evidence": [{"document_page": 64, "source_page_label": "64", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Mounier's recollection frames America, inventions, cures, and other wonders as manifestations of generalized restlessness."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S090",
+      "label": "Scientific and technological wonders—Franklin's lightning rod and balloon flight",
+      "priority": "major",
+      "meaning": "The lightning conductor and spectacular manned balloon ascents made the conquest of nature publicly visible and strengthened expectations of rapid improvement.",
+      "stance": "Treat these as culturally resonant wonders, not as direct political causes or evidence of universal scientific understanding.",
+      "acceptable_access": ["ballooning—1783–1784", "hot-air balloons", "lightning rod", "scientific wonders"],
+      "relationships": [{"type": "manifestation_of", "target_labels": ["Desire for change", "Faith in progress"]}],
+      "reader_tasks": ["Find the technological spectacles that embodied the era's appetite for novelty."],
+      "evidence": [{"document_page": 64, "source_page_label": "64", "locator_class": "principal", "evidence_summary": "Lightning protection and public balloon flights are named as conspicuous wonders of the changing age."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S091",
+      "label": "Mesmerism and belief in animal magnetism",
+      "priority": "major",
+      "meaning": "Mesmerism promised miraculous cures by manipulating supposed hidden natural forces, transferring the language of scientific discovery into a fashionable but credulous search for universal remedies.",
+      "stance": "Record animal magnetism as a contemporary belief and craze, not as an authenticated scientific force.",
+      "acceptable_access": ["Mesmerism", "animal magnetism", "miraculous cures", "pseudo-science—eighteenth century"],
+      "relationships": [{"type": "case_of", "target_labels": ["Desire for change", "Credulity and universal solutions"]}],
+      "reader_tasks": ["Retrieve why Mesmerism belonged to both scientific enthusiasm and the chapter's critique of credulity."],
+      "evidence": [{"document_page": 64, "source_page_label": "64", "locator_class": "principal", "evidence_summary": "The craze and its claims about hidden natural forces and cures are described within the vogue for wonders."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S092",
+      "label": "Freemasonry—rapid expansion, elite participation, secrecy, and the search for hidden wisdom",
+      "priority": "major",
+      "meaning": "Hundreds of lodges and tens of thousands of members spread through French towns; elites joined despite papal condemnation, attracted by ritual, secrecy, sociability, and claims to a newer and truer wisdom.",
+      "stance": "Do not depict masonry as a unified political conspiracy or uniformly radical organization.",
+      "acceptable_access": ["freemasonry—France", "masonic lodges—growth", "freemasonry—secrecy", "papal condemnation of freemasonry"],
+      "relationships": [{"type": "institution_of", "target_labels": ["Enlightened sociability", "Cultural equality", "Credulity"]}],
+      "reader_tasks": ["Find the scale, appeal, and social setting of French freemasonry before 1789."],
+      "evidence": [
+        {"document_page": 64, "source_page_label": "64", "locator_class": "principal", "evidence_summary": "Lodge growth, recruitment, urban spread, search for wisdom, and papal opposition are quantified."},
+        {"document_page": 65, "source_page_label": "65", "locator_class": "supporting", "evidence_summary": "Secrecy and later suspicion are linked to the movement's appeal."}
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S093",
+      "label": "Masonic hierarchy, fraternal equality, election by talent, and commoner cultural status",
+      "priority": "major",
+      "meaning": "Lodges retained social hierarchy, male exclusion, peer grouping, and elaborate grades, yet addressed members as equal brothers, elected officers for talent, and recognized educated commoners' cultural equality.",
+      "stance": "Preserve the contradiction between actual hierarchy and egalitarian practice; do not call lodges socially democratic without qualification.",
+      "acceptable_access": ["freemasonry—equality", "masonic hierarchy", "masonic membership—social composition", "talent—masonic office"],
+      "relationships": [{"type": "parallel_to", "target_labels": ["Literary societies", "Cultivated commoners"]}],
+      "reader_tasks": ["Retrieve how masonry combined hierarchy with new practices of cultural equality."],
+      "evidence": [{"document_page": 65, "source_page_label": "65", "locator_class": "principal", "evidence_summary": "Gender exclusion, peer grouping, grades, brotherhood, elections, and commoner membership are analyzed together."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S094",
+      "label": "Masonic philanthropy and participation in judicial reform campaigns",
+      "priority": "major",
+      "meaning": "Some lodges moved beyond ritual and conviviality into charitable collections and public vindication of wronged innocence during the justice campaigns of the 1780s.",
+      "stance": "Do not generalize reform activism to all lodges; the chapter says most avoided politics and many meetings remained primarily ritual and sociability.",
+      "acceptable_access": ["freemasonry—philanthropy", "Nine Sisters Lodge", "freemasonry—judicial reform", "masonic charity"],
+      "relationships": [{"type": "supports", "target_labels": ["Judicial miscarriages", "Enlightened sociability"]}],
+      "reader_tasks": ["Find the practical reform activities undertaken by selected masonic groups."],
+      "evidence": [{"document_page": 65, "source_page_label": "65", "locator_class": "principal", "evidence_summary": "Charitable collections and the Nine Sisters' judicial campaigns are contrasted with ordinary ritual and political caution."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S095",
+      "label": "The Bavarian Illuminati exposure and suspicion of masonic conspiracy",
+      "priority": "major",
+      "meaning": "Exposure of an Illuminati plot in Bavaria in 1787 cast suspicion on freemasonry generally because secrecy made the movement vulnerable to conspiracy interpretations.",
+      "stance": "Do not transfer the Bavarian plot to French masonry as established fact; the source distinguishes an exposed foreign conspiracy from generalized suspicion.",
+      "acceptable_access": ["Illuminati—Bavaria", "freemasonry—conspiracy fears", "masonic secrecy—suspicion"],
+      "relationships": [{"type": "triggers", "target_labels": ["Conspiracy belief", "Suspicion of freemasonry"]}],
+      "reader_tasks": ["Retrieve why the Illuminati affair damaged perceptions of a broader movement."],
+      "evidence": [{"document_page": 65, "source_page_label": "65", "locator_class": "principal", "evidence_summary": "The 1787 plot, its governmental aim, and the transfer of suspicion through masonic secrecy are stated."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-002-S096",
+      "label": "Credulity, conspiracy belief, and the search for simple universal solutions",
+      "priority": "essential",
+      "meaning": "The same culture that embraced rational improvement also credited hidden forces, plots, and simple formulas for complex problems; the chapter presents this as a grave limitation soon to be exposed by revolutionary crisis.",
+      "stance": "Preserve the chapter's critical conclusion without treating all Enlightenment reform, science, or masonry as credulous or conspiratorial.",
+      "acceptable_access": ["credulity before the Revolution", "conspiracy belief", "universal solutions", "limitations of Enlightenment opinion"],
+      "relationships": [{"type": "synthesis_or_conclusion", "target_labels": ["Mesmerism", "Illuminati fears", "Political and economic theory", "Revolutionary crisis"]}],
+      "reader_tasks": ["Find the chapter's concluding warning about the intellectual culture of reform and belief."],
+      "evidence": [{"document_page": 65, "source_page_label": "65", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Plot belief, hidden-force credulity, universal formulas, and their coming failure are explicitly synthesized."}],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    }
+  ],
+  "exclusions": [
+    {
+      "label": "Context-page subjects from Chapters 1 and 3",
+      "reason": "Pages 42-43 and 66-67 were read for boundary context only; they are owned by CHUNK-001 and CHUNK-003 and create no CHUNK-002 judgments."
+    },
+    {
+      "label": "Absent endnotes behind superscript note markers",
+      "reason": "The supplied PDF omits the endnotes. No subject or evidence claim is inferred from unavailable note text."
+    },
+    {
+      "label": "Individual periodical titles mentioned only as examples",
+      "reason": "Mercure de France, Journal des savants, Année littéraire, Courrier d'Avignon, Courrier du Bas Rhin, Journal encyclopédique, and similar titles are retained as access terms under the press system unless the chapter gives them a distinct analytical role."
+    },
+    {
+      "label": "Individual book-trade cities and distribution examples",
+      "reason": "Holland, Avignon, Geneva, Neuchâtel, Nantes, Bayeux, and other locations create subjects only where the chapter gives the place or institution sustained explanatory value."
+    },
+    {
+      "label": "Attribution-only writers and quoted observers",
+      "reason": "Herder, Alfieri, Grimm, Fréron, Crèvecoeur, Brissot, Mounier, and isolated correspondents are not separate required concepts when they supply one quotation or example rather than independent treatment."
+    },
+    {
+      "label": "Lists of intendant reforms",
+      "reason": "Street alignment, inoculation, graveyard relocation, cattle controls, and work schemes are evidence for enlightened administrative intervention, not separate subjects in this chapter."
+    },
+    {
+      "label": "Named members and individual lodges used only as masonic illustrations",
+      "reason": "Voltaire, Franklin, Lafayette, the Nine Sisters Lodge, and other examples are indexed separately only where the chapter independently develops their role outside the general freemasonry analysis."
+    }
+  ],
+  "uncertainties": [
+    {
+      "item": "Granularity of named journals and print institutions",
+      "alternatives": ["retain selected titles as independent benchmark concepts", "merge them into system-level press and censorship concepts while preserving title access terms"],
+      "evidence_needed": "Whole-book review of recurrence and whether later chapters depend on particular journals as political actors.",
+      "confidence": "medium"
+    },
+    {
+      "item": "Separate access for penal and toleration cause célèbres",
+      "alternatives": ["retain Calas, Sirven, Damiens, and La Barre as distinct concepts", "group selected cases under religious toleration or criminal-justice reform while preserving direct access"],
+      "evidence_needed": "Whole-book synthesis of recurrence, reader tasks, and whether later chapters reuse the individual cases.",
+      "confidence": "medium"
+    },
+    {
+      "item": "Cross-chapter consolidation of public opinion, Necker, America, and representative institutions",
+      "alternatives": ["retain chapter-local concepts", "merge them into broader longitudinal concepts with chapter-specific evidence nodes"],
+      "evidence_needed": "Review Chapters 3-17 for recurrence, changing meaning, and conclusion-level treatment.",
+      "confidence": "medium"
+    },
+    {
+      "item": "Separate benchmark status for scientific wonders, Mesmerism, and freemasonry",
+      "alternatives": ["retain each as independently searchable", "treat some as examples within the chapter's concluding analysis of credulity and regeneration"],
+      "evidence_needed": "Whole-source assessment of recurrence and explanatory importance.",
+      "confidence": "medium"
+    }
+  ]
+}

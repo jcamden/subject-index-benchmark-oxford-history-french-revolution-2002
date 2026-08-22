@@ -2,7 +2,7 @@
   "schema_version": "subject-index-artifact-manifest-v1",
   "evaluation_id": "oxford-history-french-revolution-1990-indexerlabs-truncated",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-22T16:30:49Z",
+  "updated_at": "2026-08-22T17:22:07Z",
   "artifacts": [
     {
       "artifact_id": "ART-B728D6CB7F53",
@@ -547,6 +547,18 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-22T16:30:49Z"
+    },
+    {
+      "artifact_id": "ART-F56C785C509B",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-002.json",
+      "sha256": "89cf41457ecbf53759b99c6d1889b61593e153060420ab6c153a2c1e7f1003a9",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-22T17:22:07Z"
     }
   ]
 }
