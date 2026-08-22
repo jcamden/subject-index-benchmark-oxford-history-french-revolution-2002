@@ -1,6 +1,6 @@
-# Subject Index Benchmark: The Oxford History of the French Revolution (1990)
+# Subject Index Benchmark: The Oxford History of the French Revolution (2002)
 
-Candidate-independent, source-grounded artifacts for evaluating subject indexes to William Doyle's *The Oxford History of the French Revolution*, 1990 edition.
+Candidate-independent, source-grounded artifacts for evaluating subject indexes to William Doyle's *The Oxford History of the French Revolution*, 2002 edition.
 
 ## Scope
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "subject-index-evaluation-policy-v2",
-  "policy_id": "oxford-history-french-revolution-1990-standard-policy-v1",
+  "policy_id": "oxford-history-french-revolution-2002-standard-policy-v1",
   "policy_profile": {
     "id": "subject-index-standard-policy-v1",
     "standard_policy_sha256": "59c528cf2b30b883fe0a73c9426cc3ed0467352109750839df7c8dfd9ca72f60"
@@ -257,8 +257,8 @@
   },
   "deviations": [],
   "freeze": {
-    "frozen_at": "2026-08-22T14:59:17Z",
+    "frozen_at": "2026-08-22T19:30:32Z",
     "candidate_seen": false
   },
-  "policy_sha256": "c11689daa76370d38e43aaecbc91123d36b8fb973a42a5d2b0cb14ca30280c92"
+  "policy_sha256": "2254e2df6ffba73b800efc22f8cd030669e800f3494e8ee074f6e5ef549782ab"
 }

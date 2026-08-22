@@ -1,6 +1,6 @@
 {
   "schema_version": "source-subject-chunk-v1",
-  "evaluation_id": "oxford-history-french-revolution-1990-indexerlabs-truncated",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "chunk": {
     "chunk_id": "CHUNK-001",
     "chapter_labels": ["Chapter 1: France under Louis XVI"],

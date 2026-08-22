@@ -1,6 +1,6 @@
 {
   "schema_version": "source-subject-chunk-v1",
-  "evaluation_id": "oxford-history-french-revolution-1990-indexerlabs-truncated",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "revision": {
     "version": 2,
     "supersedes": "source/source-subject-chunk.CHUNK-001.json",

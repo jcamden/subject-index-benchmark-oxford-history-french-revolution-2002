@@ -1,11 +1,11 @@
 {
   "schema_version": "subject-index-evaluation-state-v3",
-  "evaluation_id": "oxford-history-french-revolution-1990-indexerlabs-truncated",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "artifact_manifest_path": "artifact-manifest.json",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-22T17:22:07Z",
+  "updated_at": "2026-08-22T19:31:01Z",
   "source": {
-    "title": "The Oxford History of the French Revolution (1990 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
+    "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
     "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
     "document_page_span": [
@@ -38,7 +38,9 @@
     "initialize": {
       "status": "completed",
       "updated_at": "2026-08-21T16:45:54Z",
-      "notes": []
+      "notes": [
+        "Edition identity corrected to 2002 on 2026-08-22; source bytes and SHA-256 are unchanged."
+      ]
     },
     "page_mapping": {
       "status": "completed",
@@ -207,7 +209,7 @@
       "stage": "define_policy",
       "artifact_type": "policy_build_input",
       "path": "source/policy-build-input.json",
-      "sha256": "60daef9961d0a888a7eb7adcd247329ef2005af576ff7578971cc4bcbaefa3e5",
+      "sha256": "e6367fea1ce280bceeb8fd22ffe7c9d2ed6ee34c650a25569b87f7f9fd2a15e8",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
@@ -218,7 +220,7 @@
       "stage": "define_policy",
       "artifact_type": "evaluation_policy_superseded",
       "path": "source/evaluation-policy.json",
-      "sha256": "50407fbfe9b216cd00a3ff4b21d887f7e4f5ae01ed24edac72345f0a9da5cf25",
+      "sha256": "25ae6a6b8fdf63acb576062eb922e3ad37b1941c89d09c0046ddfa3c193b1fd3",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
@@ -231,7 +233,7 @@
       "stage": "define_policy",
       "artifact_type": "policy_build_input_v2",
       "path": "source/policy-build-input.v2.json",
-      "sha256": "70169c936e7c0fac8ac3736eb26268fda2040cb5ca78da14efb882c1d8ae3fc6",
+      "sha256": "4fea55be549f872e3f9d0f07952fe2780ba02e611264f8f5d8afb4a3dffb6d26",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
@@ -242,7 +244,7 @@
       "stage": "define_policy",
       "artifact_type": "evaluation_policy",
       "path": "source/evaluation-policy.v2.json",
-      "sha256": "228828bed734b23fce94fecbcc905dff68a6766f92e3a10da30ca3af3dbc296f",
+      "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
@@ -627,7 +629,7 @@
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_inventory",
       "path": "source/chunks/source-chunk-inventory.json",
-      "sha256": "339796b156e1c10aae4e2afa62de23ef45f483b731308b907928c9a259282900",
+      "sha256": "d220f23f383bdb34673f8d4d5e832bc4a92a012e4f3dc2ec815d2117fe0da6d2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
@@ -638,7 +640,7 @@
       "stage": "source_subject_discovery",
       "artifact_type": "source_subject_chunk_superseded",
       "path": "source/source-subject-chunk.CHUNK-001.json",
-      "sha256": "287fad040b4098f57a2da20f6b9f028e12301c39da06a011cb7438d25c722664",
+      "sha256": "36866faa822f07013ed33b5c4e43f89b014e3a9b5335922a1f2a67597c034578",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
@@ -651,7 +653,7 @@
       "stage": "source_subject_discovery",
       "artifact_type": "source_subject_chunk",
       "path": "source/source-subject-chunk.CHUNK-001.v2.json",
-      "sha256": "84de5a5943a5fe20edd1be4c26b8a7c25d673572ca26aa3b5ad5335d510171ca",
+      "sha256": "8bc6f13b0caf691e342232b6a9544da36889fa1bff41570581c728bf75c35fab",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
@@ -662,7 +664,7 @@
       "stage": "source_subject_discovery",
       "artifact_type": "source_subject_chunk",
       "path": "source/source-subject-chunk.CHUNK-002.json",
-      "sha256": "89cf41457ecbf53759b99c6d1889b61593e153060420ab6c153a2c1e7f1003a9",
+      "sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
