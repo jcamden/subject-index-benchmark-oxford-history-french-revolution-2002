@@ -4,7 +4,7 @@ Candidate-independent, source-grounded artifacts for evaluating subject indexes 
 
 ## Scope
 
-The supplied study source is the IndexerLabs-distributed special PDF, which lacks front matter and endnotes. Its 425 supplied document pages map directly to source labels 1–425.
+The supplied study source matches the IndexerLabs-distributed special PDF, which lacks front matter and endnotes. Its 425 supplied document pages map directly to source labels 1–425.
 
 This repository contains:
 
