@@ -2,7 +2,7 @@
   "schema_version": "subject-index-artifact-manifest-v1",
   "evaluation_id": "oxford-history-french-revolution-1990-indexerlabs-truncated",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-22T15:13:36Z",
+  "updated_at": "2026-08-22T16:30:49Z",
   "artifacts": [
     {
       "artifact_id": "ART-B728D6CB7F53",
@@ -525,14 +525,28 @@
     {
       "artifact_id": "ART-47F33C920CD9",
       "stage": "source_subject_discovery",
-      "artifact_type": "source_subject_chunk",
+      "artifact_type": "source_subject_chunk_superseded",
       "path": "source/source-subject-chunk.CHUNK-001.json",
       "sha256": "287fad040b4098f57a2da20f6b9f028e12301c39da06a011cb7438d25c722664",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-08-22T15:13:36Z"
+      "recorded_at": "2026-08-22T15:13:36Z",
+      "superseded_by": "source/source-subject-chunk.CHUNK-001.v2.json",
+      "supersession_reason": "Fresh candidate-blind reassessment found that the first pass over-compressed independently searchable subjects into broad compound concepts."
+    },
+    {
+      "artifact_id": "ART-FF3DF8C45731",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-001.v2.json",
+      "sha256": "84de5a5943a5fe20edd1be4c26b8a7c25d673572ca26aa3b5ad5335d510171ca",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-22T16:30:49Z"
     }
   ]
 }
