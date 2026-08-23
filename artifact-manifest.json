@@ -2,7 +2,7 @@
   "schema_version": "subject-index-artifact-manifest-v1",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-23T04:56:27Z",
+  "updated_at": "2026-08-23T12:49:22Z",
   "artifacts": [
     {
       "artifact_id": "ART-B728D6CB7F53",
@@ -521,6 +521,18 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-22T15:01:42Z"
+    },
+    {
+      "artifact_id": "ART-823A6F6E4BFB",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v1.json",
+      "sha256": "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T12:49:22Z"
     },
     {
       "artifact_id": "ART-47F33C920CD9",

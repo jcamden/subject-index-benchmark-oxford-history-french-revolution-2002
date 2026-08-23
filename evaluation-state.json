@@ -3,7 +3,7 @@
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "artifact_manifest_path": "artifact-manifest.json",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-23T04:56:27Z",
+  "updated_at": "2026-08-23T12:49:22Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
@@ -140,9 +140,11 @@
       ]
     },
     "benchmark_freeze": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-08-23T12:49:22Z",
+      "notes": [
+        "Whole-book candidate-blind synthesis completed: 1,432 local records consolidated into 1,378 stable concepts; canonical benchmark SHA-256 3a1d9d319d2a9d8a8aff812248bc92201e7bb9b1d92c9d9cd48432cb6c497d98."
+      ]
     },
     "candidate_normalization": {
       "status": "not_started",
@@ -855,6 +857,17 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-823A6F6E4BFB",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v1.json",
+      "sha256": "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T12:49:22Z"
     }
   ],
   "blockers": []
