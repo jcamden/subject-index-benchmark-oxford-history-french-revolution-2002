@@ -2,7 +2,7 @@
   "schema_version": "subject-index-artifact-manifest-v1",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-23T02:10:42Z",
+  "updated_at": "2026-08-23T04:56:27Z",
   "artifacts": [
     {
       "artifact_id": "ART-B728D6CB7F53",
@@ -631,6 +631,114 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-23T01:20:17Z"
+    },
+    {
+      "artifact_id": "ART-6909D4895104",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-009.json",
+      "sha256": "d1820383c7823e487c32071a8c1b65a5614e0fcb74e89eec88994a8b7177d839",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-757776E447C8",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-010.json",
+      "sha256": "6eb423e3b3aa03d4fdf4042fececfd6c5b3400d4e5f0001273c8eba796eddcff",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-0823183DA1E8",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-011.json",
+      "sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-DC15FC147F7A",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-012.json",
+      "sha256": "074c27d7ca132dac6c642eac49ccb90015708cba2b121a6fae381b077a02ecab",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-9904ABF1DE1F",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-013.json",
+      "sha256": "b968dfd3cc69bad019b4988886048ed52e4912bee999d98d25c8c472a8f1d719",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-4DA9F872AF15",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-014.json",
+      "sha256": "70071d89ccdf99471d504d21ada8accf03a1748fe43e25bce92ae51e0c3a6311",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-67B2CA2D5F4B",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-015.json",
+      "sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-E36F15B13ECE",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-016.json",
+      "sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-C364FA5CE0D4",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-017.json",
+      "sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
     }
   ]
 }

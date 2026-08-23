@@ -3,7 +3,7 @@
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "artifact_manifest_path": "artifact-manifest.json",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-23T02:10:42Z",
+  "updated_at": "2026-08-23T04:56:27Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
@@ -110,8 +110,8 @@
       ]
     },
     "source_subject_discovery": {
-      "status": "in_progress",
-      "updated_at": "2026-08-23T02:10:42Z",
+      "status": "completed",
+      "updated_at": "2026-08-23T04:56:27Z",
       "notes": [
         "CHUNK-001 complete; 16 source chunks remain.",
         "CHUNK-001 v2 reassessment complete; 16 source chunks remain.",
@@ -126,7 +126,17 @@
         "GitHub PR #6 from source-discovery/chunk-006 at fd31ba783dcd6dc388d92d4d42df4634ec10b992 merged as 963b956f00d954c4d74e1f2ac03fac060f668598; artifact SHA-256 c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6.",
         "GitHub PR #4 / CHUNK-004 was already merged and canonically registered at the identical frozen artifact hash; no duplicate integration was performed.",
         "Integrated parallel source discoveries: CHUNK-007.",
-        "GitHub PR #2 from source-discovery/chunk-007 at 4c7b9d445948cf27cf5a3153a0a5c3c9fd7b5294 merged as ee0b4bc6030e60cefeb9d9c88ef67461c6d9b172; artifact SHA-256 4ebc488a36d366a557ae8730c6d384f11e9eea3ef8dcd361febb352ad62d0662."
+        "GitHub PR #2 from source-discovery/chunk-007 at 4c7b9d445948cf27cf5a3153a0a5c3c9fd7b5294 merged as ee0b4bc6030e60cefeb9d9c88ef67461c6d9b172; artifact SHA-256 4ebc488a36d366a557ae8730c6d384f11e9eea3ef8dcd361febb352ad62d0662.",
+        "Integrated parallel source discoveries: CHUNK-009, CHUNK-010, CHUNK-011, CHUNK-012, CHUNK-013, CHUNK-014, CHUNK-015, CHUNK-016, CHUNK-017.",
+        "GitHub PR #12 from source-discovery/chunk-009 at 6d0f8c329015f132951dad06829064c26bd42ffc merged as a0d4e7452bb5a7118709aeed1b53ecf3841d224d; artifact SHA-256 d1820383c7823e487c32071a8c1b65a5614e0fcb74e89eec88994a8b7177d839.",
+        "GitHub PR #9 from source-discovery/chunk-010 at 197bc432ddc039b6766c02baa018c047849676ac merged as d1b606cc3bf34866bcf5ca7b445b28b3ed6d2a2f; artifact SHA-256 6eb423e3b3aa03d4fdf4042fececfd6c5b3400d4e5f0001273c8eba796eddcff.",
+        "GitHub PR #11 from source-discovery/chunk-011 at f2738f071866231aff98176028d2a0ad22dd6825 merged as 43c72c803f6bd03679d91771301b0916722f11d5; artifact SHA-256 d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9.",
+        "GitHub PR #7 from source-discovery/chunk-012 at 4aca8aef6b6b2d71a7a0b0a6328f5cc9d860ef11 merged as 36c0f1beb0df17b03435f69c9476e548931f31bc; artifact SHA-256 074c27d7ca132dac6c642eac49ccb90015708cba2b121a6fae381b077a02ecab.",
+        "GitHub PR #8 from source-discovery/chunk-013 at acb420141c7bda83fb835ce8dc989c4591942d74 merged as 0bd9cdf8f960823541c6dfd9342911575a234c8f; artifact SHA-256 b968dfd3cc69bad019b4988886048ed52e4912bee999d98d25c8c472a8f1d719.",
+        "GitHub PR #14 from source-discovery/chunk-014 at dde68039174bfb08f3aa40bc4d3909b9cbb7d188 merged as ab242c43ce80e6f26e39d3b7e657b924cd34ec7d; artifact SHA-256 70071d89ccdf99471d504d21ada8accf03a1748fe43e25bce92ae51e0c3a6311.",
+        "GitHub PR #10 from source-discovery/chunk-015 at db7ea825cd305c2a26624d522252c0c7d0556e5e merged as 4dcb5542183b9f9aba10e7d01585187343246c6b; artifact SHA-256 82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666.",
+        "GitHub PR #13 from source-discovery/chunk-016 at e71d866497808a2beb0ac38ee6998f11e2e3a453 merged as a8224054dfcef27df417184cb51d8504aeb33233; artifact SHA-256 94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b.",
+        "GitHub PR #15 from source-discovery/chunk-017 at 8b9a76954cedab5f45bdc8dbdfee44aebefceaa1 merged as 635a782b2d37e1db4eb8c79c9c5b06ef724a060c; artifact SHA-256 98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac."
       ]
     },
     "benchmark_freeze": {
@@ -746,6 +756,105 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-23T01:20:17Z"
+    },
+    {
+      "artifact_id": "ART-6909D4895104",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-009.json",
+      "sha256": "d1820383c7823e487c32071a8c1b65a5614e0fcb74e89eec88994a8b7177d839",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-757776E447C8",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-010.json",
+      "sha256": "6eb423e3b3aa03d4fdf4042fececfd6c5b3400d4e5f0001273c8eba796eddcff",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-0823183DA1E8",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-011.json",
+      "sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-DC15FC147F7A",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-012.json",
+      "sha256": "074c27d7ca132dac6c642eac49ccb90015708cba2b121a6fae381b077a02ecab",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-9904ABF1DE1F",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-013.json",
+      "sha256": "b968dfd3cc69bad019b4988886048ed52e4912bee999d98d25c8c472a8f1d719",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-4DA9F872AF15",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-014.json",
+      "sha256": "70071d89ccdf99471d504d21ada8accf03a1748fe43e25bce92ae51e0c3a6311",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-67B2CA2D5F4B",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-015.json",
+      "sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-E36F15B13ECE",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-016.json",
+      "sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-C364FA5CE0D4",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-017.json",
+      "sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T04:56:27Z"
     }
   ],
   "blockers": []
