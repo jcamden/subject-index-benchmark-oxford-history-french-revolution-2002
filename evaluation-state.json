@@ -3,7 +3,7 @@
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "artifact_manifest_path": "artifact-manifest.json",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-22T19:31:01Z",
+  "updated_at": "2026-08-23T00:00:38Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
@@ -111,11 +111,13 @@
     },
     "source_subject_discovery": {
       "status": "in_progress",
-      "updated_at": "2026-08-22T17:22:07Z",
+      "updated_at": "2026-08-23T00:00:38Z",
       "notes": [
         "CHUNK-001 complete; 16 source chunks remain.",
         "CHUNK-001 v2 reassessment complete; 16 source chunks remain.",
-        "CHUNK-002 high-depth candidate-blind discovery complete; 15 source chunks remain."
+        "CHUNK-002 high-depth candidate-blind discovery complete; 15 source chunks remain.",
+        "Integrated parallel source discoveries: CHUNK-003.",
+        "GitHub PR #1 from source-discovery/chunk-003 at 9e9d86fd342bf1322588f2668d7bf2162ee7a9fb merged as dc084193f16ad3250783ef0a768a6908b403ac05; artifact SHA-256 d3c9ec3645b8ff0d0c755ddeebea36b6fe8f1c4a6483231e7474da7e697fa159."
       ]
     },
     "benchmark_freeze": {
@@ -161,28 +163,6 @@
   },
   "artifacts": [
     {
-      "artifact_id": "ART-E8D850D0C80E",
-      "stage": "page_mapping",
-      "artifact_type": "page_map_input",
-      "path": "source/page-map-input.json",
-      "sha256": "5bb36cdf1d60c5fdaa2e26c0fd63b2d9429862ca712acdc7954879df5c7c1310",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-08-21T16:57:21Z"
-    },
-    {
-      "artifact_id": "ART-9607411ECD7A",
-      "stage": "page_mapping",
-      "artifact_type": "page_map",
-      "path": "source/page-map.json",
-      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-08-21T16:57:21Z"
-    },
-    {
       "artifact_id": "ART-B728D6CB7F53",
       "stage": "chunk_definition",
       "artifact_type": "chunk_manifest_input",
@@ -205,63 +185,6 @@
       "recorded_at": "2026-08-22T02:12:05Z"
     },
     {
-      "artifact_id": "ART-F82EE08F4852",
-      "stage": "define_policy",
-      "artifact_type": "policy_build_input",
-      "path": "source/policy-build-input.json",
-      "sha256": "e6367fea1ce280bceeb8fd22ffe7c9d2ed6ee34c650a25569b87f7f9fd2a15e8",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-08-22T14:59:17Z"
-    },
-    {
-      "artifact_id": "ART-775EFC80A378",
-      "stage": "define_policy",
-      "artifact_type": "evaluation_policy_superseded",
-      "path": "source/evaluation-policy.json",
-      "sha256": "25ae6a6b8fdf63acb576062eb922e3ad37b1941c89d09c0046ddfa3c193b1fd3",
-      "visibility": "public",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-08-22T14:59:17Z",
-      "superseded_by": "source/evaluation-policy.v2.json",
-      "supersession_reason": "Policy v1 used byte-level page-map and chunk-manifest hashes instead of their canonical embedded hashes."
-    },
-    {
-      "artifact_id": "ART-F5223DF999F0",
-      "stage": "define_policy",
-      "artifact_type": "policy_build_input_v2",
-      "path": "source/policy-build-input.v2.json",
-      "sha256": "4fea55be549f872e3f9d0f07952fe2780ba02e611264f8f5d8afb4a3dffb6d26",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-08-22T15:01:42Z"
-    },
-    {
-      "artifact_id": "ART-D6103E9D074A",
-      "stage": "define_policy",
-      "artifact_type": "evaluation_policy",
-      "path": "source/evaluation-policy.v2.json",
-      "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
-      "visibility": "public",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-08-22T15:01:42Z"
-    },
-    {
-      "artifact_id": "ART-3CE256DCFD46",
-      "stage": "source_chunk_preparation",
-      "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-001.pdf",
-      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
-      "visibility": "restricted",
-      "retention": "cache",
-      "frozen": false,
-      "recorded_at": "2026-08-22T15:02:29Z"
-    },
-    {
       "artifact_id": "ART-C15781637529",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_sidecar",
@@ -273,11 +196,11 @@
       "recorded_at": "2026-08-22T15:02:29Z"
     },
     {
-      "artifact_id": "ART-57268EE6264F",
+      "artifact_id": "ART-3CE256DCFD46",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-002.pdf",
-      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "path": "source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -295,11 +218,11 @@
       "recorded_at": "2026-08-22T15:02:29Z"
     },
     {
-      "artifact_id": "ART-D7D9A2FB86FB",
+      "artifact_id": "ART-57268EE6264F",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-003.pdf",
-      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+      "path": "source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -317,11 +240,11 @@
       "recorded_at": "2026-08-22T15:02:29Z"
     },
     {
-      "artifact_id": "ART-C5E3148232E1",
+      "artifact_id": "ART-D7D9A2FB86FB",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-004.pdf",
-      "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe",
+      "path": "source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -339,15 +262,15 @@
       "recorded_at": "2026-08-22T15:02:30Z"
     },
     {
-      "artifact_id": "ART-1A5C1D4C43A1",
+      "artifact_id": "ART-C5E3148232E1",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-005.pdf",
-      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+      "path": "source/chunks/CHUNK-004.pdf",
+      "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
-      "recorded_at": "2026-08-22T15:02:30Z"
+      "recorded_at": "2026-08-22T15:02:29Z"
     },
     {
       "artifact_id": "ART-C351741B2E31",
@@ -361,11 +284,11 @@
       "recorded_at": "2026-08-22T15:02:30Z"
     },
     {
-      "artifact_id": "ART-C3C871C027B5",
+      "artifact_id": "ART-1A5C1D4C43A1",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-006.pdf",
-      "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306",
+      "path": "source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -383,11 +306,11 @@
       "recorded_at": "2026-08-22T15:02:30Z"
     },
     {
-      "artifact_id": "ART-E47960FAE5D4",
+      "artifact_id": "ART-C3C871C027B5",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-007.pdf",
-      "sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c",
+      "path": "source/chunks/CHUNK-006.pdf",
+      "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -405,15 +328,15 @@
       "recorded_at": "2026-08-22T15:02:31Z"
     },
     {
-      "artifact_id": "ART-E252900D2CC3",
+      "artifact_id": "ART-E47960FAE5D4",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-008.pdf",
-      "sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81",
+      "path": "source/chunks/CHUNK-007.pdf",
+      "sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
-      "recorded_at": "2026-08-22T15:02:31Z"
+      "recorded_at": "2026-08-22T15:02:30Z"
     },
     {
       "artifact_id": "ART-9D60ED702C73",
@@ -427,11 +350,11 @@
       "recorded_at": "2026-08-22T15:02:31Z"
     },
     {
-      "artifact_id": "ART-E281E4F9F653",
+      "artifact_id": "ART-E252900D2CC3",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-009.pdf",
-      "sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8",
+      "path": "source/chunks/CHUNK-008.pdf",
+      "sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -449,11 +372,11 @@
       "recorded_at": "2026-08-22T15:02:31Z"
     },
     {
-      "artifact_id": "ART-1D3CFF737345",
+      "artifact_id": "ART-E281E4F9F653",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-010.pdf",
-      "sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d",
+      "path": "source/chunks/CHUNK-009.pdf",
+      "sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -471,15 +394,15 @@
       "recorded_at": "2026-08-22T15:02:32Z"
     },
     {
-      "artifact_id": "ART-65F1FA1F8694",
+      "artifact_id": "ART-1D3CFF737345",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-011.pdf",
-      "sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701",
+      "path": "source/chunks/CHUNK-010.pdf",
+      "sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
-      "recorded_at": "2026-08-22T15:02:32Z"
+      "recorded_at": "2026-08-22T15:02:31Z"
     },
     {
       "artifact_id": "ART-2593328D9AD4",
@@ -493,11 +416,11 @@
       "recorded_at": "2026-08-22T15:02:32Z"
     },
     {
-      "artifact_id": "ART-4E0801B668BD",
+      "artifact_id": "ART-65F1FA1F8694",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-012.pdf",
-      "sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d",
+      "path": "source/chunks/CHUNK-011.pdf",
+      "sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -515,15 +438,15 @@
       "recorded_at": "2026-08-22T15:02:32Z"
     },
     {
-      "artifact_id": "ART-1317EA0B6CB2",
+      "artifact_id": "ART-4E0801B668BD",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-013.pdf",
-      "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e",
+      "path": "source/chunks/CHUNK-012.pdf",
+      "sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
-      "recorded_at": "2026-08-22T15:02:33Z"
+      "recorded_at": "2026-08-22T15:02:32Z"
     },
     {
       "artifact_id": "ART-FF617AAC1CB9",
@@ -537,11 +460,11 @@
       "recorded_at": "2026-08-22T15:02:33Z"
     },
     {
-      "artifact_id": "ART-82F4478817EC",
+      "artifact_id": "ART-1317EA0B6CB2",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-014.pdf",
-      "sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40",
+      "path": "source/chunks/CHUNK-013.pdf",
+      "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -559,11 +482,11 @@
       "recorded_at": "2026-08-22T15:02:33Z"
     },
     {
-      "artifact_id": "ART-2DC4A826EDA6",
+      "artifact_id": "ART-82F4478817EC",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-015.pdf",
-      "sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5",
+      "path": "source/chunks/CHUNK-014.pdf",
+      "sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -581,15 +504,15 @@
       "recorded_at": "2026-08-22T15:02:33Z"
     },
     {
-      "artifact_id": "ART-25744B24AF7F",
+      "artifact_id": "ART-2DC4A826EDA6",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-016.pdf",
-      "sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9",
+      "path": "source/chunks/CHUNK-015.pdf",
+      "sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
-      "recorded_at": "2026-08-22T15:02:34Z"
+      "recorded_at": "2026-08-22T15:02:33Z"
     },
     {
       "artifact_id": "ART-5C1D99D2D30B",
@@ -603,11 +526,11 @@
       "recorded_at": "2026-08-22T15:02:34Z"
     },
     {
-      "artifact_id": "ART-7ADC198BD4B1",
+      "artifact_id": "ART-25744B24AF7F",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_pdf",
-      "path": "source/chunks/CHUNK-017.pdf",
-      "sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2",
+      "path": "source/chunks/CHUNK-016.pdf",
+      "sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9",
       "visibility": "restricted",
       "retention": "cache",
       "frozen": false,
@@ -625,6 +548,17 @@
       "recorded_at": "2026-08-22T15:02:34Z"
     },
     {
+      "artifact_id": "ART-7ADC198BD4B1",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source_chunk_pdf",
+      "path": "source/chunks/CHUNK-017.pdf",
+      "sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2",
+      "visibility": "restricted",
+      "retention": "cache",
+      "frozen": false,
+      "recorded_at": "2026-08-22T15:02:34Z"
+    },
+    {
       "artifact_id": "ART-BE77272FCBA5",
       "stage": "source_chunk_preparation",
       "artifact_type": "source_chunk_inventory",
@@ -634,6 +568,74 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-22T15:02:34Z"
+    },
+    {
+      "artifact_id": "ART-775EFC80A378",
+      "stage": "define_policy",
+      "artifact_type": "evaluation_policy_superseded",
+      "path": "source/evaluation-policy.json",
+      "sha256": "25ae6a6b8fdf63acb576062eb922e3ad37b1941c89d09c0046ddfa3c193b1fd3",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-22T14:59:17Z",
+      "superseded_by": "source/evaluation-policy.v2.json",
+      "supersession_reason": "Policy v1 used byte-level page-map and chunk-manifest hashes instead of their canonical embedded hashes."
+    },
+    {
+      "artifact_id": "ART-D6103E9D074A",
+      "stage": "define_policy",
+      "artifact_type": "evaluation_policy",
+      "path": "source/evaluation-policy.v2.json",
+      "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-22T15:01:42Z"
+    },
+    {
+      "artifact_id": "ART-E8D850D0C80E",
+      "stage": "page_mapping",
+      "artifact_type": "page_map_input",
+      "path": "source/page-map-input.json",
+      "sha256": "5bb36cdf1d60c5fdaa2e26c0fd63b2d9429862ca712acdc7954879df5c7c1310",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-21T16:57:21Z"
+    },
+    {
+      "artifact_id": "ART-9607411ECD7A",
+      "stage": "page_mapping",
+      "artifact_type": "page_map",
+      "path": "source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-21T16:57:21Z"
+    },
+    {
+      "artifact_id": "ART-F82EE08F4852",
+      "stage": "define_policy",
+      "artifact_type": "policy_build_input",
+      "path": "source/policy-build-input.json",
+      "sha256": "e6367fea1ce280bceeb8fd22ffe7c9d2ed6ee34c650a25569b87f7f9fd2a15e8",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-22T14:59:17Z"
+    },
+    {
+      "artifact_id": "ART-F5223DF999F0",
+      "stage": "define_policy",
+      "artifact_type": "policy_build_input_v2",
+      "path": "source/policy-build-input.v2.json",
+      "sha256": "4fea55be549f872e3f9d0f07952fe2780ba02e611264f8f5d8afb4a3dffb6d26",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-22T15:01:42Z"
     },
     {
       "artifact_id": "ART-47F33C920CD9",
@@ -669,6 +671,17 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-22T17:22:07Z"
+    },
+    {
+      "artifact_id": "ART-5E6F8FF8674D",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-003.json",
+      "sha256": "d3c9ec3645b8ff0d0c755ddeebea36b6fe8f1c4a6483231e7474da7e697fa159",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T00:00:38Z"
     }
   ],
   "blockers": []
