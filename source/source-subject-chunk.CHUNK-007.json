@@ -1,0 +1,3158 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "generated_at": "2026-08-23T00:36:44Z",
+  "chunk": {
+    "chunk_id": "CHUNK-007",
+    "chapter_labels": [
+      "7. Europe and the Revolution, 1788-1791"
+    ],
+    "owned_document_pages": [
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173
+    ],
+    "context_document_pages": [
+      157,
+      158,
+      174,
+      175
+    ]
+  },
+  "candidate_blindness": "preserved",
+  "provenance": {
+    "source_filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "policy_id": "oxford-history-french-revolution-2002-standard-policy-v2",
+    "policy_profile": "subject-index-standard-policy-v1",
+    "rubric_version": "subject-index-rubric-v4",
+    "audit_mode": "full",
+    "readership": "scholarly",
+    "repository_base_commit": "7b10688a87f131d0180f5aa353739972410fab29",
+    "candidate_index_consulted": false,
+    "earlier_source_discoveries_consulted_before_fresh_draft": false,
+    "policy_path": "source/evaluation-policy.v2.json",
+    "source_chunk_pdf_sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c",
+    "source_chunk_sidecar_sha256": "693a25f982ac97534f3380439f2b56b35b1e1e023a4686d4e40e7b9950e9c423"
+  },
+  "page_review": {
+    "expected_owned_pages": 15,
+    "reviewed_owned_pages": 15,
+    "reviewed_owned_document_pages": [
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173
+    ],
+    "reviewed_context_document_pages": [
+      157,
+      158,
+      174,
+      175
+    ],
+    "indexable_source_words": 6561,
+    "word_count_method": "Whitespace-delimited words in owned body text after repairing line-end hyphenation and excluding running heads, page numbers, and the displayed chapter number and title; substantive block quotations remain included.",
+    "excluded_regions": [
+      {
+        "document_page_range": [
+          159,
+          173
+        ],
+        "regions": [
+          "running heads",
+          "page numbers"
+        ],
+        "reason": "Frozen policy excludes running furniture and page numbers."
+      },
+      {
+        "document_page": 159,
+        "regions": [
+          "displayed chapter number and title"
+        ],
+        "reason": "Excluded from the density denominator as navigational display matter; the chapter body is fully counted."
+      }
+    ],
+    "unavailable_regions": [
+      {
+        "scope": "source-wide",
+        "regions": [
+          "front matter",
+          "notes and endnotes",
+          "bibliography",
+          "publisher index"
+        ],
+        "reason": "These components are absent from the supplied restricted source and were frozen as unavailable."
+      }
+    ],
+    "complete": true
+  },
+  "page_review_log": [
+    {
+      "document_page": 157,
+      "source_page_label": "157",
+      "ownership": "context",
+      "reviewed": true,
+      "note": "Established the preceding chapter's account of Pillnitz, émigré alarms, Avignon, and the unresolved constitutional settlement."
+    },
+    {
+      "document_page": 158,
+      "source_page_label": "158",
+      "ownership": "context",
+      "reviewed": true,
+      "note": "Completed the preceding synthesis on religious, monarchical, noble, and republican fractures before Chapter 7."
+    },
+    {
+      "document_page": 159,
+      "source_page_label": "159",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Introduced European surprise, the wider age of upheaval, Joseph II's reform crisis, French support for foreign rebels, and France's domestic collapse."
+    },
+    {
+      "document_page": 160,
+      "source_page_label": "160",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Traced France's diplomatic decline and the Bastille's enthusiastic reception among European publics and intellectuals."
+    },
+    {
+      "document_page": 161,
+      "source_page_label": "161",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Contrasted Britain's constitutional self-image with French change and followed Genevan and Dutch political exiles toward the Low Countries."
+    },
+    {
+      "document_page": 162,
+      "source_page_label": "162",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Distinguished Belgian defense of inherited liberties from French reconstruction and narrated the Brabant and Liège insurgencies."
+    },
+    {
+      "document_page": 163,
+      "source_page_label": "163",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Explained the United States of Belgium, the Statist-Vonckist conflict, and Leopold II's initially conciliatory policy."
+    },
+    {
+      "document_page": 164,
+      "source_page_label": "164",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Covered Reichenbach, Austrian recovery of Belgium and Liège, French nonintervention, and the opening of the Nootka dispute."
+    },
+    {
+      "document_page": 165,
+      "source_page_label": "165",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Explained rejection of the Family Compact, early invasion fears, great-power attention to Poland, and the Polish Patriot program."
+    },
+    {
+      "document_page": 166,
+      "source_page_label": "166",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Assessed the May 3 Constitution and superficial French parallels, then shifted to cooling European opinion and British reform agitation."
+    },
+    {
+      "document_page": 167,
+      "source_page_label": "167",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Developed Price's challenge and Burke's traditionalist interpretation of 1688, French institutions, representation, and property."
+    },
+    {
+      "document_page": 168,
+      "source_page_label": "168",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Set out Burke's church, currency, conspiracy, anarchy, and military-dictatorship arguments and his unintended stimulus to reform."
+    },
+    {
+      "document_page": 169,
+      "source_page_label": "169",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Analyzed Paine's rebuttal, rights-based program, republican implications, and the controversy's mobilizing effect."
+    },
+    {
+      "document_page": 170,
+      "source_page_label": "170",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Followed radical societies, loyalist violence and repression, and Burke's strong reception in continental Europe and Germany."
+    },
+    {
+      "document_page": 171,
+      "source_page_label": "171",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Linked German hostility to lost feudal rights, mapped Rhineland émigré organization, and compared royal plans for war after Varennes."
+    },
+    {
+      "document_page": 172,
+      "source_page_label": "172",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Compared Spanish, Swedish, and Russian censorship and explained how Varennes and revolutionary universalism heightened monarchical fear."
+    },
+    {
+      "document_page": 173,
+      "source_page_label": "173",
+      "ownership": "owned",
+      "reviewed": true,
+      "note": "Concluded with exile advocacy, military disintegration, Avignon, and the end of Europe's detached observation."
+    },
+    {
+      "document_page": 174,
+      "source_page_label": "174",
+      "ownership": "context",
+      "reviewed": true,
+      "note": "Confirmed the transition to the Legislative Assembly and its altered composition and experience."
+    },
+    {
+      "document_page": 175,
+      "source_page_label": "175",
+      "ownership": "context",
+      "reviewed": true,
+      "note": "Confirmed that refractory priests and émigrés became immediate priorities of the new Assembly."
+    }
+  ],
+  "subjects": [
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-001",
+      "label": "European upheaval before the French Revolution and the surprise of 1789",
+      "priority": "major",
+      "meaning": "The Revolution arrived within an already unsettled Atlantic and European setting, yet observers expected Habsburg rather than Bourbon collapse.",
+      "stance": "The author treats the French upheaval as genuinely surprising despite widespread awareness of rebellion and reform elsewhere.",
+      "acceptable_access": [
+        "Europe before 1789",
+        "European upheaval and the French Revolution",
+        "French Revolution—European surprise",
+        "international context of 1789"
+      ],
+      "relationships": [
+        {
+          "type": "leads_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-003",
+          "target_labels": [
+            "Fall of the Bastille and initial European enthusiasm"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-015",
+          "target_labels": [
+            "Joseph II's reforming despotism and resistance in the Habsburg lands"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-001",
+          "document_page": 159,
+          "source_page_label": "159",
+          "locator_class": "principal",
+          "evidence_summary": "Places France among American, Irish, Dutch, and Habsburg disturbances while stressing that Bourbon collapse was not the expected outcome."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did the French Revolution surprise Europe despite an age of rebellion and reform?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-002",
+      "label": "Decline of French international power, 1787-1791",
+      "priority": "essential",
+      "meaning": "Domestic fiscal and political crisis prevented France from sustaining alliances or influencing European diplomacy.",
+      "stance": "The author identifies the abandonment of the Dutch Patriots in 1787 as the first clear international sign of a four-year decline.",
+      "acceptable_access": [
+        "France—international decline",
+        "French diplomacy—weakening after 1787",
+        "Revolution—effects on French power",
+        "Dutch Patriots—French abandonment"
+      ],
+      "relationships": [
+        {
+          "type": "cause",
+          "target_local_subject_id": "CHUNK-007-SUBJ-018",
+          "target_labels": [
+            "French renunciation of offensive war in 1790"
+          ]
+        },
+        {
+          "type": "related",
+          "target_local_subject_id": "CHUNK-007-SUBJ-020",
+          "target_labels": [
+            "Revolutionary rejection of dynastic diplomacy"
+          ]
+        },
+        {
+          "type": "culminates_in",
+          "target_local_subject_id": "CHUNK-007-SUBJ-050",
+          "target_labels": [
+            "End of European detachment and the approach of revolutionary war"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-002",
+          "document_page": 159,
+          "source_page_label": "159",
+          "locator_class": "principal",
+          "evidence_summary": "Shows French diplomats encouraging foreign challengers before domestic turmoil made those commitments unsustainable."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-003",
+          "document_page": 160,
+          "source_page_label": "160",
+          "locator_class": "principal",
+          "evidence_summary": "Explains that failure to aid the Dutch Patriots revealed a France increasingly ignored in European diplomacy."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-004",
+          "document_page": 164,
+          "source_page_label": "164",
+          "locator_class": "supporting",
+          "evidence_summary": "Notes French exclusion from the diplomacy that enabled Austria to recover Belgium."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did the French Revolution surprise Europe despite an age of rebellion and reform?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-003",
+      "label": "Fall of the Bastille and initial European enthusiasm",
+      "priority": "essential",
+      "meaning": "The Bastille supplied a legible symbol of subjects overthrowing despotism and transformed foreign confusion into widespread excitement.",
+      "stance": "The initial reception was romantic, rapid, and transnational, but the author later qualifies it as short-lived and uneven.",
+      "acceptable_access": [
+        "Bastille—European reaction",
+        "European reception of 1789",
+        "French Revolution—initial foreign enthusiasm",
+        "Revolutionary news in Europe"
+      ],
+      "relationships": [
+        {
+          "type": "narrows_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-004",
+          "target_labels": [
+            "German intellectual reception of the French Revolution in 1789"
+          ]
+        },
+        {
+          "type": "narrows_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-005",
+          "target_labels": [
+            "British initial reception of the French Revolution and the legacy of 1688"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-026",
+          "target_labels": [
+            "Cooling European opinion toward the French Revolution, 1789-1791"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-005",
+          "document_page": 160,
+          "source_page_label": "160",
+          "locator_class": "principal",
+          "evidence_summary": "Describes the Bastille as the event that made the French crisis appear across Europe as liberation from monarchical despotism."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-006",
+          "document_page": 161,
+          "source_page_label": "161",
+          "locator_class": "supporting",
+          "evidence_summary": "Records broad early British joy and encouragement among previously defeated reformers and exiles."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did the French Revolution surprise Europe despite an age of rebellion and reform?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-004",
+      "label": "German intellectual reception of the French Revolution in 1789",
+      "priority": "major",
+      "meaning": "German philosophers, poets, and travelers initially followed or celebrated the Revolution as a breakthrough for liberty and reform.",
+      "stance": "The author presents near-unanimous literary enthusiasm while acknowledging a few early skeptics and later reversal.",
+      "acceptable_access": [
+        "Germany—intellectual reaction to 1789",
+        "German writers and the French Revolution",
+        "French Revolution—German reception"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-003",
+          "target_labels": [
+            "Fall of the Bastille and initial European enthusiasm"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-036",
+          "target_labels": [
+            "Continental influence of Burke and German conservative reception"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-007",
+          "document_page": 160,
+          "source_page_label": "160",
+          "locator_class": "principal",
+          "evidence_summary": "Surveys enthusiastic German literary responses, avid news consumption, travel to Paris, and the belief that deep reform was possible in Europe."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did European opinion move from enthusiasm to alarm between the Bastille and Varennes?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-005",
+      "label": "British initial reception of the French Revolution and the legacy of 1688",
+      "priority": "major",
+      "meaning": "Britons initially interpreted French events through confidence in their own Glorious Revolution and constitutional freedoms.",
+      "stance": "The author distinguishes benevolent approval of France catching up from the more radical claim that France had surpassed Britain.",
+      "acceptable_access": [
+        "Great Britain—initial response to French Revolution",
+        "Glorious Revolution of 1688—comparison with France",
+        "British opinion—1789"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-003",
+          "target_labels": [
+            "Fall of the Bastille and initial European enthusiasm"
+          ]
+        },
+        {
+          "type": "develops_into",
+          "target_local_subject_id": "CHUNK-007-SUBJ-033",
+          "target_labels": [
+            "Burke-Paine controversy and the polarization of British politics"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-008",
+          "document_page": 161,
+          "source_page_label": "161",
+          "locator_class": "principal",
+          "evidence_summary": "Explains British pride in the settlement of 1688 and the generally favorable first response to France's attack on despotism."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did European opinion move from enthusiasm to alarm between the Bastille and Varennes?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-006",
+      "label": "Genevan democratic exiles and the French Revolution",
+      "priority": "optional",
+      "meaning": "Genevan democrats displaced after foreign suppression hoped the revolutionary regime in Paris would reverse France's earlier support for oligarchy.",
+      "stance": "Their hopes are treated as one defensible but localized instance of transnational exile politics.",
+      "acceptable_access": [
+        "Geneva—democratic exiles",
+        "Genevan democrats in France",
+        "political exiles—Geneva"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-008",
+          "target_labels": [
+            "Transnational political refugees and revolutionary networks"
+          ]
+        },
+        {
+          "type": "related",
+          "target_local_subject_id": "CHUNK-007-SUBJ-047",
+          "target_labels": [
+            "Foreign political exiles and advocacy of armed liberation"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-009",
+          "document_page": 161,
+          "source_page_label": "161",
+          "locator_class": "principal",
+          "evidence_summary": "Identifies Genevan democrats in France as refugees who expected the new regime to abandon the oligarchy previously upheld by French intervention."
+        }
+      ],
+      "confidence": "medium",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did universalist principles, exile advocacy, and Varennes move Europe toward revolutionary war?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-007",
+      "label": "Dutch Patriot exiles and revolutionary organization",
+      "priority": "major",
+      "meaning": "Dutch Patriots displaced by Orangist and Prussian victory formed exile communities, clubs, and National Guard units while looking to revolutionary France for support.",
+      "stance": "The author emphasizes both their ideological affinity with French patriots and the practical limits imposed by French pacifism and weakness.",
+      "acceptable_access": [
+        "Dutch Patriots—exile",
+        "Netherlands—Patriot refugees",
+        "French support for Dutch exiles",
+        "political refugees—Dutch"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-008",
+          "target_labels": [
+            "Transnational political refugees and revolutionary networks"
+          ]
+        },
+        {
+          "type": "context_for",
+          "target_local_subject_id": "CHUNK-007-SUBJ-009",
+          "target_labels": [
+            "Brabant Revolution and its contrast with the French Revolution"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-010",
+          "document_page": 161,
+          "source_page_label": "161",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Dutch exile settlement in France, public subsidy, political clubs, and National Guard organization without a realistic prospect of French military restoration."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-011",
+          "document_page": 162,
+          "source_page_label": "162",
+          "locator_class": "supporting",
+          "evidence_summary": "Locates most Dutch refugees nearer home and contrasts their reform goals with conservative Belgian resistance."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did universalist principles, exile advocacy, and Varennes move Europe toward revolutionary war?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-008",
+      "label": "Transnational political refugees and revolutionary networks",
+      "priority": "major",
+      "meaning": "Genevan, Dutch, Belgian, and other political exiles linked reform movements across borders and sought French backing for return to power.",
+      "stance": "The author treats exile networks as important carriers of revolutionary expectation, while denying that they initially had the power they imagined.",
+      "acceptable_access": [
+        "political exiles—revolutionary Europe",
+        "transnational revolutionary networks",
+        "foreign patriots in France",
+        "refugees and revolutionary diffusion"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-006",
+          "target_labels": [
+            "Genevan democratic exiles and the French Revolution"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-007",
+          "target_labels": [
+            "Dutch Patriot exiles and revolutionary organization"
+          ]
+        },
+        {
+          "type": "develops_into",
+          "target_local_subject_id": "CHUNK-007-SUBJ-047",
+          "target_labels": [
+            "Foreign political exiles and advocacy of armed liberation"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-012",
+          "document_page": 161,
+          "source_page_label": "161",
+          "locator_class": "principal",
+          "evidence_summary": "Connects refugee communities in and near France with hopes that a patriot government would aid defeated reform movements."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-013",
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "supporting",
+          "evidence_summary": "Shows genuine exiles participating in a universalist delegation and pressing France to help restore them abroad."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did universalist principles, exile advocacy, and Varennes move Europe toward revolutionary war?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-009",
+      "label": "Brabant Revolution and its contrast with the French Revolution",
+      "priority": "major",
+      "meaning": "Belgian resistance overthrew Austrian authority to preserve inherited provincial and ecclesiastical liberties rather than reconstruct society on French principles.",
+      "stance": "The author insists that surface similarities obscured a widening ideological divergence between Belgian conservation and French innovation.",
+      "acceptable_access": [
+        "Brabant Revolution",
+        "Belgian Revolution of 1789",
+        "Austrian Netherlands—revolution",
+        "French and Belgian revolutions—comparison"
+      ],
+      "relationships": [
+        {
+          "type": "cause",
+          "target_local_subject_id": "CHUNK-007-SUBJ-015",
+          "target_labels": [
+            "Joseph II's reforming despotism and resistance in the Habsburg lands"
+          ]
+        },
+        {
+          "type": "produces",
+          "target_local_subject_id": "CHUNK-007-SUBJ-012",
+          "target_labels": [
+            "United States of Belgium, 1790"
+          ]
+        },
+        {
+          "type": "internal_conflict",
+          "target_local_subject_id": "CHUNK-007-SUBJ-013",
+          "target_labels": [
+            "Belgian Statists and Van der Noot"
+          ]
+        },
+        {
+          "type": "internal_conflict",
+          "target_local_subject_id": "CHUNK-007-SUBJ-014",
+          "target_labels": [
+            "Vonckists and constitutional reform in Belgium"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-014",
+          "document_page": 162,
+          "source_page_label": "162",
+          "locator_class": "principal",
+          "evidence_summary": "Contrasts Belgian defense of customary rights and church interests with France's movement toward a new order based on equal liberty."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-015",
+          "document_page": 163,
+          "source_page_label": "163",
+          "locator_class": "principal",
+          "evidence_summary": "Shows that victory and French-style symbols did not prevent the new Belgian regime from rejecting French social and religious reforms."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How and why did the Brabant and Liège revolutions differ from the French Revolution?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-010",
+      "label": "Pro Aris et Focis and the Belgian insurgency",
+      "priority": "major",
+      "meaning": "A church-supported clandestine society mobilized anti-Austrian resistance and cooperated with exiled leaders in the armed overthrow of imperial rule.",
+      "stance": "The society is treated as an important organizational bridge between popular grievance, clerical opposition, and invasion from exile.",
+      "acceptable_access": [
+        "Pro Aris et Focis",
+        "Belgian insurgency—secret society",
+        "Brabant Revolution—organization"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-009",
+          "target_labels": [
+            "Brabant Revolution and its contrast with the French Revolution"
+          ]
+        },
+        {
+          "type": "allied_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-011",
+          "target_labels": [
+            "Liège Revolution and its suppression"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-016",
+          "document_page": 162,
+          "source_page_label": "162",
+          "locator_class": "principal",
+          "evidence_summary": "Explains the society's clerical funding, anti-Austrian purpose, and role in the exile-led invasion of October 1789."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How and why did the Brabant and Liège revolutions differ from the French Revolution?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-011",
+      "label": "Liège Revolution and its suppression",
+      "priority": "major",
+      "meaning": "Opponents of the prince-bishop seized power under visible French encouragement, supplied insurgents to Belgium, and were later defeated by Austrian intervention.",
+      "stance": "The author presents Liège as connected to, but institutionally distinct from, the Brabant Revolution.",
+      "acceptable_access": [
+        "Liège Revolution",
+        "Liège—French revolutionary influence",
+        "prince-bishop of Liège—overthrow and restoration"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_local_subject_id": "CHUNK-007-SUBJ-009",
+          "target_labels": [
+            "Brabant Revolution and its contrast with the French Revolution"
+          ]
+        },
+        {
+          "type": "suppressed_through",
+          "target_local_subject_id": "CHUNK-007-SUBJ-017",
+          "target_labels": [
+            "Convention of Reichenbach and the restoration of Habsburg authority"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-017",
+          "document_page": 162,
+          "source_page_label": "162",
+          "locator_class": "principal",
+          "evidence_summary": "Links the August seizure of power in Liège to French inspiration and to armed support for the Belgian invasion."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-018",
+          "document_page": 164,
+          "source_page_label": "164",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Records Austrian occupation of Liège and restoration of the prince-bishop alongside the recovery of Belgium."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How and why did the Brabant and Liège revolutions differ from the French Revolution?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-012",
+      "label": "United States of Belgium, 1790",
+      "priority": "major",
+      "meaning": "The independent Belgian federation created after the 1789 revolt retained provincial estates and conservative social power but lasted less than a year.",
+      "stance": "The author emphasizes the regime's institutional conservatism, internal division, diplomatic isolation, and rapid military collapse.",
+      "acceptable_access": [
+        "United States of Belgium",
+        "Belgian federation of 1790",
+        "Belgium—independence and collapse"
+      ],
+      "relationships": [
+        {
+          "type": "result_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-009",
+          "target_labels": [
+            "Brabant Revolution and its contrast with the French Revolution"
+          ]
+        },
+        {
+          "type": "dominated_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-013",
+          "target_labels": [
+            "Belgian Statists and Van der Noot"
+          ]
+        },
+        {
+          "type": "ended_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-017",
+          "target_labels": [
+            "Convention of Reichenbach and the restoration of Habsburg authority"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-019",
+          "document_page": 163,
+          "source_page_label": "163",
+          "locator_class": "principal",
+          "evidence_summary": "Describes the January 1790 declaration of independence and the federation's estate-based political structure."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-020",
+          "document_page": 164,
+          "source_page_label": "164",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Explains the federation's defeat by Austrian forces and its disappearance within a year."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How and why did the Brabant and Liège revolutions differ from the French Revolution?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-013",
+      "label": "Belgian Statists and Van der Noot",
+      "priority": "major",
+      "meaning": "The dominant Belgian faction sought provincial independence without democratic or social reconstruction and defended noble and clerical authority.",
+      "stance": "The Statists are characterized as deeply conservative rather than French-style revolutionaries.",
+      "acceptable_access": [
+        "Statists—Belgium",
+        "Van der Noot",
+        "Belgian Revolution—conservative faction",
+        "Brabant Revolution—Statists"
+      ],
+      "relationships": [
+        {
+          "type": "opposes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-014",
+          "target_labels": [
+            "Vonckists and constitutional reform in Belgium"
+          ]
+        },
+        {
+          "type": "controls",
+          "target_local_subject_id": "CHUNK-007-SUBJ-012",
+          "target_labels": [
+            "United States of Belgium, 1790"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-021",
+          "document_page": 163,
+          "source_page_label": "163",
+          "locator_class": "principal",
+          "evidence_summary": "Shows Van der Noot and the estate regime defending clerical and noble power while condemning French-inspired leveling."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What divided Belgian Statists from Vonckists, and how did the division affect the new state?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-014",
+      "label": "Vonckists and constitutional reform in Belgium",
+      "priority": "major",
+      "meaning": "Vonck's minority sought modest representative reform, was branded Frenchified, driven into exile, and then radicalized in France.",
+      "stance": "The author stresses that even this limited reform program was too progressive for most Belgians and still conservative by French standards.",
+      "acceptable_access": [
+        "Vonckists",
+        "Jan Frans Vonck",
+        "Belgian Revolution—progressive faction",
+        "Belgium—constitutional reform, 1790"
+      ],
+      "relationships": [
+        {
+          "type": "opposes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-013",
+          "target_labels": [
+            "Belgian Statists and Van der Noot"
+          ]
+        },
+        {
+          "type": "negotiates_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-016",
+          "target_labels": [
+            "Leopold II's policy toward the Belgian Revolution"
+          ]
+        },
+        {
+          "type": "joins",
+          "target_local_subject_id": "CHUNK-007-SUBJ-008",
+          "target_labels": [
+            "Transnational political refugees and revolutionary networks"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-022",
+          "document_page": 163,
+          "source_page_label": "163",
+          "locator_class": "principal",
+          "evidence_summary": "Details the proposed expansion of representation, violent Statist reaction, military mutiny, and the leaders' flight to France."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-023",
+          "document_page": 164,
+          "source_page_label": "164",
+          "locator_class": "supporting",
+          "evidence_summary": "Notes tentative talks with Leopold and their failure as exile in France moved the faction further toward radicalism."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What divided Belgian Statists from Vonckists, and how did the division affect the new state?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-015",
+      "label": "Joseph II's reforming despotism and resistance in the Habsburg lands",
+      "priority": "major",
+      "meaning": "Joseph II's attempt to rationalize and centralize Habsburg rule provoked turmoil in Hungary and the Austrian Netherlands.",
+      "stance": "The author calls the program energetic but destabilizing and treats it as the principal cause of Belgian resistance, not French imitation.",
+      "acceptable_access": [
+        "Joseph II—reforms and resistance",
+        "Habsburg monarchy—reforming despotism",
+        "Austrian Netherlands—Joseph II",
+        "Belgian Revolution—causes"
+      ],
+      "relationships": [
+        {
+          "type": "causes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-009",
+          "target_labels": [
+            "Brabant Revolution and its contrast with the French Revolution"
+          ]
+        },
+        {
+          "type": "succeeded_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-016",
+          "target_labels": [
+            "Leopold II's policy toward the Belgian Revolution"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-024",
+          "document_page": 159,
+          "source_page_label": "159",
+          "locator_class": "supporting",
+          "evidence_summary": "Introduces Joseph's centralizing military program and the unrest it generated across his dominions."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-025",
+          "document_page": 162,
+          "source_page_label": "162",
+          "locator_class": "principal",
+          "evidence_summary": "Explains how attacks on provincial and church privileges drove Belgian resistance and the repudiation of the Joyous Entry."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How and why did the Brabant and Liège revolutions differ from the French Revolution?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-016",
+      "label": "Leopold II's policy toward the Belgian Revolution",
+      "priority": "major",
+      "meaning": "Leopold first offered to preserve the conservative Belgian settlement under his sovereignty, explored an alliance with reformers, and used force only after both routes failed.",
+      "stance": "The author rejects a simple continuity with Joseph II and portrays Leopold as initially conciliatory and strategically restrained.",
+      "acceptable_access": [
+        "Leopold II—Belgium",
+        "Belgian Revolution—Austrian policy",
+        "Habsburg restoration in Belgium"
+      ],
+      "relationships": [
+        {
+          "type": "responds_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-012",
+          "target_labels": [
+            "United States of Belgium, 1790"
+          ]
+        },
+        {
+          "type": "enabled_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-017",
+          "target_labels": [
+            "Convention of Reichenbach and the restoration of Habsburg authority"
+          ]
+        },
+        {
+          "type": "related",
+          "target_local_subject_id": "CHUNK-007-SUBJ-041",
+          "target_labels": [
+            "Leopold II's restraint after the Declaration of Pillnitz"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-026",
+          "document_page": 163,
+          "source_page_label": "163",
+          "locator_class": "principal",
+          "evidence_summary": "Introduces Leopold's cooperative governing reputation and his early sympathy for reform in France."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-027",
+          "document_page": 164,
+          "source_page_label": "164",
+          "locator_class": "principal",
+          "evidence_summary": "Traces his offers to Statists and Vonckists before diplomatic preparation and military reconquest."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What divided Belgian Statists from Vonckists, and how did the division affect the new state?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-017",
+      "label": "Convention of Reichenbach and the restoration of Habsburg authority",
+      "priority": "major",
+      "meaning": "Leopold's July 1790 accord with Prussia ended external support for Habsburg rebels, released troops from the Turkish war, and enabled the recovery of Belgium and Liège.",
+      "stance": "The convention is treated as the decisive diplomatic condition for suppressing the Low Countries revolutions.",
+      "acceptable_access": [
+        "Convention of Reichenbach",
+        "Reichenbach, Convention of—Belgium",
+        "Prussia and Austria—1790 accord",
+        "Habsburg restoration—Belgium and Liège"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_local_subject_id": "CHUNK-007-SUBJ-016",
+          "target_labels": [
+            "Leopold II's policy toward the Belgian Revolution"
+          ]
+        },
+        {
+          "type": "ends",
+          "target_local_subject_id": "CHUNK-007-SUBJ-012",
+          "target_labels": [
+            "United States of Belgium, 1790"
+          ]
+        },
+        {
+          "type": "shapes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-022",
+          "target_labels": [
+            "Polish national revival, 1788-1791"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-028",
+          "document_page": 164,
+          "source_page_label": "164",
+          "locator_class": "principal",
+          "evidence_summary": "Explains the Austro-Prussian settlement, the end of Prussian backing for rebels, and the military reconquest that followed."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What divided Belgian Statists from Vonckists, and how did the division affect the new state?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-018",
+      "label": "French renunciation of offensive war in 1790",
+      "priority": "major",
+      "meaning": "The National Assembly converted France's inability to intervene abroad into a constitutional principle against offensive warfare.",
+      "stance": "The author presents the declaration as both ideological innovation and a dignified formulation of diplomatic impotence.",
+      "acceptable_access": [
+        "France—renunciation of offensive war",
+        "National Assembly—foreign policy, 1790",
+        "peace declaration of 22 May 1790",
+        "French diplomatic nullity"
+      ],
+      "relationships": [
+        {
+          "type": "consequence_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-002",
+          "target_labels": [
+            "Decline of French international power, 1787-1791"
+          ]
+        },
+        {
+          "type": "shapes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-019",
+          "target_labels": [
+            "Nootka Sound crisis and the Bourbon Family Compact"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-046",
+          "target_labels": [
+            "Universal mission of French revolutionary principles"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-029",
+          "document_page": 164,
+          "source_page_label": "164",
+          "locator_class": "principal",
+          "evidence_summary": "Links French indifference to Belgium with the May declaration renouncing offensive warfare and the country's military weakness."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did domestic crisis reduce French diplomatic power between 1787 and 1791?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-019",
+      "label": "Nootka Sound crisis and the Bourbon Family Compact",
+      "priority": "major",
+      "meaning": "A colonial dispute between Spain and Britain tested whether revolutionary France would honor the dynastic alliance joining the Bourbon monarchies.",
+      "stance": "The author uses the crisis to show revolutionary rejection of inherited dynastic obligations despite persistent Anglophobia.",
+      "acceptable_access": [
+        "Nootka Sound crisis",
+        "Family Compact—revolutionary France",
+        "France and Spain—1790 crisis",
+        "British-Spanish dispute—French response"
+      ],
+      "relationships": [
+        {
+          "type": "tests",
+          "target_local_subject_id": "CHUNK-007-SUBJ-018",
+          "target_labels": [
+            "French renunciation of offensive war in 1790"
+          ]
+        },
+        {
+          "type": "demonstrates",
+          "target_local_subject_id": "CHUNK-007-SUBJ-020",
+          "target_labels": [
+            "Revolutionary rejection of dynastic diplomacy"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-030",
+          "document_page": 164,
+          "source_page_label": "164",
+          "locator_class": "principal",
+          "evidence_summary": "Introduces the Pacific dispute, Spanish mobilization, and Madrid's request for support under the Bourbon alliance."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-031",
+          "document_page": 165,
+          "source_page_label": "165",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Shows the Assembly refusing tangible aid and forcing Spain to settle without French backing."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did domestic crisis reduce French diplomatic power between 1787 and 1791?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-020",
+      "label": "Revolutionary rejection of dynastic diplomacy",
+      "priority": "major",
+      "meaning": "A representative nation denied that family ties among monarchs could legitimately bind it to alliances or war.",
+      "stance": "The change is presented as a proud ideological break with eighteenth-century statecraft, although it also reflected weakness.",
+      "acceptable_access": [
+        "dynastic diplomacy—rejection by France",
+        "French foreign policy—national sovereignty",
+        "Bourbon alliances—revolutionary repudiation",
+        "Family Compact—end"
+      ],
+      "relationships": [
+        {
+          "type": "expressed_in",
+          "target_local_subject_id": "CHUNK-007-SUBJ-019",
+          "target_labels": [
+            "Nootka Sound crisis and the Bourbon Family Compact"
+          ]
+        },
+        {
+          "type": "related",
+          "target_local_subject_id": "CHUNK-007-SUBJ-018",
+          "target_labels": [
+            "French renunciation of offensive war in 1790"
+          ]
+        },
+        {
+          "type": "tension_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-046",
+          "target_labels": [
+            "Universal mission of French revolutionary principles"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-032",
+          "document_page": 165,
+          "source_page_label": "165",
+          "locator_class": "principal",
+          "evidence_summary": "Explains why the Assembly considered royal family connections an illegitimate basis for national commitments."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did domestic crisis reduce French diplomatic power between 1787 and 1791?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-021",
+      "label": "Early French fears of an international counterrevolutionary plot",
+      "priority": "major",
+      "meaning": "A request for Austrian troop passage helped generate the first French suspicions of a coordinated foreign attack on the Revolution.",
+      "stance": "The author explicitly judges these fears mistaken at this stage, separating royal wishes and émigré rhetoric from actual great-power policy.",
+      "acceptable_access": [
+        "foreign plot against the Revolution—early fears",
+        "counterrevolution—international conspiracy fears",
+        "Austria—troop passage through France",
+        "French invasion fears, 1790"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-041",
+          "target_labels": [
+            "Leopold II's restraint after the Declaration of Pillnitz"
+          ]
+        },
+        {
+          "type": "develops_after",
+          "target_local_subject_id": "CHUNK-007-SUBJ-045",
+          "target_labels": [
+            "Flight to Varennes and the alarm of European monarchs"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-033",
+          "document_page": 165,
+          "source_page_label": "165",
+          "locator_class": "principal",
+          "evidence_summary": "Records new suspicions of a foreign invasion while arguing that the continental powers were then more interested in Poland than France."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Where and how did French émigrés organize for war, and why did intervention remain delayed?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-022",
+      "label": "Polish national revival, 1788-1791",
+      "priority": "major",
+      "meaning": "War distracted Russia and allowed the Polish Diet to recover autonomy, enlarge the army, and pursue a constitutional program intended to preserve independence.",
+      "stance": "The author presents the revival as a nationally defensive project whose resemblance to France was real in language but shallow in social basis.",
+      "acceptable_access": [
+        "Poland—national revival, 1788-1791",
+        "Four Years' Diet",
+        "Polish Patriots",
+        "Russia and Polish constitutional reform"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-023",
+          "target_labels": [
+            "Polish Golden Liberty and the Patriot constitutional program"
+          ]
+        },
+        {
+          "type": "culminates_in",
+          "target_local_subject_id": "CHUNK-007-SUBJ-024",
+          "target_labels": [
+            "Polish Constitution of 3 May 1791"
+          ]
+        },
+        {
+          "type": "threatened_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-040",
+          "target_labels": [
+            "Catherine II's anti-Jacobin policy directed at Poland"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-034",
+          "document_page": 165,
+          "source_page_label": "165",
+          "locator_class": "principal",
+          "evidence_summary": "Explains how Russian wars enabled the Diet to escape control, expand the army, and revive Polish independence."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-035",
+          "document_page": 166,
+          "source_page_label": "166",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Shows constitutional reform accelerating as Russia's freedom to intervene returned."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What did Polish Patriots mean by constitutional reform, and why was it mistaken for Jacobinism?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-023",
+      "label": "Polish Golden Liberty and the Patriot constitutional program",
+      "priority": "major",
+      "meaning": "Polish reformers sought to replace noble monopoly, an elective weak kingship, unanimity, and legalized rebellion with a stronger hereditary executive and majority rule.",
+      "stance": "The author stresses that Polish Patriots were modernizers resisting Russian dominance, not social revolutionaries on the French model.",
+      "acceptable_access": [
+        "Golden Liberty—Poland",
+        "Polish constitution—Patriot reforms",
+        "liberum veto",
+        "Poland—hereditary monarchy and majority rule"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-022",
+          "target_labels": [
+            "Polish national revival, 1788-1791"
+          ]
+        },
+        {
+          "type": "codified_in",
+          "target_local_subject_id": "CHUNK-007-SUBJ-024",
+          "target_labels": [
+            "Polish Constitution of 3 May 1791"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-036",
+          "document_page": 165,
+          "source_page_label": "165",
+          "locator_class": "principal",
+          "evidence_summary": "Contrasts noble Golden Liberty with the Patriots' program for a stronger state capable of resisting Russia."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-037",
+          "document_page": 166,
+          "source_page_label": "166",
+          "locator_class": "supporting",
+          "evidence_summary": "Shows the reform program moving rapidly into constitutional enactment in May 1791."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What did Polish Patriots mean by constitutional reform, and why was it mistaken for Jacobinism?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-024",
+      "label": "Polish Constitution of 3 May 1791",
+      "priority": "major",
+      "meaning": "The king and Patriots forced through a constitution that strengthened national government and borrowed some French language while retaining a very different political order.",
+      "stance": "The author calls the perceived parallel with France superficial and notes both irregular enactment and defensive purpose.",
+      "acceptable_access": [
+        "Constitution of 3 May 1791",
+        "May Constitution—Poland",
+        "Friends of the Constitution—Poland",
+        "Polish constitutional revolution"
+      ],
+      "relationships": [
+        {
+          "type": "culmination_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-022",
+          "target_labels": [
+            "Polish national revival, 1788-1791"
+          ]
+        },
+        {
+          "type": "misread_through",
+          "target_local_subject_id": "CHUNK-007-SUBJ-025",
+          "target_labels": [
+            "French parallels and the foreign perception of Polish Jacobinism"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-038",
+          "document_page": 166,
+          "source_page_label": "166",
+          "locator_class": "principal",
+          "evidence_summary": "Describes the troop-surrounded Diet, French echoes in wording and organization, and the constitution's essentially Polish reform agenda."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What did Polish Patriots mean by constitutional reform, and why was it mistaken for Jacobinism?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-025",
+      "label": "French parallels and the foreign perception of Polish Jacobinism",
+      "priority": "major",
+      "meaning": "French language and political forms encouraged Polish opponents and Catherine II to interpret a limited national reform as Jacobin revolution.",
+      "stance": "The author treats this interpretation as superficial but consequential because it hardened Russian determination to restore control.",
+      "acceptable_access": [
+        "Poland—alleged Jacobinism",
+        "French influence on Polish reform",
+        "Catherine II—view of May Constitution",
+        "French and Polish revolutions—comparison"
+      ],
+      "relationships": [
+        {
+          "type": "interpretation_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-024",
+          "target_labels": [
+            "Polish Constitution of 3 May 1791"
+          ]
+        },
+        {
+          "type": "motivates",
+          "target_local_subject_id": "CHUNK-007-SUBJ-040",
+          "target_labels": [
+            "Catherine II's anti-Jacobin policy directed at Poland"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-039",
+          "document_page": 166,
+          "source_page_label": "166",
+          "locator_class": "principal",
+          "evidence_summary": "Explains why borrowed phraseology and political clubs made conservative magnates and Catherine read Polish reform as Jacobin despite deeper differences."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What did Polish Patriots mean by constitutional reform, and why was it mistaken for Jacobinism?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-026",
+      "label": "Cooling European opinion toward the French Revolution, 1789-1791",
+      "priority": "essential",
+      "meaning": "Continued upheaval, the October Days, attacks on the Church, and royal humiliation transformed enthusiasm into uncertainty, disapproval, and fear.",
+      "stance": "The author presents a staged and regionally uneven change rather than an immediate universal counterrevolutionary reaction.",
+      "acceptable_access": [
+        "European opinion—turn against French Revolution",
+        "French Revolution—foreign disillusionment",
+        "October Days—European reaction",
+        "Church policy—foreign reaction"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-003",
+          "target_labels": [
+            "Fall of the Bastille and initial European enthusiasm"
+          ]
+        },
+        {
+          "type": "intensified_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-045",
+          "target_labels": [
+            "Flight to Varennes and the alarm of European monarchs"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_local_subject_id": "CHUNK-007-SUBJ-042",
+          "target_labels": [
+            "European state censorship of French revolutionary influence"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-040",
+          "document_page": 166,
+          "source_page_label": "166",
+          "locator_class": "principal",
+          "evidence_summary": "Explains that enthusiasm faded after recurring upheaval, with church conflict becoming especially visible by spring 1791."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-041",
+          "document_page": 170,
+          "source_page_label": "170",
+          "locator_class": "supporting",
+          "evidence_summary": "Shows German readers increasingly receptive to traditionalist criticism as disorder and attacks on the Church accumulated."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-042",
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Identifies Varennes and the treatment of Louis XVI as a decisive acceleration of monarchical alarm."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did European opinion move from enthusiasm to alarm between the Bastille and Varennes?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-027",
+      "label": "British parliamentary reform, the Revolution Society, and Richard Price",
+      "priority": "major",
+      "meaning": "French events revived a British reform movement centered on representation, shorter parliaments, wider voting rights, and dissenting participation.",
+      "stance": "Price's claim that France had overtaken Britain is presented as the immediate provocation for Burke's intervention.",
+      "acceptable_access": [
+        "British parliamentary reform and French Revolution",
+        "Revolution Society",
+        "Richard Price—sermon of 1789",
+        "Dissenters—political reform"
+      ],
+      "relationships": [
+        {
+          "type": "provokes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-028",
+          "target_labels": [
+            "Burke's Reflections on the Revolution in France and the defense of inherited order"
+          ]
+        },
+        {
+          "type": "revitalized_as",
+          "target_local_subject_id": "CHUNK-007-SUBJ-034",
+          "target_labels": [
+            "British radical clubs and corresponding societies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-043",
+          "document_page": 166,
+          "source_page_label": "166",
+          "locator_class": "principal",
+          "evidence_summary": "Traces reform agitation from the 1760s through the 1688 centenary and identifies Dissenters as a renewed organizational base."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-044",
+          "document_page": 167,
+          "source_page_label": "167",
+          "locator_class": "principal",
+          "evidence_summary": "Explains Price's praise of French liberties and the October Days in terms that enraged Burke."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did Paine answer Burke and convert controversy into British radical organization?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-028",
+      "label": "Burke's Reflections on the Revolution in France and the defense of inherited order",
+      "priority": "major",
+      "meaning": "Burke distinguished the preservative settlement of 1688 from French reconstruction and argued that legitimate reform must respect institutions, practices, and historical inheritance.",
+      "stance": "The author presents this as the most forceful comprehensive attack yet made on the Revolution, while exposing its idealization and polemical excess.",
+      "acceptable_access": [
+        "Burke, Edmund—Reflections",
+        "Reflections on the Revolution in France",
+        "French Revolution—Burke's interpretation",
+        "tradition and revolution—Burke"
+      ],
+      "relationships": [
+        {
+          "type": "responds_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-027",
+          "target_labels": [
+            "British parliamentary reform, the Revolution Society, and Richard Price"
+          ]
+        },
+        {
+          "type": "opposed_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-032",
+          "target_labels": [
+            "Thomas Paine's Rights of Man"
+          ]
+        },
+        {
+          "type": "disseminated_through",
+          "target_local_subject_id": "CHUNK-007-SUBJ-036",
+          "target_labels": [
+            "Continental influence of Burke and German conservative reception"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-045",
+          "document_page": 167,
+          "source_page_label": "167",
+          "locator_class": "principal",
+          "evidence_summary": "Sets out Burke's distinction between preserving inherited English liberties and France's attempt to begin political society anew."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-046",
+          "document_page": 168,
+          "source_page_label": "168",
+          "locator_class": "supporting",
+          "evidence_summary": "Extends his attack into a general warning about revolutionary causes, social breakdown, and eventual coercive rule."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What were Burke's main arguments about tradition, property, religion, conspiracy, and France's future?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-029",
+      "label": "Burke's critique of property, the Church, and assignats",
+      "priority": "major",
+      "meaning": "Burke linked the Assembly's social composition to insecure property, church confiscation, unstable paper money, and destruction of Christian institutions.",
+      "stance": "The author faithfully distinguishes Burke's claims from his own, presenting them as a powerful conservative construction rather than established fact.",
+      "acceptable_access": [
+        "Burke—property and Church",
+        "Burke—assignats",
+        "Reflections—church nationalization",
+        "Reflections—social composition of Assembly"
+      ],
+      "relationships": [
+        {
+          "type": "aspect_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-028",
+          "target_labels": [
+            "Burke's Reflections on the Revolution in France and the defense of inherited order"
+          ]
+        },
+        {
+          "type": "rebutted_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-032",
+          "target_labels": [
+            "Thomas Paine's Rights of Man"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-047",
+          "document_page": 167,
+          "source_page_label": "167",
+          "locator_class": "principal",
+          "evidence_summary": "Summarizes Burke's idealization of old-regime institutions and his charge that socially marginal deputies endangered property."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-048",
+          "document_page": 168,
+          "source_page_label": "168",
+          "locator_class": "principal",
+          "evidence_summary": "Connects church expropriation in Burke's account to fraudulent currency and an intended abolition of Christianity."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What were Burke's main arguments about tradition, property, religion, conspiracy, and France's future?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-030",
+      "label": "Burke's conspiracy explanation of the French Revolution",
+      "priority": "major",
+      "meaning": "Burke attributed the Revolution to an alliance between resentful financial interests and Enlightenment writers hostile to Christianity.",
+      "stance": "The author calls this a conspiracy theory, traces its precedent to the Bavarian Illuminati, and notes that Burke gave it exceptional authority.",
+      "acceptable_access": [
+        "Burke—conspiracy theory",
+        "philosophic conspiracy and French Revolution",
+        "moneyed interest—Burke",
+        "Illuminati—Burke's use"
+      ],
+      "relationships": [
+        {
+          "type": "aspect_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-028",
+          "target_labels": [
+            "Burke's Reflections on the Revolution in France and the defense of inherited order"
+          ]
+        },
+        {
+          "type": "influences",
+          "target_local_subject_id": "CHUNK-007-SUBJ-036",
+          "target_labels": [
+            "Continental influence of Burke and German conservative reception"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-049",
+          "document_page": 168,
+          "source_page_label": "168",
+          "locator_class": "principal",
+          "evidence_summary": "Explains Burke's two-part conspiracy thesis and its borrowing from publicized evidence about the Bavarian Illuminati."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What were Burke's main arguments about tradition, property, religion, conspiracy, and France's future?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-031",
+      "label": "Burke's predictions of French disintegration and military dictatorship",
+      "priority": "major",
+      "meaning": "Burke forecast provincial secession, monetary collapse, bankruptcy, and the rise of a general who would command the state through personal control of the army.",
+      "stance": "The author highlights the breadth and later resonance of the prediction without treating every forecast as fulfilled.",
+      "acceptable_access": [
+        "Burke—predictions for France",
+        "military dictatorship—Burke's forecast",
+        "Reflections—anarchy and bankruptcy",
+        "popular general—Burke"
+      ],
+      "relationships": [
+        {
+          "type": "aspect_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-028",
+          "target_labels": [
+            "Burke's Reflections on the Revolution in France and the defense of inherited order"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_local_subject_id": "CHUNK-007-SUBJ-026",
+          "target_labels": [
+            "Cooling European opinion toward the French Revolution, 1789-1791"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-050",
+          "document_page": 168,
+          "source_page_label": "168",
+          "locator_class": "principal",
+          "evidence_summary": "Lists Burke's expected sequence from territorial and fiscal breakdown to rule by a militarily successful commander."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What were Burke's main arguments about tradition, property, religion, conspiracy, and France's future?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-032",
+      "label": "Thomas Paine's Rights of Man",
+      "priority": "major",
+      "meaning": "Paine rejected inherited political authority, defended the French events through natural rights, and urged British and European peoples toward sweeping reform and republicanism.",
+      "stance": "The author treats the work as the definitive contemporary rebuttal to Burke and a practical engine of radical mobilization.",
+      "acceptable_access": [
+        "Paine, Thomas—Rights of Man",
+        "Rights of Man",
+        "French Revolution—Paine's defense",
+        "natural rights and revolution—Paine"
+      ],
+      "relationships": [
+        {
+          "type": "rebuts",
+          "target_local_subject_id": "CHUNK-007-SUBJ-028",
+          "target_labels": [
+            "Burke's Reflections on the Revolution in France and the defense of inherited order"
+          ]
+        },
+        {
+          "type": "drives",
+          "target_local_subject_id": "CHUNK-007-SUBJ-034",
+          "target_labels": [
+            "British radical clubs and corresponding societies"
+          ]
+        },
+        {
+          "type": "part_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-033",
+          "target_labels": [
+            "Burke-Paine controversy and the polarization of British politics"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-051",
+          "document_page": 169,
+          "source_page_label": "169",
+          "locator_class": "principal",
+          "evidence_summary": "Summarizes Paine's attack on ancestral authority, defense of the Bastille and October Days, and exposition of the Declaration of Rights."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-052",
+          "document_page": 170,
+          "source_page_label": "170",
+          "locator_class": "supporting",
+          "evidence_summary": "Shows the second part shifting toward practical British radicalism and stimulating corresponding societies."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did Paine answer Burke and convert controversy into British radical organization?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-033",
+      "label": "Burke-Paine controversy and the polarization of British politics",
+      "priority": "essential",
+      "meaning": "The rival conservative and rights-based interpretations transformed debate over France into a sustained British conflict over reform, monarchy, church, and political participation.",
+      "stance": "The author sees Burke's attack as paradoxically reviving the movement he meant to defeat, with Paine reaching a much larger audience.",
+      "acceptable_access": [
+        "Burke-Paine debate",
+        "British politics—polarization over French Revolution",
+        "Reflections and Rights of Man",
+        "French Revolution debate in Britain"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-028",
+          "target_labels": [
+            "Burke's Reflections on the Revolution in France and the defense of inherited order"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-032",
+          "target_labels": [
+            "Thomas Paine's Rights of Man"
+          ]
+        },
+        {
+          "type": "produces",
+          "target_local_subject_id": "CHUNK-007-SUBJ-034",
+          "target_labels": [
+            "British radical clubs and corresponding societies"
+          ]
+        },
+        {
+          "type": "produces",
+          "target_local_subject_id": "CHUNK-007-SUBJ-035",
+          "target_labels": [
+            "British loyalist reaction and repression"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-053",
+          "document_page": 168,
+          "source_page_label": "168",
+          "locator_class": "supporting",
+          "evidence_summary": "Explains how Burke's vehemence forced admirers of France to sharpen and publish their response."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-054",
+          "document_page": 169,
+          "source_page_label": "169",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Paine's much larger circulation and the revival of reform activity across Britain and Ireland."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-055",
+          "document_page": 170,
+          "source_page_label": "170",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Shows the controversy producing both organized radicalism and an increasingly assertive loyalist reaction."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did Paine answer Burke and convert controversy into British radical organization?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-034",
+      "label": "British radical clubs and corresponding societies",
+      "priority": "major",
+      "meaning": "Paine's work and fraternal contact with French Jacobins encouraged mass-oriented reform societies demanding manhood suffrage and annual parliaments.",
+      "stance": "The author presents this as a genuine expansion of political participation beyond established elites, not merely literary enthusiasm.",
+      "acceptable_access": [
+        "corresponding societies",
+        "British radical societies, 1791-1792",
+        "Sheffield Constitutional Society",
+        "London Corresponding Society",
+        "Paine—political mobilization"
+      ],
+      "relationships": [
+        {
+          "type": "result_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-033",
+          "target_labels": [
+            "Burke-Paine controversy and the polarization of British politics"
+          ]
+        },
+        {
+          "type": "opposed_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-035",
+          "target_labels": [
+            "British loyalist reaction and repression"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-056",
+          "document_page": 169,
+          "source_page_label": "169",
+          "locator_class": "supporting",
+          "evidence_summary": "Shows reform societies spreading Paine and reviving political commemoration across Britain and Ireland."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-057",
+          "document_page": 170,
+          "source_page_label": "170",
+          "locator_class": "principal",
+          "evidence_summary": "Details the founding, aims, and rapid growth of Sheffield, London, and provincial corresponding societies."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did Paine answer Burke and convert controversy into British radical organization?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-035",
+      "label": "British loyalist reaction and repression",
+      "priority": "major",
+      "meaning": "Church-and-King violence, patriotic royalism, and government action emerged alongside radical mobilization.",
+      "stance": "The author rejects any picture of uniform British radicalization and stresses tolerated mob violence and official prosecution.",
+      "acceptable_access": [
+        "British loyalism and French Revolution",
+        "Birmingham riots of 1791",
+        "Church and King movement",
+        "Paine—prosecution",
+        "seditious writings—British government"
+      ],
+      "relationships": [
+        {
+          "type": "opposes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-034",
+          "target_labels": [
+            "British radical clubs and corresponding societies"
+          ]
+        },
+        {
+          "type": "part_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-033",
+          "target_labels": [
+            "Burke-Paine controversy and the polarization of British politics"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-058",
+          "document_page": 170,
+          "source_page_label": "170",
+          "locator_class": "principal",
+          "evidence_summary": "Uses attacks on Birmingham Dissenters, revived royal symbolism, a proclamation against sedition, and proceedings against Paine to demonstrate counter-mobilization."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did Paine answer Burke and convert controversy into British radical organization?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-036",
+      "label": "Continental influence of Burke and German conservative reception",
+      "priority": "major",
+      "meaning": "Translations of Burke reached large European audiences and gave coherent language to growing German revulsion at disorder, church expropriation, and rejection of inherited institutions.",
+      "stance": "The author judges Burke far more influential on the Continent than Paine by 1791, including among readers who rejected parts of his analysis.",
+      "acceptable_access": [
+        "Burke—European influence",
+        "Reflections—translations",
+        "Germany—conservative reception of French Revolution",
+        "Friedrich Gentz—Burke translation"
+      ],
+      "relationships": [
+        {
+          "type": "disseminates",
+          "target_local_subject_id": "CHUNK-007-SUBJ-028",
+          "target_labels": [
+            "Burke's Reflections on the Revolution in France and the defense of inherited order"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-004",
+          "target_labels": [
+            "German intellectual reception of the French Revolution in 1789"
+          ]
+        },
+        {
+          "type": "context_for",
+          "target_local_subject_id": "CHUNK-007-SUBJ-037",
+          "target_labels": [
+            "German princely hostility and Westphalian rights"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-059",
+          "document_page": 170,
+          "source_page_label": "170",
+          "locator_class": "principal",
+          "evidence_summary": "Describes rapid translation, strong sales, and the appeal of Burke's traditionalism to German readers disillusioned with France."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-060",
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "supporting",
+          "evidence_summary": "Connects intellectual hostility with concrete grievances held by German rulers."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did Burke's interpretation gain greater traction than Paine's in Germany?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-037",
+      "label": "German princely hostility and Westphalian rights",
+      "priority": "major",
+      "meaning": "The National Assembly's abolition of feudal claims struck rights held by German rulers under the Peace of Westphalia without compensation.",
+      "stance": "The author treats this material injury as a firm basis for official German hostility distinct from popular and intellectual reaction.",
+      "acceptable_access": [
+        "German princes—rights in France",
+        "Peace of Westphalia—feudal rights",
+        "August 1789 decrees—German rulers",
+        "French Revolution—German territorial grievances"
+      ],
+      "relationships": [
+        {
+          "type": "reinforces",
+          "target_local_subject_id": "CHUNK-007-SUBJ-036",
+          "target_labels": [
+            "Continental influence of Burke and German conservative reception"
+          ]
+        },
+        {
+          "type": "enables",
+          "target_local_subject_id": "CHUNK-007-SUBJ-038",
+          "target_labels": [
+            "French émigré centers and military preparations in the Rhineland"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-061",
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "principal",
+          "evidence_summary": "Explains that uncompensated loss of treaty-guaranteed rights made opposition by German rulers predictable."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did Burke's interpretation gain greater traction than Paine's in Germany?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-038",
+      "label": "French émigré centers and military preparations in the Rhineland",
+      "priority": "essential",
+      "meaning": "After Varennes the royal princes and thousands of émigrés concentrated at Koblenz and Mainz, organized for war, and received foreign subsidies.",
+      "stance": "The author treats the organization as a real counterrevolutionary threat but distinguishes émigré desire from the limited willingness of monarchs to invade.",
+      "acceptable_access": [
+        "émigrés—Koblenz and Mainz",
+        "Rhineland—French émigrés",
+        "counterrevolutionary army—émigrés",
+        "Artois, Provence, and Condé—military preparations"
+      ],
+      "relationships": [
+        {
+          "type": "enabled_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-037",
+          "target_labels": [
+            "German princely hostility and Westphalian rights"
+          ]
+        },
+        {
+          "type": "intensifies",
+          "target_local_subject_id": "CHUNK-007-SUBJ-045",
+          "target_labels": [
+            "Flight to Varennes and the alarm of European monarchs"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-048",
+          "target_labels": [
+            "Disintegration of the French army through officer emigration"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-062",
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "principal",
+          "evidence_summary": "Maps the princely courts and émigré concentrations on the Rhine, their war preparations, subsidies, and disruptive relations with local inhabitants."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-063",
+          "document_page": 173,
+          "source_page_label": "173",
+          "locator_class": "supporting",
+          "evidence_summary": "Links continued officer departures to the weakening of France's army."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Where and how did French émigrés organize for war, and why did intervention remain delayed?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-039",
+      "label": "Gustavus III and plans for an anti-French crusade",
+      "priority": "optional",
+      "meaning": "The Swedish king actively sought intervention against revolutionary France and prepared for it by ending war with Russia.",
+      "stance": "He is presented as the exceptional monarch genuinely eager for immediate war rather than representative of Europe as a whole.",
+      "acceptable_access": [
+        "Gustavus III—French Revolution",
+        "Sweden—anti-French intervention",
+        "anti-revolutionary crusade—Gustavus III"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-041",
+          "target_labels": [
+            "Leopold II's restraint after the Declaration of Pillnitz"
+          ]
+        },
+        {
+          "type": "context_for",
+          "target_local_subject_id": "CHUNK-007-SUBJ-040",
+          "target_labels": [
+            "Catherine II's anti-Jacobin policy directed at Poland"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-064",
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Gustavus's role in the attempted royal escape, disappointment after Varennes, and efforts to clear the way for intervention."
+        }
+      ],
+      "confidence": "medium",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Where and how did French émigrés organize for war, and why did intervention remain delayed?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-040",
+      "label": "Catherine II's anti-Jacobin policy directed at Poland",
+      "priority": "major",
+      "meaning": "Catherine encouraged Austria and Prussia to confront France while making peace on Russia's own borders so she could restore control over Poland.",
+      "stance": "The author interprets her anti-Jacobin rhetoric as strategically focused on Polish reform rather than a sincere plan for a French crusade.",
+      "acceptable_access": [
+        "Catherine II—anti-Jacobin policy",
+        "Russia—Poland and French Revolution",
+        "Catherine II—diplomacy after Varennes",
+        "Polish reform—Russian response"
+      ],
+      "relationships": [
+        {
+          "type": "responds_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-025",
+          "target_labels": [
+            "French parallels and the foreign perception of Polish Jacobinism"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-039",
+          "target_labels": [
+            "Gustavus III and plans for an anti-French crusade"
+          ]
+        },
+        {
+          "type": "parallel_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-044",
+          "target_labels": [
+            "Russian repression and Alexander Radishchev"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-065",
+          "document_page": 166,
+          "source_page_label": "166",
+          "locator_class": "supporting",
+          "evidence_summary": "Shows Catherine construing the May Constitution as Jacobin and becoming more determined to recover Polish control."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-066",
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "principal",
+          "evidence_summary": "Explains her effort to keep other powers occupied with France while Russia ended wars and prepared to act in Poland."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What did Polish Patriots mean by constitutional reform, and why was it mistaken for Jacobinism?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-041",
+      "label": "Leopold II's restraint after the Declaration of Pillnitz",
+      "priority": "major",
+      "meaning": "Leopold treated Louis XVI's acceptance of the constitution as satisfying Pillnitz and declined to pursue immediate intervention.",
+      "stance": "The author uses Leopold's response to show that Pillnitz did not yet amount to a coordinated European war plan.",
+      "acceptable_access": [
+        "Leopold II—Pillnitz and intervention",
+        "Declaration of Pillnitz—limited consequences",
+        "Austria—policy toward France, 1791",
+        "Louis XVI—acceptance of constitution and foreign policy"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-021",
+          "target_labels": [
+            "Early French fears of an international counterrevolutionary plot"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-039",
+          "target_labels": [
+            "Gustavus III and plans for an anti-French crusade"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-067",
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "principal",
+          "evidence_summary": "Explains that Leopold regarded royal acceptance of the constitution as reconciliation and therefore no reason to activate Pillnitz."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Where and how did French émigrés organize for war, and why did intervention remain delayed?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-042",
+      "label": "European state censorship of French revolutionary influence",
+      "priority": "major",
+      "meaning": "Governments increasingly restricted news, printed material, meetings, borders, and foreigners as they reclassified French ideas as politically dangerous.",
+      "stance": "The author emphasizes how slowly most regimes reacted, with Spain exceptional in its early and effective containment.",
+      "acceptable_access": [
+        "censorship—French revolutionary influence",
+        "European governments—suppression of French ideas",
+        "French propaganda—state response",
+        "counterrevolutionary information controls"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_local_subject_id": "CHUNK-007-SUBJ-026",
+          "target_labels": [
+            "Cooling European opinion toward the French Revolution, 1789-1791"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-043",
+          "target_labels": [
+            "Spanish containment of news and influence from revolutionary France"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-044",
+          "target_labels": [
+            "Russian repression and Alexander Radishchev"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-068",
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "supporting",
+          "evidence_summary": "Introduces Spain as the early exception to otherwise delayed recognition of French material as subversive."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-069",
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "principal",
+          "evidence_summary": "Compares tightened controls in Spain, Sweden, and Russia and connects them to a growing sense of ideological danger."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did Spain, Sweden, and Russia attempt to contain French revolutionary influence?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-043",
+      "label": "Spanish containment of news and influence from revolutionary France",
+      "priority": "major",
+      "meaning": "Spain used the Inquisition, press silence, border troops, registration of foreigners, and suppression of insubordinate writing to insulate its population.",
+      "stance": "The author presents Spain as unusually early, systematic, and successful in information control.",
+      "acceptable_access": [
+        "Spain—censorship of French Revolution",
+        "Inquisition—French revolutionary writings",
+        "Floridablanca—press controls",
+        "Spanish borders—revolutionary influence"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-042",
+          "target_labels": [
+            "European state censorship of French revolutionary influence"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-044",
+          "target_labels": [
+            "Russian repression and Alexander Radishchev"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-070",
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "principal",
+          "evidence_summary": "Begins the account of Spain's early press silence and inquisitorial campaign against insubordinate ideas."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-071",
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Shows the later sealing of frontiers and registration regime producing unusually deep popular insulation."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did Spain, Sweden, and Russia attempt to contain French revolutionary influence?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-044",
+      "label": "Russian repression and Alexander Radishchev",
+      "priority": "major",
+      "meaning": "Russian authorities increasingly watched French propaganda and treated Radishchev's attack on serfdom and praise of liberty as revolutionary subversion.",
+      "stance": "The author portrays Radishchev as a reforming dreamer rather than an insurrectionary and shows repression amplifying the work it sought to erase.",
+      "acceptable_access": [
+        "Radishchev, Alexander",
+        "Journey from St. Petersburg to Moscow",
+        "Russia—censorship and French Revolution",
+        "serfdom—Radishchev"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-042",
+          "target_labels": [
+            "European state censorship of French revolutionary influence"
+          ]
+        },
+        {
+          "type": "domestic_expression_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-040",
+          "target_labels": [
+            "Catherine II's anti-Jacobin policy directed at Poland"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-072",
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "principal",
+          "evidence_summary": "Explains official surveillance, Catherine's reading of Radishchev as French-inspired rebellion, his commuted death sentence, and stricter censorship."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did Spain, Sweden, and Russia attempt to contain French revolutionary influence?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-045",
+      "label": "Flight to Varennes and the alarm of European monarchs",
+      "priority": "essential",
+      "meaning": "The failed escape and subsequent humiliation of Louis XVI convinced monarchs that revolutionary principles could destroy even Europe's most prestigious monarchy.",
+      "stance": "The author calls royal fears exaggerated in hindsight but rational given what contemporaries had just witnessed.",
+      "acceptable_access": [
+        "Flight to Varennes—European reaction",
+        "Varennes—monarchical alarm",
+        "Louis XVI—foreign response to humiliation",
+        "European monarchs—fear of French Revolution"
+      ],
+      "relationships": [
+        {
+          "type": "intensifies",
+          "target_local_subject_id": "CHUNK-007-SUBJ-026",
+          "target_labels": [
+            "Cooling European opinion toward the French Revolution, 1789-1791"
+          ]
+        },
+        {
+          "type": "accelerates",
+          "target_local_subject_id": "CHUNK-007-SUBJ-038",
+          "target_labels": [
+            "French émigré centers and military preparations in the Rhineland"
+          ]
+        },
+        {
+          "type": "encourages",
+          "target_local_subject_id": "CHUNK-007-SUBJ-047",
+          "target_labels": [
+            "Foreign political exiles and advocacy of armed liberation"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-073",
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "principal",
+          "evidence_summary": "Identifies Varennes and royal humiliation as more important than intellectual debate in turning rulers toward fear of French principles."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did European opinion move from enthusiasm to alarm between the Bastille and Varennes?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-046",
+      "label": "Universal mission of French revolutionary principles",
+      "priority": "essential",
+      "meaning": "French revolutionaries claimed principles valid for all peoples, creating tension between pacific declarations and a growing ideology of liberation beyond France.",
+      "stance": "The author treats universalism as sincerely held but initially disconnected from realistic military capacity and increasingly dangerous after Varennes.",
+      "acceptable_access": [
+        "French Revolution—universal principles",
+        "revolutionary universalism",
+        "armed apostles of liberty",
+        "Anacharsis Clootz—delegation of 1790",
+        "export of revolution"
+      ],
+      "relationships": [
+        {
+          "type": "tension_with",
+          "target_local_subject_id": "CHUNK-007-SUBJ-018",
+          "target_labels": [
+            "French renunciation of offensive war in 1790"
+          ]
+        },
+        {
+          "type": "expressed_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-047",
+          "target_labels": [
+            "Foreign political exiles and advocacy of armed liberation"
+          ]
+        },
+        {
+          "type": "culminates_in",
+          "target_local_subject_id": "CHUNK-007-SUBJ-050",
+          "target_labels": [
+            "End of European detachment and the approach of revolutionary war"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-074",
+          "document_page": 160,
+          "source_page_label": "160",
+          "locator_class": "supporting",
+          "evidence_summary": "Uses Clootz's return to Paris and democratic activism as an early example of transnational revolutionary aspiration."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-075",
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "principal",
+          "evidence_summary": "Explains the Assembly's international delegation and the belief that French liberty spoke to enslaved peoples everywhere."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-076",
+          "document_page": 173,
+          "source_page_label": "173",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Concludes that revolutionary universalism was moving from proclamation toward pressure for armed export."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did universalist principles, exile advocacy, and Varennes move Europe toward revolutionary war?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-047",
+      "label": "Foreign political exiles and advocacy of armed liberation",
+      "priority": "major",
+      "meaning": "Exiles from Geneva, Holland, and Belgium used universalist claims and the Varennes crisis to urge France to challenge European rulers and restore defeated movements.",
+      "stance": "The author credits their political pressure but stresses that the outgoing Assembly and royal family did not share their confidence in military liberation.",
+      "acceptable_access": [
+        "foreign exiles—armed liberation",
+        "political refugees—appeals to France",
+        "Genevan, Dutch, and Belgian exiles",
+        "export of revolution—exile advocacy"
+      ],
+      "relationships": [
+        {
+          "type": "develops_from",
+          "target_local_subject_id": "CHUNK-007-SUBJ-008",
+          "target_labels": [
+            "Transnational political refugees and revolutionary networks"
+          ]
+        },
+        {
+          "type": "expresses",
+          "target_local_subject_id": "CHUNK-007-SUBJ-046",
+          "target_labels": [
+            "Universal mission of French revolutionary principles"
+          ]
+        },
+        {
+          "type": "constrained_by",
+          "target_local_subject_id": "CHUNK-007-SUBJ-048",
+          "target_labels": [
+            "Disintegration of the French army through officer emigration"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-077",
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "principal",
+          "evidence_summary": "Identifies authentic exile representatives behind the international delegation and their desire for French help."
+        },
+        {
+          "evidence_id": "CHUNK-007-EV-078",
+          "document_page": 173,
+          "source_page_label": "173",
+          "locator_class": "principal",
+          "evidence_summary": "Shows exiles after Varennes urging confrontation with European despots while French decision makers doubted the strategy."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did universalist principles, exile advocacy, and Varennes move Europe toward revolutionary war?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-048",
+      "label": "Disintegration of the French army through officer emigration",
+      "priority": "major",
+      "meaning": "The departure of thousands of officers to join émigré forces visibly weakened the army just as calls for revolutionary intervention increased.",
+      "stance": "The author uses military weakness to expose the practical gap between universalist rhetoric and the means to wage a liberating war.",
+      "acceptable_access": [
+        "French army—officer emigration",
+        "émigrés—military effects in France",
+        "army disintegration, 1791",
+        "revolutionary war—French unpreparedness"
+      ],
+      "relationships": [
+        {
+          "type": "consequence_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-038",
+          "target_labels": [
+            "French émigré centers and military preparations in the Rhineland"
+          ]
+        },
+        {
+          "type": "constrains",
+          "target_local_subject_id": "CHUNK-007-SUBJ-046",
+          "target_labels": [
+            "Universal mission of French revolutionary principles"
+          ]
+        },
+        {
+          "type": "context_for",
+          "target_local_subject_id": "CHUNK-007-SUBJ-050",
+          "target_labels": [
+            "End of European detachment and the approach of revolutionary war"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-079",
+          "document_page": 173,
+          "source_page_label": "173",
+          "locator_class": "principal",
+          "evidence_summary": "States that mass officer departures were visibly breaking down the army as foreign-liberation rhetoric intensified."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Where and how did French émigrés organize for war, and why did intervention remain delayed?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-049",
+      "label": "Annexation of Avignon as a defiant foreign-policy gesture",
+      "priority": "optional",
+      "meaning": "The annexation offered the Constituent Assembly a low-cost way to assert revolutionary will abroad despite military weakness.",
+      "stance": "The author treats it as symbolic defiance rather than evidence of an immediately capable expansionist policy.",
+      "acceptable_access": [
+        "Avignon—annexation by France",
+        "French foreign policy—Avignon",
+        "Constituent Assembly—final foreign-policy gesture"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_local_subject_id": "CHUNK-007-SUBJ-046",
+          "target_labels": [
+            "Universal mission of French revolutionary principles"
+          ]
+        },
+        {
+          "type": "prefigures",
+          "target_local_subject_id": "CHUNK-007-SUBJ-050",
+          "target_labels": [
+            "End of European detachment and the approach of revolutionary war"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-080",
+          "document_page": 173,
+          "source_page_label": "173",
+          "locator_class": "principal",
+          "evidence_summary": "Characterizes annexation as a defiant but inexpensive act that did not require the weakened army."
+        }
+      ],
+      "confidence": "medium",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did universalist principles, exile advocacy, and Varennes move Europe toward revolutionary war?"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-007-SUBJ-050",
+      "label": "End of European detachment and the approach of revolutionary war",
+      "priority": "essential",
+      "meaning": "By late 1791 ideological universalism, exile politics, military counterrevolution, censorship, and mutual fear were turning the Revolution into an international conflict.",
+      "stance": "The chapter concludes that Europeans could no longer remain detached and that French revolutionaries would increasingly externalize domestic problems.",
+      "acceptable_access": [
+        "Europe and the French Revolution—end of detachment",
+        "origins of revolutionary war",
+        "internationalization of the French Revolution",
+        "export of revolution—approach to war"
+      ],
+      "relationships": [
+        {
+          "type": "synthesizes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-002",
+          "target_labels": [
+            "Decline of French international power, 1787-1791"
+          ]
+        },
+        {
+          "type": "synthesizes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-038",
+          "target_labels": [
+            "French émigré centers and military preparations in the Rhineland"
+          ]
+        },
+        {
+          "type": "synthesizes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-045",
+          "target_labels": [
+            "Flight to Varennes and the alarm of European monarchs"
+          ]
+        },
+        {
+          "type": "synthesizes",
+          "target_local_subject_id": "CHUNK-007-SUBJ-046",
+          "target_labels": [
+            "Universal mission of French revolutionary principles"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "CHUNK-007-EV-081",
+          "document_page": 173,
+          "source_page_label": "173",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Closes the chapter by marking the end of detached observation and the coming attempt to project revolutionary problems and principles across borders."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did universalist principles, exile advocacy, and Varennes move Europe toward revolutionary war?"
+      ]
+    }
+  ],
+  "reader_tasks": [
+    {
+      "reader_task_id": "CHUNK-007-TASK-001",
+      "question": "Why did the French Revolution surprise Europe despite an age of rebellion and reform?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-001",
+        "CHUNK-007-SUBJ-002",
+        "CHUNK-007-SUBJ-003"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-002",
+      "question": "How did domestic crisis reduce French diplomatic power between 1787 and 1791?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-002",
+        "CHUNK-007-SUBJ-018",
+        "CHUNK-007-SUBJ-019",
+        "CHUNK-007-SUBJ-020"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-003",
+      "question": "How and why did the Brabant and Liège revolutions differ from the French Revolution?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-009",
+        "CHUNK-007-SUBJ-010",
+        "CHUNK-007-SUBJ-011",
+        "CHUNK-007-SUBJ-012",
+        "CHUNK-007-SUBJ-015"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-004",
+      "question": "What divided Belgian Statists from Vonckists, and how did the division affect the new state?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-013",
+        "CHUNK-007-SUBJ-014",
+        "CHUNK-007-SUBJ-016",
+        "CHUNK-007-SUBJ-017"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-005",
+      "question": "What did Polish Patriots mean by constitutional reform, and why was it mistaken for Jacobinism?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-022",
+        "CHUNK-007-SUBJ-023",
+        "CHUNK-007-SUBJ-024",
+        "CHUNK-007-SUBJ-025",
+        "CHUNK-007-SUBJ-040"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-006",
+      "question": "How did European opinion move from enthusiasm to alarm between the Bastille and Varennes?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-003",
+        "CHUNK-007-SUBJ-004",
+        "CHUNK-007-SUBJ-005",
+        "CHUNK-007-SUBJ-026",
+        "CHUNK-007-SUBJ-045"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-007",
+      "question": "What were Burke's main arguments about tradition, property, religion, conspiracy, and France's future?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-028",
+        "CHUNK-007-SUBJ-029",
+        "CHUNK-007-SUBJ-030",
+        "CHUNK-007-SUBJ-031"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-008",
+      "question": "How did Paine answer Burke and convert controversy into British radical organization?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-032",
+        "CHUNK-007-SUBJ-033",
+        "CHUNK-007-SUBJ-034",
+        "CHUNK-007-SUBJ-035",
+        "CHUNK-007-SUBJ-027"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-009",
+      "question": "Why did Burke's interpretation gain greater traction than Paine's in Germany?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-004",
+        "CHUNK-007-SUBJ-036",
+        "CHUNK-007-SUBJ-037"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-010",
+      "question": "Where and how did French émigrés organize for war, and why did intervention remain delayed?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-038",
+        "CHUNK-007-SUBJ-039",
+        "CHUNK-007-SUBJ-040",
+        "CHUNK-007-SUBJ-041",
+        "CHUNK-007-SUBJ-048",
+        "CHUNK-007-SUBJ-021"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-011",
+      "question": "How did Spain, Sweden, and Russia attempt to contain French revolutionary influence?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-042",
+        "CHUNK-007-SUBJ-043",
+        "CHUNK-007-SUBJ-044"
+      ]
+    },
+    {
+      "reader_task_id": "CHUNK-007-TASK-012",
+      "question": "How did universalist principles, exile advocacy, and Varennes move Europe toward revolutionary war?",
+      "subject_ids": [
+        "CHUNK-007-SUBJ-045",
+        "CHUNK-007-SUBJ-046",
+        "CHUNK-007-SUBJ-047",
+        "CHUNK-007-SUBJ-048",
+        "CHUNK-007-SUBJ-049",
+        "CHUNK-007-SUBJ-050",
+        "CHUNK-007-SUBJ-006",
+        "CHUNK-007-SUBJ-007",
+        "CHUNK-007-SUBJ-008"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "exclusion_id": "CHUNK-007-EXCL-001",
+      "document_pages": [
+        160
+      ],
+      "item": "Individual German poets and philosophers named only in the reception survey",
+      "reason": "They function as examples of a collective intellectual response; only Clootz receives recurring, independent treatment.",
+      "label": "Individual German poets and philosophers named only in the reception survey"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-002",
+      "document_pages": [
+        160
+      ],
+      "item": "Kellgren and Count Stroganov as separate subjects",
+      "reason": "Their reactions are brief illustrative testimony for Swedish and Russian enthusiasm.",
+      "label": "Kellgren and Count Stroganov as separate subjects"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-003",
+      "document_pages": [
+        161
+      ],
+      "item": "Anonymous British observers and individual refugee statistics",
+      "reason": "They support broader reception and exile patterns without independent analytical treatment.",
+      "label": "Anonymous British observers and individual refugee statistics"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-004",
+      "document_pages": [
+        162
+      ],
+      "item": "The grain shortage as a separate Low Countries subject",
+      "reason": "It is a brief comparative factor within the Brabant Revolution, not independently developed here.",
+      "label": "The grain shortage as a separate Low Countries subject"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-005",
+      "document_pages": [
+        164
+      ],
+      "item": "The September Crusade as a standalone concept",
+      "reason": "The peasant militia is one episode in the Austrian reconquest and lacks separate sustained analysis.",
+      "label": "The September Crusade as a standalone concept"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-006",
+      "document_pages": [
+        164,
+        165
+      ],
+      "item": "Vancouver Island and Pacific territorial claims as independent geographic subjects",
+      "reason": "They supply the setting for the Nootka diplomatic test rather than receiving geographic treatment.",
+      "label": "Vancouver Island and Pacific territorial claims as independent geographic subjects"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-007",
+      "document_pages": [
+        166
+      ],
+      "item": "Friends of the Constitution as a separate Polish organization",
+      "reason": "The club is evidence of French-form borrowing within the May Constitution, not a separately analyzed movement.",
+      "label": "Friends of the Constitution as a separate Polish organization"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-008",
+      "document_pages": [
+        167,
+        168,
+        169
+      ],
+      "item": "Persons and social labels appearing only inside Burke's and Paine's polemical examples",
+      "reason": "They belong under the authors' arguments and do not receive independent historical treatment.",
+      "label": "Persons and social labels appearing only inside Burke's and Paine's polemical examples"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-009",
+      "document_pages": [
+        169
+      ],
+      "item": "Publication sales figures and individual anniversary banquets",
+      "reason": "These measure the reach of the controversy but are not independent subjects.",
+      "label": "Publication sales figures and individual anniversary banquets"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-010",
+      "document_pages": [
+        170
+      ],
+      "item": "Pétion's visit and God Save the King as separate subjects",
+      "reason": "Each is an illustrative event within radical or loyalist mobilization.",
+      "label": "Pétion's visit and God Save the King as separate subjects"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-011",
+      "document_pages": [
+        171
+      ],
+      "item": "Individual minor German patrons of the émigrés",
+      "reason": "They are grouped evidence for foreign subsidy and are not analyzed separately.",
+      "label": "Individual minor German patrons of the émigrés"
+    },
+    {
+      "exclusion_id": "CHUNK-007-EXCL-012",
+      "document_pages": [
+        172
+      ],
+      "item": "Foreign residents in Spain as a distinct social group",
+      "reason": "Registration is one technique within Spanish containment policy.",
+      "label": "Foreign residents in Spain as a distinct social group"
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "CHUNK-007-UNC-001",
+      "issue": "Genevan democratic exiles receive less treatment than Dutch and Belgian refugees.",
+      "alternatives": [
+        "retain optional standalone access",
+        "merge entirely into transnational exile networks"
+      ],
+      "resolution": "Retained as optional because their prior defeat by French-backed intervention creates a distinct retrieval question; whole-book synthesis may merge the route.",
+      "status": "provisionally_resolved",
+      "confidence": "medium",
+      "item": "Genevan democratic exiles receive less treatment than Dutch and Belgian refugees.",
+      "evidence_needed": "Whole-book synthesis should confirm whether separate access remains proportionate."
+    },
+    {
+      "uncertainty_id": "CHUNK-007-UNC-002",
+      "issue": "Pro Aris et Focis could be treated only as an organizational detail of the Brabant Revolution.",
+      "alternatives": [
+        "major standalone organizational subject",
+        "subordinate evidence only"
+      ],
+      "resolution": "Retained as major because the text gives it a named identity, constituency, funding base, and causal role in the armed rising.",
+      "status": "resolved",
+      "confidence": "high",
+      "item": "Pro Aris et Focis could be treated only as an organizational detail of the Brabant Revolution.",
+      "evidence_needed": "No further chapter-level evidence required; retain for whole-book synthesis review."
+    },
+    {
+      "uncertainty_id": "CHUNK-007-UNC-003",
+      "issue": "Gustavus III's intervention plans are confined to one concentrated passage.",
+      "alternatives": [
+        "optional standalone access",
+        "merge into delayed anti-French intervention"
+      ],
+      "resolution": "Retained as optional because he is the explicit exception to the chapter's claim that monarchs were not yet eager for war.",
+      "status": "provisionally_resolved",
+      "confidence": "medium",
+      "item": "Gustavus III's intervention plans are confined to one concentrated passage.",
+      "evidence_needed": "Whole-book synthesis should confirm whether separate access remains proportionate."
+    },
+    {
+      "uncertainty_id": "CHUNK-007-UNC-004",
+      "issue": "Clootz appears in two different roles, as an early enthusiast and as organizer of universalist display.",
+      "alternatives": [
+        "separate personal subject",
+        "access through revolutionary universalism"
+      ],
+      "resolution": "Indexed through universalism with his name as an acceptable route; the evidence does not require a separate biographical concept.",
+      "status": "resolved",
+      "confidence": "high",
+      "item": "Clootz appears in two different roles, as an early enthusiast and as organizer of universalist display.",
+      "evidence_needed": "No further chapter-level evidence required; retain for whole-book synthesis review."
+    },
+    {
+      "uncertainty_id": "CHUNK-007-UNC-005",
+      "issue": "The brief Avignon reference may belong primarily to the preceding chapter's political chronology.",
+      "alternatives": [
+        "optional local subject",
+        "context only"
+      ],
+      "resolution": "Retained as optional on owned page 173 because the chapter explicitly uses it to characterize the gap between defiance and military capacity.",
+      "status": "provisionally_resolved",
+      "confidence": "medium",
+      "item": "The brief Avignon reference may belong primarily to the preceding chapter's political chronology.",
+      "evidence_needed": "Whole-book synthesis should confirm whether separate access remains proportionate."
+    },
+    {
+      "uncertainty_id": "CHUNK-007-UNC-006",
+      "issue": "Context pages 157-158 add detail about Pillnitz and Avignon but are owned by another chunk.",
+      "alternatives": [
+        "cite context as evidence here",
+        "use only to interpret owned passages"
+      ],
+      "resolution": "Used only for interpretation; every discovery evidence locator remains on an owned page.",
+      "status": "resolved",
+      "confidence": "high",
+      "item": "Context pages 157-158 add detail about Pillnitz and Avignon but are owned by another chunk.",
+      "evidence_needed": "No further chapter-level evidence required; retain for whole-book synthesis review."
+    }
+  ],
+  "discovery_assessment": {
+    "subject_count": 50,
+    "priority_counts": {
+      "essential": 8,
+      "major": 39,
+      "optional": 3,
+      "exclude_by_default": 0
+    },
+    "evidence_count": 81,
+    "reader_task_count": 12,
+    "exclusion_count": 12,
+    "uncertainty_count": 6,
+    "density_used_as_subject_quota": false,
+    "fresh_source_led_draft_completed_before_prior_discovery_consultation": true,
+    "reasoning_pass": "initial high-depth candidate-blind discovery",
+    "page_level_review_complete": true,
+    "priority_status": "provisional until whole-source synthesis"
+  },
+  "limitations": [
+    "The supplied 2002-edition source contains the complete owned body pages but omits front matter, notes and endnotes, bibliography, and publisher index; no subject claims were derived from those unavailable components.",
+    "Page 173 contains only the chapter's closing paragraph; its smaller word contribution is intentional and not treated as a discovery quota.",
+    "Local priorities are provisional inputs to whole-book synthesis and may be merged or re-ranked without changing the underlying evidence."
+  ],
+  "selection_method": {
+    "unit": "independently searchable source subject rather than proposed index heading",
+    "principles": [
+      "Retain principal subjects and significant localized or subsidiary subjects even when confined to one passage.",
+      "Split subjects when a reader could plausibly seek one without the other or when a combined label would overstate page support.",
+      "Retain named people, institutions, works, and events only when the chapter analyzes them, uses them as sustained explanatory cases, or makes them independently useful to scholarly readers.",
+      "Use optional only for defensible supplemental access whose absence would not materially reduce usefulness.",
+      "Do not use density calibration to set the subject count or priority."
+    ]
+  }
+}
