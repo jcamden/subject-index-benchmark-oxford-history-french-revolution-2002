@@ -3,7 +3,7 @@
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "artifact_manifest_path": "artifact-manifest.json",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-23T01:20:17Z",
+  "updated_at": "2026-08-23T02:00:22Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
@@ -111,7 +111,7 @@
     },
     "source_subject_discovery": {
       "status": "in_progress",
-      "updated_at": "2026-08-23T01:20:17Z",
+      "updated_at": "2026-08-23T02:00:22Z",
       "notes": [
         "CHUNK-001 complete; 16 source chunks remain.",
         "CHUNK-001 v2 reassessment complete; 16 source chunks remain.",
@@ -120,7 +120,11 @@
         "GitHub PR #1 from source-discovery/chunk-003 at 9e9d86fd342bf1322588f2668d7bf2162ee7a9fb merged as dc084193f16ad3250783ef0a768a6908b403ac05; artifact SHA-256 d3c9ec3645b8ff0d0c755ddeebea36b6fe8f1c4a6483231e7474da7e697fa159.",
         "Integrated parallel source discoveries: CHUNK-004, CHUNK-008.",
         "GitHub PR #4 from source-discovery/chunk-004 at 5952e46c9999bda7c979d92b3eade85a4a87a065 merged as 210d1609876780e30e4dbe6d6621fe14d76e6dcb; artifact SHA-256 d2531c6345809ae452eb4ce3963003ddc546417687b71648e6c477c46ee18ba3.",
-        "GitHub PR #5 from source-discovery/chunk-008 at 6625a979a6941216a7c554ba1adde9efeae539cc merged as d594cb9060e36009c964930ac0650ed247d56823; artifact SHA-256 8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d."
+        "GitHub PR #5 from source-discovery/chunk-008 at 6625a979a6941216a7c554ba1adde9efeae539cc merged as d594cb9060e36009c964930ac0650ed247d56823; artifact SHA-256 8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d.",
+        "Integrated parallel source discoveries: CHUNK-005, CHUNK-006.",
+        "GitHub PR #3 from source-discovery/chunk-005 at b055316310de158100b0d31de11749404ff5ea6d merged as f4901ba07c338c0a3f8ee634c50dbd05d4e02463; artifact SHA-256 4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0.",
+        "GitHub PR #6 from source-discovery/chunk-006 at fd31ba783dcd6dc388d92d4d42df4634ec10b992 merged as 963b956f00d954c4d74e1f2ac03fac060f668598; artifact SHA-256 c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6.",
+        "GitHub PR #4 / CHUNK-004 was already merged and canonically registered at the identical frozen artifact hash; no duplicate integration was performed."
       ]
     },
     "benchmark_freeze": {
@@ -696,6 +700,28 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-23T01:20:17Z"
+    },
+    {
+      "artifact_id": "ART-969047A36102",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-005.json",
+      "sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T02:00:22Z"
+    },
+    {
+      "artifact_id": "ART-8709323BF882",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-006.json",
+      "sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T02:00:22Z"
     },
     {
       "artifact_id": "ART-BD4C7F8C2EFF",

@@ -2,7 +2,7 @@
   "schema_version": "subject-index-artifact-manifest-v1",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-23T01:20:17Z",
+  "updated_at": "2026-08-23T02:00:22Z",
   "artifacts": [
     {
       "artifact_id": "ART-B728D6CB7F53",
@@ -583,6 +583,30 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-23T01:20:17Z"
+    },
+    {
+      "artifact_id": "ART-969047A36102",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-005.json",
+      "sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T02:00:22Z"
+    },
+    {
+      "artifact_id": "ART-8709323BF882",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-006.json",
+      "sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T02:00:22Z"
     },
     {
       "artifact_id": "ART-BD4C7F8C2EFF",
