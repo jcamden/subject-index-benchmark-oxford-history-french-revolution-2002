@@ -1,0 +1,4046 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "created_at": "2026-08-23T02:18:42Z",
+  "generator_version": "evaluate-subject-index-worker-discovery-v1",
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "source_edition": "2002",
+    "source_title": "The Oxford History of the French Revolution",
+    "discovery_basis": "Fresh candidate-blind reading of every owned and declared context page.",
+    "policy_path": "source/evaluation-policy.v2.json",
+    "source_chunk_pdf_sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d",
+    "source_chunk_sidecar_sha256": "1aae86ff378f6183aa249f64159ad6989faf4b2a670f99e943212e84c64c9fef"
+  },
+  "chunk": {
+    "chunk_id": "CHUNK-012",
+    "title": "12. Thermidor, 1794-1795",
+    "chapter_labels": [
+      "Chapter 12",
+      "Thermidor, 1794-1795"
+    ],
+    "owned_document_pages": [
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296
+    ],
+    "context_document_pages": [
+      270,
+      271,
+      297,
+      298
+    ],
+    "source_page_labels": [
+      "272",
+      "273",
+      "274",
+      "275",
+      "276",
+      "277",
+      "278",
+      "279",
+      "280",
+      "281",
+      "282",
+      "283",
+      "284",
+      "285",
+      "286",
+      "287",
+      "288",
+      "289",
+      "290",
+      "291",
+      "292",
+      "293",
+      "294",
+      "295",
+      "296"
+    ]
+  },
+  "readership": {
+    "label": "scholarly",
+    "basis": "frozen_policy",
+    "application": "Subjects preserve causal qualifications, contested interpretations, institutional distinctions, chronology, and realistic research access routes."
+  },
+  "candidate_blindness": "preserved",
+  "page_review": {
+    "expected_owned_pages": 25,
+    "reviewed_owned_pages": 25,
+    "reviewed_owned_document_pages": [
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296
+    ],
+    "reviewed_context_document_pages": [
+      270,
+      271,
+      297,
+      298
+    ],
+    "indexable_source_words": 11603,
+    "word_count_method": "Owned-page lexical tokens after removal of running heads, printed page numbers, and isolated note markers; line-end hyphenation was rejoined and the chapter title was retained.",
+    "per_page_indexable_words": [
+      {
+        "document_page": 272,
+        "source_page_label": "272",
+        "count": 345
+      },
+      {
+        "document_page": 273,
+        "source_page_label": "273",
+        "count": 451
+      },
+      {
+        "document_page": 274,
+        "source_page_label": "274",
+        "count": 481
+      },
+      {
+        "document_page": 275,
+        "source_page_label": "275",
+        "count": 511
+      },
+      {
+        "document_page": 276,
+        "source_page_label": "276",
+        "count": 487
+      },
+      {
+        "document_page": 277,
+        "source_page_label": "277",
+        "count": 489
+      },
+      {
+        "document_page": 278,
+        "source_page_label": "278",
+        "count": 490
+      },
+      {
+        "document_page": 279,
+        "source_page_label": "279",
+        "count": 474
+      },
+      {
+        "document_page": 280,
+        "source_page_label": "280",
+        "count": 484
+      },
+      {
+        "document_page": 281,
+        "source_page_label": "281",
+        "count": 483
+      },
+      {
+        "document_page": 282,
+        "source_page_label": "282",
+        "count": 485
+      },
+      {
+        "document_page": 283,
+        "source_page_label": "283",
+        "count": 462
+      },
+      {
+        "document_page": 284,
+        "source_page_label": "284",
+        "count": 484
+      },
+      {
+        "document_page": 285,
+        "source_page_label": "285",
+        "count": 486
+      },
+      {
+        "document_page": 286,
+        "source_page_label": "286",
+        "count": 489
+      },
+      {
+        "document_page": 287,
+        "source_page_label": "287",
+        "count": 475
+      },
+      {
+        "document_page": 288,
+        "source_page_label": "288",
+        "count": 487
+      },
+      {
+        "document_page": 289,
+        "source_page_label": "289",
+        "count": 472
+      },
+      {
+        "document_page": 290,
+        "source_page_label": "290",
+        "count": 503
+      },
+      {
+        "document_page": 291,
+        "source_page_label": "291",
+        "count": 462
+      },
+      {
+        "document_page": 292,
+        "source_page_label": "292",
+        "count": 486
+      },
+      {
+        "document_page": 293,
+        "source_page_label": "293",
+        "count": 473
+      },
+      {
+        "document_page": 294,
+        "source_page_label": "294",
+        "count": 479
+      },
+      {
+        "document_page": 295,
+        "source_page_label": "295",
+        "count": 463
+      },
+      {
+        "document_page": 296,
+        "source_page_label": "296",
+        "count": 202
+      }
+    ],
+    "excluded_regions": [
+      {
+        "region_type": "running_furniture",
+        "document_pages": [
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296
+        ],
+        "description": "Running chapter headings and printed folios were excluded from the word count and subject evidence."
+      },
+      {
+        "region_type": "note_markers",
+        "document_pages": [
+          272,
+          274,
+          275,
+          277,
+          278,
+          281,
+          283,
+          285,
+          288,
+          290,
+          293
+        ],
+        "description": "Isolated reference markers were excluded; the corresponding notes are absent from the supplied source."
+      }
+    ],
+    "unavailable_regions": [
+      {
+        "region_type": "notes_and_endnotes",
+        "scope": "chapter",
+        "description": "The supplied 2002-derived PDF omits the chapter notes and endnotes, so claims depending on those materials were not independently expanded."
+      }
+    ],
+    "complete": true
+  },
+  "reader_tasks": [
+    {
+      "task_id": "TASK-CHUNK-012-01",
+      "question": "How did Robespierre connect democratic government, virtue, and coercion?",
+      "subject_routes": [
+        "Robespierre's democratic theory",
+        "revolutionary virtue",
+        "Republic of Virtue"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-02",
+      "question": "Why were Danton and Desmoulins destroyed, and what changed in the Terror with their execution?",
+      "subject_routes": [
+        "Indulgents",
+        "Danton trial",
+        "preventive and moralized Terror"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-03",
+      "question": "What institutional and procedural changes produced the Great Terror?",
+      "subject_routes": [
+        "centralization of Revolutionary Government",
+        "Law of 22 Prairial",
+        "Great Terror"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-04",
+      "question": "How did wage policy and the weakening of popular organizations affect Parisian politics?",
+      "subject_routes": [
+        "wage maximum",
+        "Paris sections and popular societies",
+        "Paris Commune uprising on 9 Thermidor"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-05",
+      "question": "Why did Robespierre fall on 9 Thermidor, and was he actually a dictator?",
+      "subject_routes": [
+        "anti-Robespierre coalition",
+        "9 Thermidor",
+        "Robespierre and dictatorship"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-06",
+      "question": "Why does Thermidor represent rejection of a governing system rather than merely removal of one leader?",
+      "subject_routes": [
+        "meaning of Thermidor",
+        "dismantling of Revolutionary Government"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-07",
+      "question": "How did released prisoners, the Gilded Youth, and press politics transform the post-Thermidorian public sphere?",
+      "subject_routes": [
+        "release of suspects",
+        "Gilded Youth",
+        "Thermidorian press politics"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-08",
+      "question": "How and why was the Jacobin organization dismantled?",
+      "subject_routes": [
+        "Jacobin delegitimation and closure",
+        "Gilded Youth"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-09",
+      "question": "How did the Convention assign responsibility for the Terror while protecting its own collective role?",
+      "subject_routes": [
+        "Carrier and Nantes",
+        "collective responsibility and scapegoating",
+        "former governing committee members"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-10",
+      "question": "What connected abolition of the Maximum, the fiscal crisis, and the famine of 1794-1795?",
+      "subject_routes": [
+        "abolition of the Maximum",
+        "assignat collapse",
+        "subsistence crisis of 1794-1795"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-11",
+      "question": "How did Thermidorian religious policy differ from both dechristianization and the constitutional Church?",
+      "subject_routes": [
+        "separation of Church and State",
+        "freedom of worship",
+        "Cult of the Supreme Being"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-12",
+      "question": "What terms pacified the Vendée and Brittany, and why were the settlements unstable?",
+      "subject_routes": [
+        "western insurgency",
+        "Hoche's conciliatory policy",
+        "western pacification agreements",
+        "British expedition plans"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-13",
+      "question": "How did the Germinal and Prairial uprisings differ in organization, demands, and outcome?",
+      "subject_routes": [
+        "Germinal uprising",
+        "Prairial uprising",
+        "Parisian bread politics"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-14",
+      "question": "Was the White Terror a royalist movement, a revenge campaign, or both?",
+      "subject_routes": [
+        "White Terror",
+        "south-eastern prison massacres",
+        "Law of 10 April 1795"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-15",
+      "question": "How did repression after Prairial end the sansculottes as an organized political force?",
+      "subject_routes": [
+        "post-Prairial repression",
+        "destruction of the sansculotte movement"
+      ]
+    },
+    {
+      "task_id": "TASK-CHUNK-012-16",
+      "question": "Why was the Constitution of 1793 abandoned, and what did the Declaration of Verona imply for monarchy?",
+      "subject_routes": [
+        "Constitution of 1793",
+        "death of Louis XVII",
+        "Declaration of Verona"
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "local_subject_id": "CHUNK-012-S001",
+      "label": "Robespierre's democratic theory",
+      "priority": "major",
+      "meaning": "Robespierre defined republican democracy as popular sovereignty exercised directly where practical and through law-bound delegates elsewhere, not as continuous popular intervention in government.",
+      "stance": "Doyle treats the formulation as a consequential rejection of sansculotte claims to direct and permanent political action, while noting that its abstract language gained force from Robespierre's authority.",
+      "acceptable_access": [
+        "Robespierre—political thought—democracy",
+        "democratic government—Robespierre",
+        "popular sovereignty and delegated government"
+      ],
+      "relationships": [
+        {
+          "type": "foundation_for",
+          "target_labels": [
+            "Republic of Virtue"
+          ]
+        },
+        {
+          "type": "contrast_with",
+          "target_labels": [
+            "sansculotte direct political action"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "Robespierre's definition of democracy",
+        "Robespierre versus direct democracy"
+      ],
+      "evidence": [
+        {
+          "document_page": 272,
+          "source_page_label": "272",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre presents democracy as law-governed popular sovereignty using delegates for tasks the people cannot perform directly, implicitly limiting sansculotte intervention."
+        },
+        {
+          "document_page": 273,
+          "source_page_label": "273",
+          "locator_class": "supporting",
+          "evidence_summary": "Doyle emphasizes that these ideas mattered politically because Robespierre held real authority and applied them with unusual seriousness."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "Robespierre's definition of democracy",
+        "Robespierre versus direct democracy"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S002",
+      "label": "Revolutionary virtue in Robespierre's political thought",
+      "priority": "essential",
+      "meaning": "Virtue meant preference for public over private interest and became Robespierre's criterion for democratic government, political conduct, and exclusion from the Republic.",
+      "stance": "Doyle distinguishes the familiar rhetoric from Robespierre's exacting personal commitment and shows how moral criteria hardened into political purification.",
+      "acceptable_access": [
+        "Robespierre—virtue",
+        "revolutionary virtue",
+        "public interest and political morality"
+      ],
+      "relationships": [
+        {
+          "type": "organizing_principle_of",
+          "target_labels": [
+            "Republic of Virtue"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "preventive and moralized Terror"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "meaning of virtue for Robespierre",
+        "virtue as a political standard"
+      ],
+      "evidence": [
+        {
+          "document_page": 272,
+          "source_page_label": "272",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre identifies virtue with devotion to public interests and makes equality and moral conduct the governing tests of republican politics."
+        },
+        {
+          "document_page": 273,
+          "source_page_label": "273",
+          "locator_class": "principal",
+          "evidence_summary": "During spring 1794 he increasingly sought to cleanse the Republic of corruption and failures to meet his moral standard."
+        },
+        {
+          "document_page": 275,
+          "source_page_label": "275",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Danton's destruction is presented as inaugurating a political order explicitly organized around virtue."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "meaning of virtue for Robespierre",
+        "virtue as a political standard"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S003",
+      "label": "Republic of Virtue",
+      "priority": "essential",
+      "meaning": "The spring 1794 regime joined centralized Revolutionary Government, civic morality, purified representation, intensified Terror, and a state-sponsored civic religion.",
+      "stance": "Doyle treats it as a distinct phase rather than a neutral slogan: public virtue became both an ideal and a coercive measure of political reliability.",
+      "acceptable_access": [
+        "Republic of Virtue",
+        "Revolutionary Government—moralization",
+        "Robespierre—Republic of Virtue"
+      ],
+      "relationships": [
+        {
+          "type": "built_on",
+          "target_labels": [
+            "revolutionary virtue in Robespierre's political thought"
+          ]
+        },
+        {
+          "type": "implemented_through",
+          "target_labels": [
+            "Law of 22 Prairial"
+          ]
+        },
+        {
+          "type": "expressed_in",
+          "target_labels": [
+            "Cult of the Supreme Being"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "institutions and ideology of the Republic of Virtue",
+        "transition from Terror to moral government"
+      ],
+      "evidence": [
+        {
+          "document_page": 273,
+          "source_page_label": "273",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre's campaign against corruption turns an ideal of virtue into a program of political cleansing."
+        },
+        {
+          "document_page": 274,
+          "source_page_label": "274",
+          "locator_class": "supporting",
+          "evidence_summary": "The Indulgents are eliminated through vague political charges, converting moral and political suspicion into capital prosecution."
+        },
+        {
+          "document_page": 275,
+          "source_page_label": "275",
+          "locator_class": "principal",
+          "evidence_summary": "Doyle names Danton's death as the opening of the Republic of Virtue and immediately traces its centralizing and terrorizing institutions."
+        },
+        {
+          "document_page": 276,
+          "source_page_label": "276",
+          "locator_class": "supporting",
+          "evidence_summary": "Labor discipline and the new civic religion extend the regime's moral and administrative reach beyond prosecutions."
+        },
+        {
+          "document_page": 277,
+          "source_page_label": "277",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The Paris festival makes the fusion of civic religion, Robespierre's prominence, and suspicions of personal mastery publicly visible."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "institutions and ideology of the Republic of Virtue",
+        "transition from Terror to moral government"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S004",
+      "label": "East Indies Company scandal and Fabre d'Eglantine",
+      "priority": "major",
+      "meaning": "The corruption case against Fabre and associates supplied the legal pretext for widening prosecution from financial misconduct into a political purge of the Indulgents.",
+      "stance": "Doyle stresses that committee members disagreed over turning the scandal into a show trial and that Robespierre's moral suspicion spread from Fabre to his associates.",
+      "acceptable_access": [
+        "East Indies Company scandal",
+        "Fabre d'Eglantine—corruption case",
+        "Indulgents—Indies Company affair"
+      ],
+      "relationships": [
+        {
+          "type": "pretext_for",
+          "target_labels": [
+            "fall of Danton and the Indulgents"
+          ]
+        },
+        {
+          "type": "handled_by",
+          "target_labels": [
+            "Amar and the Committee of General Security"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "role of the Indies Company scandal in the Dantonist purge"
+      ],
+      "evidence": [
+        {
+          "document_page": 273,
+          "source_page_label": "273",
+          "locator_class": "principal",
+          "evidence_summary": "Amar's delayed reports move Fabre and associates toward trial while Robespierre criticizes a merely financial framing of the affair."
+        },
+        {
+          "document_page": 274,
+          "source_page_label": "274",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The corruption defendants are tried together with Danton and Desmoulins, although the case against Danton itself does not allege corruption."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "role of the Indies Company scandal in the Dantonist purge"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S005",
+      "label": "Fall of Danton, Desmoulins, and the Indulgents",
+      "priority": "essential",
+      "meaning": "Danton and Desmoulins were eliminated after the Hébertists despite weak evidence of a concrete current conspiracy, because their associations, prior moderation, and potential influence made them politically dangerous.",
+      "stance": "Doyle presents motivation as unusually difficult to reconstruct and rejects an interpretation based on demonstrated crimes; potential opposition and moral distrust better explain the purge.",
+      "acceptable_access": [
+        "Danton—fall and execution",
+        "Desmoulins—fall and execution",
+        "Indulgents—suppression",
+        "Dantonists—purge"
+      ],
+      "relationships": [
+        {
+          "type": "preceded_by",
+          "target_labels": [
+            "East Indies Company scandal and Fabre d'Eglantine"
+          ]
+        },
+        {
+          "type": "marks_transition_to",
+          "target_labels": [
+            "preventive and moralized Terror"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why Robespierre abandoned Danton",
+        "why the Indulgents were executed"
+      ],
+      "evidence": [
+        {
+          "document_page": 273,
+          "source_page_label": "273",
+          "locator_class": "supporting",
+          "evidence_summary": "Committee factions consider using Fabre's case to remove broader opponents of continued Terror, including Desmoulins and Danton."
+        },
+        {
+          "document_page": 274,
+          "source_page_label": "274",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre finally abandons Danton after wavering, and Saint-Just secures the Convention's approval for a broadly political prosecution."
+        },
+        {
+          "document_page": 275,
+          "source_page_label": "275",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Doyle concludes that the men were punished more for what they might do than for established conduct, inaugurating a new phase of Terror."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why Robespierre abandoned Danton",
+        "why the Indulgents were executed"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S006",
+      "label": "Dantonist trial as a political show trial",
+      "priority": "major",
+      "meaning": "The joint trial of Danton, Desmoulins, Fabre, and others relied on general political accusations, curtailed defense rights, and removed the defendants from court to secure conviction.",
+      "stance": "Doyle characterizes the proceeding as engineered and evidentially weak, especially because Danton's readily alleged corruption was not actually charged.",
+      "acceptable_access": [
+        "Danton—trial",
+        "Revolutionary Tribunal—Dantonists",
+        "political trials—Indulgents"
+      ],
+      "relationships": [
+        {
+          "type": "mechanism_of",
+          "target_labels": [
+            "fall of Danton, Desmoulins, and the Indulgents"
+          ]
+        },
+        {
+          "type": "anticipates",
+          "target_labels": [
+            "Law of 22 Prairial"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "procedural abuses in Danton's trial"
+      ],
+      "evidence": [
+        {
+          "document_page": 274,
+          "source_page_label": "274",
+          "locator_class": "principal",
+          "evidence_summary": "Danton dominates the courtroom until a misleading report allows the Convention to continue the trial without the defendants and without requested witnesses."
+        },
+        {
+          "document_page": 275,
+          "source_page_label": "275",
+          "locator_class": "supporting",
+          "evidence_summary": "The absence of reliable evidence about a concrete offense supports Doyle's interpretation of the proceeding as preventive political elimination."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "procedural abuses in Danton's trial"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S007",
+      "label": "Preventive and moralized Terror",
+      "priority": "major",
+      "meaning": "After the Dantonist executions, danger, potential action, social identity, and failure to satisfy an ideal of virtue increasingly substituted for specific counter-revolutionary acts.",
+      "stance": "Doyle treats this as a real change in the Terror's operating logic, while avoiding the claim that every later victim was innocent.",
+      "acceptable_access": [
+        "Terror—preventive phase",
+        "Terror—moral criteria",
+        "enemies of the people—expanded definition"
+      ],
+      "relationships": [
+        {
+          "type": "begins_with",
+          "target_labels": [
+            "fall of Danton, Desmoulins, and the Indulgents"
+          ]
+        },
+        {
+          "type": "codified_by",
+          "target_labels": [
+            "Law of 22 Prairial"
+          ]
+        },
+        {
+          "type": "evidenced_by",
+          "target_labels": [
+            "Great Terror and its social profile"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "shift from punishing acts to punishing potential",
+        "moral standards in the Terror"
+      ],
+      "evidence": [
+        {
+          "document_page": 274,
+          "source_page_label": "274",
+          "locator_class": "principal",
+          "evidence_summary": "The Dantonists are prosecuted through broad political allegations rather than a demonstrated current plot."
+        },
+        {
+          "document_page": 275,
+          "source_page_label": "275",
+          "locator_class": "principal",
+          "evidence_summary": "Doyle identifies potential behavior and moral inadequacy as new grounds for death and links them to the Republic of Virtue."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "shift from punishing acts to punishing potential",
+        "moral standards in the Terror"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S008",
+      "label": "Centralization of Revolutionary Government in spring 1794",
+      "priority": "major",
+      "meaning": "Ministries were replaced by supervised commissions, conspiracy jurisdiction was concentrated in Paris, and provincial special courts were largely closed as power moved toward the governing committees.",
+      "stance": "Doyle presents administrative centralization as the institutional setting that concentrated suspects and enabled accelerated capital justice in Paris.",
+      "acceptable_access": [
+        "Revolutionary Government—centralization",
+        "Committee government—administrative commissions",
+        "Revolutionary Tribunal—central jurisdiction"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Law of 22 Prairial"
+          ]
+        },
+        {
+          "type": "reversed_by",
+          "target_labels": [
+            "dismantling of Revolutionary Government after Thermidor"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "centralization before the Great Terror",
+        "abolition of the council of ministers"
+      ],
+      "evidence": [
+        {
+          "document_page": 275,
+          "source_page_label": "275",
+          "locator_class": "principal",
+          "evidence_summary": "The ministries give way to committee-supervised commissions, conspiracy trials are reserved to Paris, and suspects accumulate in the capital's prisons."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "centralization before the Great Terror",
+        "abolition of the council of ministers"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S009",
+      "label": "Law of 22 Prairial",
+      "priority": "essential",
+      "meaning": "The law enlarged and accelerated the Revolutionary Tribunal, sharply reduced defense safeguards, defined enemies of the people expansively, and limited punishment to death.",
+      "stance": "Doyle treats the law as a principal mechanism of the Great Terror and as a political shock because Robespierre and Couthon advanced it without normal committee consultation and deputies feared for their immunity.",
+      "acceptable_access": [
+        "Law of 22 Prairial",
+        "Revolutionary Tribunal—procedure under Prairial",
+        "enemies of the people—legal definition"
+      ],
+      "relationships": [
+        {
+          "type": "produces",
+          "target_labels": [
+            "Great Terror and its social profile"
+          ]
+        },
+        {
+          "type": "intensifies",
+          "target_labels": [
+            "conflict within the governing committees"
+          ]
+        },
+        {
+          "type": "repealed_during",
+          "target_labels": [
+            "dismantling of Revolutionary Government after Thermidor"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "provisions of the Law of 22 Prairial",
+        "political effects of Prairial"
+      ],
+      "evidence": [
+        {
+          "document_page": 275,
+          "source_page_label": "275",
+          "locator_class": "principal",
+          "evidence_summary": "The law expands the tribunal, nearly eliminates witnesses and counsel, makes death the sole sentence, and leaves a very broad class exposed as enemies of the people."
+        },
+        {
+          "document_page": 277,
+          "source_page_label": "277",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre and Couthon present the law without prior consultation, deepening committee distrust and fear among deputies."
+        },
+        {
+          "document_page": 278,
+          "source_page_label": "278",
+          "locator_class": "supporting",
+          "evidence_summary": "The Convention adds a specific guarantee of deputy immunity, helping anti-Robespierre forces begin to coalesce."
+        },
+        {
+          "document_page": 282,
+          "source_page_label": "282",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Its repeal immediately after Thermidor is a central step in the collapse of the Terror."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "provisions of the Law of 22 Prairial",
+        "political effects of Prairial"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S010",
+      "label": "Great Terror and its social profile",
+      "priority": "essential",
+      "meaning": "Executions surged in Paris during June and July 1794, with nobles, clergy, and wealthy bourgeois victims appearing at unusually high rates.",
+      "stance": "Doyle argues that the changed pattern brought the Terror closer to social discrimination, but qualifies this by allowing that many victims may also have engaged in subversive activity.",
+      "acceptable_access": [
+        "Great Terror",
+        "Terror—June-July 1794",
+        "Terror—social composition of victims",
+        "Paris—executions in 1794"
+      ],
+      "relationships": [
+        {
+          "type": "enabled_by",
+          "target_labels": [
+            "Law of 22 Prairial"
+          ]
+        },
+        {
+          "type": "declines_after",
+          "target_labels": [
+            "9 Thermidor and the fall of Robespierre"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "scale of the Great Terror",
+        "class profile of Terror victims"
+      ],
+      "evidence": [
+        {
+          "document_page": 275,
+          "source_page_label": "275",
+          "locator_class": "principal",
+          "evidence_summary": "Execution totals rise sharply after early June, and the unusually high share of elite social groups suggests punishment based partly on status rather than specific acts."
+        },
+        {
+          "document_page": 278,
+          "source_page_label": "278",
+          "locator_class": "supporting",
+          "evidence_summary": "Daily mass executions sustain pervasive fear among deputies even as military conditions improve."
+        },
+        {
+          "document_page": 282,
+          "source_page_label": "282",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "After repeal of Prairial and restructuring of the tribunal, Paris executions fall abruptly, demonstrating the institutional break."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "scale of the Great Terror",
+        "class profile of Terror victims"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S011",
+      "label": "Wage maximum and labor repression",
+      "priority": "major",
+      "meaning": "The post-Hébertist Commune enforced wage ceilings, punished wage agitation, and threatened resistant workers with militarized labor obligations, producing substantial real cuts.",
+      "stance": "Doyle treats wage regulation as a sharp reversal of sansculotte economic expectations and a contributing, not exclusive, reason for popular refusal to defend Robespierre.",
+      "acceptable_access": [
+        "Maximum—wages",
+        "wage controls—Paris",
+        "workers—labor discipline in 1794",
+        "Le Chapelier Law—Thermidor"
+      ],
+      "relationships": [
+        {
+          "type": "alienates",
+          "target_labels": [
+            "Parisian workers"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "failure of the Paris Commune uprising on 9 Thermidor"
+          ]
+        },
+        {
+          "type": "revised_after",
+          "target_labels": [
+            "9 Thermidor"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "worker wages under the Maximum",
+        "economic causes of popular passivity on 9 Thermidor"
+      ],
+      "evidence": [
+        {
+          "document_page": 276,
+          "source_page_label": "276",
+          "locator_class": "principal",
+          "evidence_summary": "The remade Commune prepares restrictive wage tables, invokes anti-combination law, and threatens wage campaigners with military discipline."
+        },
+        {
+          "document_page": 281,
+          "source_page_label": "281",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The newly imposed wage maximum helps alienate ordinary Parisians at the moment Robespierre's municipal allies need their support."
+        },
+        {
+          "document_page": 285,
+          "source_page_label": "285",
+          "locator_class": "supporting",
+          "evidence_summary": "The post-Robespierrist Commune replaces the harsh rates with more generous ones, but inflation soon renews wage pressure."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "worker wages under the Maximum",
+        "economic causes of popular passivity on 9 Thermidor"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S012",
+      "label": "Suppression of Parisian sections and popular societies",
+      "priority": "major",
+      "meaning": "Parisian representative and associational institutions were absorbed into state machinery or dismantled, depriving workers and sansculottes of effective organizations for protest.",
+      "stance": "Doyle treats this institutional destruction as a cumulative explanation for the weakness of both the 9 Thermidor mobilization and the later Germinal movement.",
+      "acceptable_access": [
+        "Paris sections—government control",
+        "popular societies—suppression",
+        "sansculottes—organizational decline"
+      ],
+      "relationships": [
+        {
+          "type": "weakens",
+          "target_labels": [
+            "sansculotte political action"
+          ]
+        },
+        {
+          "type": "precondition_for",
+          "target_labels": [
+            "failure of the Germinal uprising"
+          ]
+        },
+        {
+          "type": "completed_by",
+          "target_labels": [
+            "destruction of the sansculotte movement after Prairial"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why sansculotte organization collapsed",
+        "fate of the sectional societies"
+      ],
+      "evidence": [
+        {
+          "document_page": 276,
+          "source_page_label": "276",
+          "locator_class": "principal",
+          "evidence_summary": "Sections have been incorporated into government and the Commune pressures popular societies into dissolving, leaving workers without effective collective vehicles."
+        },
+        {
+          "document_page": 291,
+          "source_page_label": "291",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The Germinal crowd lacks the coordination once supplied by sansculotte institutions, and Doyle makes that absence central to its failure."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why sansculotte organization collapsed",
+        "fate of the sectional societies"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S013",
+      "label": "Cult of the Supreme Being",
+      "priority": "essential",
+      "meaning": "The state-sponsored cult asserted a Supreme Being and an immortal soul as moral supports for justice, virtue, and republican citizenship while rejecting both priestcraft and dechristianization.",
+      "stance": "Doyle presents it as Robespierre's civic-religious attempt to redirect spiritual feeling, not as restoration of orthodox Christianity, and notes varied local appropriation.",
+      "acceptable_access": [
+        "Cult of the Supreme Being",
+        "Supreme Being—republican religion",
+        "Robespierre—civic religion",
+        "dechristianization—reversal"
+      ],
+      "relationships": [
+        {
+          "type": "religious_expression_of",
+          "target_labels": [
+            "Republic of Virtue"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "dechristianization"
+          ]
+        },
+        {
+          "type": "superseded_by",
+          "target_labels": [
+            "separation of Church and State in 1794"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "purpose of the Cult of the Supreme Being",
+        "relationship between the cult and Christianity"
+      ],
+      "evidence": [
+        {
+          "document_page": 276,
+          "source_page_label": "276",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre launches a civic cult that connects belief in a deity and an afterlife to justice and virtue while criticizing priestly religion and dechristianizing excess."
+        },
+        {
+          "document_page": 277,
+          "source_page_label": "277",
+          "locator_class": "principal",
+          "evidence_summary": "The Paris festival stages the cult as national civic theater, while localities adapt it in divergent ways that sometimes reopen Christian worship."
+        },
+        {
+          "document_page": 288,
+          "source_page_label": "288",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The Republic's withdrawal from financing any cult ends official recognition of a religion closely identified with Robespierre."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "purpose of the Cult of the Supreme Being",
+        "relationship between the cult and Christianity"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S014",
+      "label": "Festival of the Supreme Being and perceptions of Robespierre's personal power",
+      "priority": "major",
+      "meaning": "Robespierre's ceremonial leadership of the Paris festival made his national prominence visible and intensified fears that he sought religious as well as political mastery.",
+      "stance": "Doyle distinguishes the deputies' perception from proof of dictatorship; the festival amplified an existing accusation without establishing Robespierre's intent.",
+      "acceptable_access": [
+        "Festival of the Supreme Being—Paris",
+        "Robespierre—Festival of the Supreme Being",
+        "Robespierre—cult of personality"
+      ],
+      "relationships": [
+        {
+          "type": "public_manifestation_of",
+          "target_labels": [
+            "Cult of the Supreme Being"
+          ]
+        },
+        {
+          "type": "intensifies",
+          "target_labels": [
+            "accusations of dictatorship against Robespierre"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "political impact of the Festival of the Supreme Being"
+      ],
+      "evidence": [
+        {
+          "document_page": 277,
+          "source_page_label": "277",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre heads the Paris procession and gives civic-religious addresses, prompting colleagues to read ceremonial prominence as a claim to mastery."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "political impact of the Festival of the Supreme Being"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S015",
+      "label": "Assassination attempts against Robespierre and the red-shirt execution",
+      "priority": "optional",
+      "meaning": "Two attempted attacks helped create an atmosphere of siege around Robespierre; the alleged Batz conspiracy then supplied the setting for a mass symbolic execution.",
+      "stance": "Doyle treats the attempts as real pressures on Robespierre but does not use them to validate the broader conspiracy claims attached to the executed group.",
+      "acceptable_access": [
+        "Robespierre—assassination attempts",
+        "Batz conspiracy",
+        "red-shirt execution"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Robespierre's conspiratorial isolation"
+          ]
+        },
+        {
+          "type": "prosecuted_under",
+          "target_labels": [
+            "Law of 22 Prairial"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "assassination attempts before Thermidor",
+        "red shirts and alleged parricide"
+      ],
+      "evidence": [
+        {
+          "document_page": 277,
+          "source_page_label": "277",
+          "locator_class": "principal",
+          "evidence_summary": "Two attempted attackers and dozens alleged to share a Batz plot are executed in a highly symbolic mass proceeding under the new law."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "medium",
+      "reader_tasks": [
+        "assassination attempts before Thermidor",
+        "red shirts and alleged parricide"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S016",
+      "label": "Conflict within the governing committees",
+      "priority": "major",
+      "meaning": "Robespierre, Saint-Just, and Couthon became increasingly estranged from other members of the Committee of Public Safety, while the Bureau of General Police provoked jurisdictional conflict with the Committee of General Security.",
+      "stance": "Doyle treats committee fracture, rather than a single coordinated conspiracy, as the institutional condition that made pre-emptive political violence seem necessary to all sides.",
+      "acceptable_access": [
+        "Committee of Public Safety—internal conflict",
+        "Committee of General Security—rivalry",
+        "Bureau of General Police",
+        "governing committees—Thermidor crisis"
+      ],
+      "relationships": [
+        {
+          "type": "intensified_by",
+          "target_labels": [
+            "Law of 22 Prairial"
+          ]
+        },
+        {
+          "type": "leads_to",
+          "target_labels": [
+            "9 Thermidor and the fall of Robespierre"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why the governing committees split",
+        "Bureau of General Police dispute"
+      ],
+      "evidence": [
+        {
+          "document_page": 277,
+          "source_page_label": "277",
+          "locator_class": "principal",
+          "evidence_summary": "Committee quarrels deepen as Robespierre's group pursues police supervision and the Committee of General Security defends its jurisdiction."
+        },
+        {
+          "document_page": 278,
+          "source_page_label": "278",
+          "locator_class": "supporting",
+          "evidence_summary": "The Committee of Public Safety refuses Robespierre's demand for named enemies, after which he largely abandons its meetings."
+        },
+        {
+          "document_page": 279,
+          "source_page_label": "279",
+          "locator_class": "principal",
+          "evidence_summary": "A brief attempt at reunification collapses when Robespierre attacks members of both committees and publicly demands their purification."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why the governing committees split",
+        "Bureau of General Police dispute"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S017",
+      "label": "Deputy immunity and formation of the anti-Robespierre coalition",
+      "priority": "major",
+      "meaning": "Fear that the Law of 22 Prairial exposed deputies to arrest produced a successful immunity guarantee and encouraged previously separate enemies of Robespierre to cooperate.",
+      "stance": "Doyle identifies fear for personal survival, not shared ideology, as the coalition's most immediate common ground.",
+      "acceptable_access": [
+        "Convention—deputy immunity",
+        "anti-Robespierre coalition",
+        "Law of 22 Prairial—deputies"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Law of 22 Prairial"
+          ]
+        },
+        {
+          "type": "prepares",
+          "target_labels": [
+            "9 Thermidor and the fall of Robespierre"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "origins of the anti-Robespierre coalition"
+      ],
+      "evidence": [
+        {
+          "document_page": 278,
+          "source_page_label": "278",
+          "locator_class": "principal",
+          "evidence_summary": "Deputies secure an explicit immunity clause after fearing that the new law could bypass their protection, and opposition begins to consolidate from that point."
+        },
+        {
+          "document_page": 279,
+          "source_page_label": "279",
+          "locator_class": "supporting",
+          "evidence_summary": "Tallien and Fouche lobby the uncommitted deputies as Robespierre's threats make a broad defensive alliance possible."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "origins of the anti-Robespierre coalition"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S018",
+      "label": "Robespierre's conspiratorial isolation",
+      "priority": "major",
+      "meaning": "Robespierre withdrew from committee work, interpreted criticism as corruption or bad faith, relied increasingly on the Jacobin Club, and came to see much of public life as an organized plot against virtue.",
+      "stance": "Doyle describes a movement toward paranoia under the stresses of power while retaining the reality of threats and assassination attempts as context.",
+      "acceptable_access": [
+        "Robespierre—political isolation",
+        "Robespierre—conspiracy fears",
+        "Robespierre—withdrawal from Committee of Public Safety"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "speech of 8 Thermidor"
+          ]
+        },
+        {
+          "type": "interpreted_in",
+          "target_labels": [
+            "Robespierre and dictatorship"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "Robespierre's absence from the Committee",
+        "Robespierre and paranoia"
+      ],
+      "evidence": [
+        {
+          "document_page": 278,
+          "source_page_label": "278",
+          "locator_class": "principal",
+          "evidence_summary": "After colleagues reject his demand for a group of alleged conspirators, Robespierre stops attending committee meetings and speaks mainly at the Jacobins."
+        },
+        {
+          "document_page": 279,
+          "source_page_label": "279",
+          "locator_class": "principal",
+          "evidence_summary": "His return produces sweeping attacks and an unspecific public accusation that traitors occupy both governing committees."
+        },
+        {
+          "document_page": 281,
+          "source_page_label": "281",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Doyle attributes his destructive isolation to suspicion, stress, certainty of personal rectitude, and an inability to tolerate independent judgment."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "Robespierre's absence from the Committee",
+        "Robespierre and paranoia"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S019",
+      "label": "Military victory and the declining rationale for Terror",
+      "priority": "major",
+      "meaning": "Naval survival and especially the victory at Fleurus removed immediate external danger, weakening the argument that intensified Terror was required to win the war.",
+      "stance": "Doyle treats military success as a contextual cause of the desire for relief, not as an automatic end to political killing while the committees remained divided.",
+      "acceptable_access": [
+        "Fleurus—political consequences",
+        "war victories—decline of Terror",
+        "Terror—military rationale"
+      ],
+      "relationships": [
+        {
+          "type": "undermines",
+          "target_labels": [
+            "necessity of the Great Terror"
+          ]
+        },
+        {
+          "type": "context_for",
+          "target_labels": [
+            "9 Thermidor and the fall of Robespierre"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "effect of Fleurus on Thermidor",
+        "war success and the end of Terror"
+      ],
+      "evidence": [
+        {
+          "document_page": 278,
+          "source_page_label": "278",
+          "locator_class": "principal",
+          "evidence_summary": "The victory at Fleurus removes the Austrian threat and increases the longing for relief even though committee conflict offers no peaceful route to ending the executions."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "effect of Fleurus on Thermidor",
+        "war success and the end of Terror"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S020",
+      "label": "Failed reconciliation of the governing committees in July 1794",
+      "priority": "major",
+      "meaning": "A joint commitment to accelerate the Laws of Ventose briefly advertised governmental unity, but Robespierre's renewed personal attacks immediately destroyed the truce.",
+      "stance": "Doyle treats the reconciliation as tactical and inherently unstable, while its public appearance frightened deputies who expected a purge.",
+      "acceptable_access": [
+        "governing committees—July 1794 reconciliation",
+        "Laws of Ventose—Thermidor crisis",
+        "Barere—committee reconciliation"
+      ],
+      "relationships": [
+        {
+          "type": "immediately_precedes",
+          "target_labels": [
+            "speech of 8 Thermidor"
+          ]
+        },
+        {
+          "type": "intensifies_fear_of",
+          "target_labels": [
+            "Robespierrist purge"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "last committee truce before Thermidor"
+      ],
+      "evidence": [
+        {
+          "document_page": 279,
+          "source_page_label": "279",
+          "locator_class": "principal",
+          "evidence_summary": "The committees announce unity around faster Ventose implementation, but Robespierre returns with attacks that make any durable accord impossible."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "last committee truce before Thermidor"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S021",
+      "label": "Speech of 8 Thermidor",
+      "priority": "major",
+      "meaning": "Robespierre's final Convention speech asserted his own probity, alleged a broad but incompletely named conspiracy, and demanded purification of both governing committees.",
+      "stance": "Doyle calls it an effective declaration of political war because its unspecific scope left many deputies fearing that their lives depended on immediate resistance.",
+      "acceptable_access": [
+        "Robespierre—speech of 8 Thermidor",
+        "8 Thermidor—Convention speech",
+        "conspiracy against public liberty"
+      ],
+      "relationships": [
+        {
+          "type": "culmination_of",
+          "target_labels": [
+            "Robespierre's conspiratorial isolation"
+          ]
+        },
+        {
+          "type": "triggers",
+          "target_labels": [
+            "9 Thermidor and the fall of Robespierre"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "content and effect of Robespierre's final speech"
+      ],
+      "evidence": [
+        {
+          "document_page": 279,
+          "source_page_label": "279",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre accuses unspecific deputies and members of both committees, demands purges, and thereby gives threatened opponents a common reason to strike first."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "content and effect of Robespierre's final speech"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S022",
+      "label": "9 Thermidor and the fall of Robespierre",
+      "priority": "essential",
+      "meaning": "A defensive parliamentary coalition silenced Robespierre, arrested him and his allies, and then defeated the Commune's attempted rescue before executing the outlawed group.",
+      "stance": "Doyle emphasizes Robespierre's political miscalculation and the opposition's survival instinct rather than a coherent ideological program shared by the victors.",
+      "acceptable_access": [
+        "9 Thermidor",
+        "Robespierre—fall",
+        "Thermidorian overthrow",
+        "Convention—arrest of Robespierre"
+      ],
+      "relationships": [
+        {
+          "type": "triggered_by",
+          "target_labels": [
+            "speech of 8 Thermidor"
+          ]
+        },
+        {
+          "type": "followed_by",
+          "target_labels": [
+            "Paris Commune uprising on 9 Thermidor"
+          ]
+        },
+        {
+          "type": "opens",
+          "target_labels": [
+            "dismantling of Revolutionary Government after Thermidor"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "events of 9 Thermidor",
+        "why Robespierre was overthrown"
+      ],
+      "evidence": [
+        {
+          "document_page": 279,
+          "source_page_label": "279",
+          "locator_class": "supporting",
+          "evidence_summary": "Robespierre's opponents prepare overnight after the Jacobins reject their defense and threaten a new Convention purge."
+        },
+        {
+          "document_page": 280,
+          "source_page_label": "280",
+          "locator_class": "principal",
+          "evidence_summary": "Billaud and Tallien lead attacks, Robespierre is denied the floor, and the Convention orders the arrests of his principal allies."
+        },
+        {
+          "document_page": 281,
+          "source_page_label": "281",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Robespierre and municipal supporters are executed, after which the victors use the dictatorship charge to legitimize the overthrow and reassign blame."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "events of 9 Thermidor",
+        "why Robespierre was overthrown"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S023",
+      "label": "Paris Commune uprising on 9 Thermidor",
+      "priority": "essential",
+      "meaning": "The Robespierrist Commune freed or sheltered the arrested deputies and called out the National Guard, but most sections remained hostile or indifferent and its forces dispersed before the Convention's troops arrived.",
+      "stance": "Doyle rejects a single-cause explanation: sudden crisis, weak planning, belief in the tyranny charge, political exhaustion, and the wage maximum all contributed to failure.",
+      "acceptable_access": [
+        "Paris Commune—9 Thermidor",
+        "National Guard—Thermidor",
+        "Robespierrist insurrection",
+        "sections—response to Robespierre's fall"
+      ],
+      "relationships": [
+        {
+          "type": "attempts_to_reverse",
+          "target_labels": [
+            "9 Thermidor and the fall of Robespierre"
+          ]
+        },
+        {
+          "type": "weakened_by",
+          "target_labels": [
+            "wage maximum and labor repression"
+          ]
+        },
+        {
+          "type": "fails_because_of",
+          "target_labels": [
+            "sectional nonmobilization"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why Paris did not save Robespierre",
+        "role of the Commune in Thermidor"
+      ],
+      "evidence": [
+        {
+          "document_page": 280,
+          "source_page_label": "280",
+          "locator_class": "principal",
+          "evidence_summary": "Only a minority of National Guard companies respond; outlawry and Barras's command draw wavering sections toward the Convention, and the assembled force dissolves."
+        },
+        {
+          "document_page": 281,
+          "source_page_label": "281",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Doyle weighs the late wage controls alongside poor preparation, political credulity, and popular willingness to accept another fallen idol as a scapegoat."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why Paris did not save Robespierre",
+        "role of the Commune in Thermidor"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S024",
+      "label": "Robespierre and dictatorship",
+      "priority": "essential",
+      "meaning": "Contemporaries increasingly called Robespierre a dictator, but his prominence and inflexibility did not amount to personal dictatorship or a demonstrable plan to establish one.",
+      "stance": "Doyle explicitly rejects the literal dictatorship thesis while explaining why people with reason to fear Robespierre used the charge before and after his fall.",
+      "acceptable_access": [
+        "Robespierre—dictatorship charge",
+        "dictatorship—Robespierre",
+        "Robespierre—historical interpretation"
+      ],
+      "relationships": [
+        {
+          "type": "perception_intensified_by",
+          "target_labels": [
+            "Festival of the Supreme Being and perceptions of Robespierre's personal power"
+          ]
+        },
+        {
+          "type": "justifies",
+          "target_labels": [
+            "9 Thermidor and the fall of Robespierre"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "was Robespierre a dictator",
+        "why contemporaries feared Robespierre"
+      ],
+      "evidence": [
+        {
+          "document_page": 277,
+          "source_page_label": "277",
+          "locator_class": "supporting",
+          "evidence_summary": "His national prominence, ceremonial leadership, and unilateral role in Prairial make older dictatorship accusations appear newly credible."
+        },
+        {
+          "document_page": 280,
+          "source_page_label": "280",
+          "locator_class": "supporting",
+          "evidence_summary": "The Convention mobilizes around denunciations of tyranny after Robespierre's broad threats leave deputies uncertain who is safe."
+        },
+        {
+          "document_page": 281,
+          "source_page_label": "281",
+          "locator_class": "principal",
+          "evidence_summary": "Doyle states that Robespierre neither exercised dictatorship nor is reliably shown to have sought it, locating the danger instead in moral inflexibility backed by power."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "was Robespierre a dictator",
+        "why contemporaries feared Robespierre"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S025",
+      "label": "Thermidor as rejection of a governing system",
+      "priority": "essential",
+      "meaning": "The overthrow initiated rejection of concentrated Revolutionary Government and terror rather than merely replacing Robespierre's personal faction.",
+      "stance": "Doyle presents this as the chapter's central interpretive claim and uses the rapid institutional changes after 9 Thermidor as its evidence.",
+      "acceptable_access": [
+        "Thermidor—historical significance",
+        "Thermidorian Reaction—governmental change",
+        "Revolutionary Government—rejection"
+      ],
+      "relationships": [
+        {
+          "type": "follows",
+          "target_labels": [
+            "9 Thermidor and the fall of Robespierre"
+          ]
+        },
+        {
+          "type": "demonstrated_by",
+          "target_labels": [
+            "dismantling of Revolutionary Government after Thermidor"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "meaning of Thermidor",
+        "continuity and change after Robespierre"
+      ],
+      "evidence": [
+        {
+          "document_page": 281,
+          "source_page_label": "281",
+          "locator_class": "principal",
+          "evidence_summary": "Doyle distinguishes the systemic significance of Thermidor from the simple removal of one man or group."
+        },
+        {
+          "document_page": 282,
+          "source_page_label": "282",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Within a month, rotation, repeal, redistributed powers, and reduced surveillance dismantle the central institutions of the Terror."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "meaning of Thermidor",
+        "continuity and change after Robespierre"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S026",
+      "label": "Dismantling of Revolutionary Government after Thermidor",
+      "priority": "essential",
+      "meaning": "Committee rotation, repeal of Prairial, reorganization of the Tribunal, restriction of watch committees, and redistribution of supervisory powers rapidly ended the concentrated institutions of Terror.",
+      "stance": "Doyle stresses speed, initiative from the Convention floor, and the belief that military success had made exceptional government unnecessary.",
+      "acceptable_access": [
+        "Revolutionary Government—dismantling",
+        "Thermidorian Reaction—institutional reforms",
+        "Committee of Public Safety—loss of powers",
+        "Terror—collapse after Thermidor"
+      ],
+      "relationships": [
+        {
+          "type": "implements",
+          "target_labels": [
+            "Thermidor as rejection of a governing system"
+          ]
+        },
+        {
+          "type": "causes",
+          "target_labels": [
+            "release of suspects and politics of revenge"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "institutions dismantled after Thermidor",
+        "why executions collapsed"
+      ],
+      "evidence": [
+        {
+          "document_page": 281,
+          "source_page_label": "281",
+          "locator_class": "supporting",
+          "evidence_summary": "The Convention rejects simple replacement of the dead committee members and instead imposes regular turnover."
+        },
+        {
+          "document_page": 282,
+          "source_page_label": "282",
+          "locator_class": "principal",
+          "evidence_summary": "Prairial is repealed, the Tribunal is purged, watch committees are reduced, and the Committee of Public Safety loses its general superintending role."
+        },
+        {
+          "document_page": 284,
+          "source_page_label": "284",
+          "locator_class": "supporting",
+          "evidence_summary": "Provincial special courts close more slowly, while new representatives remove local terrorists and release their prisoners."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "institutions dismantled after Thermidor",
+        "why executions collapsed"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S027",
+      "label": "Release of suspects and politics of revenge",
+      "priority": "major",
+      "meaning": "Large-scale releases created a population of embittered former prisoners who stigmatized local officials as terrorists and sought political or personal retaliation.",
+      "stance": "Doyle treats release as both proof of liberalization and a mechanism that converted memories of Terror into organized reaction.",
+      "acceptable_access": [
+        "suspects—release after Thermidor",
+        "prisoners—revenge against terrorists",
+        "Thermidorian Reaction—released prisoners"
+      ],
+      "relationships": [
+        {
+          "type": "result_of",
+          "target_labels": [
+            "dismantling of Revolutionary Government after Thermidor"
+          ]
+        },
+        {
+          "type": "feeds",
+          "target_labels": [
+            "White Terror"
+          ]
+        },
+        {
+          "type": "feeds",
+          "target_labels": [
+            "Gilded Youth"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "political effects of prisoner releases"
+      ],
+      "evidence": [
+        {
+          "document_page": 282,
+          "source_page_label": "282",
+          "locator_class": "principal",
+          "evidence_summary": "Thousands leave Paris prisons resentful of the watch committees and demanding vengeance, while anti-sansculotte vigilante groups appear."
+        },
+        {
+          "document_page": 284,
+          "source_page_label": "284",
+          "locator_class": "supporting",
+          "evidence_summary": "In the provinces, released people and their allies take control of local institutions and imprison former persecutors."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "political effects of prisoner releases"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S028",
+      "label": "Gilded Youth and Muscadins",
+      "priority": "essential",
+      "meaning": "Young anti-sansculotte vigilantes used conspicuous dress, street violence, and cultural policing to attack former terrorists, Jacobins, popular meetings, and revolutionary symbols.",
+      "stance": "Doyle depicts them as a private political street army encouraged by Thermidorian leaders; their social composition and motives were mixed rather than simply aristocratic or royalist.",
+      "acceptable_access": [
+        "Gilded Youth",
+        "Muscadins",
+        "anti-Jacobin street violence",
+        "Thermidorian youth gangs"
+      ],
+      "relationships": [
+        {
+          "type": "encouraged_by",
+          "target_labels": [
+            "Freron and Thermidorian press politics"
+          ]
+        },
+        {
+          "type": "instrument_of",
+          "target_labels": [
+            "Jacobin delegitimation and closure"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Convention during the Germinal and Prairial crises"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "who the Muscadins were",
+        "role of street violence in the Thermidorian Reaction"
+      ],
+      "evidence": [
+        {
+          "document_page": 282,
+          "source_page_label": "282",
+          "locator_class": "principal",
+          "evidence_summary": "Anti-sansculotte squads of former prisoners, draft evaders, clerks, and petty officials emerge in Paris and seek confrontations."
+        },
+        {
+          "document_page": 283,
+          "source_page_label": "283",
+          "locator_class": "principal",
+          "evidence_summary": "Freron coordinates attacks on Jacobins and radical sections through his paper and the street movement."
+        },
+        {
+          "document_page": 284,
+          "source_page_label": "284",
+          "locator_class": "principal",
+          "evidence_summary": "Muscadins stone and then invade the Jacobin Club, whose closure by the Convention ratifies their violent success."
+        },
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "supporting",
+          "evidence_summary": "They police theaters and public symbols, opposing revolutionary songs, caps, slogans, liberty trees, and the cult of Marat."
+        },
+        {
+          "document_page": 290,
+          "source_page_label": "290",
+          "locator_class": "supporting",
+          "evidence_summary": "Freron organizes them as an informal guard for the legislature as bread protests intensify."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "who the Muscadins were",
+        "role of street violence in the Thermidorian Reaction"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S029",
+      "label": "Thermidorian press politics and press freedom",
+      "priority": "major",
+      "meaning": "A rapidly expanding right-wing press denounced Terror and defended unrestricted publication, while Thermidorian papers also coordinated street action against radical opponents.",
+      "stance": "Doyle shows press freedom functioning both as a repudiation of Jacobin controls and as a weapon in an increasingly coercive reaction.",
+      "acceptable_access": [
+        "press freedom—Thermidorian Reaction",
+        "right-wing press—1794",
+        "Freron—newspapers",
+        "Thermidorian propaganda"
+      ],
+      "relationships": [
+        {
+          "type": "mobilizes",
+          "target_labels": [
+            "Gilded Youth and Muscadins"
+          ]
+        },
+        {
+          "type": "delegitimizes",
+          "target_labels": [
+            "Jacobin Club"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "role of newspapers in the Thermidorian Reaction"
+      ],
+      "evidence": [
+        {
+          "document_page": 283,
+          "source_page_label": "283",
+          "locator_class": "principal",
+          "evidence_summary": "New anti-Terror papers proliferate, and Thermidorian leaders invoke press freedom against proposals to restrain their incitement."
+        },
+        {
+          "document_page": 284,
+          "source_page_label": "284",
+          "locator_class": "supporting",
+          "evidence_summary": "Tallien adds his own paper as anti-Jacobin pressure increases and street mobilization becomes coordinated with print."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "role of newspapers in the Thermidorian Reaction"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S030",
+      "label": "Jacobin delegitimation and closure",
+      "priority": "essential",
+      "meaning": "The Jacobin label became synonymous with Terror, its affiliate network was legally weakened, its Paris hall was physically attacked, and the Convention closed the club as a rival center of power.",
+      "stance": "Doyle treats closure as the product of both political decision and successful street coercion, not simply a neutral restoration of order.",
+      "acceptable_access": [
+        "Jacobin Club—closure",
+        "Jacobins—post-Thermidorian reaction",
+        "Jacobin network—suppression",
+        "anti-Jacobinism"
+      ],
+      "relationships": [
+        {
+          "type": "driven_by",
+          "target_labels": [
+            "Gilded Youth and Muscadins"
+          ]
+        },
+        {
+          "type": "facilitated_by",
+          "target_labels": [
+            "Thermidorian press politics and press freedom"
+          ]
+        },
+        {
+          "type": "symbolizes",
+          "target_labels": [
+            "rightward turn after Thermidor"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why the Jacobin Club closed",
+        "when Jacobin became a term of abuse"
+      ],
+      "evidence": [
+        {
+          "document_page": 283,
+          "source_page_label": "283",
+          "locator_class": "principal",
+          "evidence_summary": "Thermidorian rhetoric equates the club with Terror and Robespierre, while radical sections and club supporters face coordinated harassment."
+        },
+        {
+          "document_page": 284,
+          "source_page_label": "284",
+          "locator_class": "principal",
+          "evidence_summary": "Membership publication and correspondence bans disable the affiliate network; violent attacks on the Paris hall are followed by official closure."
+        },
+        {
+          "document_page": 285,
+          "source_page_label": "285",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Provincial political language rapidly reverses, making public Jacobin identification unacceptable and marking a nationwide reaction."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why the Jacobin Club closed",
+        "when Jacobin became a term of abuse"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S031",
+      "label": "Carrier, the Nantes atrocities, and post-Thermidorian justice",
+      "priority": "major",
+      "meaning": "Evidence about the Nantes drownings moved from the trial of alleged Federalists to prosecution and execution of Carrier, making him the emblematic provincial terrorist sacrificed by the Convention.",
+      "stance": "Doyle accepts Carrier's broad responsibility while qualifying both the atrocities attributed personally to him and the Convention's attempt to isolate guilt it had collectively shared.",
+      "acceptable_access": [
+        "Carrier—trial and execution",
+        "Nantes drownings—Thermidorian investigation",
+        "Nantes revolutionary committee",
+        "provincial Terror—accountability"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_labels": [
+            "collective responsibility and scapegoating for the Terror"
+          ]
+        },
+        {
+          "type": "accelerates",
+          "target_labels": [
+            "Jacobin delegitimation and closure"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why Carrier was executed",
+        "Thermidorian use of the Nantes drownings"
+      ],
+      "evidence": [
+        {
+          "document_page": 283,
+          "source_page_label": "283",
+          "locator_class": "principal",
+          "evidence_summary": "An acquittal exposes details of Nantes repression, leading first to prosecution of the local committee and then to investigation of Carrier."
+        },
+        {
+          "document_page": 284,
+          "source_page_label": "284",
+          "locator_class": "supporting",
+          "evidence_summary": "The Convention orders Carrier's arrest while refusing sympathy to a Jacobin Club under violent attack."
+        },
+        {
+          "document_page": 285,
+          "source_page_label": "285",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Carrier argues that he obeyed Convention policy; Doyle finds the defense partly fair but shows how his execution establishes a model for sacrificial blame."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why Carrier was executed",
+        "Thermidorian use of the Nantes drownings"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S032",
+      "label": "Collective responsibility and scapegoating for the Terror",
+      "priority": "major",
+      "meaning": "Thermidorian politics sought identifiable perpetrators of Terror while evidence repeatedly showed that the Convention and governing committees had authorized policies collectively.",
+      "stance": "Doyle refuses to treat late opponents of Robespierre as innocent outsiders and presents Carrier's sacrifice and later committee prosecutions as selective management of shared guilt.",
+      "acceptable_access": [
+        "Terror—collective responsibility",
+        "Thermidorians—scapegoating",
+        "Convention—responsibility for Terror",
+        "former governing committees—prosecution"
+      ],
+      "relationships": [
+        {
+          "type": "illustrated_by",
+          "target_labels": [
+            "Carrier, the Nantes atrocities, and post-Thermidorian justice"
+          ]
+        },
+        {
+          "type": "drives",
+          "target_labels": [
+            "impeachment and deportation of former committee members"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "who was blamed for the Terror after Thermidor",
+        "continuity between Thermidorians and Terror"
+      ],
+      "evidence": [
+        {
+          "document_page": 283,
+          "source_page_label": "283",
+          "locator_class": "supporting",
+          "evidence_summary": "Calls target committee members who turned late against Robespierre, revealing that Thermidor did not cleanly divide perpetrators from opponents."
+        },
+        {
+          "document_page": 284,
+          "source_page_label": "284",
+          "locator_class": "principal",
+          "evidence_summary": "Carnot blocks early impeachment by affirming that the entire Committee of Public Safety had supported the Terror."
+        },
+        {
+          "document_page": 285,
+          "source_page_label": "285",
+          "locator_class": "principal",
+          "evidence_summary": "Carrier identifies the Convention's own orders as the source of his conduct, but his execution lets the body create an individual example."
+        },
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "supporting",
+          "evidence_summary": "A later commission indicts surviving committee leaders as the political reaction becomes too strong for continued protection."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "who was blamed for the Terror after Thermidor",
+        "continuity between Thermidorians and Terror"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S033",
+      "label": "Girondin rehabilitation and the rightward political turn",
+      "priority": "major",
+      "meaning": "Surviving Girondins and sympathizers returned to the Convention while notorious terrorists were eliminated, marking a completed political reversal that nevertheless produced revenge rather than reconciliation.",
+      "stance": "Doyle treats rehabilitation as evidence of the direction of travel but cautions against equating it with moderation or consensus.",
+      "acceptable_access": [
+        "Girondins—rehabilitation",
+        "Convention—rightward turn",
+        "Thermidorian Reaction—Girondins",
+        "Tom Paine—reinstatement"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "prosecution of former Terror leaders"
+          ]
+        },
+        {
+          "type": "prepares",
+          "target_labels": [
+            "constitutional revision after Prairial"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "return of the Girondins",
+        "political meaning of Girondin reinstatement"
+      ],
+      "evidence": [
+        {
+          "document_page": 285,
+          "source_page_label": "285",
+          "locator_class": "principal",
+          "evidence_summary": "Girondin sympathizers regain full Convention membership shortly before Carrier's execution, completing the reversal but opening a year of retaliation."
+        },
+        {
+          "document_page": 290,
+          "source_page_label": "290",
+          "locator_class": "supporting",
+          "evidence_summary": "Additional Girondins return while bread protesters confront a legislature now increasingly associated with anti-sansculotte deputies."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "return of the Girondins",
+        "political meaning of Girondin reinstatement"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S034",
+      "label": "Abolition of the Maximum and return to free trade",
+      "priority": "essential",
+      "meaning": "The Convention abandoned price controls after concluding that regulation worsened scarcity and hoarding and that free trade would restore supply and international commerce.",
+      "stance": "Doyle notes that deputies had accepted the Maximum only reluctantly and moved back to prior convictions once signs of popular support for control weakened; the timing proved disastrous.",
+      "acceptable_access": [
+        "Maximum—abolition",
+        "price controls—Thermidorian policy",
+        "free trade—1794",
+        "controlled economy—dismantling"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "subsistence crisis of winter and spring 1794-1795"
+          ]
+        },
+        {
+          "type": "accelerates",
+          "target_labels": [
+            "assignat and fiscal collapse"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why the Maximum was abolished",
+        "economic liberalization after Thermidor"
+      ],
+      "evidence": [
+        {
+          "document_page": 285,
+          "source_page_label": "285",
+          "locator_class": "supporting",
+          "evidence_summary": "Although the Convention initially extends the Maximum, widespread evasion and falling assignat value undermine confidence in controls."
+        },
+        {
+          "document_page": 286,
+          "source_page_label": "286",
+          "locator_class": "principal",
+          "evidence_summary": "Deputies interpret controls as causes of scarcity and accept a recommendation to abolish the Maximum on 24 December."
+        },
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Market-price government purchases and unchecked inflation help drive the currency to a small fraction of face value."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why the Maximum was abolished",
+        "economic liberalization after Thermidor"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S035",
+      "label": "Subsistence crisis of winter and spring 1794-1795",
+      "priority": "essential",
+      "meaning": "Exceptional cold, a mediocre harvest, military priority, transport and milling failures, fuel scarcity, collapsing currency, and uncontrolled prices produced severe hunger and cold across France.",
+      "stance": "Doyle presents the crisis as multi-causal and national, while showing that bread rationing preserved Parisian confidence only temporarily and then drove the last popular uprisings.",
+      "acceptable_access": [
+        "subsistence crisis—1794-1795",
+        "famine—Year III",
+        "winter of 1794-1795",
+        "bread rationing—Paris",
+        "fuel shortage—1795"
+      ],
+      "relationships": [
+        {
+          "type": "worsened_by",
+          "target_labels": [
+            "abolition of the Maximum and return to free trade"
+          ]
+        },
+        {
+          "type": "worsened_by",
+          "target_labels": [
+            "assignat and fiscal collapse"
+          ]
+        },
+        {
+          "type": "drives",
+          "target_labels": [
+            "Germinal uprising"
+          ]
+        },
+        {
+          "type": "drives",
+          "target_labels": [
+            "Prairial uprising"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "causes of the Year III famine",
+        "Paris bread ration in 1795",
+        "relationship between hunger and popular insurrection"
+      ],
+      "evidence": [
+        {
+          "document_page": 286,
+          "source_page_label": "286",
+          "locator_class": "principal",
+          "evidence_summary": "Severe freezing immobilizes grain and fuel after a weak harvest, while provincial and Paris authorities ration and subsidize bread amid sharply rising prices."
+        },
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "supporting",
+          "evidence_summary": "The expanding assignat issue and fiscal weakness magnify the real-resource crisis and reduce purchasing power further."
+        },
+        {
+          "document_page": 290,
+          "source_page_label": "290",
+          "locator_class": "principal",
+          "evidence_summary": "By March, shrinking and unreliable bread rations destroy popular confidence and revive memories of the controlled economy under Terror."
+        },
+        {
+          "document_page": 293,
+          "source_page_label": "293",
+          "locator_class": "principal",
+          "evidence_summary": "Rations fall to extreme levels despite foreign peace and emergency substitutes, directing anger toward a government unable to feed the capital."
+        },
+        {
+          "document_page": 294,
+          "source_page_label": "294",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Bread scarcity supplies the central demand and mobilizing force of the Prairial invasion of the Convention."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "causes of the Year III famine",
+        "Paris bread ration in 1795",
+        "relationship between hunger and popular insurrection"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S036",
+      "label": "Assignat and fiscal collapse in 1794-1795",
+      "priority": "major",
+      "meaning": "Currency depreciation accelerated as price controls ended, state purchases rose to market levels, tax collection faltered, and the government printed more paper to finance war commitments.",
+      "stance": "Doyle embeds monetary collapse in administrative weakness and material shortage rather than presenting it as an isolated financial event.",
+      "acceptable_access": [
+        "assignats—collapse in Year III",
+        "inflation—1794-1795",
+        "Revolutionary finances—Thermidor",
+        "tax collection—Year III"
+      ],
+      "relationships": [
+        {
+          "type": "accelerated_by",
+          "target_labels": [
+            "abolition of the Maximum and return to free trade"
+          ]
+        },
+        {
+          "type": "worsens",
+          "target_labels": [
+            "subsistence crisis of winter and spring 1794-1795"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why assignats collapsed in 1795",
+        "government finance after the Maximum"
+      ],
+      "evidence": [
+        {
+          "document_page": 285,
+          "source_page_label": "285",
+          "locator_class": "supporting",
+          "evidence_summary": "The assignat loses substantial value during the political transition even before price controls are removed."
+        },
+        {
+          "document_page": 286,
+          "source_page_label": "286",
+          "locator_class": "principal",
+          "evidence_summary": "The state must buy at market prices while revenue weakens, and further note issues become the main way to meet war obligations."
+        },
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "By May the circulating volume approaches twice the previous year's level and market value has fallen to about one-twelfth of face value."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why assignats collapsed in 1795",
+        "government finance after the Maximum"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S037",
+      "label": "Campaign against Marat and revolutionary symbols",
+      "priority": "major",
+      "meaning": "Muscadins and the right-wing press attacked Marat's cult, revolutionary songs, red caps, liberty trees, and public slogans as part of a wider reversal of Year II political culture.",
+      "stance": "Doyle treats the anti-Marat campaign as consequential because his symbolic constituency extended beyond formal Jacobins and therefore provoked the remaining popular movement.",
+      "acceptable_access": [
+        "Marat—post-Thermidorian reaction",
+        "Pantheon—removal of Marat",
+        "revolutionary symbols—Thermidorian attacks",
+        "Muscadins—cultural politics"
+      ],
+      "relationships": [
+        {
+          "type": "campaign_of",
+          "target_labels": [
+            "Gilded Youth and Muscadins"
+          ]
+        },
+        {
+          "type": "provokes",
+          "target_labels": [
+            "Babeuf and democratic agitation"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why Marat was removed from the Pantheon",
+        "cultural reaction after Thermidor"
+      ],
+      "evidence": [
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "principal",
+          "evidence_summary": "Muscadins destroy busts and symbols and press for Marat's removal; the Convention complies and uses a general waiting rule to eject other Year II martyrs."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why Marat was removed from the Pantheon",
+        "cultural reaction after Thermidor"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S038",
+      "label": "Babeuf and democratic agitation in early 1795",
+      "priority": "major",
+      "meaning": "Babeuf's clandestine journalism called for a new popular insurrection and immediate application of the democratic Constitution of 1793 amid attacks on Marat and radical societies.",
+      "stance": "Doyle treats the call as counterproductive in the immediate context: it triggered Babeuf's arrest and closure of the remaining popular societies rather than renewed mobilization.",
+      "acceptable_access": [
+        "Babeuf—Tribun du peuple",
+        "Babeuf—Constitution of 1793",
+        "democratic agitation—1795",
+        "popular societies—closure in 1795"
+      ],
+      "relationships": [
+        {
+          "type": "responds_to",
+          "target_labels": [
+            "campaign against Marat and revolutionary symbols"
+          ]
+        },
+        {
+          "type": "invokes",
+          "target_labels": [
+            "Constitution of 1793 in Thermidorian politics"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "Babeuf before the Directory",
+        "Babeuf's role in early 1795 protests"
+      ],
+      "evidence": [
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "principal",
+          "evidence_summary": "Babeuf urges insurrection for the suspended democratic constitution, but the appeal is followed by his arrest and official suppression of popular societies."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "Babeuf before the Directory",
+        "Babeuf's role in early 1795 protests"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S039",
+      "label": "Readmission of emigres and Federalists",
+      "priority": "major",
+      "meaning": "Thermidorian legislation gradually permitted selected emigrants and outlawed Federalists to return, reversing categories of exclusion created during revolutionary emergency.",
+      "stance": "Doyle treats these measures as vivid evidence that reaction had moved beyond any remaining pretense of preserving the Jacobin order.",
+      "acceptable_access": [
+        "emigres—return after Thermidor",
+        "Federalists—amnesty and return",
+        "Thermidorian Reaction—political readmissions"
+      ],
+      "relationships": [
+        {
+          "type": "evidence_of",
+          "target_labels": [
+            "rightward political turn"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "prosecution of former Terror leaders"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "when emigres began to return",
+        "rehabilitation of Federalists"
+      ],
+      "evidence": [
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "principal",
+          "evidence_summary": "Restrictions first ease for selected occupational groups and then for outlawed Federalists as former governing committee members face indictment."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "when emigres began to return",
+        "rehabilitation of Federalists"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S040",
+      "label": "Separation of Church and State in 1794",
+      "priority": "essential",
+      "meaning": "The Convention ended state payment and recognition of all cults, thereby abandoning both the constitutional Church and official sponsorship of the Supreme Being.",
+      "stance": "Doyle identifies this as France's first formal separation of Church and State and distinguishes it from renewed dechristianization, despite contemporary ambiguity.",
+      "acceptable_access": [
+        "Church and State—separation in 1794",
+        "constitutional Church—end",
+        "religion—state financing ended",
+        "Cult of the Supreme Being—termination"
+      ],
+      "relationships": [
+        {
+          "type": "ends",
+          "target_labels": [
+            "constitutional Church"
+          ]
+        },
+        {
+          "type": "ends",
+          "target_labels": [
+            "official Cult of the Supreme Being"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "freedom of worship in February 1795"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "first French separation of Church and State",
+        "fate of the constitutional Church"
+      ],
+      "evidence": [
+        {
+          "document_page": 288,
+          "source_page_label": "288",
+          "locator_class": "principal",
+          "evidence_summary": "The Republic renounces payment of any cult, ending its own constitutional church and the state religion associated with Robespierre."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "first French separation of Church and State",
+        "fate of the constitutional Church"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S041",
+      "label": "Freedom of worship and revival of public religion in 1795",
+      "priority": "essential",
+      "meaning": "The February decree allowed private, self-financed worship while withholding official recognition and restricting visible clerical signs, ceremonies, and bells; public Mass nevertheless revived rapidly.",
+      "stance": "Doyle presents the settlement as grudging and limited but correctly understood by believers as a major opening, not a return to the pre-revolutionary Church.",
+      "acceptable_access": [
+        "freedom of worship—1795",
+        "religious toleration—Thermidor",
+        "Catholic worship—reopening",
+        "religion as a private affair"
+      ],
+      "relationships": [
+        {
+          "type": "develops_from",
+          "target_labels": [
+            "separation of Church and State in 1794"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "western pacification"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "terms of the 1795 religious freedom decree",
+        "return of public Mass"
+      ],
+      "evidence": [
+        {
+          "document_page": 288,
+          "source_page_label": "288",
+          "locator_class": "principal",
+          "evidence_summary": "The law permits all cults to worship privately at their own expense while retaining strict limits on public religious display; services resume quickly in Paris and Brittany."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "terms of the 1795 religious freedom decree",
+        "return of public Mass"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S042",
+      "label": "Religious conciliation as western pacification policy",
+      "priority": "major",
+      "meaning": "The Convention linked freedom of worship and abandonment of coercive religious policy to the need for a durable settlement in the Vendee and Brittany.",
+      "stance": "Doyle treats religious concessions as a strategic response to a grievance that had transformed resistance into royalism, not solely as an abstract liberal reform.",
+      "acceptable_access": [
+        "religious policy—Vendee pacification",
+        "freedom of worship—western France",
+        "Vendee—religious grievances"
+      ],
+      "relationships": [
+        {
+          "type": "connects",
+          "target_labels": [
+            "freedom of worship in February 1795"
+          ]
+        },
+        {
+          "type": "connects",
+          "target_labels": [
+            "western pacification agreements"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "religion in the pacification of the Vendee"
+      ],
+      "evidence": [
+        {
+          "document_page": 288,
+          "source_page_label": "288",
+          "locator_class": "principal",
+          "evidence_summary": "The need to end western civil war supplies much of the impetus for the new religious settlement."
+        },
+        {
+          "document_page": 289,
+          "source_page_label": "289",
+          "locator_class": "supporting",
+          "evidence_summary": "The Vendee agreement explicitly guarantees religious freedom alongside security and exemption concessions."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "religion in the pacification of the Vendee"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S043",
+      "label": "Vendée and Chouan insurgency after the Great War",
+      "priority": "essential",
+      "meaning": "Turreau's reprisals deepened hostility in the Vendee, while conscription expanded chouannerie in Brittany and rural guerrillas undermined Republican government outside fortified towns.",
+      "stance": "Doyle rejects the idea that battlefield defeat ended western counter-revolution; coercive pacification instead enlarged and reorganized resistance.",
+      "acceptable_access": [
+        "Vendee—insurgency after Savenay",
+        "chouannerie—growth in 1794",
+        "Turreau—reprisals",
+        "western France—royalist insurgency"
+      ],
+      "relationships": [
+        {
+          "type": "caused_by",
+          "target_labels": [
+            "repressive pacification and conscription"
+          ]
+        },
+        {
+          "type": "addressed_by",
+          "target_labels": [
+            "Hoche and the conciliatory western policy"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why the Vendee war continued",
+        "origins and scale of the Chouans"
+      ],
+      "evidence": [
+        {
+          "document_page": 288,
+          "source_page_label": "288",
+          "locator_class": "supporting",
+          "evidence_summary": "The religious settlement is introduced partly to answer grievances that had made western resistance royalist."
+        },
+        {
+          "document_page": 289,
+          "source_page_label": "289",
+          "locator_class": "principal",
+          "evidence_summary": "Turreau's reprisals further alienate the Vendee, while conscription drives thousands into Breton guerrilla bands that disrupt Republican administration."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why the Vendee war continued",
+        "origins and scale of the Chouans"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S044",
+      "label": "Hoche and the conciliatory western policy",
+      "priority": "major",
+      "meaning": "After Thermidor, troops reduced provocative occupation, authorities opened negotiations, and Hoche offered amnesty and bounties to rebels who surrendered arms.",
+      "stance": "Doyle presents conciliation as a sharp reversal from Turreau's violence and as a necessary response to Republican loss of rural control.",
+      "acceptable_access": [
+        "Hoche—western pacification",
+        "amnesty—Vendee and Brittany",
+        "Republican policy—western insurgency",
+        "Turreau—replacement"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Vendee and Chouan insurgency after the Great War"
+          ]
+        },
+        {
+          "type": "leads_to",
+          "target_labels": [
+            "western pacification agreements"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "Hoche's role in western pacification",
+        "shift from repression to negotiation"
+      ],
+      "evidence": [
+        {
+          "document_page": 289,
+          "source_page_label": "289",
+          "locator_class": "principal",
+          "evidence_summary": "Hoche takes northern command, offers amnesty and payments for arms, and supports negotiations after troops are ordered away from provocative local billeting."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "Hoche's role in western pacification",
+        "shift from repression to negotiation"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S045",
+      "label": "Western pacification agreements of 1795",
+      "priority": "essential",
+      "meaning": "The pacifications of La Jaunaye and La Mabilais traded cessation of rebel operations for religious freedom, protection from reprisals, conscription exemptions, property and indemnity concessions, and substantial local autonomy.",
+      "stance": "Doyle distinguishes the Republic's generous formal concessions from the rebels' limited commitment: several leaders accepted tactically while preparing for British intervention.",
+      "acceptable_access": [
+        "La Jaunaye—pacification",
+        "La Mabilais—treaty",
+        "Vendee—peace terms of 1795",
+        "Chouans—peace negotiations"
+      ],
+      "relationships": [
+        {
+          "type": "result_of",
+          "target_labels": [
+            "Hoche and the conciliatory western policy"
+          ]
+        },
+        {
+          "type": "undermined_by",
+          "target_labels": [
+            "British expedition plans and rebel strategy"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "terms of the 1795 western settlements",
+        "why the pacifications failed"
+      ],
+      "evidence": [
+        {
+          "document_page": 289,
+          "source_page_label": "289",
+          "locator_class": "principal",
+          "evidence_summary": "Charette accepts broad guarantees covering worship, conscription, confiscated property, compensation, arms, and local order, while monarchy alone remains unconceded."
+        },
+        {
+          "document_page": 290,
+          "source_page_label": "290",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Stoﬄet and Breton acceptance is presented as tactical delay under secret expectations of British intervention, not durable reconciliation."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "terms of the 1795 western settlements",
+        "why the pacifications failed"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S046",
+      "label": "British expedition plans and rebel strategy in western France",
+      "priority": "major",
+      "meaning": "Puisaye's assurances of a British coastal expedition encouraged Vendee and Breton leaders to treat armistices as preparation time rather than final submission.",
+      "stance": "Doyle explicitly corrects the Republican belief that generous terms alone had produced compliance.",
+      "acceptable_access": [
+        "Puisaye—British expedition",
+        "British intervention—Brittany",
+        "western rebels—armistice strategy",
+        "pacification agreements—insincerity"
+      ],
+      "relationships": [
+        {
+          "type": "undermines",
+          "target_labels": [
+            "western pacification agreements of 1795"
+          ]
+        },
+        {
+          "type": "prepares",
+          "target_labels": [
+            "renewed counter-revolution by force"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "British role in the failure of western pacification"
+      ],
+      "evidence": [
+        {
+          "document_page": 290,
+          "source_page_label": "290",
+          "locator_class": "principal",
+          "evidence_summary": "Secret expectations of a British landing lead insurgent leaders to coordinate renewed action and reinterpret their agreements as temporary expedients."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "British role in the failure of western pacification"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S047",
+      "label": "Parisian bread politics in March 1795",
+      "priority": "major",
+      "meaning": "Failing bread distribution destroyed confidence in the Convention, revived favorable memories of controlled prices, drew women into petitioning, and opened space for both royalist and neo-sansculotte agitation.",
+      "stance": "Doyle distinguishes immediate popular recourse to remembered economic controls from royalist attempts to interpret scarcity as failure of the Republic.",
+      "acceptable_access": [
+        "Paris—bread crisis in March 1795",
+        "women—bread petitions",
+        "popular memory of the Maximum",
+        "royalist propaganda—food shortage"
+      ],
+      "relationships": [
+        {
+          "type": "local_expression_of",
+          "target_labels": [
+            "subsistence crisis of winter and spring 1794-1795"
+          ]
+        },
+        {
+          "type": "leads_to",
+          "target_labels": [
+            "Germinal uprising"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "bread shortages before Germinal",
+        "women and subsistence protest"
+      ],
+      "evidence": [
+        {
+          "document_page": 290,
+          "source_page_label": "290",
+          "locator_class": "principal",
+          "evidence_summary": "Ration cuts and empty shops end popular trust; women petition, eastern districts discuss uprising, and the controlled economy becomes a favorable point of comparison."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "bread shortages before Germinal",
+        "women and subsistence protest"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S048",
+      "label": "Germinal uprising of 1795",
+      "priority": "essential",
+      "meaning": "A large, predominantly eastern Parisian crowd invaded the Convention demanding bread and the Constitution of 1793 but lacked leadership, coordination, and a workable program and withdrew when loyal forces arrived.",
+      "stance": "Doyle makes organizational destruction since 1794 the decisive structural weakness and distinguishes mass anger from a planned insurrection.",
+      "acceptable_access": [
+        "Germinal uprising",
+        "12 Germinal",
+        "Paris—insurrection of April 1795",
+        "bread and Constitution of 1793"
+      ],
+      "relationships": [
+        {
+          "type": "driven_by",
+          "target_labels": [
+            "Parisian bread politics in March 1795"
+          ]
+        },
+        {
+          "type": "weakened_by",
+          "target_labels": [
+            "suppression of Parisian sections and popular societies"
+          ]
+        },
+        {
+          "type": "followed_by",
+          "target_labels": [
+            "post-Germinal repression"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "events and failure of Germinal",
+        "demands of the Germinal crowd"
+      ],
+      "evidence": [
+        {
+          "document_page": 290,
+          "source_page_label": "290",
+          "locator_class": "supporting",
+          "evidence_summary": "Bread riots, failed marches, and calls for the 1793 constitution build toward a mass confrontation."
+        },
+        {
+          "document_page": 291,
+          "source_page_label": "291",
+          "locator_class": "principal",
+          "evidence_summary": "Roughly ten thousand enter the hall but lack coordination and clear demands; even remaining Montagnards urge withdrawal before western forces arrive."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "events and failure of Germinal",
+        "demands of the Germinal crowd"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S049",
+      "label": "Post-Germinal repression and deportation of former committee leaders",
+      "priority": "major",
+      "meaning": "After the Germinal crowd dispersed, military policing, arrests, deportation of leading former terrorists, and detention of Montagnard deputies converted a failed protest into a broader political purge.",
+      "stance": "Doyle treats the Convention's immediate verdict as both defiance of popular coercion and release of accumulated hostility toward the Year II government.",
+      "acceptable_access": [
+        "Germinal—repression",
+        "Barere—deportation",
+        "Billaud-Varenne—deportation",
+        "Collot d'Herbois—deportation",
+        "Montagnards—arrests after Germinal"
+      ],
+      "relationships": [
+        {
+          "type": "follows",
+          "target_labels": [
+            "Germinal uprising of 1795"
+          ]
+        },
+        {
+          "type": "extends_through",
+          "target_labels": [
+            "Law of 10 April 1795"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "consequences of Germinal",
+        "deportation of former Committee members"
+      ],
+      "evidence": [
+        {
+          "document_page": 291,
+          "source_page_label": "291",
+          "locator_class": "principal",
+          "evidence_summary": "Pichegru receives security command, former committee leaders are sentenced to deportation, and ex-Montagnard deputies are placed under arrest as unrest continues."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "consequences of Germinal",
+        "deportation of former Committee members"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S050",
+      "label": "Law of 10 April 1795 and disarmament of former terrorists",
+      "priority": "major",
+      "meaning": "The Convention authorized sections to identify and disarm people known for activism during the Terror, exposing thousands to reprisals and encouraging detention on a much wider provincial scale.",
+      "stance": "Doyle treats the law as a direct political classification of former revolutionaries as public enemies and as the principal trigger for widespread counter-terror, though violence began earlier in some places.",
+      "acceptable_access": [
+        "Law of 10 April 1795",
+        "former terrorists—disarmament",
+        "suspects—Thermidorian detention",
+        "counter-terror—legal trigger"
+      ],
+      "relationships": [
+        {
+          "type": "extends",
+          "target_labels": [
+            "post-Germinal repression"
+          ]
+        },
+        {
+          "type": "triggers",
+          "target_labels": [
+            "White Terror"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "legal trigger of the White Terror",
+        "disarmament after Germinal"
+      ],
+      "evidence": [
+        {
+          "document_page": 291,
+          "source_page_label": "291",
+          "locator_class": "principal",
+          "evidence_summary": "Paris sections disarm about sixteen hundred former activists, and analogous measures mark Year II officials as enemies beyond the capital."
+        },
+        {
+          "document_page": 292,
+          "source_page_label": "292",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Local authorities extend disarmament into mass imprisonment, creating vulnerable concentrations of former terrorists and prompting widespread revenge."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "legal trigger of the White Terror",
+        "disarmament after Germinal"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S051",
+      "label": "White Terror",
+      "priority": "essential",
+      "meaning": "The 1795 counter-terror combined royalist organization in some regions with a broader and often less ideological campaign of revenge against former terrorists, using decentralized gangs, lynching, ambush, and prison massacre.",
+      "stance": "Doyle rejects a uniform royalist explanation and compares its decentralized violence more closely to the anarchic Terror of 1793 than to the centralized machinery of 1794.",
+      "acceptable_access": [
+        "White Terror",
+        "counter-terror—1795",
+        "royalist vengeance—southern France",
+        "former terrorists—reprisals"
+      ],
+      "relationships": [
+        {
+          "type": "triggered_by",
+          "target_labels": [
+            "Law of 10 April 1795"
+          ]
+        },
+        {
+          "type": "motivated_by",
+          "target_labels": [
+            "revenge for the Year II Terror"
+          ]
+        },
+        {
+          "type": "partly_royalist",
+          "target_labels": [
+            "Companies of the Sun and Companies of Jesus"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "causes and character of the White Terror",
+        "whether the White Terror was royalist"
+      ],
+      "evidence": [
+        {
+          "document_page": 291,
+          "source_page_label": "291",
+          "locator_class": "supporting",
+          "evidence_summary": "Post-Germinal measures identify former revolutionary activists as enemies and release a wave of provincial counter-terror."
+        },
+        {
+          "document_page": 292,
+          "source_page_label": "292",
+          "locator_class": "principal",
+          "evidence_summary": "Royalist groups operate in some areas, but revenge is the more general motive; decentralized murder replaces the guillotine and spreads after mass detentions."
+        },
+        {
+          "document_page": 293,
+          "source_page_label": "293",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Youth gangs sustain violence across the south-east, producing an estimated regional death toll of roughly two thousand."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "causes and character of the White Terror",
+        "whether the White Terror was royalist"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S052",
+      "label": "South-eastern prison massacres during the White Terror",
+      "priority": "major",
+      "meaning": "Crowds and murder gangs attacked prisons holding former terrorists in Lyons, Aix, Tarascon, and Marseilles, often with weak or complicit official protection.",
+      "stance": "Doyle locates the massacres where the prior Terror had been especially bloody and vendetta traditions were strong; detention created the immediate opportunity for vengeance.",
+      "acceptable_access": [
+        "White Terror—prison massacres",
+        "Lyons—massacre of 1795",
+        "Aix—White Terror",
+        "Tarascon—White Terror",
+        "Marseilles—White Terror"
+      ],
+      "relationships": [
+        {
+          "type": "regional_expression_of",
+          "target_labels": [
+            "White Terror"
+          ]
+        },
+        {
+          "type": "enabled_by",
+          "target_labels": [
+            "Law of 10 April 1795 and mass detention"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "major White Terror massacres",
+        "geography of counter-terror"
+      ],
+      "evidence": [
+        {
+          "document_page": 292,
+          "source_page_label": "292",
+          "locator_class": "principal",
+          "evidence_summary": "Detained former terrorists are massacred in major south-eastern prisons, with events concentrated in regions marked by bloody prior repression and local vendetta."
+        },
+        {
+          "document_page": 293,
+          "source_page_label": "293",
+          "locator_class": "supporting",
+          "evidence_summary": "Violence continues after the initial May explosion through organized youth gangs across the south-east."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "major White Terror massacres",
+        "geography of counter-terror"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S053",
+      "label": "Toulon pro-Jacobin mobilization and repression",
+      "priority": "major",
+      "meaning": "Arsenal workers organized an armed march toward Marseilles against reactionary disorder, but troops and National Guards dispersed them and a military commission executed participants.",
+      "stance": "Doyle presents the episode as a regional pro-Jacobin response to counter-terror that was itself met by severe official repression.",
+      "acceptable_access": [
+        "Toulon—pro-Jacobin march",
+        "arsenal workers—Toulon",
+        "Marseilles—Toulon expedition",
+        "military commission—Toulon rebels"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "White Terror"
+          ]
+        },
+        {
+          "type": "suppressed_by",
+          "target_labels": [
+            "Thermidorian military forces"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "Toulon workers and the White Terror"
+      ],
+      "evidence": [
+        {
+          "document_page": 292,
+          "source_page_label": "292",
+          "locator_class": "supporting",
+          "evidence_summary": "Reports of reaction farther west prompt Toulon workers to mobilize under pro-Mountain slogans."
+        },
+        {
+          "document_page": 293,
+          "source_page_label": "293",
+          "locator_class": "principal",
+          "evidence_summary": "A mixed military force defeats the march, and a special commission executes dozens beyond those killed in the fighting."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "Toulon workers and the White Terror"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S054",
+      "label": "Organization of the Prairial uprising",
+      "priority": "major",
+      "meaning": "Unlike Germinal, the May movement rebuilt sectional meetings, declared permanent sessions, circulated an insurrectionary program, used the tocsin, and mobilized armed eastern districts under pressure from desperate women.",
+      "stance": "Doyle treats the movement as more deliberately organized than Germinal without suggesting that it possessed a viable national program or durable institutional base.",
+      "acceptable_access": [
+        "Prairial uprising—organization",
+        "People's Insurrection to Obtain Bread and Recover our Rights",
+        "Paris sections—Prairial",
+        "women—mobilization in Prairial"
+      ],
+      "relationships": [
+        {
+          "type": "responds_to",
+          "target_labels": [
+            "subsistence crisis of winter and spring 1794-1795"
+          ]
+        },
+        {
+          "type": "prepares",
+          "target_labels": [
+            "Prairial invasion of the Convention"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "planning of the Prairial uprising",
+        "women's role in Prairial"
+      ],
+      "evidence": [
+        {
+          "document_page": 293,
+          "source_page_label": "293",
+          "locator_class": "principal",
+          "evidence_summary": "Sections resume regular and sometimes permanent meetings, an anonymous insurrectionary text supplies a program, and the tocsin launches the movement."
+        },
+        {
+          "document_page": 294,
+          "source_page_label": "294",
+          "locator_class": "supporting",
+          "evidence_summary": "Women press workers into action and armed National Guards from the eastern districts become the uprising's principal force."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "planning of the Prairial uprising",
+        "women's role in Prairial"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S055",
+      "label": "Prairial invasion of the Convention and insurgent demands",
+      "priority": "essential",
+      "meaning": "The crowd entered the Convention after Feraud's killing and demanded bread, the Constitution of 1793, release of patriots, restored sectional and communal autonomy, food searches, and action against emigres and anti-Jacobin deputies.",
+      "stance": "Doyle presents a moment of overwhelming force and expanded political demands, while preserving the distinction between the crowd's action and the later, unsupported charge that Montagnard deputies planned it.",
+      "acceptable_access": [
+        "Prairial uprising",
+        "1 Prairial",
+        "Convention—invasion in May 1795",
+        "Feraud—murder",
+        "sansculotte demands—Prairial"
+      ],
+      "relationships": [
+        {
+          "type": "prepared_by",
+          "target_labels": [
+            "organization of the Prairial uprising"
+          ]
+        },
+        {
+          "type": "supported_inside_by",
+          "target_labels": [
+            "Crest and Montagnard deputies"
+          ]
+        },
+        {
+          "type": "followed_by",
+          "target_labels": [
+            "defeat and repression of Prairial"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "demands of the Prairial insurgents",
+        "murder of Feraud",
+        "events inside the Convention"
+      ],
+      "evidence": [
+        {
+          "document_page": 294,
+          "source_page_label": "294",
+          "locator_class": "principal",
+          "evidence_summary": "Armed insurgents enter after Feraud is killed, display his head, and combine subsistence demands with a broad restoration of democratic and popular institutions."
+        },
+        {
+          "document_page": 295,
+          "source_page_label": "295",
+          "locator_class": "supporting",
+          "evidence_summary": "The Convention later treats the supportive Montagnards as planners, a charge Doyle identifies as unjustified."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "demands of the Prairial insurgents",
+        "murder of Feraud",
+        "events inside the Convention"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S056",
+      "label": "Defeat of the Prairial uprising",
+      "priority": "major",
+      "meaning": "Loyal forces cleared the Convention, eastern National Guards then confronted a larger mixed force, and the rebels accepted a petition-and-promise compromise rather than initiate civil combat.",
+      "stance": "Doyle emphasizes hesitation on both sides because hunger and social similarity made loyalties uncertain; once insurgents dispersed, they permanently lost the initiative.",
+      "acceptable_access": [
+        "Prairial uprising—defeat",
+        "National Guard—Prairial",
+        "Convention—defense in Prairial",
+        "Paris—21 May 1795 confrontation"
+      ],
+      "relationships": [
+        {
+          "type": "ends",
+          "target_labels": [
+            "Prairial invasion of the Convention"
+          ]
+        },
+        {
+          "type": "enables",
+          "target_labels": [
+            "post-Prairial repression"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why Prairial failed",
+        "military confrontation after the Convention invasion"
+      ],
+      "evidence": [
+        {
+          "document_page": 294,
+          "source_page_label": "294",
+          "locator_class": "principal",
+          "evidence_summary": "After loyal troops retake the hall, armed eastern sections face superior but partly unreliable forces and accept a formal hearing and bread promise rather than fire."
+        },
+        {
+          "document_page": 295,
+          "source_page_label": "295",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The compromise leaves the insurgents dispersed while the Convention immediately invalidates coerced votes and arrests their legislative allies."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why Prairial failed",
+        "military confrontation after the Convention invasion"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S057",
+      "label": "Post-Prairial repression and the Montagnards' last stand",
+      "priority": "major",
+      "meaning": "The Convention arrested supportive deputies, besieged and disarmed Saint-Antoine, used a special commission for executions, and detained thousands of suspected activists.",
+      "stance": "Doyle distinguishes real support for insurgent demands from the false allegation that the Crest planned the uprising, and presents the condemned deputies' suicides as consciously exemplary political defiance.",
+      "acceptable_access": [
+        "Prairial—repression",
+        "Crest—trial and executions",
+        "Montagnards—last stand",
+        "Saint-Antoine—disarmament",
+        "Feraud's assassins—execution"
+      ],
+      "relationships": [
+        {
+          "type": "follows",
+          "target_labels": [
+            "defeat of the Prairial uprising"
+          ]
+        },
+        {
+          "type": "causes",
+          "target_labels": [
+            "destruction of the sansculotte movement"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "fate of the Crest after Prairial",
+        "scale of arrests after Prairial"
+      ],
+      "evidence": [
+        {
+          "document_page": 294,
+          "source_page_label": "294",
+          "locator_class": "supporting",
+          "evidence_summary": "The Convention erases votes made under crowd pressure and arrests Montagnards who had adopted the insurgents' proposals."
+        },
+        {
+          "document_page": 295,
+          "source_page_label": "295",
+          "locator_class": "principal",
+          "evidence_summary": "A special commission condemns deputies and other participants; Saint-Antoine surrenders arms, and mass arrests eliminate the remaining activist network."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "fate of the Crest after Prairial",
+        "scale of arrests after Prairial"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S058",
+      "label": "Destruction of the sansculotte movement",
+      "priority": "essential",
+      "meaning": "The organizational weakening of 1794 culminated after Prairial in disarmament, imprisonment, execution, and recurring surveillance of former activists, ending the sansculottes as an organized political force.",
+      "stance": "Doyle carefully distinguishes individuals who remained potentially troublesome from the organized movement that had made them politically effective; it is the latter he says was destroyed permanently.",
+      "acceptable_access": [
+        "sansculottes—final defeat",
+        "popular movement—destruction in 1795",
+        "Prairial—political consequences",
+        "Paris sections—disarmament"
+      ],
+      "relationships": [
+        {
+          "type": "long_term_process_from",
+          "target_labels": [
+            "suppression of Parisian sections and popular societies"
+          ]
+        },
+        {
+          "type": "completed_by",
+          "target_labels": [
+            "post-Prairial repression and the Montagnards' last stand"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "when and why the sansculottes ceased to be a political force"
+      ],
+      "evidence": [
+        {
+          "document_page": 276,
+          "source_page_label": "276",
+          "locator_class": "supporting",
+          "evidence_summary": "Government control of sections and the dissolution of societies remove independent organization before Thermidor."
+        },
+        {
+          "document_page": 291,
+          "source_page_label": "291",
+          "locator_class": "supporting",
+          "evidence_summary": "Germinal reveals the consequences of that earlier institutional destruction through weak coordination and leadership."
+        },
+        {
+          "document_page": 295,
+          "source_page_label": "295",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Mass disarmament and arrest after Prairial finally destroy the organized popular movement, even though authorities continue to monitor former members."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "when and why the sansculottes ceased to be a political force"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S059",
+      "label": "Constitution of 1793 in Thermidorian politics",
+      "priority": "essential",
+      "meaning": "The suspended democratic constitution served as a rallying demand for Babeuf, Germinal, and Prairial, but the Convention judged it unworkable and, after the uprisings, treated it as a banner of rebellion requiring total revision.",
+      "stance": "Doyle distinguishes its mobilizing symbolic meaning from any realistic prospect of implementation and links rejection to the Convention's obligation to provide a stable post-revolutionary constitution.",
+      "acceptable_access": [
+        "Constitution of 1793—Thermidorian period",
+        "democratic constitution—popular demand",
+        "constitutional revision—1795",
+        "bread and Constitution of 1793"
+      ],
+      "relationships": [
+        {
+          "type": "invoked_by",
+          "target_labels": [
+            "Babeuf and democratic agitation"
+          ]
+        },
+        {
+          "type": "demanded_in",
+          "target_labels": [
+            "Germinal uprising"
+          ]
+        },
+        {
+          "type": "demanded_in",
+          "target_labels": [
+            "Prairial uprising"
+          ]
+        },
+        {
+          "type": "rejected_after",
+          "target_labels": [
+            "destruction of the sansculotte movement"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "why the Constitution of 1793 was never implemented",
+        "its role in the 1795 uprisings"
+      ],
+      "evidence": [
+        {
+          "document_page": 287,
+          "source_page_label": "287",
+          "locator_class": "supporting",
+          "evidence_summary": "Babeuf makes implementation of the suspended constitution the object of renewed popular insurrection."
+        },
+        {
+          "document_page": 291,
+          "source_page_label": "291",
+          "locator_class": "principal",
+          "evidence_summary": "The Germinal crowd uses the constitution as a central slogan without a more developed program."
+        },
+        {
+          "document_page": 294,
+          "source_page_label": "294",
+          "locator_class": "principal",
+          "evidence_summary": "Prairial insurgents again join the constitution to bread and restored popular institutions."
+        },
+        {
+          "document_page": 295,
+          "source_page_label": "295",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Leading deputies deem the document unworkable, and its use as an insurrectionary standard makes comprehensive constitutional revision unavoidable."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "why the Constitution of 1793 was never implemented",
+        "its role in the 1795 uprisings"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S060",
+      "label": "Death of Louis XVII and constitutional-monarchist hopes",
+      "priority": "major",
+      "meaning": "The child's death removed a possible focus for a moderate constitutional restoration at a moment when economic suffering had revived monarchist sentiment.",
+      "stance": "Doyle treats the prospect as uncertain and limited to some conservative deputies; its importance lies in how succession passed the royal claim to an uncompromising adult pretender.",
+      "acceptable_access": [
+        "Louis XVII—death",
+        "constitutional monarchy—1795 prospects",
+        "monarchist sentiment—spring 1795"
+      ],
+      "relationships": [
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Louis XVIII and the Declaration of Verona"
+          ]
+        },
+        {
+          "type": "closes_option_of",
+          "target_labels": [
+            "constitutional Bourbon restoration under Louis XVII"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "political consequences of Louis XVII's death"
+      ],
+      "evidence": [
+        {
+          "document_page": 295,
+          "source_page_label": "295",
+          "locator_class": "principal",
+          "evidence_summary": "The ten-year-old claimant dies while some deputies may still hope for a constitutionally educated monarch, shifting the Bourbon claim to the Count of Provence."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "political consequences of Louis XVII's death"
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-012-S061",
+      "label": "Louis XVIII and the Declaration of Verona",
+      "priority": "essential",
+      "meaning": "The new claimant promised restoration of the orders, Church, and most of the old regime, left the national lands unresolved, and excluded regicides from amnesty, thereby repudiating a negotiated constitutional monarchy.",
+      "stance": "Doyle judges the declaration politically blind and concludes that it made consensual Bourbon restoration impossible, leaving counter-revolutionaries to pursue force.",
+      "acceptable_access": [
+        "Declaration of Verona",
+        "Louis XVIII—political program",
+        "Bourbon restoration—conditions",
+        "national lands—Declaration of Verona",
+        "constitutional monarchy—failure of compromise"
+      ],
+      "relationships": [
+        {
+          "type": "follows",
+          "target_labels": [
+            "death of Louis XVII"
+          ]
+        },
+        {
+          "type": "makes_impossible",
+          "target_labels": [
+            "Bourbon restoration by agreement"
+          ]
+        },
+        {
+          "type": "prepares",
+          "target_labels": [
+            "counter-revolution by force"
+          ]
+        }
+      ],
+      "anticipated_reader_lookups": [
+        "terms of the Declaration of Verona",
+        "why Bourbon restoration by agreement failed"
+      ],
+      "evidence": [
+        {
+          "document_page": 295,
+          "source_page_label": "295",
+          "locator_class": "supporting",
+          "evidence_summary": "Louis XVII's death allows the Count of Provence to claim the throne as Louis XVIII."
+        },
+        {
+          "document_page": 296,
+          "source_page_label": "296",
+          "locator_class": "principal",
+          "evidence_summary": "The declaration restores the old social and ecclesiastical order, excludes regicides, and avoids reassurance on national property, alienating every group needed for a negotiated return."
+        },
+        {
+          "document_page": 296,
+          "source_page_label": "296",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Doyle concludes that the program destroys constitutional-monarchist compromise and shifts restoration efforts toward armed counter-revolution."
+        }
+      ],
+      "adjudication_status": "provisional_pending_whole_source_synthesis",
+      "confidence": "high",
+      "reader_tasks": [
+        "terms of the Declaration of Verona",
+        "why Bourbon restoration by agreement failed"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "exclusion_id": "CHUNK-012-X001",
+      "category": "context_only",
+      "document_pages": [
+        270,
+        271
+      ],
+      "description": "The destruction of the Hebertists, Paris Commune independence, and Revolutionary Army belongs to CHUNK-011; these pages were read only to establish the transition into Chapter 12.",
+      "label": "context_only",
+      "reason": "The destruction of the Hebertists, Paris Commune independence, and Revolutionary Army belongs to CHUNK-011; these pages were read only to establish the transition into Chapter 12."
+    },
+    {
+      "exclusion_id": "CHUNK-012-X002",
+      "category": "context_only",
+      "document_pages": [
+        297,
+        298
+      ],
+      "description": "The general origins and early emigre organization of counter-revolution belong to CHUNK-013; these pages were read only to establish the consequence of the Declaration of Verona.",
+      "label": "context_only",
+      "reason": "The general origins and early emigre organization of counter-revolution belong to CHUNK-013; these pages were read only to establish the consequence of the Declaration of Verona."
+    },
+    {
+      "exclusion_id": "CHUNK-012-X003",
+      "category": "attribution_only_person",
+      "document_pages": [
+        281,
+        285,
+        288,
+        290,
+        293
+      ],
+      "description": "Eyewitnesses and police informants used only to supply observations were not promoted as independent subjects unless their political activity was substantively analyzed.",
+      "label": "attribution_only_person",
+      "reason": "Eyewitnesses and police informants used only to supply observations were not promoted as independent subjects unless their political activity was substantively analyzed."
+    },
+    {
+      "exclusion_id": "CHUNK-012-X004",
+      "category": "incidental_event",
+      "document_pages": [
+        282
+      ],
+      "description": "The Grenelle factory explosion is treated as an accident misread through a climate of fear, not as a sustained independent subject.",
+      "label": "incidental_event",
+      "reason": "The Grenelle factory explosion is treated as an accident misread through a climate of fear, not as a sustained independent subject."
+    },
+    {
+      "exclusion_id": "CHUNK-012-X005",
+      "category": "illustrative_local_detail",
+      "document_pages": [
+        286,
+        288
+      ],
+      "description": "Individual cities, food substitutes, churches, and worship sites used only to illustrate national subsistence or religious patterns were retained as evidence rather than separate subjects.",
+      "label": "illustrative_local_detail",
+      "reason": "Individual cities, food substitutes, churches, and worship sites used only to illustrate national subsistence or religious patterns were retained as evidence rather than separate subjects."
+    },
+    {
+      "exclusion_id": "CHUNK-012-X006",
+      "category": "incidental_name",
+      "document_pages": [
+        273,
+        274,
+        277,
+        278,
+        279,
+        280,
+        283,
+        284,
+        289,
+        290,
+        291,
+        295
+      ],
+      "description": "Named deputies, officials, soldiers, publications, and local leaders appearing only as participants in a larger process were not automatically promoted without independent analytical treatment.",
+      "label": "incidental_name",
+      "reason": "Named deputies, officials, soldiers, publications, and local leaders appearing only as participants in a larger process were not automatically promoted without independent analytical treatment."
+    },
+    {
+      "exclusion_id": "CHUNK-012-X007",
+      "category": "source_unavailable",
+      "document_pages": [
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296
+      ],
+      "description": "Note markers do not create separate subjects because the supplied PDF omits the corresponding notes and endnotes.",
+      "label": "source_unavailable",
+      "reason": "Note markers do not create separate subjects because the supplied PDF omits the corresponding notes and endnotes."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "CHUNK-012-U001",
+      "document_pages": [
+        277
+      ],
+      "subject_labels": [
+        "Cult of the Supreme Being"
+      ],
+      "issue": "Whether scheduling the Paris festival on Whit Sunday was deliberate cannot be resolved from the supplied text.",
+      "alternatives": [
+        "deliberate challenge to Christianity",
+        "conciliatory overlap with Christianity",
+        "coincidence"
+      ],
+      "handling": "Preserve the uncertainty; do not convert any alternative into the author's conclusion.",
+      "confidence": "high",
+      "item": "Whether scheduling the Paris festival on Whit Sunday was deliberate cannot be resolved from the supplied text.",
+      "evidence_needed": "Additional source evidence or later whole-source adjudication if the distinction materially affects the frozen benchmark."
+    },
+    {
+      "uncertainty_id": "CHUNK-012-U002",
+      "document_pages": [
+        281
+      ],
+      "subject_labels": [
+        "Paris Commune uprising on 9 Thermidor",
+        "wage maximum and labor repression"
+      ],
+      "issue": "The wage maximum contributed to popular nonmobilization but is not presented as the sole cause.",
+      "alternatives": [
+        "economic alienation was decisive",
+        "poor preparation and institutional weakness were decisive",
+        "belief in the tyranny charge and political exhaustion were decisive"
+      ],
+      "handling": "Retain a multi-causal explanation and prevent a heading or summary from claiming a single economic cause.",
+      "confidence": "high",
+      "item": "The wage maximum contributed to popular nonmobilization but is not presented as the sole cause.",
+      "evidence_needed": "Additional source evidence or later whole-source adjudication if the distinction materially affects the frozen benchmark."
+    },
+    {
+      "uncertainty_id": "CHUNK-012-U003",
+      "document_pages": [
+        281
+      ],
+      "subject_labels": [
+        "Robespierre and dictatorship"
+      ],
+      "issue": "Contemporaries' dictatorship charge must be distinguished from Doyle's rejection of actual dictatorship or a proven dictatorial aim.",
+      "alternatives": [
+        "literal personal dictatorship",
+        "fear of moral inflexibility combined with power",
+        "post hoc justification by Thermidorian victors"
+      ],
+      "handling": "Indexable access may include the charge, but stance must mark it as accusation and later justification rather than established fact.",
+      "confidence": "high",
+      "item": "Contemporaries' dictatorship charge must be distinguished from Doyle's rejection of actual dictatorship or a proven dictatorial aim.",
+      "evidence_needed": "Additional source evidence or later whole-source adjudication if the distinction materially affects the frozen benchmark."
+    },
+    {
+      "uncertainty_id": "CHUNK-012-U004",
+      "document_pages": [
+        275
+      ],
+      "subject_labels": [
+        "Great Terror and its social profile"
+      ],
+      "issue": "The changed class profile suggests social discrimination, but the supplied text does not establish the innocence of all or most victims.",
+      "alternatives": [
+        "selection primarily by social identity",
+        "selection primarily by subversive activity",
+        "mixed selection"
+      ],
+      "handling": "Use qualified language indicating movement toward social discrimination rather than an absolute class-terror claim.",
+      "confidence": "high",
+      "item": "The changed class profile suggests social discrimination, but the supplied text does not establish the innocence of all or most victims.",
+      "evidence_needed": "Additional source evidence or later whole-source adjudication if the distinction materially affects the frozen benchmark."
+    },
+    {
+      "uncertainty_id": "CHUNK-012-U005",
+      "document_pages": [
+        290
+      ],
+      "subject_labels": [
+        "western pacification agreements of 1795"
+      ],
+      "issue": "The formal agreements and the insurgent leaders' private intentions diverged.",
+      "alternatives": [
+        "durable acceptance of Republican terms",
+        "temporary tactical compliance while awaiting British intervention"
+      ],
+      "handling": "Record both the terms and Doyle's conclusion that key rebel acceptances were tactical; do not generalize identical motives to every participant.",
+      "confidence": "high",
+      "item": "The formal agreements and the insurgent leaders' private intentions diverged.",
+      "evidence_needed": "Additional source evidence or later whole-source adjudication if the distinction materially affects the frozen benchmark."
+    },
+    {
+      "uncertainty_id": "CHUNK-012-U006",
+      "document_pages": [
+        292,
+        293
+      ],
+      "subject_labels": [
+        "White Terror"
+      ],
+      "issue": "Royalist direction varied substantially by region and does not explain the movement as a whole.",
+      "alternatives": [
+        "organized royalist counter-revolution",
+        "nonideological personal and communal vengeance",
+        "overlapping regional mixtures"
+      ],
+      "handling": "Preserve regional differentiation and treat revenge as the broader motive without erasing explicitly royalist organizations.",
+      "confidence": "high",
+      "item": "Royalist direction varied substantially by region and does not explain the movement as a whole.",
+      "evidence_needed": "Additional source evidence or later whole-source adjudication if the distinction materially affects the frozen benchmark."
+    },
+    {
+      "uncertainty_id": "CHUNK-012-U007",
+      "document_pages": [
+        294,
+        295
+      ],
+      "subject_labels": [
+        "Prairial invasion of the Convention and insurgent demands",
+        "post-Prairial repression and the Montagnards' last stand"
+      ],
+      "issue": "Some observers and historians infer that the committees let the Crest incriminate itself, but the text does not establish a deliberate trap.",
+      "alternatives": [
+        "deliberate entrapment",
+        "opportunistic exploitation after the hall was cleared"
+      ],
+      "handling": "Do not state deliberate entrapment as settled; separately record the unsupported official charge that the Crest planned the uprising.",
+      "confidence": "medium",
+      "item": "Some observers and historians infer that the committees let the Crest incriminate itself, but the text does not establish a deliberate trap.",
+      "evidence_needed": "Additional source evidence or later whole-source adjudication if the distinction materially affects the frozen benchmark."
+    },
+    {
+      "uncertainty_id": "CHUNK-012-U008",
+      "document_pages": [
+        295
+      ],
+      "subject_labels": [
+        "Death of Louis XVII and constitutional-monarchist hopes"
+      ],
+      "issue": "The extent of conservative deputies' real hopes for a Louis XVII constitutional restoration is inferential.",
+      "alternatives": [
+        "a viable constitutional option",
+        "a limited or speculative hope among some deputies"
+      ],
+      "handling": "Use possibility language and avoid presenting a concrete restoration plan as established.",
+      "confidence": "medium",
+      "item": "The extent of conservative deputies' real hopes for a Louis XVII constitutional restoration is inferential.",
+      "evidence_needed": "Additional source evidence or later whole-source adjudication if the distinction materially affects the frozen benchmark."
+    }
+  ],
+  "discovery_assessment": {
+    "subject_count": 61,
+    "priority_counts": {
+      "essential": 25,
+      "major": 35,
+      "optional": 1,
+      "exclude_by_default": 0
+    },
+    "evidence_count": 138,
+    "reader_task_count": 16,
+    "exclusion_count": 7,
+    "uncertainty_count": 8,
+    "density_used_as_subject_quota": false,
+    "discovery_standard": "full scholarly-readership source discovery",
+    "coverage_note": "Every owned page contributes to at least one substantive subject or explicit boundary/accounting record; no target subject count was used.",
+    "reasoning_pass": "initial high-depth candidate-blind discovery",
+    "page_level_review_complete": true,
+    "priority_status": "provisional until whole-source synthesis"
+  },
+  "limitations": [
+    "The supplied source omits front matter and chapter notes/endnotes, so discovery is limited to the inspectable body pages.",
+    "Context pages were read for boundary meaning but never used as evidence owned by CHUNK-012.",
+    "The artifact is a source-subject graph and reader-task inventory, not a proposed index structure.",
+    "Evidence summaries are short paraphrases and contain no raw extracted source text or extended quotations."
+  ],
+  "selection_method": "Fresh source-led scholarly discovery of independently searchable subjects, meanings, relationships, stances, evidence, exclusions, uncertainties, and reader tasks; density calibration was not used as a quota."
+}
