@@ -2,7 +2,7 @@
   "schema_version": "subject-index-artifact-manifest-v1",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-23T12:49:22Z",
+  "updated_at": "2026-08-23T15:23:10Z",
   "artifacts": [
     {
       "artifact_id": "ART-B728D6CB7F53",
@@ -532,7 +532,30 @@
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-08-23T12:49:22Z"
+      "recorded_at": "2026-08-23T12:49:22Z",
+      "superseded_by": "ART-8BA0BE24201F",
+      "superseded_at": "2026-08-23T15:23:10Z"
+    },
+    {
+      "artifact_id": "ART-8BA0BE24201F",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v2.json",
+      "sha256": "de16bd7bae84a5afcc9ff8b46ff1b29c9a6eb6824a592d970f9dad0bb5679cc1",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T15:23:10Z",
+      "supersedes": "ART-823A6F6E4BFB",
+      "input_sha256": [
+        "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
+        "3a1d9d319d2a9d8a8aff812248bc92201e7bb9b1d92c9d9cd48432cb6c497d98",
+        "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+        "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f"
+      ]
     },
     {
       "artifact_id": "ART-47F33C920CD9",
@@ -751,6 +774,25 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-2BFC5E5D4069",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark_qa",
+      "path": "validation/source-benchmark-qa.v1.json",
+      "sha256": "c0b7a285d3f3ab4d53dda55aff7f45b68979894ee32f97f4d2d2c158868598d9",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T15:23:10Z",
+      "input_sha256": [
+        "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
+        "3a1d9d319d2a9d8a8aff812248bc92201e7bb9b1d92c9d9cd48432cb6c497d98",
+        "de16bd7bae84a5afcc9ff8b46ff1b29c9a6eb6824a592d970f9dad0bb5679cc1",
+        "39c84c1217aba4d5b3d5d81f6d12c0463caf2ab0fbaf8edf62ac50de4d5cc8d1",
+        "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+      ]
     }
   ]
 }
