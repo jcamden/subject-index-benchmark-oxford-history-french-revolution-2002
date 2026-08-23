@@ -1,0 +1,4175 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "source_identity": {
+    "title": "The Oxford History of the French Revolution",
+    "author": "William Doyle",
+    "edition": "2002",
+    "source_variant": "IndexerLabs-derived PDF missing front matter and endnotes",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  },
+  "chunk": {
+    "chunk_id": "CHUNK-010",
+    "chapter_labels": [
+      "10. The Revolt of the Provinces"
+    ],
+    "owned_document_pages": [
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246
+    ],
+    "context_document_pages": [
+      218,
+      219,
+      247,
+      248
+    ]
+  },
+  "candidate_blindness": "preserved",
+  "page_review": {
+    "expected_owned_pages": 27,
+    "reviewed_owned_pages": 27,
+    "reviewed_context_pages": 4,
+    "indexable_source_words": 12192,
+    "word_count_method": "Unicode word tokens in cleaned owned-page text after dehyphenating line wraps and removing running headers and page numerals; substantive map caption and labels are included, while map-scale numerals are excluded.",
+    "excluded_regions": [
+      {
+        "document_pages": [
+          220,
+          221,
+          222,
+          223,
+          224,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246
+        ],
+        "region": "running headers and page numerals",
+        "reason": "running furniture"
+      },
+      {
+        "document_pages": [
+          225
+        ],
+        "region": "map scale numerals",
+        "reason": "measurement furniture rather than indexable discourse"
+      }
+    ],
+    "unavailable_regions": [
+      {
+        "region": "chapter endnotes",
+        "status": "absent_from_supplied_source"
+      }
+    ],
+    "complete": true,
+    "page_accounting": [
+      {
+        "document_page": 218,
+        "source_page_label": "218",
+        "ownership": "context",
+        "reviewed": true,
+        "indexable_word_count": null,
+        "review_summary": "Closes the European-war chapter by tracing hostile foreign responses and anti-revolutionary conspiracy explanations."
+      },
+      {
+        "document_page": 219,
+        "source_page_label": "219",
+        "ownership": "context",
+        "reviewed": true,
+        "indexable_word_count": null,
+        "review_summary": "Rejects a Masonic-conspiracy explanation for radicalization and attributes the violence of 1793-1794 largely to the war begun in 1792."
+      },
+      {
+        "document_page": 220,
+        "source_page_label": "220",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 367,
+        "review_summary": "Introduces the Convention's vulnerability to Parisian popular power and the national dispute over whether deputies must follow the capital."
+      },
+      {
+        "document_page": 221,
+        "source_page_label": "221",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 475,
+        "review_summary": "Defines the emerging Girondin-Montagnard conflict, the departmental-guard proposal, and federalism as a polemical charge."
+      },
+      {
+        "document_page": 222,
+        "source_page_label": "222",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 500,
+        "review_summary": "Shows the king's trial, war policy, Jacobin control, and constitutional proposals becoming tests of factional alignment."
+      },
+      {
+        "document_page": 223,
+        "source_page_label": "223",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 461,
+        "review_summary": "Explains Parisian inflation, scarcity, maximum demands, and women-led price-setting attacks on shops."
+      },
+      {
+        "document_page": 224,
+        "source_page_label": "224",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 474,
+        "review_summary": "Connects the levy of 300,000 to Vendéan rebellion through unequal burdens, religion, landholding, and town-country antagonism."
+      },
+      {
+        "document_page": 225,
+        "source_page_label": "225",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 74,
+        "review_summary": "Maps centres, routes, and regions of resistance and federalism across France and neighboring areas."
+      },
+      {
+        "document_page": 226,
+        "source_page_label": "226",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 473,
+        "review_summary": "Contrasts suppressed Breton risings and later chouannerie with the expanding Catholic and royal Vendéan revolt."
+      },
+      {
+        "document_page": 227,
+        "source_page_label": "227",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 461,
+        "review_summary": "Describes the failed March purge attempt, Dumouriez's defection, and emergency surveillance and executive measures."
+      },
+      {
+        "document_page": 228,
+        "source_page_label": "228",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 480,
+        "review_summary": "Explains the Committee of Public Safety's creation and the impeachment, acquittal, and popular vindication of Marat."
+      },
+      {
+        "document_page": 229,
+        "source_page_label": "229",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 464,
+        "review_summary": "Shows the Montagnard turn toward grain controls, widening conscription resistance, and Marseilles beginning to reject central authority."
+      },
+      {
+        "document_page": 230,
+        "source_page_label": "230",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 485,
+        "review_summary": "Analyzes the anti-Jacobin coalition in Marseilles and the spread of southern resistance that Paris labeled federalist."
+      },
+      {
+        "document_page": 231,
+        "source_page_label": "231",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 476,
+        "review_summary": "Links Lyons's silk and provisioning crisis to the overthrow of Chalier's Jacobin municipality."
+      },
+      {
+        "document_page": 232,
+        "source_page_label": "232",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 474,
+        "review_summary": "Traces Vendéan military expansion and Parisian Muscadin opposition to conscription, taxation, controls, and communal power."
+      },
+      {
+        "document_page": 233,
+        "source_page_label": "233",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 468,
+        "review_summary": "Reconstructs purge planning, the Commission of Twelve, arrests of militants, and Girondin threats against Paris."
+      },
+      {
+        "document_page": 234,
+        "source_page_label": "234",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 476,
+        "review_summary": "Details the divided and initially inconclusive insurrection of 31 May and the final collapse of the Commission of Twelve."
+      },
+      {
+        "document_page": 235,
+        "source_page_label": "235",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 497,
+        "review_summary": "Explains how armed encirclement forced the arrests on 2 June and begins the author's reinterpretation of the purge."
+      },
+      {
+        "document_page": 236,
+        "source_page_label": "236",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 480,
+        "review_summary": "Argues that Girondins were not a coherent party or government and contrasts their principles with Montagnard practicality."
+      },
+      {
+        "document_page": 237,
+        "source_page_label": "237",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 480,
+        "review_summary": "Locates effective government in representatives on mission and explains varied motives for removing Girondin leaders."
+      },
+      {
+        "document_page": 238,
+        "source_page_label": "238",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 457,
+        "review_summary": "Shows Bordeaux moving from protest to a commission, a proposed shadow convention, and a departmental force."
+      },
+      {
+        "document_page": 239,
+        "source_page_label": "239",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 460,
+        "review_summary": "Surveys coordinated revolt in Marseilles, Lyons, and other southern cities, including tribunals and departmental armies."
+      },
+      {
+        "document_page": 240,
+        "source_page_label": "240",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 483,
+        "review_summary": "Explains Toulon's anti-Jacobin seizure and the spread of departmental resistance into Jura, Brittany, and Normandy."
+      },
+      {
+        "document_page": 241,
+        "source_page_label": "241",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 468,
+        "review_summary": "Shows Caen's mixed republican and royalist coalition, corrects exaggerated revolt totals, and rejects a separatist reading of federalism."
+      },
+      {
+        "document_page": 242,
+        "source_page_label": "242",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 496,
+        "review_summary": "Explains federalist republicanism, resistance to emergency measures, broad social support, and weak military mobilization."
+      },
+      {
+        "document_page": 243,
+        "source_page_label": "243",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 459,
+        "review_summary": "Contrasts failed departmental armies with continued Vendéan strength and Nantes's choice to defend the Republic."
+      },
+      {
+        "document_page": 244,
+        "source_page_label": "244",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 476,
+        "review_summary": "Describes Montagnard containment of radical allies, the Constitution of 1793, and social and agrarian concessions."
+      },
+      {
+        "document_page": 245,
+        "source_page_label": "245",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 494,
+        "review_summary": "Connects food grievances, suppression of the enragés, Charlotte Corday's assassination of Marat, and martyr politics."
+      },
+      {
+        "document_page": 246,
+        "source_page_label": "246",
+        "ownership": "owned",
+        "reviewed": true,
+        "indexable_word_count": 334,
+        "review_summary": "Shows Robespierre joining the Committee, constitutional ratification, symbolic unity, and suspension of constitutional government during war."
+      },
+      {
+        "document_page": 247,
+        "source_page_label": "247",
+        "ownership": "context",
+        "reviewed": true,
+        "indexable_word_count": null,
+        "review_summary": "Opens the next chapter with the Republic's July low point and the continuing federalist, Vendéan, and foreign crises."
+      },
+      {
+        "document_page": 248,
+        "source_page_label": "248",
+        "ownership": "context",
+        "reviewed": true,
+        "indexable_word_count": null,
+        "review_summary": "Introduces the Committee's later mobilizing leadership and the collapse or repression of several federalist centres."
+      }
+    ]
+  },
+  "reader_tasks": [
+    {
+      "task_id": "TASK-CH10-001",
+      "question": "Why did Parisian popular power provoke resistance from deputies and provinces?",
+      "required_access": [
+        "Parisian power over the Convention",
+        "National sovereignty, Paris, and the provinces"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-002",
+      "question": "How does the author distinguish Girondins and Montagnards without treating both as modern parties?",
+      "required_access": [
+        "Girondins as a loose grouping",
+        "Girondin revolutionary intransigence",
+        "Montagnard pragmatism and de facto ascendancy"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-003",
+      "question": "How did the king's trial and execution deepen the Girondin-Montagnard conflict?",
+      "required_access": [
+        "King's trial, appeal to the people, and clemency",
+        "Girondin-Montagnard polarization"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-004",
+      "question": "How did inflation, shortages, and price-control demands alter Parisian politics?",
+      "required_access": [
+        "Parisian economic crisis and provisioning",
+        "The maximum and Montagnard policy reversal",
+        "Food riots and women's price-setting action"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-005",
+      "question": "Why did the levy of 300,000 trigger rebellion, especially in the Vendée?",
+      "required_access": [
+        "Levy of 300,000 and conscription resistance",
+        "Origins of the Vendéan rebellion"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-006",
+      "question": "How did the Vendéan rebellion differ from chouannerie and the later federalist revolts?",
+      "required_access": [
+        "Vendéan Catholic and royalist identity",
+        "Vendéan military expansion and methods",
+        "Breton risings and chouannerie",
+        "Federalist republicanism and royalist participation"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-007",
+      "question": "What emergency institutions expanded central power in spring 1793?",
+      "required_access": [
+        "Revolutionary Tribunal",
+        "Representatives on mission",
+        "Committee of Public Safety",
+        "Expansion of emergency government"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-008",
+      "question": "How did the insurrections of 31 May and 2 June differ, and why did the second succeed?",
+      "required_access": [
+        "Insurrection of 31 May 1793",
+        "Insurrection of 2 June and purge of the Girondins"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-009",
+      "question": "Why does the author reject a simple party-overthrow interpretation of 2 June?",
+      "required_access": [
+        "Girondins as a loose grouping",
+        "Absence of a conventional Girondin government",
+        "Coercion and legitimacy of national representation"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-010",
+      "question": "What did federalism mean to its participants, and why is the label misleading?",
+      "required_access": [
+        "Federalism as a polemical label",
+        "Federalist republicanism and royalist participation",
+        "Social and economic motives of federalism"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-011",
+      "question": "How did revolt develop differently in Marseilles, Lyons, Bordeaux, Toulon, and Caen?",
+      "required_access": [
+        "Marseilles revolt",
+        "Lyons revolt",
+        "Bordeaux revolt",
+        "Toulon revolt",
+        "Caen and the Breton-Norman resistance"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-012",
+      "question": "Why did federalist departmental armies fail while the Vendéans remained dangerous?",
+      "required_access": [
+        "Failure of federalist departmental armies",
+        "Vendéan military expansion and methods",
+        "Nantes and resistance to both counter-revolution and federalism"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-013",
+      "question": "How extensive was the federalist revolt, and why did it still matter?",
+      "required_access": [
+        "Geography of resistance",
+        "Extent and strategic weight of the federalist revolt"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-014",
+      "question": "What popular and agrarian concessions followed the purge?",
+      "required_access": [
+        "Constitution of 1793",
+        "Agrarian and social concessions",
+        "Revolutionary Army proposal"
+      ]
+    },
+    {
+      "task_id": "TASK-CH10-015",
+      "question": "Why was the Constitution of 1793 approved but never put into force?",
+      "required_access": [
+        "Constitution of 1793",
+        "Ratification and wartime suspension of the Constitution of 1793"
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "local_subject_id": "CH10-S001",
+      "label": "Parisian power over the Convention",
+      "priority": "essential",
+      "meaning": "The Convention lacked an independent coercive force and operated under sustained pressure from the Paris Commune, sections, National Guard, and sansculottes.",
+      "stance": "The author treats this structural vulnerability, not a simple conspiracy, as the central condition of national political conflict.",
+      "acceptable_access": [
+        "Paris, political dominance",
+        "Convention, vulnerability to Paris",
+        "capital and national representation"
+      ],
+      "relationships": [
+        {
+          "type": "related",
+          "target_labels": [
+            "National sovereignty, Paris, and the provinces"
+          ]
+        },
+        {
+          "type": "cause_of",
+          "target_labels": [
+            "Girondin-Montagnard polarization"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Coercion and legitimacy of national representation"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 220,
+          "source_page_label": "220",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention sits in Paris without forces able to shield it from the Commune, sections, National Guard, or popular crowds."
+        },
+        {
+          "document_page": 221,
+          "source_page_label": "221",
+          "locator_class": "supporting",
+          "evidence_summary": "Girondins frame Parisian influence as a threat to national power and seek an outside guard for the assembly."
+        },
+        {
+          "document_page": 233,
+          "source_page_label": "233",
+          "locator_class": "supporting",
+          "evidence_summary": "The Commission of Twelve tries to protect deliberation by restricting sectional activity and strengthening guards around the Convention."
+        },
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Armed encirclement on 2 June leaves deputies unable to depart and forces the arrest of Girondin leaders."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did Parisian popular power provoke resistance from deputies and provinces?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S002",
+      "label": "National sovereignty, Paris, and the provinces",
+      "priority": "essential",
+      "meaning": "The chapter's central constitutional dispute concerns whether Paris may direct representatives of the sovereign nation and how provincial or local autonomy fits republican unity.",
+      "stance": "The author presents legitimate republican claims on both sides while emphasizing the practical power imbalance created by the Convention's location.",
+      "acceptable_access": [
+        "Paris-province relations",
+        "national sovereignty and local autonomy",
+        "centralization and provincial resistance"
+      ],
+      "relationships": [
+        {
+          "type": "broader_than",
+          "target_labels": [
+            "Federalism as a polemical label"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Coercion and legitimacy of national representation"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Federalist republicanism and royalist participation"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 220,
+          "source_page_label": "220",
+          "locator_class": "principal",
+          "evidence_summary": "Deputies divide over whether representation obliges them to follow the capital's revolutionary guardians."
+        },
+        {
+          "document_page": 222,
+          "source_page_label": "222",
+          "locator_class": "supporting",
+          "evidence_summary": "The king's sentence is debated as a choice between consulting departments and allowing Paris to decide for France."
+        },
+        {
+          "document_page": 241,
+          "source_page_label": "241",
+          "locator_class": "principal",
+          "evidence_summary": "Provincial rebels claim Paris has divided the republic by coercing nationally elected representatives and eroding local autonomy."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Federalist resistance combines defence of republican local liberty with opposition to emergency powers exercised from Paris."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did Parisian popular power provoke resistance from deputies and provinces?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S003",
+      "label": "Sansculottes as a political pressure force",
+      "priority": "major",
+      "meaning": "Organized Parisian popular militants claim guardianship of the Republic, press economic demands, and supply the coercive strength behind political purges.",
+      "stance": "Their power is indispensable to the Republic yet volatile, internally divided, and capable of subordinating representative government.",
+      "acceptable_access": [
+        "sansculottes, political role",
+        "popular movement in Paris",
+        "Paris sections and mass pressure"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Parisian power over the Convention"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "The enragés and radical popular politics"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 220,
+          "source_page_label": "220",
+          "locator_class": "principal",
+          "evidence_summary": "Paris militants see themselves as republican watchdogs and possess the means to enforce that claim."
+        },
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "supporting",
+          "evidence_summary": "A mass demonstration pushes the Convention toward grain and bread controls."
+        },
+        {
+          "document_page": 234,
+          "source_page_label": "234",
+          "locator_class": "supporting",
+          "evidence_summary": "A weak weekday turnout contributes to the failure of the first purge effort."
+        },
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "principal",
+          "evidence_summary": "Sunday mobilization and National Guard encirclement compel the Convention to arrest named deputies."
+        },
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "supporting",
+          "evidence_summary": "Persistent food grievances leave radical leaders able to challenge even the victorious Montagnards."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Sansculottes as a political pressure force and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S004",
+      "label": "Girondins as a loose grouping",
+      "priority": "essential",
+      "meaning": "Those called Girondins comprise overlapping friendships and provincial networks rather than a disciplined political party.",
+      "stance": "The author explicitly rejects treating the Girondins as a coherent party destroyed on 2 June or as a government overthrown by the Mountain.",
+      "acceptable_access": [
+        "Girondins, composition",
+        "Gironde faction, non-party character",
+        "Brissotins and Rolandins"
+      ],
+      "relationships": [
+        {
+          "type": "distinguished_from",
+          "target_labels": [
+            "Girondin revolutionary intransigence"
+          ]
+        },
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Montagnard pragmatism and de facto ascendancy"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Political parties and faction in revolutionary thought"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 221,
+          "source_page_label": "221",
+          "locator_class": "supporting",
+          "evidence_summary": "Early Girondin cooperation is informal, rooted in provincial constituencies and social circles rather than party organization."
+        },
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "principal",
+          "evidence_summary": "The author warns that expulsion did not destroy a party or overthrow a government."
+        },
+        {
+          "document_page": 236,
+          "source_page_label": "236",
+          "locator_class": "principal",
+          "evidence_summary": "Girondin circles do not coordinate consistently and often vote differently until threatened with collective purging."
+        },
+        {
+          "document_page": 237,
+          "source_page_label": "237",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Removing leading speakers clarifies an existing balance of power rather than transferring governmental control."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How does the author distinguish Girondins and Montagnards without treating both as modern parties?",
+        "Why does the author reject a simple party-overthrow interpretation of 2 June?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S005",
+      "label": "Girondin revolutionary intransigence",
+      "priority": "major",
+      "meaning": "A shared insistence on the principles of 1789, national consultation, economic liberalism, and independence from Paris best explains Girondin identity.",
+      "stance": "The author respects these principles but judges the Girondins unable to accommodate the emergency realities on which the Republic depended.",
+      "acceptable_access": [
+        "Girondins, political principles",
+        "Girondin intransigence",
+        "revolutionary liberalism of the Girondins"
+      ],
+      "relationships": [
+        {
+          "type": "characterizes",
+          "target_labels": [
+            "Girondins as a loose grouping"
+          ]
+        },
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Montagnard pragmatism and de facto ascendancy"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 222,
+          "source_page_label": "222",
+          "locator_class": "supporting",
+          "evidence_summary": "Appeal, clemency, war, market policy, and constitutional design become tests of Girondin principle."
+        },
+        {
+          "document_page": 236,
+          "source_page_label": "236",
+          "locator_class": "principal",
+          "evidence_summary": "The author defines Girondin identity through uncompromising revolutionary principle rather than party discipline."
+        },
+        {
+          "document_page": 237,
+          "source_page_label": "237",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Their continued threats against Paris paralyze public business during war and make compromise impossible."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How does the author distinguish Girondins and Montagnards without treating both as modern parties?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S006",
+      "label": "Montagnard pragmatism and de facto ascendancy",
+      "priority": "essential",
+      "meaning": "Montagnards adapt policy to military and popular realities, work with Parisian power, and already command effective majorities before the Girondin purge.",
+      "stance": "The author contrasts their practicality with Girondin principle and denies that 2 June suddenly handed them a government they did not previously possess.",
+      "acceptable_access": [
+        "Montagnards, political strategy",
+        "Mountain, pragmatism",
+        "Montagnard ascendancy before June 1793"
+      ],
+      "relationships": [
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Girondin revolutionary intransigence"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Watch committees and surveillance of suspects"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Absence of a conventional Girondin government"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "supporting",
+          "evidence_summary": "Montagnards supply the main constructive emergency proposals during the March crisis."
+        },
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "supporting",
+          "evidence_summary": "They reverse their market policy when retaining Parisian support becomes necessary."
+        },
+        {
+          "document_page": 236,
+          "source_page_label": "236",
+          "locator_class": "principal",
+          "evidence_summary": "Prudence and practical accommodation let Montagnards win major Convention votes more consistently than Girondins."
+        },
+        {
+          "document_page": 237,
+          "source_page_label": "237",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Representatives on mission and existing voting patterns make Montagnard control effective before 2 June."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How does the author distinguish Girondins and Montagnards without treating both as modern parties?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S007",
+      "label": "Girondin-Montagnard polarization",
+      "priority": "major",
+      "meaning": "Personal, constitutional, economic, and wartime disputes progressively organize Convention politics into antagonistic camps.",
+      "stance": "The conflict is real and consequential even though the labels do not describe disciplined modern parties.",
+      "acceptable_access": [
+        "Girondin-Montagnard conflict",
+        "Convention factions",
+        "political polarization, 1792-1793"
+      ],
+      "relationships": [
+        {
+          "type": "involves",
+          "target_labels": [
+            "Girondins as a loose grouping"
+          ]
+        },
+        {
+          "type": "involves",
+          "target_labels": [
+            "Montagnard pragmatism and de facto ascendancy"
+          ]
+        },
+        {
+          "type": "culminates_in",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 221,
+          "source_page_label": "221",
+          "locator_class": "principal",
+          "evidence_summary": "Accusations over massacres, dictatorship, monarchy, and federalism color nearly every issue."
+        },
+        {
+          "document_page": 222,
+          "source_page_label": "222",
+          "locator_class": "supporting",
+          "evidence_summary": "Votes on appeal and clemency permanently mark political identities."
+        },
+        {
+          "document_page": 228,
+          "source_page_label": "228",
+          "locator_class": "supporting",
+          "evidence_summary": "Marat's prosecution produces reciprocal demands to purge Girondin deputies."
+        },
+        {
+          "document_page": 233,
+          "source_page_label": "233",
+          "locator_class": "supporting",
+          "evidence_summary": "The Commission's arrests and Girondin threats transform suspicion into preparations for insurrection."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did the king's trial and execution deepen the Girondin-Montagnard conflict?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S008",
+      "label": "Political parties and faction in revolutionary thought",
+      "priority": "major",
+      "meaning": "Revolutionaries view organized party as selfish faction opposed to the general will, complicating later party-based narratives.",
+      "stance": "The author uses contemporary hostility to party to correct anachronistic interpretations of Girondin and Montagnard organization.",
+      "acceptable_access": [
+        "political parties, revolutionary attitudes",
+        "faction and the general will",
+        "party interpretation of Girondins"
+      ],
+      "relationships": [
+        {
+          "type": "explains",
+          "target_labels": [
+            "Girondins as a loose grouping"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Montagnard pragmatism and de facto ascendancy"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "principal",
+          "evidence_summary": "Contemporaries use faction as abuse and regard party organization as incompatible with the general will."
+        },
+        {
+          "document_page": 236,
+          "source_page_label": "236",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Actual voting and coordination patterns fail to support a simple two-party model."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Political parties and faction in revolutionary thought and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S009",
+      "label": "King's trial, appeal to the people, and clemency",
+      "priority": "major",
+      "meaning": "Debates over consulting the departments, sparing Louis XVI, and executing him immediately crystallize rival understandings of sovereignty and civil war.",
+      "stance": "The author treats these votes as durable political markers rather than isolated procedural choices.",
+      "acceptable_access": [
+        "Louis XVI, trial and appeal",
+        "appeal to the people",
+        "king's execution and factional politics"
+      ],
+      "relationships": [
+        {
+          "type": "intensifies",
+          "target_labels": [
+            "Girondin-Montagnard polarization"
+          ]
+        },
+        {
+          "type": "instance_of",
+          "target_labels": [
+            "National sovereignty, Paris, and the provinces"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 221,
+          "source_page_label": "221",
+          "locator_class": "supporting",
+          "evidence_summary": "Suspicion over the king's fate widens the gap between the Convention's emerging camps."
+        },
+        {
+          "document_page": 222,
+          "source_page_label": "222",
+          "locator_class": "principal",
+          "evidence_summary": "Appeal and clemency are framed as either safeguards against Paris or invitations to civil war."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did the king's trial and execution deepen the Girondin-Montagnard conflict?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S010",
+      "label": "Departmental guard proposals",
+      "priority": "major",
+      "meaning": "Repeated proposals seek a force recruited outside Paris to protect the Convention from local coercion.",
+      "stance": "The proposals express a genuine constitutional problem but become stigmatized as federalist threats to national unity.",
+      "acceptable_access": [
+        "departmental guard",
+        "Convention, proposed provincial protection",
+        "federal guard proposal"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Parisian power over the Convention"
+          ]
+        },
+        {
+          "type": "labelled_as",
+          "target_labels": [
+            "Federalism as a polemical label"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 221,
+          "source_page_label": "221",
+          "locator_class": "principal",
+          "evidence_summary": "Buzot proposes an outside guard to prevent deputies from becoming subjects of Paris."
+        },
+        {
+          "document_page": 222,
+          "source_page_label": "222",
+          "locator_class": "supporting",
+          "evidence_summary": "A renewed guard proposal is defeated as Montagnards consolidate their position."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Departmental guard proposals and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S011",
+      "label": "Federalism as a polemical label",
+      "priority": "essential",
+      "meaning": "Montagnards and Parisians apply federalism to proposals and revolts that challenge the capital, although most participants seek a united republic rather than territorial dissolution.",
+      "stance": "The author repeatedly marks the label as misleading and insists that its political meaning be reconstructed from participants' republican aims.",
+      "acceptable_access": [
+        "Federalism, revolutionary usage",
+        "Federalist revolt, meaning",
+        "provincial revolt, contested label"
+      ],
+      "relationships": [
+        {
+          "type": "related",
+          "target_labels": [
+            "Extent and strategic weight of the federalist revolt"
+          ]
+        },
+        {
+          "type": "distinguished_from",
+          "target_labels": [
+            "Federalist republicanism and royalist participation"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "The one and indivisible Republic"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 221,
+          "source_page_label": "221",
+          "locator_class": "principal",
+          "evidence_summary": "Montagnards brand an outside guard as federalism and answer with a declaration of indivisible republican unity."
+        },
+        {
+          "document_page": 230,
+          "source_page_label": "230",
+          "locator_class": "supporting",
+          "evidence_summary": "Paris labels factional resistance in Marseilles counter-revolutionary and federalist despite its more complex local basis."
+        },
+        {
+          "document_page": 241,
+          "source_page_label": "241",
+          "locator_class": "principal",
+          "evidence_summary": "The author denies that provincial rebels intended to fragment the Republic."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Most rebels defend a prosperous, peaceful republic and local liberty rather than monarchy or secession."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What did federalism mean to its participants, and why is the label misleading?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S012",
+      "label": "The one and indivisible Republic",
+      "priority": "major",
+      "meaning": "Republican unity is both a sincere constitutional commitment and a rhetorical weapon used by opposing sides.",
+      "stance": "Federalists commonly claim the same indivisible republic as Montagnards, so the slogan cannot by itself distinguish loyalty from rebellion.",
+      "acceptable_access": [
+        "Republic, one and indivisible",
+        "republican unity",
+        "indivisibility and federalism"
+      ],
+      "relationships": [
+        {
+          "type": "contrast_in_rhetoric",
+          "target_labels": [
+            "Federalism as a polemical label"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "National sovereignty, Paris, and the provinces"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 221,
+          "source_page_label": "221",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention affirms indivisibility while also supporting protection from Parisian coercion."
+        },
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "supporting",
+          "evidence_summary": "A militant Paris club invokes indivisibility while attacking Girondin presses."
+        },
+        {
+          "document_page": 239,
+          "source_page_label": "239",
+          "locator_class": "supporting",
+          "evidence_summary": "Marseilles raises an anti-Convention army under an explicitly unitary republican slogan."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The constitutional festival symbolically binds all departments into republican unity."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of The one and indivisible Republic and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S013",
+      "label": "Parisian economic crisis and provisioning",
+      "priority": "major",
+      "meaning": "Assignat depreciation, coin scarcity, army purchasing, maritime blockade, colonial disruption, and supply failures drive rising prices and political unrest.",
+      "stance": "The author grounds popular economic demands in material deterioration rather than dismissing them as ignorance or manipulation.",
+      "acceptable_access": [
+        "Paris, economic crisis 1793",
+        "assignats and scarcity",
+        "provisioning and inflation"
+      ],
+      "relationships": [
+        {
+          "type": "causes",
+          "target_labels": [
+            "The maximum and Montagnard policy reversal"
+          ]
+        },
+        {
+          "type": "causes",
+          "target_labels": [
+            "Food riots and women's price-setting action"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Hoarding, speculation, and punitive economic policy"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 223,
+          "source_page_label": "223",
+          "locator_class": "principal",
+          "evidence_summary": "Currency collapse, requisitioning, blockade, and Caribbean disruption raise prices for basic goods."
+        },
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "supporting",
+          "evidence_summary": "Bread and grain pressures force a political reversal on price regulation."
+        },
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "supporting",
+          "evidence_summary": "Meat, bread, and soap shortages sustain popular anger after the Girondin purge."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Food supply becomes a declared priority of the reorganized Committee of Public Safety."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did inflation, shortages, and price-control demands alter Parisian politics?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S014",
+      "label": "The maximum and Montagnard policy reversal",
+      "priority": "major",
+      "meaning": "Price-control demands move from near-unanimous rejection to a grain and bread maximum as Montagnards recognize their dependence on Parisian popular support.",
+      "stance": "The change is political as well as economic and implementation remains locally constrained.",
+      "acceptable_access": [
+        "maximum, price controls",
+        "grain and bread controls",
+        "Montagnards, economic-policy reversal"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Parisian economic crisis and provisioning"
+          ]
+        },
+        {
+          "type": "supported_by",
+          "target_labels": [
+            "Sansculottes as a political pressure force"
+          ]
+        },
+        {
+          "type": "opposed_by",
+          "target_labels": [
+            "Girondin revolutionary intransigence"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 223,
+          "source_page_label": "223",
+          "locator_class": "principal",
+          "evidence_summary": "Deputies initially reject comprehensive controls despite a worsening market and renewed petitions."
+        },
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "principal",
+          "evidence_summary": "Mass pressure produces a grain and bread maximum and broad local requisition powers."
+        },
+        {
+          "document_page": 231,
+          "source_page_label": "231",
+          "locator_class": "supporting",
+          "evidence_summary": "Lyons cannot implement the Paris decree under its distinct provisioning and industrial conditions."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "supporting",
+          "evidence_summary": "Market controls become one of the emergency measures resisted by provincial federalists."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did inflation, shortages, and price-control demands alter Parisian politics?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S015",
+      "label": "Food riots and women's price-setting action",
+      "priority": "major",
+      "meaning": "Women-led crowds repeatedly seize goods and sell them at customary just prices when formal policy fails to secure supplies.",
+      "stance": "The author presents these actions as materially grounded popular regulation, while noting an increased willingness to use violence.",
+      "acceptable_access": [
+        "food riots, women",
+        "price fixing by crowds",
+        "women and subsistence protest"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Parisian economic crisis and provisioning"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Hoarding, speculation, and punitive economic policy"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 223,
+          "source_page_label": "223",
+          "locator_class": "principal",
+          "evidence_summary": "Women-led crowds impose prices on grocers and warehouses amid inflation and scarcity."
+        },
+        {
+          "document_page": 231,
+          "source_page_label": "231",
+          "locator_class": "supporting",
+          "evidence_summary": "Women in Lyons redistribute army provisions at prices they consider fair."
+        },
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "supporting",
+          "evidence_summary": "Women again set prices on soap, demonstrating that radical economic grievances remain active after 2 June."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did inflation, shortages, and price-control demands alter Parisian politics?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S016",
+      "label": "Hoarding, speculation, and punitive economic policy",
+      "priority": "major",
+      "meaning": "Popular activists identify hoarders and speculators as enemies and press for coercive punishment as a remedy for scarcity.",
+      "stance": "These demands express real grievances but also help normalize increasingly severe emergency law.",
+      "acceptable_access": [
+        "hoarding and speculation",
+        "economic crimes",
+        "anti-hoarder legislation"
+      ],
+      "relationships": [
+        {
+          "type": "related",
+          "target_labels": [
+            "The enragés and radical popular politics"
+          ]
+        },
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Parisian economic crisis and provisioning"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Expansion of emergency government"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 223,
+          "source_page_label": "223",
+          "locator_class": "supporting",
+          "evidence_summary": "Radicals propose lethal punishment for market offenders while deputies reject controls."
+        },
+        {
+          "document_page": 228,
+          "source_page_label": "228",
+          "locator_class": "supporting",
+          "evidence_summary": "Marat's calls for popular action against market offenders become part of his prosecution."
+        },
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "principal",
+          "evidence_summary": "Roux demands constitutional punishment for usurers and speculators and accuses deputies of inaction."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "A new law makes hoarding a capital offence as food policy becomes a Committee priority."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Hoarding, speculation, and punitive economic policy and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S017",
+      "label": "The enragés and radical popular politics",
+      "priority": "major",
+      "meaning": "Roux, Varlet, and allied militants connect subsistence demands with distrust of representation and pressure for deeper purges.",
+      "stance": "They articulate genuine popular grievances but become both tactical allies and dangerous rivals of the Montagnards.",
+      "acceptable_access": [
+        "enragés",
+        "Roux and Varlet",
+        "radical popular movement, Paris"
+      ],
+      "relationships": [
+        {
+          "type": "related",
+          "target_labels": [
+            "Sansculottes as a political pressure force"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Insurrection of 31 May 1793"
+          ]
+        },
+        {
+          "type": "target_of",
+          "target_labels": [
+            "Montagnard containment of popular allies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 223,
+          "source_page_label": "223",
+          "locator_class": "supporting",
+          "evidence_summary": "Roux and Varlet become associated with militant attacks on hoarders and speculators."
+        },
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "supporting",
+          "evidence_summary": "Varlet joins the failed March attempt to force a political purge."
+        },
+        {
+          "document_page": 234,
+          "source_page_label": "234",
+          "locator_class": "principal",
+          "evidence_summary": "Varlet leads the 31 May insurrectionary committee and favors dissolving the Convention."
+        },
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "principal",
+          "evidence_summary": "Roux renews the economic challenge after 2 June and is systematically attacked by Montagnard allies."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of The enragés and radical popular politics and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S018",
+      "label": "Levy of 300,000 and conscription resistance",
+      "priority": "essential",
+      "meaning": "The February levy and locally administered conscription spread resistance because burdens were unequal, exemptions favored town officials, and recruits rejected distant wars.",
+      "stance": "Conscription is an immediate trigger that activates deeper political, religious, social, and regional grievances.",
+      "acceptable_access": [
+        "conscription, levy of 300,000",
+        "military recruitment resistance",
+        "February 1793 levy"
+      ],
+      "relationships": [
+        {
+          "type": "triggers",
+          "target_labels": [
+            "Origins of the Vendéan rebellion"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Breton risings and chouannerie"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Town-country conflict in provincial revolt"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 224,
+          "source_page_label": "224",
+          "locator_class": "principal",
+          "evidence_summary": "The decree permits compulsory quotas and local lot-drawing, reviving a hated pre-revolutionary practice."
+        },
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "supporting",
+          "evidence_summary": "Brittany rises against both conscription and republican authority before resistance shifts into guerrilla form."
+        },
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "supporting",
+          "evidence_summary": "Anti-levy riots appear in widely separated regions, showing a problem broader than the west."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Ordinary federalist supporters share peasants' reluctance to serve far from home, weakening departmental armies."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did the levy of 300,000 trigger rebellion, especially in the Vendée?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S019",
+      "label": "Origins of the Vendéan rebellion",
+      "priority": "essential",
+      "meaning": "The Vendée erupts when conscription combines with resentment of urban officials, religious policy, church-land sales, social inequity, and the overthrow of monarchy.",
+      "stance": "The rebellion is multi-causal and rooted in accumulated local conflict, not simply aristocratic manipulation.",
+      "acceptable_access": [
+        "Vendée, causes of rebellion",
+        "Vendéan rising, origins",
+        "western counter-revolution"
+      ],
+      "relationships": [
+        {
+          "type": "triggered_by",
+          "target_labels": [
+            "Levy of 300,000 and conscription resistance"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Vendéan Catholic and royalist identity"
+          ]
+        },
+        {
+          "type": "instance_of",
+          "target_labels": [
+            "Town-country conflict in provincial revolt"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 224,
+          "source_page_label": "224",
+          "locator_class": "principal",
+          "evidence_summary": "Unequal recruitment exposes long-standing conflict between rural communities and exempt town-based patriots."
+        },
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "principal",
+          "evidence_summary": "The revolt develops royalist and clerical symbols only after peasants have already mobilized; nobles initially play little part."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did the levy of 300,000 trigger rebellion, especially in the Vendée?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S020",
+      "label": "Vendéan Catholic and royalist identity",
+      "priority": "major",
+      "meaning": "The western insurgency becomes openly Catholic and royalist, rallying around priests, monarchy, sacred symbols, and hostility to local patriots.",
+      "stance": "This identity grows from popular rural grievances; it should not be reduced to noble leadership or confused with republican federalism.",
+      "acceptable_access": [
+        "Vendée, Catholic and royalist armies",
+        "religion and royalism in the Vendée",
+        "Vendéan political identity"
+      ],
+      "relationships": [
+        {
+          "type": "develops_from",
+          "target_labels": [
+            "Origins of the Vendéan rebellion"
+          ]
+        },
+        {
+          "type": "distinguished_from",
+          "target_labels": [
+            "Federalist republicanism and royalist participation"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 224,
+          "source_page_label": "224",
+          "locator_class": "supporting",
+          "evidence_summary": "Religious persecution, church-land transfers, and republican change supply deeper grievances behind the levy."
+        },
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "principal",
+          "evidence_summary": "Insurgents adopt sacred hearts, crosses, royalist colors, and demands for king and priests."
+        },
+        {
+          "document_page": 232,
+          "source_page_label": "232",
+          "locator_class": "supporting",
+          "evidence_summary": "The expanding forces openly style themselves Catholic and royal armies."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did the Vendéan rebellion differ from chouannerie and the later federalist revolts?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S021",
+      "label": "Vendéan military expansion and methods",
+      "priority": "essential",
+      "meaning": "Large, locally supplied insurgent forces exploit bocage terrain, mass rapidly, disperse when checked, and outnumber initially inadequate republican troops.",
+      "stance": "Their early operational strengths make the Vendée a distinct internal war zone, though reluctance to leave home later limits them.",
+      "acceptable_access": [
+        "Vendée, military operations",
+        "Catholic and royal armies, tactics",
+        "military Vendée"
+      ],
+      "relationships": [
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Failure of federalist departmental armies"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Nantes and resistance to both counter-revolution and federalism"
+          ]
+        },
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Foreign war and the internal crisis of 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "supporting",
+          "evidence_summary": "Bocage terrain and mass mobilization let rebel forces overwhelm isolated republican units."
+        },
+        {
+          "document_page": 232,
+          "source_page_label": "232",
+          "locator_class": "principal",
+          "evidence_summary": "Rebel armies expand to tens of thousands, seize towns, and force the Republic into an unfamiliar war."
+        },
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "principal",
+          "evidence_summary": "The army crosses the Loire and reaches Nantes, but poor coordination and localism stop the offensive."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did the Vendéan rebellion differ from chouannerie and the later federalist revolts?",
+        "Why did federalist departmental armies fail while the Vendéans remained dangerous?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S022",
+      "label": "Breton risings and chouannerie",
+      "priority": "major",
+      "meaning": "Rural Brittany rises in March against conscription, taxation, and republican authority; prompt suppression redirects resistance into prolonged guerrilla warfare.",
+      "stance": "The author distinguishes this trajectory from the Vendée's early open mass rebellion and from later departmental federalism.",
+      "acceptable_access": [
+        "Brittany, revolt of 1793",
+        "chouannerie",
+        "Breton resistance"
+      ],
+      "relationships": [
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Vendéan military expansion and methods"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Caen and the Breton-Norman resistance"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "principal",
+          "evidence_summary": "Better garrisons suppress the initial Breton rising, after which determined resistance continues as chouannerie."
+        },
+        {
+          "document_page": 225,
+          "source_page_label": "225",
+          "locator_class": "supporting",
+          "evidence_summary": "The resistance map locates chouan areas and routes across western France."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did the Vendéan rebellion differ from chouannerie and the later federalist revolts?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S023",
+      "label": "Geography of resistance",
+      "priority": "major",
+      "meaning": "Resistance forms a geographically diverse pattern: the Vendée and chouan west, federalist cities and departments, southern centres, and scattered later resistance.",
+      "stance": "Geographic breadth must not be mistaken for one unified movement or for revolt by most departments.",
+      "acceptable_access": [
+        "resistance, geographic distribution",
+        "map of revolt, 1793-1799",
+        "provincial revolt, regional pattern"
+      ],
+      "relationships": [
+        {
+          "type": "related",
+          "target_labels": [
+            "Extent and strategic weight of the federalist revolt"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_labels": [
+            "Marseilles revolt"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_labels": [
+            "Caen and the Breton-Norman resistance"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 225,
+          "source_page_label": "225",
+          "locator_class": "principal",
+          "evidence_summary": "The map distinguishes federalist centres, resistance regions, and western campaign routes."
+        },
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "supporting",
+          "evidence_summary": "Anti-conscription disturbances occur far beyond the Vendée."
+        },
+        {
+          "document_page": 241,
+          "source_page_label": "241",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Serious resistance is concentrated in a limited number of strategically important departments and major cities."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How extensive was the federalist revolt, and why did it still matter?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S024",
+      "label": "Foreign war and the internal crisis of 1793",
+      "priority": "essential",
+      "meaning": "Military reverses, enlarged war demands, conscription, blockade, treason fears, and provincial revolt compound one another into an existential republican crisis.",
+      "stance": "The chapter treats external and internal conflict as mutually reinforcing rather than separate narratives.",
+      "acceptable_access": [
+        "war and domestic crisis, 1793",
+        "Republic, compounded military and civil crisis",
+        "foreign war and radicalization"
+      ],
+      "relationships": [
+        {
+          "type": "causes",
+          "target_labels": [
+            "Levy of 300,000 and conscription resistance"
+          ]
+        },
+        {
+          "type": "drives",
+          "target_labels": [
+            "Expansion of emergency government"
+          ]
+        },
+        {
+          "type": "context_for",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "principal",
+          "evidence_summary": "News of western rebellion and military retreat reaches Paris together, intensifying panic and treason fears."
+        },
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "supporting",
+          "evidence_summary": "Dumouriez's defeat and defection drive surveillance and executive reorganization."
+        },
+        {
+          "document_page": 232,
+          "source_page_label": "232",
+          "locator_class": "principal",
+          "evidence_summary": "Frontier retreat coincides with a new internal war zone and loss of provincial cities."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Continuing war justifies stronger government and postpones ordinary constitutional rule."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Foreign war and the internal crisis of 1793 and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S025",
+      "label": "Dumouriez's defection and political repercussions",
+      "priority": "major",
+      "meaning": "Military defeat turns Dumouriez from celebrated general into traitor and damages Girondins and conciliatory Montagnards associated with him.",
+      "stance": "The defection results from rather than causes battlefield defeat, but politically accelerates suspicion and emergency action.",
+      "acceptable_access": [
+        "Dumouriez, defeat and defection",
+        "Neerwinden, political consequences",
+        "treason crisis, April 1793"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Foreign war and the internal crisis of 1793"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Committee of Public Safety: formation and early evolution"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "supporting",
+          "evidence_summary": "Retreat in Belgium and suspicions of disobedience spread panic and contaminate Girondin reputations."
+        },
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "principal",
+          "evidence_summary": "Defeat precedes treason and defection, compromising both Girondin allies and Danton's attempted accommodation."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Dumouriez's defection and political repercussions and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S026",
+      "label": "Revolutionary Tribunal",
+      "priority": "major",
+      "meaning": "The Tribunal is created as an emergency instrument against treason but immediately becomes entangled in factional struggles and popular legitimacy.",
+      "stance": "Its double-edged political use illustrates the unstable relation between emergency justice, Convention rivalry, and popular pressure.",
+      "acceptable_access": [
+        "Revolutionary Tribunal, creation",
+        "emergency justice",
+        "Marat trial"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Expansion of emergency government"
+          ]
+        },
+        {
+          "type": "used_in",
+          "target_labels": [
+            "Marat's impeachment and acquittal"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "principal",
+          "evidence_summary": "Sections and Jacobins demand a tribunal amid invasion panic and memories of the September Massacres."
+        },
+        {
+          "document_page": 228,
+          "source_page_label": "228",
+          "locator_class": "principal",
+          "evidence_summary": "Girondins use the new institution against Marat, whose acquittal converts it into a popular vindication."
+        },
+        {
+          "document_page": 240,
+          "source_page_label": "240",
+          "locator_class": "supporting",
+          "evidence_summary": "Provincial anti-Jacobins later demand suppression of the central Tribunal while creating local tribunals of their own."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What emergency institutions expanded central power in spring 1793?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S027",
+      "label": "Representatives on mission",
+      "priority": "essential",
+      "meaning": "Convention deputies sent to departments become permanent, broadly empowered agents who implement wartime laws and function as the Republic's effective provincial governors.",
+      "stance": "The author identifies them as a central mechanism of expanding power and de facto Montagnard government, while provinces often see them as new intendants.",
+      "acceptable_access": [
+        "representatives on mission",
+        "provincial emergency government",
+        "Convention emissaries"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Expansion of emergency government"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Montagnard pragmatism and de facto ascendancy"
+          ]
+        },
+        {
+          "type": "resented_in",
+          "target_labels": [
+            "Federalism as a polemical label"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "principal",
+          "evidence_summary": "Deputies are dispatched across departments to explain and accelerate emergency measures."
+        },
+        {
+          "document_page": 230,
+          "source_page_label": "230",
+          "locator_class": "supporting",
+          "evidence_summary": "Mission deputies backing local Jacobins help trigger the Marseilles revolt."
+        },
+        {
+          "document_page": 237,
+          "source_page_label": "237",
+          "locator_class": "principal",
+          "evidence_summary": "Permanent paired missions exercise wide Convention authority and are described as France's real governors."
+        },
+        {
+          "document_page": 241,
+          "source_page_label": "241",
+          "locator_class": "supporting",
+          "evidence_summary": "Federalists denounce mission representatives as a new centralized administrative despotism."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What emergency institutions expanded central power in spring 1793?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S028",
+      "label": "Failed Paris insurrection of 9-10 March 1793",
+      "priority": "major",
+      "meaning": "Militant clubs, journalists, and enragés attempt to purge suspect officials and Girondin deputies but fail when the Commune and National Guard withhold support.",
+      "stance": "Though abortive, the journée establishes popular purging of the Convention as an available political method.",
+      "acceptable_access": [
+        "insurrection of 10 March 1793",
+        "failed Girondin purge, March 1793",
+        "Paris journée, March 1793"
+      ],
+      "relationships": [
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Insurrection of 31 May 1793"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        },
+        {
+          "type": "involves",
+          "target_labels": [
+            "Hébert, militant journalism, and insurrection"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "principal",
+          "evidence_summary": "Armed militants destroy Girondin presses and attempt a purge, but official Parisian institutions restore order."
+        },
+        {
+          "document_page": 233,
+          "source_page_label": "233",
+          "locator_class": "supporting",
+          "evidence_summary": "Later purge planning consciously develops the precedent created in March."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Failed Paris insurrection of 9-10 March 1793 and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S029",
+      "label": "Hébert, militant journalism, and insurrection",
+      "priority": "major",
+      "meaning": "Hébert's press and radical club activity connect attacks on Girondin media, sectional mobilization, and explicit incitement against deputies.",
+      "stance": "Militant journalism amplifies popular politics but does not alone control the Commune or explain insurrectionary outcomes.",
+      "acceptable_access": [
+        "Hébert, Jacques-René",
+        "Père Duchesne",
+        "militant press and insurrection"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_labels": [
+            "Failed Paris insurrection of 9-10 March 1793"
+          ]
+        },
+        {
+          "type": "target_of",
+          "target_labels": [
+            "Commission of Twelve"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "principal",
+          "evidence_summary": "Hébert and a radical club are linked to attacks on Girondin presses and the failed March mobilization."
+        },
+        {
+          "document_page": 233,
+          "source_page_label": "233",
+          "locator_class": "principal",
+          "evidence_summary": "An incendiary issue prompts the Commission of Twelve to arrest Hébert as an insurrectionary organizer."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Hébert, militant journalism, and insurrection and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S030",
+      "label": "Watch committees and surveillance of suspects",
+      "priority": "major",
+      "meaning": "Local surveillance committees are established nationwide to scrutinize foreigners and suspects as part of the March emergency program.",
+      "stance": "They mark the institutional growth of preventive political policing during military crisis.",
+      "acceptable_access": [
+        "watch committees",
+        "comités de surveillance",
+        "surveillance of suspects"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Expansion of emergency government"
+          ]
+        },
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Foreign war and the internal crisis of 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention creates local committees to monitor foreigners and suspects during the Dumouriez crisis."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Watch committees and surveillance of suspects and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S031",
+      "label": "Committee of Public Safety: formation and early evolution",
+      "priority": "essential",
+      "meaning": "A small renewable committee replaces cumbersome coordination arrangements, first under Danton's influence and later with Robespierre as crisis government hardens.",
+      "stance": "It is an embryonic war cabinet and leadership centre, but not yet an undisputed conventional government.",
+      "acceptable_access": [
+        "Committee of Public Safety, creation",
+        "Committee of Public Safety, early membership",
+        "war cabinet, 1793"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Expansion of emergency government"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Danton's crisis leadership and removal"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Ratification and wartime suspension of the Constitution of 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 228,
+          "source_page_label": "228",
+          "locator_class": "principal",
+          "evidence_summary": "A nine-member renewable committee replaces ineffective defence coordination and initially follows Danton's conciliatory lead."
+        },
+        {
+          "document_page": 234,
+          "source_page_label": "234",
+          "locator_class": "supporting",
+          "evidence_summary": "The Committee mediates petitions during the first insurrection and resists immediate arrests."
+        },
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "supporting",
+          "evidence_summary": "Barère refuses to recommend arrests before armed pressure makes Convention surrender unavoidable."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Danton is removed and Robespierre joins as policy shifts toward firmer government, food supply, and popular laws."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Committee of Public Safety: formation and early evolution and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S032",
+      "label": "Danton's crisis leadership and removal",
+      "priority": "major",
+      "meaning": "Danton promotes volunteers, union, and accommodation during the March crisis but loses standing through failed dealings with Dumouriez and perceived trimming.",
+      "stance": "His conciliatory approach is practical but increasingly incompatible with the demand for determined emergency rule.",
+      "acceptable_access": [
+        "Danton, crisis policy",
+        "Danton and Committee of Public Safety",
+        "Danton, removal July 1793"
+      ],
+      "relationships": [
+        {
+          "type": "leadership_of",
+          "target_labels": [
+            "Committee of Public Safety: formation and early evolution"
+          ]
+        },
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Ratification and wartime suspension of the Constitution of 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "supporting",
+          "evidence_summary": "Danton responds to military panic by calling Parisian volunteers to the northern front."
+        },
+        {
+          "document_page": 228,
+          "source_page_label": "228",
+          "locator_class": "principal",
+          "evidence_summary": "He dominates the first Committee and urges union and reconciliation."
+        },
+        {
+          "document_page": 237,
+          "source_page_label": "237",
+          "locator_class": "supporting",
+          "evidence_summary": "He pleads for compromise to prevent the Girondin-Paris quarrel from becoming civil war."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The Convention removes him from the Committee as indecisive trimming becomes politically suspect."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Danton's crisis leadership and removal and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S033",
+      "label": "Marat's impeachment and acquittal",
+      "priority": "major",
+      "meaning": "Girondins exploit abolition of deputy immunity to prosecute Marat, but his acquittal by the Revolutionary Tribunal strengthens popular pressure against them.",
+      "stance": "The episode reverses the intended political use of emergency justice and exposes Girondin weakness in Paris.",
+      "acceptable_access": [
+        "Marat, impeachment",
+        "Marat, Revolutionary Tribunal trial",
+        "Marat, acquittal"
+      ],
+      "relationships": [
+        {
+          "type": "use_of",
+          "target_labels": [
+            "Revolutionary Tribunal"
+          ]
+        },
+        {
+          "type": "intensifies",
+          "target_labels": [
+            "Girondin-Montagnard polarization"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Marat's assassination and political martyrdom"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 228,
+          "source_page_label": "228",
+          "locator_class": "principal",
+          "evidence_summary": "Girondins remove immunity and impeach Marat after his appeal for provincial support of Paris."
+        },
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Acquittal energizes sectional pressure and precedes the Montagnard turn toward price controls."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Marat's impeachment and acquittal and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S034",
+      "label": "Marat's assassination and political martyrdom",
+      "priority": "major",
+      "meaning": "Charlotte Corday kills Marat as an act of individual Girondin revenge; Montagnards transform him into a powerful martyr and use his memory against radical rivals.",
+      "stance": "The murder is federalism's only direct blow in Paris, but its larger importance lies in political mobilization after Marat's active influence was already waning.",
+      "acceptable_access": [
+        "Marat, assassination",
+        "Charlotte Corday",
+        "Marat, martyr cult"
+      ],
+      "relationships": [
+        {
+          "type": "related",
+          "target_labels": [
+            "Revolutionary martyrdom as political mobilization"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Montagnard containment of popular allies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "principal",
+          "evidence_summary": "Corday acts alone from Caen and kills Marat, replacing rumored armies with a single successful attack on Paris."
+        },
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Montagnards magnify a declining journalist into a martyr and mobilize his memory against the enragés."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Marat's assassination and political martyrdom and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S035",
+      "label": "Muscadins and anti-sansculotte sectional politics",
+      "priority": "major",
+      "meaning": "Better-off, stylistically anti-sansculotte young men seize some Paris section assemblies and oppose conscription, taxation, price controls, and communal popular despotism.",
+      "stance": "Paris itself is politically divided; provincial resistance cannot be explained by a uniformly radical capital confronting a uniformly conservative countryside.",
+      "acceptable_access": [
+        "Muscadins",
+        "Paris sections, anti-sansculotte opposition",
+        "popular despotism, opposition"
+      ],
+      "relationships": [
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Sansculottes as a political pressure force"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Social and economic motives of federalism"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 232,
+          "source_page_label": "232",
+          "locator_class": "principal",
+          "evidence_summary": "Muscadins take over several assemblies and denounce the Commune while defending property and opposing new burdens."
+        },
+        {
+          "document_page": 233,
+          "source_page_label": "233",
+          "locator_class": "supporting",
+          "evidence_summary": "Continuing struggles within Paris sections convince insurrectionaries that their opportunity is closing."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Muscadins and anti-sansculotte sectional politics and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S036",
+      "label": "Commission of Twelve",
+      "priority": "major",
+      "meaning": "A Convention commission investigates Parisian insurrection, restricts sectional meetings, and arrests Varlet and Hébert before becoming the immediate target of popular mobilization.",
+      "stance": "Its protective purpose is understandable, but its thin-house composition and coercive measures accelerate the purge it seeks to prevent.",
+      "acceptable_access": [
+        "Commission of Twelve",
+        "Convention, investigation of Paris insurrection",
+        "Hébert and Varlet, arrests"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Failed Paris insurrection of 9-10 March 1793"
+          ]
+        },
+        {
+          "type": "target_of",
+          "target_labels": [
+            "Insurrection of 31 May 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 233,
+          "source_page_label": "233",
+          "locator_class": "principal",
+          "evidence_summary": "The Commission investigates purge planning, orders militant arrests, and proposes limits on sectional power."
+        },
+        {
+          "document_page": 234,
+          "source_page_label": "234",
+          "locator_class": "principal",
+          "evidence_summary": "Tumultuous pressure dissolves, briefly restores, and finally disables the Commission during the 31 May crisis."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Commission of Twelve and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S037",
+      "label": "Insurrection of 31 May 1793",
+      "priority": "major",
+      "meaning": "A divided insurrectionary coalition reorganizes the Commune and surrounds the Convention but fails to secure the Girondin arrests it seeks.",
+      "stance": "Weak turnout, conflicting goals, and cautious officials make the first journée inconclusive except for ending the Commission of Twelve.",
+      "acceptable_access": [
+        "31 May 1793 insurrection",
+        "Paris journée, 31 May",
+        "Girondin purge, first attempt"
+      ],
+      "relationships": [
+        {
+          "type": "follows",
+          "target_labels": [
+            "Failed Paris insurrection of 9-10 March 1793"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        },
+        {
+          "type": "targets",
+          "target_labels": [
+            "Commission of Twelve"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 234,
+          "source_page_label": "234",
+          "locator_class": "principal",
+          "evidence_summary": "Varlet's committee initiates insurrection, but limited mobilization and disagreement prevent arrests."
+        },
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "News of provincial revolt and military defeat converts frustration into plans for a stronger second action."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did the insurrections of 31 May and 2 June differ, and why did the second succeed?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S038",
+      "label": "Insurrection of 2 June and purge of the Girondins",
+      "priority": "essential",
+      "meaning": "A massive Sunday mobilization and armed National Guard encirclement force the Convention to arrest leading Girondins and associated ministers.",
+      "stance": "The purge is coercive but neither a party's destruction nor a government's overthrow; Montagnards accept it as the least dangerous available resolution.",
+      "acceptable_access": [
+        "2 June 1793 insurrection",
+        "Girondins, purge",
+        "Convention, armed encirclement"
+      ],
+      "relationships": [
+        {
+          "type": "culmination_of",
+          "target_labels": [
+            "Girondin-Montagnard polarization"
+          ]
+        },
+        {
+          "type": "involves",
+          "target_labels": [
+            "Coercion and legitimacy of national representation"
+          ]
+        },
+        {
+          "type": "triggers",
+          "target_labels": [
+            "Bordeaux revolt"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "principal",
+          "evidence_summary": "Hanriot's forces prevent deputies from leaving until the Convention decrees arrests."
+        },
+        {
+          "document_page": 236,
+          "source_page_label": "236",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The author's non-party interpretation separates the arrests from a simple transfer of government."
+        },
+        {
+          "document_page": 237,
+          "source_page_label": "237",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Varied motives include sansculotte vengeance, Montagnard concern for the Convention, and wartime fear of civil conflict."
+        },
+        {
+          "document_page": 238,
+          "source_page_label": "238",
+          "locator_class": "supporting",
+          "evidence_summary": "The purge directly prompts Bordeaux and other provinces to move from protest toward armed resistance."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did the insurrections of 31 May and 2 June differ, and why did the second succeed?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S039",
+      "label": "Coercion and legitimacy of national representation",
+      "priority": "essential",
+      "meaning": "The chapter repeatedly asks whether a sovereign national assembly remains legitimate when armed local forces control its members and decisions.",
+      "stance": "Coercion is a genuine constitutional injury, yet the author also emphasizes that the Republic and Convention depend practically on Parisian power.",
+      "acceptable_access": [
+        "Convention, coercion",
+        "national representation, legitimacy",
+        "popular sovereignty and representative government"
+      ],
+      "relationships": [
+        {
+          "type": "related",
+          "target_labels": [
+            "Parisian power over the Convention"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "National sovereignty, Paris, and the provinces"
+          ]
+        },
+        {
+          "type": "central_to",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 220,
+          "source_page_label": "220",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention inherits the Legislative Assembly's inability to resist Parisian force."
+        },
+        {
+          "document_page": 228,
+          "source_page_label": "228",
+          "locator_class": "supporting",
+          "evidence_summary": "Robespierre initially condemns demands that elected representatives be expelled under sectional pressure."
+        },
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "principal",
+          "evidence_summary": "Most deputies abstain when armed confinement compels the purge, visibly rejecting the procedure."
+        },
+        {
+          "document_page": 236,
+          "source_page_label": "236",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Montagnards accept the need to work with Paris because the assembly cannot credibly operate elsewhere."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why does the author reject a simple party-overthrow interpretation of 2 June?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S040",
+      "label": "Absence of a conventional Girondin government",
+      "priority": "major",
+      "meaning": "After the monarchy fell and before June 1793, executive authority emerged through ministers and Convention committees rather than a ministry controlled by a Girondin party.",
+      "stance": "The author's institutional analysis rejects claims that 2 June overthrew a Girondin government.",
+      "acceptable_access": [
+        "government, France 1792-1793",
+        "Girondin government, absence",
+        "executive authority before June 1793"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_labels": [
+            "Girondins as a loose grouping"
+          ]
+        },
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Expansion of emergency government"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 236,
+          "source_page_label": "236",
+          "locator_class": "principal",
+          "evidence_summary": "No ministry or Convention committee is clearly controlled by either Girondins or Montagnards."
+        },
+        {
+          "document_page": 237,
+          "source_page_label": "237",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Mission deputies and voting alignments produce de facto Montagnard ascendancy without a conventional party government."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why does the author reject a simple party-overthrow interpretation of 2 June?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S041",
+      "label": "Expansion of emergency government",
+      "priority": "essential",
+      "meaning": "Conscription, emergency justice, surveillance, price controls, the Committee of Public Safety, and representatives on mission greatly extend central power during wartime.",
+      "stance": "The growth is real even before stable executive government exists, and it helps provoke provincial resistance while enabling later survival.",
+      "acceptable_access": [
+        "emergency government, 1793",
+        "central power, expansion",
+        "wartime state formation"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_labels": [
+            "Revolutionary Tribunal"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_labels": [
+            "Representatives on mission"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_labels": [
+            "Committee of Public Safety: formation and early evolution"
+          ]
+        },
+        {
+          "type": "opposed_by",
+          "target_labels": [
+            "Social and economic motives of federalism"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 227,
+          "source_page_label": "227",
+          "locator_class": "supporting",
+          "evidence_summary": "March measures combine surveillance, mission deputies, and stronger legislative coordination."
+        },
+        {
+          "document_page": 237,
+          "source_page_label": "237",
+          "locator_class": "principal",
+          "evidence_summary": "The author identifies a marked increase in governmental reach from March onward."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "principal",
+          "evidence_summary": "Federalist resentment centers on conscription, police power, market control, forced loans, and mission authority."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The wartime emergency blocks the transition to ordinary constitutional government."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What emergency institutions expanded central power in spring 1793?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S042",
+      "label": "Political sections as local power institutions",
+      "priority": "major",
+      "meaning": "Urban sections organize petitions, insurrection, counter-mobilization, and municipal overthrow in Paris and major provincial cities.",
+      "stance": "Sections are not inherently Montagnard or federalist; control shifts with local class alliances and political circumstances.",
+      "acceptable_access": [
+        "sections, political role",
+        "urban sections and revolt",
+        "local assemblies, 1793"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_labels": [
+            "Sansculottes as a political pressure force"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Local Jacobin militancy and anti-Jacobin backlash"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Muscadins and anti-sansculotte sectional politics"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 223,
+          "source_page_label": "223",
+          "locator_class": "supporting",
+          "evidence_summary": "Paris sections press economic demands and help turn subsistence protest into national policy."
+        },
+        {
+          "document_page": 230,
+          "source_page_label": "230",
+          "locator_class": "principal",
+          "evidence_summary": "Marseilles sections unite workers and property holders to overthrow local Jacobins."
+        },
+        {
+          "document_page": 231,
+          "source_page_label": "231",
+          "locator_class": "supporting",
+          "evidence_summary": "Lyons sections use the National Guard to remove the Jacobin municipality."
+        },
+        {
+          "document_page": 240,
+          "source_page_label": "240",
+          "locator_class": "supporting",
+          "evidence_summary": "Reopened Toulon sections close the Jacobin club and dissolve the town council."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Political sections as local power institutions and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S043",
+      "label": "Local Jacobin militancy and anti-Jacobin backlash",
+      "priority": "essential",
+      "meaning": "Militant Jacobin minorities use clubs, tribunals, disarmament, loans, and mission support to dominate cities, provoking broad local coalitions against them.",
+      "stance": "Provincial revolt often begins as resistance to local Jacobin rule rather than as royalist rejection of the Revolution.",
+      "acceptable_access": [
+        "Jacobinism, provincial backlash",
+        "local Jacobin rule",
+        "anti-Jacobin revolt"
+      ],
+      "relationships": [
+        {
+          "type": "cause_of",
+          "target_labels": [
+            "Marseilles revolt"
+          ]
+        },
+        {
+          "type": "cause_of",
+          "target_labels": [
+            "Lyons revolt"
+          ]
+        },
+        {
+          "type": "cause_of",
+          "target_labels": [
+            "Toulon revolt"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 230,
+          "source_page_label": "230",
+          "locator_class": "principal",
+          "evidence_summary": "Marseilles militants impose exceptional measures and drive workers and merchants into a common opposition."
+        },
+        {
+          "document_page": 231,
+          "source_page_label": "231",
+          "locator_class": "principal",
+          "evidence_summary": "Chalier's municipality cannot resolve Lyons's material crisis and threatens opponents with outside troops."
+        },
+        {
+          "document_page": 240,
+          "source_page_label": "240",
+          "locator_class": "principal",
+          "evidence_summary": "Toulon Jacobins' armed intimidation accelerates their own overthrow by revived sections."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Threats against property make local Jacobins and Montagnards appear as one coercive political project."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Local Jacobin militancy and anti-Jacobin backlash and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S044",
+      "label": "Marseilles revolt",
+      "priority": "major",
+      "meaning": "Port workers, merchants, and sections unite against a militant Jacobin minority, expel mission deputies, and later build a regional federalist regime and army.",
+      "stance": "The city is factionally chaotic rather than simply counter-revolutionary; economic disruption and local Jacobin overreach are decisive.",
+      "acceptable_access": [
+        "Marseilles, revolt of 1793",
+        "Marseilles federalism",
+        "Marseilles, anti-Jacobin sections"
+      ],
+      "relationships": [
+        {
+          "type": "instance_of",
+          "target_labels": [
+            "Local Jacobin militancy and anti-Jacobin backlash"
+          ]
+        },
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Southern network of anti-Montagnard revolt"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Failure of federalist departmental armies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "supporting",
+          "evidence_summary": "A radical minority governs a conservative hinterland and commerce weakened by war."
+        },
+        {
+          "document_page": 230,
+          "source_page_label": "230",
+          "locator_class": "principal",
+          "evidence_summary": "Sections overthrow Jacobin authority and force mission deputies to flee, producing a revolt Paris misreads."
+        },
+        {
+          "document_page": 239,
+          "source_page_label": "239",
+          "locator_class": "principal",
+          "evidence_summary": "A restored tribunal persecutes Montagnards while a departmental army advances only as far as Avignon."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "supporting",
+          "evidence_summary": "Ordinary residents as well as property holders support resistance to instability, shortages, and coercive Jacobinism."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did revolt develop differently in Marseilles, Lyons, Bordeaux, Toulon, and Caen?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S045",
+      "label": "Lyons revolt",
+      "priority": "major",
+      "meaning": "Silk-industry collapse, provisioning failure, and fear of Chalier's Jacobin commune bring sections and the National Guard to overthrow municipal power and resist the Convention.",
+      "stance": "Local economic structure and administrative conflict, not a uniform royalist program, explain the revolt's onset.",
+      "acceptable_access": [
+        "Lyons, revolt of 1793",
+        "Chalier, Joseph",
+        "Lyons, silk crisis and Jacobinism"
+      ],
+      "relationships": [
+        {
+          "type": "instance_of",
+          "target_labels": [
+            "Local Jacobin militancy and anti-Jacobin backlash"
+          ]
+        },
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Southern network of anti-Montagnard revolt"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Revolutionary martyrdom as political mobilization"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 231,
+          "source_page_label": "231",
+          "locator_class": "principal",
+          "evidence_summary": "Industrial decline, supply failures, and fear of coercion produce the armed overthrow of Chalier's municipality."
+        },
+        {
+          "document_page": 235,
+          "source_page_label": "235",
+          "locator_class": "supporting",
+          "evidence_summary": "News of the Jacobin commune's fall helps trigger the stronger Paris purge effort."
+        },
+        {
+          "document_page": 239,
+          "source_page_label": "239",
+          "locator_class": "principal",
+          "evidence_summary": "Lyons raises a departmental force and executes Chalier after the Convention declares the city rebellious."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did revolt develop differently in Marseilles, Lyons, Bordeaux, Toulon, and Caen?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S046",
+      "label": "Bordeaux revolt",
+      "priority": "major",
+      "meaning": "A commercially distressed but Girondin-aligned city moves from rhetorical defence of the Convention to a Popular Commission, a proposed shadow assembly, and an undersized armed force.",
+      "stance": "Bordeaux's leaders are republican and initially hesitant; the 2 June purge and intercity pressure make revolt active.",
+      "acceptable_access": [
+        "Bordeaux, revolt of 1793",
+        "Gironde, Popular Commission",
+        "Bordeaux federalism"
+      ],
+      "relationships": [
+        {
+          "type": "triggered_by",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Proposed shadow Convention at Bourges"
+          ]
+        },
+        {
+          "type": "example_of",
+          "target_labels": [
+            "Failure of federalist departmental armies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 238,
+          "source_page_label": "238",
+          "locator_class": "principal",
+          "evidence_summary": "The purge converts long-standing threats into a commission, propaganda campaign, and planned force."
+        },
+        {
+          "document_page": 239,
+          "source_page_label": "239",
+          "locator_class": "supporting",
+          "evidence_summary": "Bordeaux promotes a shadow convention and volunteer march on Paris."
+        },
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The city recruits only a fraction of its target and its force never advances toward Paris."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did revolt develop differently in Marseilles, Lyons, Bordeaux, Toulon, and Caen?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S047",
+      "label": "Toulon revolt",
+      "priority": "major",
+      "meaning": "Dockyard workers and notables use revived sections to overthrow Jacobins, imprison mission deputies, restore religious activity, and defend property.",
+      "stance": "Its coalition resembles other southern revolts socially but becomes a particularly durable and dangerous repudiation of Convention authority.",
+      "acceptable_access": [
+        "Toulon, revolt of 1793",
+        "Toulon federalism",
+        "Toulon sections and dockyard workers"
+      ],
+      "relationships": [
+        {
+          "type": "instance_of",
+          "target_labels": [
+            "Local Jacobin militancy and anti-Jacobin backlash"
+          ]
+        },
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Southern network of anti-Montagnard revolt"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Social and economic motives of federalism"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 239,
+          "source_page_label": "239",
+          "locator_class": "supporting",
+          "evidence_summary": "Anti-Jacobins reopen sections after watching the Marseilles precedent."
+        },
+        {
+          "document_page": 240,
+          "source_page_label": "240",
+          "locator_class": "principal",
+          "evidence_summary": "Sections overthrow municipal Jacobinism, create a tribunal, revive religion, and articulate a property-defence program."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did revolt develop differently in Marseilles, Lyons, Bordeaux, Toulon, and Caen?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S048",
+      "label": "Caen and the Breton-Norman resistance",
+      "priority": "major",
+      "meaning": "Caen becomes headquarters for a multi-departmental resistance assembly, escaped Girondins, and a force commanded by the royalist Wimpffen.",
+      "stance": "The coalition's republican, royalist, Breton, Norman, and Girondin elements never reconcile, helping doom it.",
+      "acceptable_access": [
+        "Caen, federalist revolt",
+        "Calvados resistance",
+        "Breton-Norman departmental army"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_labels": [
+            "Federalist republicanism and royalist participation"
+          ]
+        },
+        {
+          "type": "example_of",
+          "target_labels": [
+            "Failure of federalist departmental armies"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Breton risings and chouannerie"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 240,
+          "source_page_label": "240",
+          "locator_class": "supporting",
+          "evidence_summary": "Breton departments and Caen call for coordinated resistance, a shadow Convention, and departmental forces."
+        },
+        {
+          "document_page": 241,
+          "source_page_label": "241",
+          "locator_class": "principal",
+          "evidence_summary": "Wimpffen commands the coalition, while royalist hosts cool toward escaped Girondins who remain republicans."
+        },
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The combined force collapses at the first encounter outside its home region."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did revolt develop differently in Marseilles, Lyons, Bordeaux, Toulon, and Caen?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S049",
+      "label": "Southern network of anti-Montagnard revolt",
+      "priority": "major",
+      "meaning": "Marseilles, Lyons, Bordeaux, Toulon, and other southern centres exchange delegates, imitate institutions, and coordinate resistance unevenly.",
+      "stance": "A network exists, but local causes and hesitant mobilization prevent it from becoming a unified national movement.",
+      "acceptable_access": [
+        "southern federalist revolts",
+        "Midi, anti-Jacobin resistance",
+        "intercity coordination, 1793"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_labels": [
+            "Marseilles revolt"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_labels": [
+            "Lyons revolt"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_labels": [
+            "Toulon revolt"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 230,
+          "source_page_label": "230",
+          "locator_class": "supporting",
+          "evidence_summary": "Marseilles's overthrow encourages renewed resistance across the Midi."
+        },
+        {
+          "document_page": 239,
+          "source_page_label": "239",
+          "locator_class": "principal",
+          "evidence_summary": "Marseilles and Lyons exchange delegates and parallel Bordeaux's commissions and departmental forces."
+        },
+        {
+          "document_page": 240,
+          "source_page_label": "240",
+          "locator_class": "supporting",
+          "evidence_summary": "Toulon adapts the Marseilles sectional model while retaining distinct religious and naval features."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Southern network of anti-Montagnard revolt and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S050",
+      "label": "Proposed shadow Convention at Bourges",
+      "priority": "major",
+      "meaning": "Girondins and provincial rebels propose an alternative assembly at Bourges if the Paris Convention cannot deliberate freely.",
+      "stance": "The plan is a constitutional response to coercion, but it never becomes an effective competing national authority.",
+      "acceptable_access": [
+        "Bourges Convention",
+        "shadow Convention",
+        "alternative national assembly, 1793"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Coercion and legitimacy of national representation"
+          ]
+        },
+        {
+          "type": "promoted_by",
+          "target_labels": [
+            "Bordeaux revolt"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 233,
+          "source_page_label": "233",
+          "locator_class": "supporting",
+          "evidence_summary": "Girondin speakers raise the possibility of an alternative assembly if Paris destroys Convention freedom."
+        },
+        {
+          "document_page": 238,
+          "source_page_label": "238",
+          "locator_class": "principal",
+          "evidence_summary": "Bordeaux urges resistant departments to elect a Bourges assembly."
+        },
+        {
+          "document_page": 240,
+          "source_page_label": "240",
+          "locator_class": "supporting",
+          "evidence_summary": "Breton and Norman authorities repeat the Bourges proposal, while other cities hesitate to endorse it."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Proposed shadow Convention at Bourges and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S051",
+      "label": "Failure of federalist departmental armies",
+      "priority": "essential",
+      "meaning": "Provincial forces fall far below recruiting targets, resist leaving home, choose wrong directions, or collapse at the first engagement.",
+      "stance": "The military failure exposes the same reluctance to fight distant wars that helped create provincial resistance and prevents federalism from threatening Paris directly.",
+      "acceptable_access": [
+        "departmental armies, failure",
+        "Federalist revolt, military weakness",
+        "provincial volunteer forces"
+      ],
+      "relationships": [
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Vendéan military expansion and methods"
+          ]
+        },
+        {
+          "type": "explains",
+          "target_labels": [
+            "Extent and strategic weight of the federalist revolt"
+          ]
+        },
+        {
+          "type": "caused_by",
+          "target_labels": [
+            "Social and economic motives of federalism"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 239,
+          "source_page_label": "239",
+          "locator_class": "supporting",
+          "evidence_summary": "Marseilles and Lyons raise forces that remain well below projected strength and limited in range."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "principal",
+          "evidence_summary": "Recruiting failures reveal ordinary supporters' unwillingness to leave their own regions."
+        },
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "principal",
+          "evidence_summary": "Bordeaux marches away from Paris and the Breton-Norman column routs after minimal contact."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did federalist departmental armies fail while the Vendéans remained dangerous?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S052",
+      "label": "Extent and strategic weight of the federalist revolt",
+      "priority": "essential",
+      "meaning": "Claims that most departments rejected the Convention are exaggerated, but revolt in several major cities and strategically placed departments poses a serious challenge.",
+      "stance": "The author corrects inflated contemporary and historical totals without minimizing the danger of losing France's second, third, and fourth cities.",
+      "acceptable_access": [
+        "Federalist revolt, extent",
+        "departments in revolt, 1793",
+        "Federalism, strategic significance"
+      ],
+      "relationships": [
+        {
+          "type": "qualified_by",
+          "target_labels": [
+            "Geography of resistance"
+          ]
+        },
+        {
+          "type": "weakened_by",
+          "target_labels": [
+            "Failure of federalist departmental armies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 241,
+          "source_page_label": "241",
+          "locator_class": "principal",
+          "evidence_summary": "The author contrasts claims of dozens of rebel departments with contemporary evidence for serious resistance in only eight."
+        },
+        {
+          "document_page": 241,
+          "source_page_label": "241",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The limited count still includes several of the country's largest cities, making the challenge strategically important."
+        },
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "supporting",
+          "evidence_summary": "Rapid military collapse shows why the geographic threat does not become a successful march on Paris."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How extensive was the federalist revolt, and why did it still matter?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S053",
+      "label": "Federalist republicanism and royalist participation",
+      "priority": "essential",
+      "meaning": "Most federalist leaders seek a decentralized, property-protecting republic; royalists support or infiltrate the movement when it can divide republican enemies.",
+      "stance": "Republican federalism must be distinguished from Vendéan counter-revolution, even where coalitions include royalists or later move rightward.",
+      "acceptable_access": [
+        "Federalists, republicanism",
+        "Federalism and royalism",
+        "provincial resistance, political identity"
+      ],
+      "relationships": [
+        {
+          "type": "distinguished_from",
+          "target_labels": [
+            "Vendéan Catholic and royalist identity"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Federalism as a polemical label"
+          ]
+        },
+        {
+          "type": "illustrated_by",
+          "target_labels": [
+            "Caen and the Breton-Norman resistance"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 241,
+          "source_page_label": "241",
+          "locator_class": "principal",
+          "evidence_summary": "Republican Girondin fugitives and royalist Caen hosts share hostility to the Mountain but disagree about the regime itself."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "principal",
+          "evidence_summary": "Federalist leaders reject monarchy and seek a rich, tranquil republic while royalists exploit their resistance."
+        },
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "supporting",
+          "evidence_summary": "Girondin Nantes refuses both departmental federalism and Vendéan royalism when faced with counter-revolutionary attack."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "How did the Vendéan rebellion differ from chouannerie and the later federalist revolts?",
+        "What did federalism mean to its participants, and why is the label misleading?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S054",
+      "label": "Social and economic motives of federalism",
+      "priority": "essential",
+      "meaning": "Resistance unites property holders and many ordinary workers around fear of instability, inflation, shortages, conscription, forced loans, market controls, and Jacobin threats.",
+      "stance": "The movement is neither merely bourgeois nor simply popular; overlapping grievances produce temporary cross-class coalitions.",
+      "acceptable_access": [
+        "Federalism, social basis",
+        "Federalist revolt, economic causes",
+        "property and popular support for revolt"
+      ],
+      "relationships": [
+        {
+          "type": "related",
+          "target_labels": [
+            "Local Jacobin militancy and anti-Jacobin backlash"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Marseilles revolt"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Toulon revolt"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 230,
+          "source_page_label": "230",
+          "locator_class": "principal",
+          "evidence_summary": "Marseilles port workers and merchants make common cause against economic disruption and militant Jacobin rule."
+        },
+        {
+          "document_page": 240,
+          "source_page_label": "240",
+          "locator_class": "supporting",
+          "evidence_summary": "Toulon dockyard workers join notables in defending wages, property, and local control."
+        },
+        {
+          "document_page": 242,
+          "source_page_label": "242",
+          "locator_class": "principal",
+          "evidence_summary": "Emergency burdens and insecurity draw support from both the wealthy and ordinary people."
+        },
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Reluctance to serve far from home turns a shared grievance into the movement's decisive military weakness."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What did federalism mean to its participants, and why is the label misleading?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S055",
+      "label": "Town-country conflict in provincial revolt",
+      "priority": "major",
+      "meaning": "Rural communities resent town officials, National Guards, church-land purchasers, recruiters, and provisioning demands, while urban coalitions resist both countryside revolt and central Jacobinism.",
+      "stance": "Provincial conflict cuts across the simple Paris-versus-provinces frame and must be understood through local social geography.",
+      "acceptable_access": [
+        "town-country conflict",
+        "rural-urban divisions, 1793",
+        "provincial social conflict"
+      ],
+      "relationships": [
+        {
+          "type": "cause_of",
+          "target_labels": [
+            "Origins of the Vendéan rebellion"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Social and economic motives of federalism"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 224,
+          "source_page_label": "224",
+          "locator_class": "principal",
+          "evidence_summary": "Vendéan peasants target exempt town patriots who enforce recruitment and benefited from religious and land changes."
+        },
+        {
+          "document_page": 229,
+          "source_page_label": "229",
+          "locator_class": "supporting",
+          "evidence_summary": "Marseilles radicals dominate a conservative hinterland and export vigilance into smaller towns."
+        },
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "supporting",
+          "evidence_summary": "Nantes defends itself against the surrounding royalist countryside despite its own Girondin sympathies."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Town-country conflict in provincial revolt and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S056",
+      "label": "Nantes and resistance to both counter-revolution and federalism",
+      "priority": "major",
+      "meaning": "Girondin-leaning Nantes refuses a federalist contingent and successfully resists the Vendéan army when counter-revolution threatens the city.",
+      "stance": "The case demonstrates that political alignments remain situational and that opposition to Paris does not imply alliance with royalist rebellion.",
+      "acceptable_access": [
+        "Nantes, siege of 1793",
+        "Nantes and the Vendée",
+        "Nantes, Girondin loyalty to Republic"
+      ],
+      "relationships": [
+        {
+          "type": "distinguishes",
+          "target_labels": [
+            "Federalist republicanism and royalist participation"
+          ]
+        },
+        {
+          "type": "limits",
+          "target_labels": [
+            "Vendéan military expansion and methods"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 243,
+          "source_page_label": "243",
+          "locator_class": "principal",
+          "evidence_summary": "Nantes rejects federalist recruitment and then defeats an ill-coordinated Vendéan assault, defending the Jacobin Republic reluctantly but decisively."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why did federalist departmental armies fail while the Vendéans remained dangerous?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S057",
+      "label": "Constitution of 1793",
+      "priority": "essential",
+      "meaning": "The post-purge draft replaces checks and decentralization with a unicameral annually elected legislature, direct manhood suffrage, social rights, and a right of insurrection.",
+      "stance": "It is deliberately designed to regain popular and national legitimacy after coercion and civil conflict.",
+      "acceptable_access": [
+        "Constitution of 1793",
+        "Jacobin constitution",
+        "constitutional rights, 1793"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Insurrection of 2 June and purge of the Girondins"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Coercion and legitimacy of national representation"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Ratification and wartime suspension of the Constitution of 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 244,
+          "source_page_label": "244",
+          "locator_class": "principal",
+          "evidence_summary": "The draft simplifies government, broadens male electoral participation, and adds rights to assistance, education, and resistance."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "supporting",
+          "evidence_summary": "Primary assemblies approve the project in large numbers, giving the Convention a measure of national legitimacy."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What popular and agrarian concessions followed the purge?",
+        "Why was the Constitution of 1793 approved but never put into force?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S058",
+      "label": "Ratification and wartime suspension of the Constitution of 1793",
+      "priority": "essential",
+      "meaning": "National ratification and a unity festival complete the constitution symbolically, but war and internal emergency prevent it from taking effect.",
+      "stance": "Popular consultation succeeds as propitiation while constitutional government remains suspended in both a literal and political sense.",
+      "acceptable_access": [
+        "Constitution of 1793, ratification",
+        "Constitution of 1793, suspension",
+        "wartime constitutional government"
+      ],
+      "relationships": [
+        {
+          "type": "follows",
+          "target_labels": [
+            "Constitution of 1793"
+          ]
+        },
+        {
+          "type": "caused_by",
+          "target_labels": [
+            "Foreign war and the internal crisis of 1793"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Expansion of emergency government"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "principal",
+          "evidence_summary": "Assembly voting and departmental symbolism create a successful display of republican consultation and unity."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Robespierre blocks dissolution because wartime danger makes a transition to regular constitutional rule unsafe."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Why was the Constitution of 1793 approved but never put into force?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S059",
+      "label": "Agrarian and social concessions after 2 June",
+      "priority": "major",
+      "meaning": "The Convention offers small lots of émigré property, possible redistribution of common land, uncompensated abolition of remaining feudal rights, and expanded social rights.",
+      "stance": "These are deliberate legitimacy-building measures aimed at peasants and popular constituencies, not proof that radical allies control policy.",
+      "acceptable_access": [
+        "agrarian reform, June-July 1793",
+        "feudal rights, final abolition",
+        "émigré property and common lands"
+      ],
+      "relationships": [
+        {
+          "type": "paired_with",
+          "target_labels": [
+            "Constitution of 1793"
+          ]
+        },
+        {
+          "type": "used_in",
+          "target_labels": [
+            "Montagnard containment of popular allies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 244,
+          "source_page_label": "244",
+          "locator_class": "principal",
+          "evidence_summary": "Measures make émigré land more accessible, permit redistribution of commons, and abolish remaining feudal claims without compensation."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Agrarian and social concessions after 2 June and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S060",
+      "label": "Revolutionary Army proposal",
+      "priority": "major",
+      "meaning": "Paris militants envision bands of patriotic vigilantes to police the countryside against suspects, hoarders, moderates, and the indifferent.",
+      "stance": "The name is misleadingly military; the proposal expresses popular demand for mobile coercive enforcement.",
+      "acceptable_access": [
+        "Revolutionary Army, proposal",
+        "sansculotte vigilante force",
+        "popular coercive enforcement"
+      ],
+      "relationships": [
+        {
+          "type": "response_to",
+          "target_labels": [
+            "Hoarding, speculation, and punitive economic policy"
+          ]
+        },
+        {
+          "type": "popular_demand_managed_by",
+          "target_labels": [
+            "Montagnard containment of popular allies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 244,
+          "source_page_label": "244",
+          "locator_class": "principal",
+          "evidence_summary": "The proposed force consists of mobile sansculotte vigilantes rather than a conventional army."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "What popular and agrarian concessions followed the purge?"
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S061",
+      "label": "Montagnard containment of popular allies",
+      "priority": "major",
+      "meaning": "After the purge, Montagnards curb the insurrectionary committee and enragés while offering constitutions, economic policy, and social reforms to retain popular support.",
+      "stance": "The victors of 2 June do not simply submit to their radical allies; they combine institutional control with selective concessions.",
+      "acceptable_access": [
+        "Montagnards and radical allies",
+        "insurrectionary committee, suppression",
+        "enragés, Montagnard repression"
+      ],
+      "relationships": [
+        {
+          "type": "targets",
+          "target_labels": [
+            "The enragés and radical popular politics"
+          ]
+        },
+        {
+          "type": "uses",
+          "target_labels": [
+            "Constitution of 1793"
+          ]
+        },
+        {
+          "type": "uses",
+          "target_labels": [
+            "Agrarian and social concessions after 2 June"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 244,
+          "source_page_label": "244",
+          "locator_class": "principal",
+          "evidence_summary": "The Committee subordinates the central sectional committee while the Convention advances popular constitutional and agrarian measures."
+        },
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "principal",
+          "evidence_summary": "Montagnards isolate Roux through institutional expulsion and enlist Marat against the enragés."
+        },
+        {
+          "document_page": 246,
+          "source_page_label": "246",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Robespierre's Committee program joins food supply and popular legislation to stronger government."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Montagnard containment of popular allies and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S062",
+      "label": "Revolutionary martyrdom as political mobilization",
+      "priority": "optional",
+      "meaning": "Assassinated activists such as Le Peletier, Chalier, and Marat become symbolic resources used to define enemies and rally factions.",
+      "stance": "Martyr status is constructed politically and can matter more than the victim's prior practical influence.",
+      "acceptable_access": [
+        "revolutionary martyrs",
+        "Le Peletier, Chalier, and Marat",
+        "political cults of assassination victims"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_labels": [
+            "Marat's assassination and political martyrdom"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Girondin-Montagnard polarization"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 222,
+          "source_page_label": "222",
+          "locator_class": "supporting",
+          "evidence_summary": "Le Peletier's assassination after voting for the king's death produces a Montagnard martyr and Pantheon commemoration."
+        },
+        {
+          "document_page": 245,
+          "source_page_label": "245",
+          "locator_class": "principal",
+          "evidence_summary": "Marat's death creates a more powerful martyr than Le Peletier or Chalier and is used against rival radicals."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Revolutionary martyrdom as political mobilization and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S063",
+      "label": "War policy and factional reversals",
+      "priority": "major",
+      "meaning": "Girondin and Montagnard positions on revolutionary war, foreign liberation, caution, and escalation shift with political circumstances rather than forming fixed camps.",
+      "stance": "The reversals undermine simple ideological stereotypes while showing how foreign policy becomes factional ammunition.",
+      "acceptable_access": [
+        "foreign policy, Girondins and Montagnards",
+        "revolutionary war, factional politics",
+        "war declarations, 1793"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Girondin-Montagnard polarization"
+          ]
+        },
+        {
+          "type": "related",
+          "target_labels": [
+            "Foreign war and the internal crisis of 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 222,
+          "source_page_label": "222",
+          "locator_class": "principal",
+          "evidence_summary": "Girondin sponsorship of foreign fraternity coexists with later caution, while Montagnard skepticism gives way to broader war."
+        },
+        {
+          "document_page": 236,
+          "source_page_label": "236",
+          "locator_class": "supporting",
+          "evidence_summary": "The author links uncompromising war policy to Girondin principle but notes Montagnard majorities on later moderation."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of War policy and factional reversals and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S064",
+      "label": "Jacobin Club consolidation under the Montagnards",
+      "priority": "major",
+      "meaning": "Expulsions transform the Paris Jacobin Club from a site of broader revolutionary debate into a Montagnard political base.",
+      "stance": "Organizational capture precedes and supports, but does not itself explain, Montagnard ascendancy in the Convention.",
+      "acceptable_access": [
+        "Jacobin Club, Montagnard control",
+        "Brissot, expulsion from Jacobins",
+        "Jacobin political consolidation"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_labels": [
+            "Montagnard pragmatism and de facto ascendancy"
+          ]
+        },
+        {
+          "type": "intensifies",
+          "target_labels": [
+            "Girondin-Montagnard polarization"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 222,
+          "source_page_label": "222",
+          "locator_class": "principal",
+          "evidence_summary": "Brissot and deputies favoring an appeal in the king's trial are expelled, leaving the club a Montagnard preserve."
+        },
+        {
+          "document_page": 228,
+          "source_page_label": "228",
+          "locator_class": "supporting",
+          "evidence_summary": "The club endorses demands to remove Girondins before Robespierre temporarily counsels restraint."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of Jacobin Club consolidation under the Montagnards and its relationships."
+      ]
+    },
+    {
+      "local_subject_id": "CH10-S065",
+      "label": "September Massacres as a continuing political grievance",
+      "priority": "major",
+      "meaning": "Memories and accusations surrounding the September 1792 prison killings shape Girondin hostility to Paris and public fears whenever volunteers leave the capital.",
+      "stance": "The massacres' political afterlife is more important here than a fresh narrative of the killings themselves.",
+      "acceptable_access": [
+        "September Massacres, political legacy",
+        "Girondins and the September Massacres",
+        "Paris violence, memory"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Girondin-Montagnard polarization"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Failed Paris insurrection of 9-10 March 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 220,
+          "source_page_label": "220",
+          "locator_class": "supporting",
+          "evidence_summary": "Deputies remember having watched powerless while Parisian militants killed prisoners."
+        },
+        {
+          "document_page": 221,
+          "source_page_label": "221",
+          "locator_class": "principal",
+          "evidence_summary": "Girondins believe Parisian deputies were implicated and might again use popular violence to seize power."
+        },
+        {
+          "document_page": 226,
+          "source_page_label": "226",
+          "locator_class": "supporting",
+          "evidence_summary": "The departure of new volunteers revives fears that political enemies will be massacred in their absence."
+        }
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "reader_tasks": [
+        "Trace the chapter treatment of September Massacres as a continuing political grievance and its relationships."
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "exclusion_id": "EXCL-CH10-001",
+      "category": "attribution_only_or_incidental_person",
+      "examples": [
+        "isolated deputies, journalists, military officers, and local officials named only for one act"
+      ],
+      "rule": "No independent subject unless the person has sustained analytical, institutional, or reader-retrieval significance in the chapter."
+    },
+    {
+      "exclusion_id": "EXCL-CH10-002",
+      "category": "map_label_only",
+      "document_page": 225,
+      "rule": "A town or region appearing only as a cartographic label is not independently promoted without substantive narrative treatment."
+    },
+    {
+      "exclusion_id": "EXCL-CH10-003",
+      "category": "quotation_or_slogan",
+      "rule": "Political slogans and quoted insults are evidence of stance or mobilization, not standalone subjects or text to reproduce."
+    },
+    {
+      "exclusion_id": "EXCL-CH10-004",
+      "category": "event_date",
+      "rule": "Dates identify substantive events but are not independent access points unless a conventional event name depends on the date."
+    },
+    {
+      "exclusion_id": "EXCL-CH10-005",
+      "category": "military_place_sequence",
+      "rule": "Individual captured towns are not separately promoted when their significance is only to trace Vendéan expansion; they remain accessible through the campaign subject."
+    },
+    {
+      "exclusion_id": "EXCL-CH10-006",
+      "category": "historian_or_retrospective_attribution",
+      "rule": "References to later historians or interpretive habits are incorporated into authorial-stance subjects rather than indexed as names."
+    },
+    {
+      "exclusion_id": "EXCL-CH10-007",
+      "category": "running_furniture",
+      "rule": "Running heads, chapter numerals, and page numerals are excluded from discovery and word count."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "UNC-CH10-001",
+      "status": "resolved_for_discovery",
+      "topic": "federalist terminology",
+      "alternatives": [
+        "separatist federalism",
+        "republican resistance to Parisian coercion"
+      ],
+      "resolution": "Use the author's qualified republican interpretation and preserve royalist participation as a separate relationship.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "UNC-CH10-002",
+      "status": "resolved_for_discovery",
+      "topic": "Girondins as party or government",
+      "alternatives": [
+        "coherent party/government",
+        "loose grouping defined mainly by shared attitudes"
+      ],
+      "resolution": "Follow the explicit authorial rejection of the party-government model.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "UNC-CH10-003",
+      "status": "source_limitation",
+      "topic": "endnote evidence",
+      "alternatives": [
+        "inspect cited endnotes",
+        "limit discovery to supplied body text"
+      ],
+      "resolution": "Endnotes are absent from the source and excluded by the frozen availability policy.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "UNC-CH10-004",
+      "status": "measurement_note",
+      "topic": "map word count",
+      "alternatives": [
+        "count only extractable caption",
+        "include substantive map labels"
+      ],
+      "resolution": "Include 66 visually verified substantive label tokens plus the extractable caption; exclude map-scale numerals.",
+      "confidence": "medium"
+    },
+    {
+      "uncertainty_id": "UNC-CH10-005",
+      "status": "interpretive_caution",
+      "topic": "causation of provincial revolt",
+      "alternatives": [
+        "single-cause explanation",
+        "interacting military, economic, political, religious, and social causes"
+      ],
+      "resolution": "Preserve the multi-causal structure and city-specific differences.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "UNC-CH10-006",
+      "status": "interpretive_caution",
+      "topic": "labels for fluid political groups",
+      "alternatives": [
+        "fixed membership",
+        "overlapping and changing coalitions"
+      ],
+      "resolution": "Treat labels as access terms while preserving the author's warnings about fluidity and anachronism.",
+      "confidence": "high"
+    }
+  ],
+  "discovery_assessment": {
+    "standard": "full scholarly-readership source-led discovery",
+    "density_used_as_subject_quota": false,
+    "candidate_index_inspected": false,
+    "earlier_chunk_discoveries_inspected_before_fresh_draft": false,
+    "coverage_statement": "Every owned page and declared context page was read; the page-225 map was visually inspected at high resolution; subjects were selected for substantive treatment and realistic scholarly retrieval rather than frequency or density targets."
+  },
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "source_chunk_pdf_sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d",
+    "source_chunk_sidecar_sha256": "a47ea2d7d5d3f22b92e602ec257eeb6270ec473e925c062ab0c5ae21c850f2d2",
+    "repository": "jcamden/subject-index-benchmark-oxford-history-french-revolution-2002",
+    "base_branch": "main",
+    "base_commit": "e675ba83a13cd761b5cf32573eaf3cf7fdf86d1b",
+    "worker_branch": "source-discovery/chunk-010"
+  },
+  "selection_method": {
+    "unit": "one independently searchable, substantively treated source concept",
+    "principles": [
+      "source-led and candidate-blind",
+      "scholarly-reader retrieval value",
+      "preserve distinctions and authorial stance",
+      "record relationships and acceptable alternative access",
+      "exclude incidental names, mentions, and examples",
+      "use density only for later candidate calibration, never as a discovery quota"
+    ]
+  }
+}
