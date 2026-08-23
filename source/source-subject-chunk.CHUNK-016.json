@@ -1,0 +1,4866 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "chunk": {
+    "chunk_id": "CHUNK-016",
+    "chapter_labels": [
+      "16. An End to Revolution, 1799-1802"
+    ],
+    "owned_document_pages": [
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390
+    ],
+    "context_document_pages": [
+      367,
+      368,
+      391,
+      392
+    ],
+    "owned_document_page_ranges": [
+      [
+        369,
+        390
+      ]
+    ],
+    "context_document_page_ranges": [
+      [
+        367,
+        368
+      ],
+      [
+        391,
+        392
+      ]
+    ],
+    "source_page_labels": [
+      "369",
+      "370",
+      "371",
+      "372",
+      "373",
+      "374",
+      "375",
+      "376",
+      "377",
+      "378",
+      "379",
+      "380",
+      "381",
+      "382",
+      "383",
+      "384",
+      "385",
+      "386",
+      "387",
+      "388",
+      "389",
+      "390"
+    ]
+  },
+  "candidate_blindness": "preserved",
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "policy_path": "source/evaluation-policy.v2.json",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "source_chunk_pdf_sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9",
+    "source_chunk_sidecar_sha256": "645c8040bdca4f7717bd90497f417eb37e8469ae770dcdac4edc1cf5efd428fb",
+    "policy_profile": "subject-index-standard-policy-v1",
+    "rubric_version": "subject-index-rubric-v4",
+    "repository": "jcamden/subject-index-benchmark-oxford-history-french-revolution-2002",
+    "base_branch": "main",
+    "base_commit": "e675ba83a13cd761b5cf32573eaf3cf7fdf86d1b",
+    "worker_branch": "source-discovery/chunk-016",
+    "generator": "candidate-blind-source-discovery-worker-v1",
+    "generated_at": "2026-08-23T02:38:41Z"
+  },
+  "page_review": {
+    "expected_owned_pages": 22,
+    "reviewed_owned_pages": 22,
+    "reviewed_owned_document_pages": [
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390
+    ],
+    "reviewed_context_document_pages": [
+      367,
+      368,
+      391,
+      392
+    ],
+    "indexable_source_words": 10258,
+    "word_count_method": "Per-page text extraction; exclude running headers, page numbers, and the display-only chapter heading; join words split by line-break hyphenation; count remaining whitespace-delimited tokens containing an alphanumeric character.",
+    "page_records": [
+      {
+        "document_page": 369,
+        "source_page_label": "369",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 327,
+        "review_note": "Introduces conditional peasant support for revolutionary gains, exhaustion with turmoil, and the Directory's inability to deliver calm.",
+        "limitations": []
+      },
+      {
+        "document_page": 370,
+        "source_page_label": "370",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 477,
+        "review_note": "Covers the manipulated Year VII elections, anti-Directory returns, military defeat, and the opening attack on the executive.",
+        "limitations": []
+      },
+      {
+        "document_page": 371,
+        "source_page_label": "371",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 500,
+        "review_note": "Explains the coup of Prairial, Sieyes's concentration of power, and the renewed Jacobin press, club, and emergency programme.",
+        "limitations": []
+      },
+      {
+        "document_page": 372,
+        "source_page_label": "372",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 485,
+        "review_note": "Details the Law of Hostages, the organized anti-Jacobin response, closure of the Manege Club, and renewed military danger.",
+        "limitations": []
+      },
+      {
+        "document_page": 373,
+        "source_page_label": "373",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 468,
+        "review_note": "Narrates the south-west royalist rising, rejection of a Country in Danger declaration, and sudden military recovery.",
+        "limitations": []
+      },
+      {
+        "document_page": 374,
+        "source_page_label": "374",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 473,
+        "review_note": "Shows Sieyes turning to an unconstitutional military-backed revision, Bonaparte's return, renewed chouannerie, and coup planning.",
+        "limitations": []
+      },
+      {
+        "document_page": 375,
+        "source_page_label": "375",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 463,
+        "review_note": "Narrates the coercive coup of Brumaire and begins the author's explanation of why the Directory failed.",
+        "limitations": []
+      },
+      {
+        "document_page": 376,
+        "source_page_label": "376",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 459,
+        "review_note": "Argues that electoral manipulation, rejection of party politics, and distrust of opponents prevented the Year III constitution from working.",
+        "limitations": []
+      },
+      {
+        "document_page": 377,
+        "source_page_label": "377",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 486,
+        "review_note": "Completes the political diagnosis and sets out the institutional architecture and executive dominance of the Year VIII constitution.",
+        "limitations": []
+      },
+      {
+        "document_page": 378,
+        "source_page_label": "378",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 476,
+        "review_note": "Covers the manipulated plebiscite, the claim that the Revolution was over, the sacrifice of 1789 principles for stability, and the need for victorious peace.",
+        "limitations": []
+      },
+      {
+        "document_page": 379,
+        "source_page_label": "379",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 489,
+        "review_note": "Explains coalition disintegration, Bonaparte's Italian campaign, Marengo, Hohenlinden, and the Treaty of Luneville.",
+        "limitations": []
+      },
+      {
+        "document_page": 380,
+        "source_page_label": "380",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 466,
+        "review_note": "Describes the continental settlement, French client arrangements, Egypt and Malta, Baltic conflict, British war-weariness, and peace feelers.",
+        "limitations": []
+      },
+      {
+        "document_page": 381,
+        "source_page_label": "381",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 484,
+        "review_note": "Presents Amiens as a French triumph, assesses a decade of revolutionary war, and opens the problem of monarchist restoration.",
+        "limitations": []
+      },
+      {
+        "document_page": 382,
+        "source_page_label": "382",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 485,
+        "review_note": "Explains restoration hopes, Louis XVIII's overture, Bonaparte's rejection, and the pacification of most chouans.",
+        "limitations": []
+      },
+      {
+        "document_page": 383,
+        "source_page_label": "383",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 476,
+        "review_note": "Covers emigre conciliation, preservation of confiscated property, the infernal-machine attack, and the knowingly misdirected Jacobin purge.",
+        "limitations": []
+      },
+      {
+        "document_page": 384,
+        "source_page_label": "384",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 472,
+        "review_note": "Shows how repression reassured property holders and surveys financial stabilization, prefectural centralization, and persistent brigandage.",
+        "limitations": []
+      },
+      {
+        "document_page": 385,
+        "source_page_label": "385",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 468,
+        "review_note": "Contrasts everyday legal ordering and Civil Code preparation with high-political arbitrariness, then frames religion as the Revolution's deepest wound.",
+        "limitations": []
+      },
+      {
+        "document_page": 386,
+        "source_page_label": "386",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 464,
+        "review_note": "Explains Bonaparte's instrumental view of religion, the election of pragmatic Pius VII, conciliatory gestures, and the opening Concordat initiative.",
+        "limitations": []
+      },
+      {
+        "document_page": 387,
+        "source_page_label": "387",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 466,
+        "review_note": "Sets out the stakes and difficulties of church reconciliation, the non-restoration of church lands, and the core Concordat compromise.",
+        "limitations": []
+      },
+      {
+        "document_page": 388,
+        "source_page_label": "388",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 474,
+        "review_note": "Explains state control of the restored church, the fresh episcopal settlement, and the unilateral Organic Articles.",
+        "limitations": []
+      },
+      {
+        "document_page": 389,
+        "source_page_label": "389",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 484,
+        "review_note": "Assesses the religious settlement's paradoxical results and traces legislative resistance before the purge of the representative bodies.",
+        "limitations": []
+      },
+      {
+        "document_page": 390,
+        "source_page_label": "390",
+        "reviewed": true,
+        "ownership": "owned",
+        "indexable_source_words": 416,
+        "review_note": "Completes the legislative purge, records passage of the religious settlement, anticipates life consulship, and depicts April 1802 as the Revolution's burial.",
+        "limitations": []
+      }
+    ],
+    "context_page_records": [
+      {
+        "document_page": 367,
+        "source_page_label": "367",
+        "reviewed": true,
+        "ownership": "context",
+        "review_note": "Previous chapter context on Italian resistance and the declining appeal of revolutionary France."
+      },
+      {
+        "document_page": 368,
+        "source_page_label": "368",
+        "reviewed": true,
+        "ownership": "context",
+        "review_note": "Previous chapter context on coalition threat, French defeat, and Bonaparte's departure from Egypt."
+      },
+      {
+        "document_page": 391,
+        "source_page_label": "391",
+        "reviewed": true,
+        "ownership": "context",
+        "review_note": "Next chapter opening on post-Amiens travel and visible revolutionary disruption."
+      },
+      {
+        "document_page": 392,
+        "source_page_label": "392",
+        "reviewed": true,
+        "ownership": "context",
+        "review_note": "Next chapter context distinguishing temporary damage from permanent change and returning to the Revolution's intellectual origins."
+      }
+    ],
+    "excluded_regions": [
+      {
+        "document_pages": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390
+        ],
+        "role": "running furniture and page numbers",
+        "region_type": "running_furniture_and_page_numbers",
+        "reason": "Excluded by frozen source scope and from the word-count denominator."
+      },
+      {
+        "document_pages": [
+          369
+        ],
+        "region_type": "display_only_chapter_number_and_title",
+        "reason": "Used for chapter identity but excluded from the indexable-body word-count denominator."
+      }
+    ],
+    "unavailable_regions": [
+      {
+        "role": "chapter endnotes",
+        "reason": "Absent from the supplied special edition. Superscript note markers remain in the body text, but their note text is unavailable and excluded from discovery."
+      }
+    ],
+    "complete": true
+  },
+  "selection_method": {
+    "unit": "independently searchable source subject rather than proposed index heading",
+    "principles": [
+      "Retain principal subjects and significant localized or subsidiary subjects even when confined to one passage.",
+      "Split subjects when a reader could plausibly seek one without the other or when a combined label would overstate page support.",
+      "Retain named people, institutions, works, and events only when the chapter analyzes them, uses them as sustained explanatory cases, or makes them independently useful to scholarly readers.",
+      "Use optional only for defensible supplemental access whose absence would not materially reduce usefulness.",
+      "Do not use density calibration to set the subject count or priority."
+    ]
+  },
+  "subjects": [
+    {
+      "local_subject_id": "CH16-SUBJ-001",
+      "label": "Revolutionary gains and conditional popular support",
+      "priority": "essential",
+      "meaning": "Rural attachment to equality, the end of seigneurial burdens and game rights, and ownership of national lands survived, but support depended on peace and predictable order.",
+      "stance": "The author rejects a simple royalist-versus-revolutionary binary: many peasants preferred the new social settlement while resenting the turmoil and human costs associated with revolutionary government.",
+      "acceptable_access": [
+        "Revolutionary gains, popular support",
+        "Peasants and the Revolution",
+        "Equality, popular attachment",
+        "National lands, rural owners"
+      ],
+      "relationships": [
+        {
+          "type": "conditioned_by",
+          "target_labels": [
+            "Political exhaustion, civic withdrawal, and peasant priorities"
+          ],
+          "note": "Political exhaustion limited active commitment.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-002"
+          ]
+        },
+        {
+          "type": "secured_by",
+          "target_labels": [
+            "Security of national lands and the revolutionary property settlement"
+          ],
+          "note": "Property guarantees helped preserve the Revolution's social settlement.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-048"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Why could a stable post-revolutionary regime attract support without restoring the old order?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 369,
+          "source_page_label": "369",
+          "locator_class": "principal",
+          "evidence_summary": "A commissioner describes peasants who value equality, improved harvests, the disappearance of old dues, and ownership of national property, yet want peace and calm."
+        },
+        {
+          "document_page": 378,
+          "source_page_label": "378",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The chapter later argues that many citizens accepted the loss of much of the Revolution's original political programme in return for durable stability."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-002",
+      "label": "Political exhaustion, civic withdrawal, and peasant priorities",
+      "priority": "major",
+      "meaning": "War losses, conscription, repeated political crises, and conflict over religion exhausted civic participation and made peace more urgent than regime activism.",
+      "stance": "The source treats low participation and clerical attachment as fatigue and practical calculation rather than proof that peasants wanted the old regime restored.",
+      "acceptable_access": [
+        "Political fatigue",
+        "Civic participation, decline",
+        "Peasant political attitudes",
+        "War weariness in France"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_labels": [
+            "Directory: crisis of stability and collapse"
+          ],
+          "note": "The Directory's inability to supply calm intensified withdrawal.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-003"
+          ]
+        },
+        {
+          "type": "culminates_in",
+          "target_labels": [
+            "Depoliticization, disappearance of the independent press, and public preference for stability"
+          ],
+          "note": "Later political depoliticization rested on the same appetite for order.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-059"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Why did revolutionary citizens disengage from elections and organized politics?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 369,
+          "source_page_label": "369",
+          "locator_class": "principal",
+          "evidence_summary": "Peasants are portrayed as tired of exercising civic rights, reluctant to sacrifice sons for military glory, and attached to priests while still preferring many revolutionary changes."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-003",
+      "label": "Directory: crisis of stability and collapse",
+      "priority": "essential",
+      "meaning": "The Directory entered 1799 unable to deliver peace, electoral legitimacy, military security, or a stable relation between executive and legislature, and it ended in Brumaire.",
+      "stance": "The chapter presents collapse as the cumulative failure of political practice and legitimacy, not as an automatic consequence of the Year III constitution alone.",
+      "acceptable_access": [
+        "Directory, collapse",
+        "Directory, political crisis of 1799",
+        "Directorial regime, failure",
+        "Year III regime, end"
+      ],
+      "relationships": [
+        {
+          "type": "ended_by",
+          "target_labels": [
+            "Coup of Brumaire (18-19 Brumaire, Year VIII)"
+          ],
+          "note": "Brumaire terminated the regime.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-016"
+          ]
+        },
+        {
+          "type": "explained_by",
+          "target_labels": [
+            "Why the Directory failed: political practice rather than constitutional structure alone"
+          ],
+          "note": "The author distinguishes political from purely constitutional causes.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-017"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Why did the Directory collapse in 1799?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 369,
+          "source_page_label": "369",
+          "locator_class": "principal",
+          "evidence_summary": "The opening asks whether the directorial regime could ever provide the calm required to consolidate revolutionary gains and answers that confidence was disappearing."
+        },
+        {
+          "document_page": 370,
+          "source_page_label": "370",
+          "locator_class": "supporting",
+          "evidence_summary": "A divided executive, hostile legislature, manipulated elections, and military emergency create a regime crisis."
+        },
+        {
+          "document_page": 375,
+          "source_page_label": "375",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "After military coercion at Saint-Cloud and the resignation of the Directors, the source states that the Directory was over and turns to explaining its failure."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-004",
+      "label": "Elections of Year VII (1799)",
+      "priority": "major",
+      "meaning": "The Directory again tried to manage electoral outcomes, but low turnout, split assemblies, anti-directorial deputies, and Jacobin gains produced a legislature willing to resist the executive.",
+      "stance": "The returns mattered because the outgoing Councils largely accepted the larger factions' choices, exposing the regime's loss of control despite limited participation.",
+      "acceptable_access": [
+        "Elections, 1799",
+        "Year VII elections",
+        "Directory, electoral manipulation",
+        "Jacobins, electoral return"
+      ],
+      "relationships": [
+        {
+          "type": "precipitates",
+          "target_labels": [
+            "Coup of Prairial (June 1799)"
+          ],
+          "note": "The new balance enabled the legislative attack of Prairial.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-005"
+          ]
+        },
+        {
+          "type": "example_of",
+          "target_labels": [
+            "Bonaparte and Sieyes: rival designs for executive power"
+          ],
+          "note": "Repeated manipulation eroded electoral legitimacy.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-020"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "What changed in the elections of 1799?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 369,
+          "source_page_label": "369",
+          "locator_class": "supporting",
+          "evidence_summary": "The chapter introduces renewed official preparations to rig annual elections amid war and conscription."
+        },
+        {
+          "document_page": 370,
+          "source_page_label": "370",
+          "locator_class": "principal",
+          "evidence_summary": "Despite government endorsements, boycotts, low turnout, and split assemblies, opposition and roughly fifty Jacobin or allied deputies entered the Councils."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-005",
+      "label": "Coup of Prairial (June 1799)",
+      "priority": "major",
+      "meaning": "The Councils forced Treilhard, La Revelliere, and Merlin from the Directory and installed replacements, producing the only legislative purge of the executive under the Year III constitution.",
+      "stance": "Although hailed as a restoration of legislative authority, Prairial principally concentrated executive power in Sieyes's hands, whose goal was to weaken rather than empower the legislature.",
+      "acceptable_access": [
+        "Prairial coup",
+        "Coup of 30 Prairial",
+        "Directory, purge by Councils",
+        "Sieyes, Prairial"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Neo-Jacobin resurgence after Prairial"
+          ],
+          "note": "Jacobins initially treated Prairial as their return.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-007"
+          ]
+        },
+        {
+          "type": "advances",
+          "target_labels": [
+            "Sieyes: constitutional strategy and executive concentration"
+          ],
+          "note": "Sieyes used the coup to prepare deeper constitutional change.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-006"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Was Prairial a legislative victory or a step toward executive concentration?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 370,
+          "source_page_label": "370",
+          "locator_class": "supporting",
+          "evidence_summary": "The Councils attack military failures, alleged corruption, and Treilhard's eligibility while the executive loses unity."
+        },
+        {
+          "document_page": 371,
+          "source_page_label": "371",
+          "locator_class": "principal",
+          "evidence_summary": "The forced resignations and replacements are identified as the coup of Prairial, with Sieyes coordinating the change and emerging dominant."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-006",
+      "label": "Sieyes: constitutional strategy and executive concentration",
+      "priority": "major",
+      "meaning": "Sieyes used the 1799 crisis to dominate the Directory, contain Jacobins, seek an extra-constitutional revision, and design institutions meant to insulate authority from electoral volatility.",
+      "stance": "He remained wary of despotism and envisioned legal checks, but his strategy depended on a military coup and underestimated Bonaparte's determination to exercise real power.",
+      "acceptable_access": [
+        "Sieyes, constitutional plans",
+        "Sieyes, 1799 coup strategy",
+        "Sieyes and executive power",
+        "Sieyes and Bonaparte"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "Bonaparte and Sieyes: rival designs for executive power"
+          ],
+          "note": "Bonaparte rejected Sieyes's restrained executive design.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-020"
+          ]
+        },
+        {
+          "type": "causes",
+          "target_labels": [
+            "Coup of Brumaire (18-19 Brumaire, Year VIII)"
+          ],
+          "note": "His search for a general made Brumaire possible.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-016"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "What did Sieyes want to change, and why did Bonaparte outmaneuver him?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 370,
+          "source_page_label": "370",
+          "locator_class": "supporting",
+          "evidence_summary": "Sieyes accepts a directorial seat because he judges the moment ripe for constitutional change."
+        },
+        {
+          "document_page": 371,
+          "source_page_label": "371",
+          "locator_class": "principal",
+          "evidence_summary": "Prairial places effective executive power in his hands even though the legislature believes it has prevailed."
+        },
+        {
+          "document_page": 374,
+          "source_page_label": "374",
+          "locator_class": "principal",
+          "evidence_summary": "He concludes that only a military-backed coup can strengthen the executive and recruits Bonaparte after other generals prove unavailable or reluctant."
+        },
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "supporting",
+          "evidence_summary": "Several Year VIII institutions embody his ideas, while Bonaparte defeats his proposed design for the executive."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-007",
+      "label": "Neo-Jacobin resurgence after Prairial",
+      "priority": "major",
+      "meaning": "Prairial reopened Jacobin newspapers, clubs, offices, and legislative influence, producing emergency measures reminiscent of Year II before a coordinated backlash halted the movement.",
+      "stance": "The resurgence was real but never commanded a legislative majority; wartime emergency and memories of 1793 magnified its apparent threat.",
+      "acceptable_access": [
+        "Jacobins, resurgence in 1799",
+        "Neo-Jacobins",
+        "Year II policies, revival",
+        "Jacobin legislation, Year VII"
+      ],
+      "relationships": [
+        {
+          "type": "expressed_through",
+          "target_labels": [
+            "Manege Club"
+          ],
+          "note": "The Manege Club supplied organizational visibility.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-067"
+          ]
+        },
+        {
+          "type": "reversed_by",
+          "target_labels": [
+            "Suppression of the 1799 Jacobin resurgence"
+          ],
+          "note": "Sieyes and Fouche contained the resurgence.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-011"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How substantial was the Jacobin revival of 1799?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 371,
+          "source_page_label": "371",
+          "locator_class": "principal",
+          "evidence_summary": "Jacobin newspapers, the Manege Club, officeholders, universal conscription, a forced loan, and hostage legislation mark the movement's renewed influence."
+        },
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "supporting",
+          "evidence_summary": "Memories of terror allow Sieyes and allies to portray the club and its programme as threats to public order."
+        },
+        {
+          "document_page": 373,
+          "source_page_label": "373",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The defeat of the Country in Danger motion signals confidence in an anti-Jacobin Directory despite continued emergency."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-008",
+      "label": "Jourdan conscription law and the renewed levee en masse",
+      "priority": "major",
+      "meaning": "Full activation of the Jourdan law conscripted men aged twenty to twenty-five without substitution, supplying armies but provoking resistance, desertion, and royalist recruitment.",
+      "stance": "The measure answered military necessity yet revived Year II associations and helped destabilize the countryside.",
+      "acceptable_access": [
+        "Jourdan law",
+        "Conscription, 1799",
+        "Levee en masse, Year VII",
+        "Military recruitment and resistance"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Royalist insurrection in south-western France (1799)"
+          ],
+          "note": "Royalist risings recruited among conscription resisters.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-012"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Brigandage and special criminal courts"
+          ],
+          "note": "Draft evasion fed brigandage.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-046"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How did conscription connect foreign war to domestic disorder?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 371,
+          "source_page_label": "371",
+          "locator_class": "principal",
+          "evidence_summary": "The Councils activate universal conscription without purchased substitutes and explicitly describe it as a new mass levy."
+        },
+        {
+          "document_page": 373,
+          "source_page_label": "373",
+          "locator_class": "supporting",
+          "evidence_summary": "Conscription refugees swell the planned royalist peasant force in the south-west."
+        },
+        {
+          "document_page": 374,
+          "source_page_label": "374",
+          "locator_class": "supporting",
+          "evidence_summary": "A sweeping conscription measure helps trigger renewed chouannerie in the west."
+        },
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Flight from recruiting officers contributes to endemic banditry until peace eases the pressure."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-009",
+      "label": "Forced loan on the rich (1799)",
+      "priority": "major",
+      "meaning": "The Jacobin-backed forced loan sought wartime revenue through punitive assessments on wealthy citizens after foreign occupation could no longer finance French armies.",
+      "stance": "Its resemblance to earlier revolutionary levies alarmed property holders and made later repeal useful to Bonaparte's politics of reassurance.",
+      "acceptable_access": [
+        "Forced loan, 1799",
+        "War finance, Year VII",
+        "Property holders, revolutionary levy"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Neo-Jacobin resurgence after Prairial"
+          ],
+          "note": "The loan formed part of the neo-Jacobin emergency programme.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-007"
+          ]
+        },
+        {
+          "type": "repealed_to_support",
+          "target_labels": [
+            "Reconciliation of middle classes and property holders"
+          ],
+          "note": "Its removal helped reconcile the middle classes.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-043"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 371,
+          "source_page_label": "371",
+          "locator_class": "principal",
+          "evidence_summary": "A proposed hundred-million forced loan is tied to the Republic's need to finance war from domestic resources and imposes the heaviest rates on the rich."
+        },
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "supporting",
+          "evidence_summary": "Together with hostage legislation, the loan appears to threaten a return to coercive sans-culotte policies."
+        },
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Bonaparte quickly abolishes the loan and substitutes a modest proportional surtax to reassure property holders."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-010",
+      "label": "Law of Hostages (1799)",
+      "priority": "major",
+      "meaning": "The law allowed detention, fines, and property seizure against relatives of emigres or nobles in disturbed areas without proof of responsibility.",
+      "stance": "The author emphasizes that its powers exceeded even the remembered Law of Suspects; its swift repeal became a key conciliatory signal under the Consulate.",
+      "acceptable_access": [
+        "Law of Hostages",
+        "Hostage law, Year VII",
+        "Emergency repression, 1799"
+      ],
+      "relationships": [
+        {
+          "type": "provokes",
+          "target_labels": [
+            "Suppression of the 1799 Jacobin resurgence"
+          ],
+          "note": "Its extremity aided the anti-Jacobin backlash.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-011"
+          ]
+        },
+        {
+          "type": "repeal_supports",
+          "target_labels": [
+            "Pacification of chouannerie"
+          ],
+          "note": "Repeal helped pacify royalist districts.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-039"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 371,
+          "source_page_label": "371",
+          "locator_class": "supporting",
+          "evidence_summary": "The hostage measure is introduced as the most alarming part of the Jacobin-backed programme."
+        },
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "principal",
+          "evidence_summary": "The law's collective punishment and property powers are explained and compared unfavourably with earlier terror legislation."
+        },
+        {
+          "document_page": 382,
+          "source_page_label": "382",
+          "locator_class": "supporting",
+          "evidence_summary": "Bonaparte advertises its repeal while negotiating the pacification of the west."
+        },
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Repeal within days of Brumaire helps signal security for property and an end to Jacobin emergency measures."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-011",
+      "label": "Suppression of the 1799 Jacobin resurgence",
+      "priority": "major",
+      "meaning": "Sieyes and allies used public-order rhetoric, press campaigning, club closure, and legislative votes to stop the Jacobin advance before military recovery reduced the emergency.",
+      "stance": "The backlash depended on genuine fear of renewed extremism but also served Sieyes's project of executive concentration.",
+      "acceptable_access": [
+        "Jacobins, suppression in 1799",
+        "Anti-Jacobin policy, Sieyes",
+        "Manege Club, closure",
+        "Fouche, closure of Jacobin club"
+      ],
+      "relationships": [
+        {
+          "type": "opposes",
+          "target_labels": [
+            "Neo-Jacobin resurgence after Prairial"
+          ],
+          "note": "It terminates the short-lived resurgence.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-007"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Infernal-machine attack and the purge of Jacobins"
+          ],
+          "note": "Consular persecution later becomes far harsher.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-041"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "principal",
+          "evidence_summary": "Official warnings, hostile publicity, eviction and final closure of the Manege Club, and rejection of indictments curb the movement."
+        },
+        {
+          "document_page": 373,
+          "source_page_label": "373",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Rejection of emergency rule and renewed battlefield success leave the anti-Jacobin Directory politically stronger."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-012",
+      "label": "Royalist insurrection in south-western France (1799)",
+      "priority": "major",
+      "meaning": "Monarchist organizations exploited invasion hopes, local violence, and resistance to conscription to launch a large rural rising around Toulouse and the upper Garonne.",
+      "stance": "The outbreak caused substantial casualties but failed to capture Toulouse or trigger urban support, exposing both continuing royalist danger and its limits.",
+      "acceptable_access": [
+        "Royalist uprising, 1799",
+        "Toulouse, royalist insurrection",
+        "Upper Garonne civil war",
+        "Monarchist organizations, south-west"
+      ],
+      "relationships": [
+        {
+          "type": "fed_by",
+          "target_labels": [
+            "Jourdan conscription law and the renewed levee en masse"
+          ],
+          "note": "Draft resistance supplied recruits.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-008"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "Neo-Jacobin resurgence after Prairial"
+          ],
+          "note": "The rising showed danger on the right while the government repressed the left.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-007"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How serious was the royalist rising around Toulouse?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "supporting",
+          "evidence_summary": "Renewed internal insurrection follows coalition landings and military reverses."
+        },
+        {
+          "document_page": 373,
+          "source_page_label": "373",
+          "locator_class": "principal",
+          "evidence_summary": "The source describes the ten-thousand-strong rising, month of civil war, failure to take Toulouse, and collapse of supporting disturbances."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-013",
+      "label": "Military crisis and recovery in 1799",
+      "priority": "major",
+      "meaning": "Defeats in Italy, threatened invasion, Joubert's death, Novi, and landings in Holland drove political emergency before victories in the Batavian and Helvetic republics restored confidence.",
+      "stance": "The abrupt recovery, rather than constitutional persuasion, gave Sieyes the secure moment needed for his coup project.",
+      "acceptable_access": [
+        "Military crisis, 1799",
+        "Novi, battle of",
+        "Joubert, death",
+        "Batavian Republic, Anglo-Russian invasion",
+        "Switzerland, coalition defeat"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Coup of Brumaire (18-19 Brumaire, Year VIII)"
+          ],
+          "note": "Military recovery creates the opening for Brumaire.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-016"
+          ]
+        },
+        {
+          "type": "leads_to",
+          "target_labels": [
+            "Disintegration of the Second Coalition"
+          ],
+          "note": "Coalition strains continue into 1800.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-029"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 370,
+          "source_page_label": "370",
+          "locator_class": "supporting",
+          "evidence_summary": "News of defeats pours into the Councils and intensifies the assault on the Directory."
+        },
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "principal",
+          "evidence_summary": "Joubert's death at Novi, defeat in Italy, landings in Holland, and Dutch defection deepen the emergency."
+        },
+        {
+          "document_page": 373,
+          "source_page_label": "373",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "French and allied victories eject the invaders from Holland and Switzerland, transforming the political balance."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-014",
+      "label": "Bonaparte's return from Egypt and cross-party appeal",
+      "priority": "major",
+      "meaning": "Bonaparte returned in October 1799 as the Republic's undefeated general and presumed peacemaker, drawing hopes across the political spectrum.",
+      "stance": "His broad appeal and military prestige made him useful to Sieyes, but the source stresses that Sieyes underestimated his political agency.",
+      "acceptable_access": [
+        "Bonaparte, return to France",
+        "Bonaparte, popularity in 1799",
+        "Egypt expedition, Bonaparte's return",
+        "Peacemaker of 1797"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Coup of Brumaire (18-19 Brumaire, Year VIII)"
+          ],
+          "note": "His arrival supplies the military partner Sieyes lacked.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-016"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Prestige underpins his later personal rule.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 374,
+          "source_page_label": "374",
+          "locator_class": "principal",
+          "evidence_summary": "Triumphal receptions and a reputation for victory make Bonaparte the available general around whom multiple factions gather."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-015",
+      "label": "Renewed chouannerie in autumn 1799",
+      "priority": "major",
+      "meaning": "Western royalist bands resumed activity over conscription, briefly occupied cities, and demonstrated that the Directory faced threats from both political extremes.",
+      "stance": "The renewed revolt helped discredit the Directory but was rapidly transformed after Bonaparte took power into a problem of conciliation and selective repression.",
+      "acceptable_access": [
+        "Chouannerie, 1799",
+        "Western insurrection, autumn 1799",
+        "Le Mans, chouan occupation"
+      ],
+      "relationships": [
+        {
+          "type": "caused_partly_by",
+          "target_labels": [
+            "Jourdan conscription law and the renewed levee en masse"
+          ],
+          "note": "Conscription helped reactivate the bands.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-008"
+          ]
+        },
+        {
+          "type": "resolved_by",
+          "target_labels": [
+            "Pacification of chouannerie"
+          ],
+          "note": "The Consulate combined concessions and coercion to pacify most leaders.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-039"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 374,
+          "source_page_label": "374",
+          "locator_class": "principal",
+          "evidence_summary": "Chouan bands renew royalist action, occupy Le Mans and other cities, and expose the Directory's inability to control either extreme."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-016",
+      "label": "Coup of Brumaire (18-19 Brumaire, Year VIII)",
+      "priority": "essential",
+      "meaning": "Sieyes, Bonaparte, Lucien Bonaparte, Fouche, Talleyrand, and allies used an alleged Jacobin plot, relocation to Saint-Cloud, resignations, and military force to dissolve the Year III regime and install three provisional Consuls.",
+      "stance": "The coup was neither smooth nor a legal constitutional transition: Bonaparte failed before the chambers and prevailed when troops cleared the Five Hundred and a compliant remnant voted afterward.",
+      "acceptable_access": [
+        "Brumaire coup",
+        "18 Brumaire",
+        "Saint-Cloud coup",
+        "Directory, overthrow",
+        "Lucien Bonaparte, Brumaire"
+      ],
+      "relationships": [
+        {
+          "type": "ends",
+          "target_labels": [
+            "Directory: crisis of stability and collapse"
+          ],
+          "note": "The coup terminates the Directory.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-003"
+          ]
+        },
+        {
+          "type": "creates",
+          "target_labels": [
+            "Constitution of the Year VIII"
+          ],
+          "note": "It opens the drafting of the Year VIII constitution.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-021"
+          ]
+        },
+        {
+          "type": "advances",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Bonaparte converts a coalition coup into personal executive supremacy.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How did Brumaire actually succeed?",
+        "What roles did Sieyes and Lucien Bonaparte play?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 374,
+          "source_page_label": "374",
+          "locator_class": "supporting",
+          "evidence_summary": "Sieyes and Bonaparte coordinate with Lucien, Fouche, and Talleyrand and frame the operation as protection against Jacobin conspiracy."
+        },
+        {
+          "document_page": 375,
+          "source_page_label": "375",
+          "locator_class": "principal",
+          "evidence_summary": "Directory resignations, Bonaparte's hostile reception, military clearing of the Five Hundred, and votes by a compliant quorum establish a provisional Consulate."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-017",
+      "label": "Why the Directory failed: political practice rather than constitutional structure alone",
+      "priority": "essential",
+      "meaning": "The Year III constitution was never allowed to function freely: elections were manipulated, executives and legislatures purged one another, and all major camps denied opponents' legitimacy.",
+      "stance": "The author explicitly qualifies the conspirators' claim that weak constitutional design caused collapse; the deeper problem was an intolerant political culture and refusal to accept representative uncertainty.",
+      "acceptable_access": [
+        "Directory, causes of failure",
+        "Constitution of Year III, failure",
+        "Thermidorian Republic, political culture",
+        "Representative government, Directory"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_labels": [
+            "Party politics, factions, and the general will"
+          ],
+          "note": "Hostility to party politics was a central defect.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-018"
+          ]
+        },
+        {
+          "type": "leads_to",
+          "target_labels": [
+            "Constitution of the Year VIII"
+          ],
+          "note": "Year VIII answered the crisis by weakening representation rather than solving pluralism.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-021"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Does the author blame the Year III constitution for the Directory's collapse?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 375,
+          "source_page_label": "375",
+          "locator_class": "principal",
+          "evidence_summary": "The chapter introduces the conspirators' structural explanation but contrasts Bonaparte's and Sieyes's proposed remedies."
+        },
+        {
+          "document_page": 376,
+          "source_page_label": "376",
+          "locator_class": "principal",
+          "evidence_summary": "Repeated interference with elections and refusal to accept parties meant the constitution never received a genuine trial."
+        },
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Royalists and Jacobins alike are judged unwilling to tolerate legitimate opposition, so the problems were not simply constitutional."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-018",
+      "label": "Party politics, factions, and the general will",
+      "priority": "major",
+      "meaning": "Directorial republicans treated organized political groups as illegitimate factions because they assumed a single honest general will, and they failed to build an organized moderate centre.",
+      "stance": "The source presents this rejection of durable party competition as a major reason representative government could not stabilize.",
+      "acceptable_access": [
+        "Political parties under the Directory",
+        "Factions and general will",
+        "Rousseau, political organization",
+        "Moderate party, failure to organize"
+      ],
+      "relationships": [
+        {
+          "type": "causes",
+          "target_labels": [
+            "Why the Directory failed: political practice rather than constitutional structure alone"
+          ],
+          "note": "Without accepted parties, electoral defeat appeared existential.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-017"
+          ]
+        },
+        {
+          "type": "related_to",
+          "target_labels": [
+            "Bonaparte and Sieyes: rival designs for executive power"
+          ],
+          "note": "Sieyes sought to separate authority from direct electoral dependence.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-020"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 376,
+          "source_page_label": "376",
+          "locator_class": "principal",
+          "evidence_summary": "Royalist and neo-Jacobin organizations are alternately tolerated and suppressed while Directors assume their own centre needs no organization."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-019",
+      "label": "Royalist and Jacobin limits of constitutional opposition",
+      "priority": "major",
+      "meaning": "Both royalists and Jacobins sometimes adopted constitutional tactics, yet neither convincingly accepted compromise, the legitimacy of opponents, or permanent pluralism.",
+      "stance": "The author acknowledges genuine reasons for republican fear while refusing to treat directorial repression as therefore successful or sufficient.",
+      "acceptable_access": [
+        "Royalists, constitutional tactics",
+        "Jacobins, constitutional opposition",
+        "Political intolerance, Directory"
+      ],
+      "relationships": [
+        {
+          "type": "qualifies",
+          "target_labels": [
+            "Why the Directory failed: political practice rather than constitutional structure alone"
+          ],
+          "note": "The Directory faced real anti-constitutional threats even though its response destroyed legitimacy.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-017"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 376,
+          "source_page_label": "376",
+          "locator_class": "principal",
+          "evidence_summary": "Royalist electoral participation concealed a restorationist goal, while Jacobin constitutional claims were compromised by Year II rhetoric and radical associations."
+        },
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Neither side is judged likely to tolerate opposition if it obtained power."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-020",
+      "label": "Bonaparte and Sieyes: rival designs for executive power",
+      "priority": "major",
+      "meaning": "Bonaparte wanted the government itself to embody national representation and exercise broad executive authority; Sieyes preferred an intricate legal balance and an elevated but inactive Grand Elector.",
+      "stance": "Their disagreement reveals that Brumaire's partners did not share a constitutional destination; Bonaparte's demand for operative power prevailed.",
+      "acceptable_access": [
+        "Bonaparte and Sieyes, constitutional disagreement",
+        "Executive power, Year VIII",
+        "Grand Elector",
+        "Government as national representative"
+      ],
+      "relationships": [
+        {
+          "type": "resolved_in_favor_of",
+          "target_labels": [
+            "First Consul's supremacy and rejection of the Grand Elector"
+          ],
+          "note": "The final constitution gives Bonaparte real supremacy.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-025"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "Sieyes: constitutional strategy and executive concentration"
+          ],
+          "note": "Sieyes's checking institutions survive only partially.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-006"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 375,
+          "source_page_label": "375",
+          "locator_class": "principal",
+          "evidence_summary": "Bonaparte's case for an expansive executive is contrasted with Sieyes's continuing Enlightened fear of despotism."
+        },
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "principal",
+          "evidence_summary": "Bonaparte rejects the ceremonial Grand Elector and secures overriding authority for the First Consul."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-021",
+      "label": "Constitution of the Year VIII",
+      "priority": "essential",
+      "meaning": "The new constitution preserved nominal suffrage and multiple institutions while monopolizing legislative initiative in the government and placing overriding authority in the First Consul.",
+      "stance": "It did not solve the pluralist problems that undermined the Directory; it removed excuses for executive inaction by concentrating power and leaving only remnants of 1789 principles.",
+      "acceptable_access": [
+        "Constitution of Year VIII",
+        "Consular constitution",
+        "Constitution, 1799",
+        "Government of the Consulate"
+      ],
+      "relationships": [
+        {
+          "type": "contains",
+          "target_labels": [
+            "Lists of notables and attenuated popular sovereignty"
+          ],
+          "note": "Indirect lists hollowed out electoral choice.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-022"
+          ]
+        },
+        {
+          "type": "contains",
+          "target_labels": [
+            "Tribunate, Legislative Body, and Council of State"
+          ],
+          "note": "Legislative bodies lacked initiative.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-024"
+          ]
+        },
+        {
+          "type": "centers_on",
+          "target_labels": [
+            "First Consul's supremacy and rejection of the Grand Elector"
+          ],
+          "note": "The First Consul held decisive power.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-025"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How did the Year VIII constitution organize suffrage, legislation, and executive power?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "principal",
+          "evidence_summary": "The source sets out lists of eligible citizens, the Senate, separated legislative chambers, Council of State, and dominant First Consul."
+        },
+        {
+          "document_page": 378,
+          "source_page_label": "378",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Manipulated ratification and immediate implementation accompany the claim that strong stable powers preserved rights, which the author treats sceptically."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-022",
+      "label": "Lists of notables and attenuated popular sovereignty",
+      "priority": "major",
+      "meaning": "Citizens chose successive tenths for communal, departmental, and national lists, but the lists only identified eligibility and did not allow electors to choose officeholders directly.",
+      "stance": "The arrangement preserved the language of sovereignty while making officeholders independent of those they governed.",
+      "acceptable_access": [
+        "Lists of notables",
+        "Communal, departmental, and national lists",
+        "Suffrage under the Consulate",
+        "Confidence from below, power from above"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Constitution of the Year VIII"
+          ],
+          "note": "The lists supplied the constitution's nominal electoral base.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-021"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "Bonaparte and Sieyes: rival designs for executive power"
+          ],
+          "note": "They realize Sieyes's distrust of direct electoral dependence.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-020"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 376,
+          "source_page_label": "376",
+          "locator_class": "supporting",
+          "evidence_summary": "Sieyes formulates the principle that confidence rises from citizens while power descends from authorities."
+        },
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "principal",
+          "evidence_summary": "The three-stage tenth lists and Senate's selection power are described as the base of the new system."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-023",
+      "label": "Senate as conservative constitutional power",
+      "priority": "major",
+      "meaning": "The Senate selected legislators from the national list and embodied Sieyes's long-standing idea of a body that would guard legality, though its powers were left obscure.",
+      "stance": "The institution offered constitutional restraint in theory but its undefined authority later enabled executive manipulation of legislative membership.",
+      "acceptable_access": [
+        "Senate, Constitution of Year VIII",
+        "Conservative Senate",
+        "Constitutional jury, Sieyes",
+        "Senatus-consultum and legislative renewal"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Constitution of the Year VIII"
+          ],
+          "note": "It was a core checking and appointing institution.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-021"
+          ]
+        },
+        {
+          "type": "used_for",
+          "target_labels": [
+            "Legislative opposition and purge of the Tribunate and Legislative Body"
+          ],
+          "note": "Its ambiguity facilitated the legislative purge.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-058"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "principal",
+          "evidence_summary": "The new Senate revives Sieyes's proposed conservative power and becomes the selector of legislators."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The Senate is ordered to interpret ambiguous renewal provisions and remove opponents from both chambers."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-024",
+      "label": "Tribunate, Legislative Body, and Council of State",
+      "priority": "major",
+      "meaning": "The Tribunate could debate but not vote, the Legislative Body could vote but not debate, neither could initiate laws, and government proposals were drafted through a revived Council of State.",
+      "stance": "The division simulated deliberative institutions while ensuring that legislation originated with the executive; remaining opposition later proved intolerable to Bonaparte.",
+      "acceptable_access": [
+        "Tribunate",
+        "Legislative Body",
+        "Council of State, revival",
+        "Legislative initiative under the Consulate"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Constitution of the Year VIII"
+          ],
+          "note": "These bodies formed the consular legislative architecture.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-021"
+          ]
+        },
+        {
+          "type": "purged_in",
+          "target_labels": [
+            "Legislative opposition and purge of the Tribunate and Legislative Body"
+          ],
+          "note": "Their limited independence was further reduced before the Concordat vote.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-058"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "principal",
+          "evidence_summary": "The separated functions and government monopoly of legislative initiative are set out in detail."
+        },
+        {
+          "document_page": 389,
+          "source_page_label": "389",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Experienced legislators still criticize bills despite the chambers' intended pliancy, prompting executive retaliation."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-025",
+      "label": "First Consul's supremacy and rejection of the Grand Elector",
+      "priority": "essential",
+      "meaning": "Bonaparte refused the ceremonial life office proposed by Sieyes and secured decisive authority as the first among three Consuls.",
+      "stance": "The episode marks the conversion of a checked constitutional design into a vehicle for personal executive rule.",
+      "acceptable_access": [
+        "First Consul, powers",
+        "Grand Elector, rejection",
+        "Bonaparte, executive supremacy",
+        "Three Consuls"
+      ],
+      "relationships": [
+        {
+          "type": "outcome_of",
+          "target_labels": [
+            "Bonaparte and Sieyes: rival designs for executive power"
+          ],
+          "note": "Bonaparte wins the disagreement with Sieyes.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-020"
+          ]
+        },
+        {
+          "type": "foundation_for",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Constitutional supremacy supports later personal consolidation.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "principal",
+          "evidence_summary": "Bonaparte rejects a powerless Grand Elector and obtains overriding authority in the final executive structure."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-026",
+      "label": "Plebiscite on the Constitution of Year VIII",
+      "priority": "major",
+      "meaning": "The regime claimed overwhelming approval, but most eligible citizens abstained, reported acceptance was artificially enlarged, and the constitution operated before the result.",
+      "stance": "The author treats the vote as manufactured legitimation rather than a meaningful popular choice.",
+      "acceptable_access": [
+        "Plebiscite, Year VIII",
+        "Constitution of 1799, ratification",
+        "Popular vote, Consulate"
+      ],
+      "relationships": [
+        {
+          "type": "legitimates",
+          "target_labels": [
+            "Constitution of the Year VIII"
+          ],
+          "note": "The plebiscite supplied nominal popular approval.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-021"
+          ]
+        },
+        {
+          "type": "illustrates",
+          "target_labels": [
+            "The Revolution declared over: stability purchased by sacrificing 1789 principles"
+          ],
+          "note": "Stability was asserted despite diminished revolutionary participation.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-027"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 378,
+          "source_page_label": "378",
+          "locator_class": "principal",
+          "evidence_summary": "The reported millions in favour are contrasted with mass abstention, manipulation, and implementation before counting was complete."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-027",
+      "label": "The Revolution declared over: stability purchased by sacrificing 1789 principles",
+      "priority": "essential",
+      "meaning": "The Consulate claimed to complete and preserve the Revolution, but durable stability required surrender of most political principles associated with 1789.",
+      "stance": "The author calls the official claim brazen yet argues that the Revolution did effectively end once war, political conflict, property insecurity, and religious division were settled.",
+      "acceptable_access": [
+        "End of the French Revolution",
+        "Revolution, declared over",
+        "Stability versus principles of 1789",
+        "Consulate, revolutionary settlement"
+      ],
+      "relationships": [
+        {
+          "type": "depends_on",
+          "target_labels": [
+            "Peace of Amiens (1802)"
+          ],
+          "note": "Foreign peace removed a central source of upheaval.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-036"
+          ]
+        },
+        {
+          "type": "depends_on",
+          "target_labels": [
+            "Louisiana cession and pressure on Spain"
+          ],
+          "note": "Religious settlement closed the deepest domestic wound.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-063"
+          ]
+        },
+        {
+          "type": "qualified_by",
+          "target_labels": [
+            "Life consulship and monarchical drift"
+          ],
+          "note": "Near-monarchical personal rule followed quickly.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-060"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "In what sense does Doyle argue that the Revolution ended by 1802?",
+        "Which principles survived and which were sacrificed?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 378,
+          "source_page_label": "378",
+          "locator_class": "principal",
+          "evidence_summary": "The constitution's claim to restore founding principles is contrasted with their mutilated survival and with citizens' willingness to trade them for stability."
+        },
+        {
+          "document_page": 381,
+          "source_page_label": "381",
+          "locator_class": "supporting",
+          "evidence_summary": "Bonaparte links the end of revolutionary war to settlement of the French government while the author distinguishes later imperial conflict."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Peace, the end of political strife, and restored religious freedom are presented as the public burial of the Revolution."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-028",
+      "label": "Bonaparte's consolidation of personal rule",
+      "priority": "essential",
+      "meaning": "Military prestige, constitutional supremacy, selective conciliation, repression, administrative reform, peace, and religious settlement progressively made the First Consul the indispensable guarantor of order.",
+      "stance": "The source presents consolidation as politically effective but dependent on manipulated representation, arbitrary repression, and erosion of revolutionary liberty.",
+      "acceptable_access": [
+        "Bonaparte, consolidation of power",
+        "First Consul, personal rule",
+        "Consulate, authoritarian consolidation",
+        "Napoleon Bonaparte, domestic settlement"
+      ],
+      "relationships": [
+        {
+          "type": "begins_with",
+          "target_labels": [
+            "Coup of Brumaire (18-19 Brumaire, Year VIII)"
+          ],
+          "note": "Brumaire creates the provisional regime.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-016"
+          ]
+        },
+        {
+          "type": "institutionalized_by",
+          "target_labels": [
+            "First Consul's supremacy and rejection of the Grand Elector"
+          ],
+          "note": "The First Consulship supplies constitutional authority.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-025"
+          ]
+        },
+        {
+          "type": "culminates_in",
+          "target_labels": [
+            "Life consulship and monarchical drift"
+          ],
+          "note": "Life tenure points toward monarchy.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-060"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How did Bonaparte turn the Brumaire coalition into personal rule?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 374,
+          "source_page_label": "374",
+          "locator_class": "supporting",
+          "evidence_summary": "Cross-party hopes and military prestige make Bonaparte central to the coup coalition."
+        },
+        {
+          "document_page": 377,
+          "source_page_label": "377",
+          "locator_class": "principal",
+          "evidence_summary": "He secures overriding constitutional power rather than the ceremonial role designed for him."
+        },
+        {
+          "document_page": 383,
+          "source_page_label": "383",
+          "locator_class": "supporting",
+          "evidence_summary": "He exploits an assassination attempt to eliminate Jacobin opponents despite evidence of royalist responsibility."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Legislative weakness, public concern for his safety, popular celebration, and imminent life consulship show rule becoming personal and quasi-monarchical."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-029",
+      "label": "Disintegration of the Second Coalition",
+      "priority": "major",
+      "meaning": "Austrian pursuit of separate territorial aims, Russian resentment, failed operations in Holland and Switzerland, and Paul I's withdrawal dissolved the coalition advantage.",
+      "stance": "The source attributes Bonaparte's opening less to French invincibility than to allied greed, division, and strategic failure.",
+      "acceptable_access": [
+        "Second Coalition, collapse",
+        "Austria and Russia, coalition tensions",
+        "Paul I, withdrawal",
+        "Suvorov, retreat from Switzerland"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Campaigns of 1800: Marengo and Hohenlinden"
+          ],
+          "note": "Coalition division gave France the initiative in 1800.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-030"
+          ]
+        },
+        {
+          "type": "leads_to",
+          "target_labels": [
+            "British war-weariness and the opening to peace"
+          ],
+          "note": "Britain became isolated after continental peace.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-035"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 378,
+          "source_page_label": "378",
+          "locator_class": "supporting",
+          "evidence_summary": "Austrian conduct and allied strategic divergence are identified as strains that prevented invasion of France."
+        },
+        {
+          "document_page": 379,
+          "source_page_label": "379",
+          "locator_class": "principal",
+          "evidence_summary": "Russian retreat and withdrawal leave Bonaparte able to offer peace and prepare a renewed campaign."
+        },
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "supporting",
+          "evidence_summary": "Malta and Baltic disputes complete Paul I's alienation from Britain before his assassination."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-030",
+      "label": "Campaigns of 1800: Marengo and Hohenlinden",
+      "priority": "major",
+      "meaning": "Bonaparte's risky Italian campaign nearly failed at Marengo but produced a sweeping armistice, while Moreau's victory at Hohenlinden forced Austria into serious negotiations.",
+      "stance": "The chapter separates propaganda from military reality: Bonaparte claimed triumph after a near-defeat, whereas Hohenlinden delivered the decisive strategic result.",
+      "acceptable_access": [
+        "Marengo, battle of",
+        "Hohenlinden, battle of",
+        "Campaign of 1800",
+        "Moreau, Rhine army",
+        "Bonaparte, crossing the Alps"
+      ],
+      "relationships": [
+        {
+          "type": "produces",
+          "target_labels": [
+            "Treaty of Luneville (1801)"
+          ],
+          "note": "Victories force the Treaty of Luneville.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-031"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Bonaparte appropriates the military credit needed for domestic consolidation.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How decisive was Marengo compared with Hohenlinden?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 379,
+          "source_page_label": "379",
+          "locator_class": "principal",
+          "evidence_summary": "The source narrates the secret Alpine crossing, near-disaster at Marengo, Austrian armistice, and Moreau's later knockout blow in Germany."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-031",
+      "label": "Treaty of Luneville (1801)",
+      "priority": "major",
+      "meaning": "Luneville confirmed French possession of Belgium and the left Rhine, maintained French republics in northern Italy, displaced Habsburg influence in Tuscany, and ended continental war with Austria.",
+      "stance": "The treaty entrenched revolutionary France's territorial gains while its monarchical accommodations signalled that ideological revolution abroad was receding.",
+      "acceptable_access": [
+        "Treaty of Luneville",
+        "Luneville, settlement",
+        "Austria, peace with France",
+        "Campo Formio, confirmation"
+      ],
+      "relationships": [
+        {
+          "type": "follows",
+          "target_labels": [
+            "Campaigns of 1800: Marengo and Hohenlinden"
+          ],
+          "note": "French victories compel negotiations.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-030"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "French continental hegemony and pragmatic client settlement"
+          ],
+          "note": "The treaty formalizes French continental dominance.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-032"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 379,
+          "source_page_label": "379",
+          "locator_class": "principal",
+          "evidence_summary": "The treaty follows Hohenlinden and confirms the principal western and Italian provisions associated with Campo Formio."
+        },
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "supporting",
+          "evidence_summary": "Subsequent accommodation with Italian monarchies and Spain shows the broader settlement's pragmatic character."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-032",
+      "label": "French continental hegemony and pragmatic client settlement",
+      "priority": "major",
+      "meaning": "By 1801 France controlled expanded frontiers and a belt of client territories while accommodating Bourbons in Etruria and Naples and extracting Louisiana from Spain.",
+      "stance": "The settlement preserved French strategic dominance but abandoned any consistent commitment to republican transformation abroad.",
+      "acceptable_access": [
+        "French hegemony, 1801",
+        "Client states, Consular France",
+        "European settlement after Luneville",
+        "Sister republics and monarchies"
+      ],
+      "relationships": [
+        {
+          "type": "formalized_by",
+          "target_labels": [
+            "Treaty of Luneville (1801)"
+          ],
+          "note": "Luneville confirms the continental settlement.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-031"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "Revolutionary war transformed Europe, but later expansion belonged to Napoleon's empire"
+          ],
+          "note": "Revolutionary warfare is distinguished from later imperial expansion.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-037"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 379,
+          "source_page_label": "379",
+          "locator_class": "supporting",
+          "evidence_summary": "Luneville preserves annexations and northern Italian client republics while rearranging Tuscany."
+        },
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "principal",
+          "evidence_summary": "French dealings with Etruria, Naples, and Spain reveal pragmatic use of kingdoms, garrisons, and territorial exchange."
+        },
+        {
+          "document_page": 381,
+          "source_page_label": "381",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "A decade of war leaves France at the Rhine and Alps and dominant from the North Sea to the Adriatic."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-033",
+      "label": "War with Britain: Egypt, Malta, and maritime limits",
+      "priority": "major",
+      "meaning": "British naval supremacy forced French surrender in Egypt and expulsion from Malta even while French continental victories made continued British demands for Bourbon restoration untenable.",
+      "stance": "The contrast explains why peace required mutual recognition of separate maritime and continental advantages rather than total French victory.",
+      "acceptable_access": [
+        "Egypt expedition, end",
+        "Malta, French expulsion",
+        "Britain, maritime supremacy",
+        "French garrison in Egypt"
+      ],
+      "relationships": [
+        {
+          "type": "conditions",
+          "target_labels": [
+            "Peace of Amiens (1802)"
+          ],
+          "note": "Amiens balances British maritime gains against French continental dominance.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-036"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "principal",
+          "evidence_summary": "British squadrons isolate Egypt, British forces compel surrender, and Malta falls, demonstrating the limits of French reach at sea."
+        },
+        {
+          "document_page": 381,
+          "source_page_label": "381",
+          "locator_class": "supporting",
+          "evidence_summary": "Amiens leaves Britain selected colonial gains while it tacitly accepts French continental changes."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-034",
+      "label": "Armed Neutrality, Copenhagen, and Anglo-Russian realignment",
+      "priority": "optional",
+      "meaning": "Paul I's alienation produced a Baltic league against British naval access, but Nelson's attack at Copenhagen and Paul's assassination reopened Anglo-Russian contacts.",
+      "stance": "The episode shows how rapidly personal, maritime, and alliance politics shifted even after the continental coalition had collapsed.",
+      "acceptable_access": [
+        "Armed Neutrality, 1800-1801",
+        "Copenhagen, battle of",
+        "Paul I, assassination",
+        "Baltic league"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Disintegration of the Second Coalition"
+          ],
+          "note": "It follows Russia's estrangement from the coalition.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-029"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "British war-weariness and the opening to peace"
+          ],
+          "note": "Neither Britain nor Russia sought another immediate coalition.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-035"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "principal",
+          "evidence_summary": "Russia organizes armed neutrality, Denmark joins, Nelson destroys the Danish fleet, and Paul's death permits renewed British contact."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-035",
+      "label": "British war-weariness and the opening to peace",
+      "priority": "major",
+      "meaning": "Economic distress, Irish instability, George III's opposition to Catholic emancipation, Pitt's resignation, and Addington's ministry made negotiation politically possible.",
+      "stance": "The source treats British peace as a response to strategic and domestic exhaustion, not ideological reconciliation with the Revolution.",
+      "acceptable_access": [
+        "Britain, war weariness",
+        "Pitt, resignation",
+        "Addington, peace negotiations",
+        "Irish union and Catholic emancipation"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Peace of Amiens (1802)"
+          ],
+          "note": "The change of ministry opens negotiations that become Amiens.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-036"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "principal",
+          "evidence_summary": "Domestic discontent, the Irish question, Pitt's resignation, and Addington's peace feelers are linked to France's renewed continental control."
+        },
+        {
+          "document_page": 381,
+          "source_page_label": "381",
+          "locator_class": "supporting",
+          "evidence_summary": "English jubilation over preliminaries suppresses criticism of terms favourable to France."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-036",
+      "label": "Peace of Amiens (1802)",
+      "priority": "essential",
+      "meaning": "Amiens ended the wars of the French Revolution on terms overwhelmingly favourable to France, with limited British colonial retention and tacit acceptance of French continental gains.",
+      "stance": "The author calls it an unqualified French triumph while noting that the peace proved temporary and did not settle the later Napoleonic conflict.",
+      "acceptable_access": [
+        "Peace of Amiens",
+        "Treaty of Amiens",
+        "French Revolutionary Wars, end",
+        "Britain and France, peace of 1802"
+      ],
+      "relationships": [
+        {
+          "type": "ends",
+          "target_labels": [
+            "Reconciliation of middle classes and property holders"
+          ],
+          "note": "It terminates a decade of revolutionary war.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-043"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "The Revolution declared over: stability purchased by sacrificing 1789 principles"
+          ],
+          "note": "Peace supplies the stability used to declare the Revolution over.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-027"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "What were the terms and significance of the Peace of Amiens?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "supporting",
+          "evidence_summary": "British strategic and domestic circumstances lead to preliminary agreements in October 1801."
+        },
+        {
+          "document_page": 381,
+          "source_page_label": "381",
+          "locator_class": "principal",
+          "evidence_summary": "The final terms, signed in March 1802, preserve French continental advantages and leave Britain only selected overseas acquisitions."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "News of Amiens frames the legislative passage and public celebration of the domestic religious settlement."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-037",
+      "label": "Revolutionary war transformed Europe, but later expansion belonged to Napoleon's empire",
+      "priority": "major",
+      "meaning": "Ten years of war transformed France and western Europe beyond the intentions of 1789 and produced enlarged borders and client territories.",
+      "stance": "The author distinguishes this revolutionary outcome from the renewed, wider disorder created later by Emperor Napoleon, resisting a seamless conflation of Revolution and empire.",
+      "acceptable_access": [
+        "Revolutionary war, consequences",
+        "French expansion, revolutionary versus Napoleonic",
+        "Napoleonic wars, distinction from Revolution",
+        "War and the end of Revolution"
+      ],
+      "relationships": [
+        {
+          "type": "concludes",
+          "target_labels": [
+            "Reconciliation of middle classes and property holders"
+          ],
+          "note": "The war's consequences exceed the principles that initiated it.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-043"
+          ]
+        },
+        {
+          "type": "qualifies",
+          "target_labels": [
+            "Peace of Amiens (1802)"
+          ],
+          "note": "Amiens ends revolutionary war but not Bonapartist expansion.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-036"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 381,
+          "source_page_label": "381",
+          "locator_class": "principal",
+          "evidence_summary": "The decade's territorial and political transformations are assessed as glorious but costly, and later renewed chaos is assigned largely to the Emperor rather than the Revolution that elevated him."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-038",
+      "label": "Royalist restoration hopes and Louis XVIII's overture to Bonaparte",
+      "priority": "major",
+      "meaning": "Many monarchists hoped the First Consul would act as a French General Monck and restore the Bourbons after stabilizing France; Louis XVIII directly appealed to him.",
+      "stance": "Bonaparte temporarily encouraged uncertainty but, once military victory secured his position, rejected restoration and claimed that it would endanger peace.",
+      "acceptable_access": [
+        "Louis XVIII and Bonaparte",
+        "Bourbon restoration hopes",
+        "General Monck analogy",
+        "Royalism under the Consulate"
+      ],
+      "relationships": [
+        {
+          "type": "undermined_by",
+          "target_labels": [
+            "Pacification of chouannerie"
+          ],
+          "note": "Pacifying chouans removes an armed royalist base.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-039"
+          ]
+        },
+        {
+          "type": "undermined_by",
+          "target_labels": [
+            "Emigre return and preservation of confiscated property"
+          ],
+          "note": "Emigre return without property restoration separates reconciliation from Bourbon claims.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-040"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Did Bonaparte seriously consider restoring the Bourbons?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 381,
+          "source_page_label": "381",
+          "locator_class": "supporting",
+          "evidence_summary": "The chapter places restoration expectations in the wider postwar history of republican and monarchical polarization."
+        },
+        {
+          "document_page": 382,
+          "source_page_label": "382",
+          "locator_class": "principal",
+          "evidence_summary": "Louis XVIII urges dynastic restoration; Bonaparte delays, consolidates power, and then refuses, presenting return as a route to renewed bloodshed."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-039",
+      "label": "Pacification of chouannerie",
+      "priority": "major",
+      "meaning": "Bonaparte combined religious concessions, repeal of the hostage law, personal overtures, amnesty, and selective military repression to induce most western leaders to submit.",
+      "stance": "The policy was conciliatory toward those who accepted the new regime but ruthless toward persistent resistance such as Cadoudal's network.",
+      "acceptable_access": [
+        "Chouannerie, pacification",
+        "Cadoudal",
+        "Western departments, Consulate",
+        "Royalist insurgents, reconciliation"
+      ],
+      "relationships": [
+        {
+          "type": "resolves",
+          "target_labels": [
+            "Renewed chouannerie in autumn 1799"
+          ],
+          "note": "It closes the renewed western uprising.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-015"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Royalist restoration hopes and Louis XVIII's overture to Bonaparte"
+          ],
+          "note": "Submission weakens hopes of Bourbon restoration.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-038"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 382,
+          "source_page_label": "382",
+          "locator_class": "principal",
+          "evidence_summary": "Most leaders accept peace after assurances on worship and hostage repeal, while holdouts are pursued."
+        },
+        {
+          "document_page": 383,
+          "source_page_label": "383",
+          "locator_class": "supporting",
+          "evidence_summary": "Cadoudal's agents are identified as the real perpetrators of the infernal-machine attack even though Jacobins bear the immediate repression."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-040",
+      "label": "Emigre return and preservation of confiscated property",
+      "priority": "major",
+      "meaning": "Emigres could return and receive amnesty if they accepted the permanent loss of property vested in the Republic, thereby separating personal reconciliation from restoration of the old social order.",
+      "stance": "The policy protects purchasers of national property more clearly than Louis XVIII had done and draws potential royalists toward the Consulate.",
+      "acceptable_access": [
+        "Emigres, return and amnesty",
+        "Emigre property",
+        "National property, purchasers",
+        "Amnesty of October 1800"
+      ],
+      "relationships": [
+        {
+          "type": "secures",
+          "target_labels": [
+            "Security of national lands and the revolutionary property settlement"
+          ],
+          "note": "It preserves the revolutionary property settlement.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-048"
+          ]
+        },
+        {
+          "type": "weakens",
+          "target_labels": [
+            "Royalist restoration hopes and Louis XVIII's overture to Bonaparte"
+          ],
+          "note": "Reconciliation no longer depends on Bourbon restoration.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-038"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 383,
+          "source_page_label": "383",
+          "locator_class": "principal",
+          "evidence_summary": "Closure of the emigre list and general amnesty permit return while the constitution makes prior property transfers irrevocable."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-041",
+      "label": "Infernal-machine attack and the purge of Jacobins",
+      "priority": "major",
+      "meaning": "After the December 1800 bombing, Bonaparte ordered mass repression of known Jacobins even after Fouche established that chouans had carried out the attack.",
+      "stance": "The episode is presented as calculated vengeance and preventive politics that swept aside legal process to reassure elites, not as evidence-based punishment.",
+      "acceptable_access": [
+        "Infernal machine, 1800",
+        "Jacobins, deportation under Consulate",
+        "Bonaparte, repression of Jacobins",
+        "Seychelles and Guiana deportations"
+      ],
+      "relationships": [
+        {
+          "type": "carried_out_with",
+          "target_labels": [
+            "Fouche: police power and political control"
+          ],
+          "note": "Fouche supplied intelligence and administered repression despite identifying the true culprits.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-042"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Reconciliation of middle classes and property holders"
+          ],
+          "note": "The purge reassured property holders fearful of levelling politics.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-043"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Who carried out the infernal-machine attack, and why were Jacobins punished?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 383,
+          "source_page_label": "383",
+          "locator_class": "principal",
+          "evidence_summary": "The bombing, royalist authorship, deliberate misattribution, executions, shootings, and mass deportations are set out together."
+        },
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Bonaparte explicitly treats exemplary repression as a means of reconciling the middle classes to his Republic."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-042",
+      "label": "Fouche: police power and political control",
+      "priority": "major",
+      "meaning": "Fouche closed the Manege Club, participated in Brumaire, monitored Jacobins, identified royalist bombers, executed Bonaparte's anti-Jacobin purge, and later resisted aspects of church reconciliation.",
+      "stance": "The source depicts him as an expert, pragmatic operator whose accurate intelligence did not prevent the police apparatus from serving political expediency.",
+      "acceptable_access": [
+        "Fouche",
+        "Fouche, police minister",
+        "Police under the Consulate",
+        "Fouche and Jacobins"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Police capacity underpinned personal consolidation.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        },
+        {
+          "type": "mediates",
+          "target_labels": [
+            "Infernal-machine attack and the purge of Jacobins"
+          ],
+          "note": "He distinguishes factual authorship from the regime's chosen target.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-041"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "supporting",
+          "evidence_summary": "As police minister he closes the Manege Club and supplies the anti-Jacobin turn with institutional force."
+        },
+        {
+          "document_page": 374,
+          "source_page_label": "374",
+          "locator_class": "supporting",
+          "evidence_summary": "He participates in the coalition preparing Brumaire."
+        },
+        {
+          "document_page": 383,
+          "source_page_label": "383",
+          "locator_class": "principal",
+          "evidence_summary": "His agents monitor Jacobins and establish chouan responsibility for the bombing, but he conducts the purge ordered against the left."
+        },
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "supporting",
+          "evidence_summary": "His dechristianizing past helps explain ministerial resistance during Concordat negotiations."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-043",
+      "label": "Reconciliation of middle classes and property holders",
+      "priority": "major",
+      "meaning": "The Consulate sought elite and middle-class allegiance by crushing levelling politics, repealing coercive fiscal measures, guaranteeing property, paying creditors, and offering visible order.",
+      "stance": "The author treats this coalition as constructed through both genuine administrative improvement and exemplary political violence.",
+      "acceptable_access": [
+        "Middle classes and the Consulate",
+        "Property holders, reconciliation",
+        "Order and property under Bonaparte",
+        "Consular social coalition"
+      ],
+      "relationships": [
+        {
+          "type": "secured_by",
+          "target_labels": [
+            "Financial stabilization under the Consulate"
+          ],
+          "note": "Financial credibility gave material substance to reassurance.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-044"
+          ]
+        },
+        {
+          "type": "secured_by",
+          "target_labels": [
+            "Security of national lands and the revolutionary property settlement"
+          ],
+          "note": "Property settlements protected revolutionary acquisitions.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-048"
+          ]
+        },
+        {
+          "type": "compromised_by",
+          "target_labels": [
+            "Infernal-machine attack and the purge of Jacobins"
+          ],
+          "note": "Political violence was part of the same strategy.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-041"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 383,
+          "source_page_label": "383",
+          "locator_class": "supporting",
+          "evidence_summary": "Bonaparte identifies anti-Jacobin repression as a means of winning the middle classes."
+        },
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "Repeal of emergency measures, rising public credit, tax regularity, and firmer administration make the regime appear safe and competent."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-044",
+      "label": "Financial stabilization under the Consulate",
+      "priority": "major",
+      "meaning": "The Bank of France, reliable cash payment of state debts, stronger tax collection, restored public credit, and a claimed balanced budget made fiscal authority appear regular and responsible.",
+      "stance": "The source notes that the foundations remained uncertain, but emphasizes the self-reinforcing political effect of visible improvement.",
+      "acceptable_access": [
+        "Finances under the Consulate",
+        "Bank of France",
+        "Public debt, Consulate",
+        "Tax collection, Bonaparte",
+        "Balanced budget, 1802"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_labels": [
+            "Reconciliation of middle classes and property holders"
+          ],
+          "note": "Fiscal credibility reconciled creditors and property holders.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-043"
+          ]
+        },
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Administrative competence strengthened personal rule.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How did the Consulate restore fiscal confidence?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "Creation of a state bank, improved debt service and stock values, regularized collection, and the 1802 budget are presented as mutually reinforcing signs of control."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-045",
+      "label": "Prefects and administrative centralization",
+      "priority": "major",
+      "meaning": "Prefects replaced weaker directorial commissioners and linked central authority to departments through powers compared with, but broader than, old-regime intendants.",
+      "stance": "The reform is presented as effective state-building that also reversed revolutionary decentralization.",
+      "acceptable_access": [
+        "Prefects, creation",
+        "Administrative centralization, Consulate",
+        "Intendants and prefects",
+        "Local government under Bonaparte"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Brigandage and special criminal courts"
+          ],
+          "note": "Central appointees coordinate suppression of brigandage.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-046"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Administrative reach makes the First Consul's authority effective locally.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "Prefects are established in every department with broad powers to impose central direction amid crime and political disorder."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-046",
+      "label": "Brigandage and special criminal courts",
+      "priority": "major",
+      "meaning": "Draft evasion, royalist violence, roving criminal bands, and wartime troop shortages produced epidemic disorder; returning troops and special courts later reduced it.",
+      "stance": "The source links improved everyday security to coercive centralization and emergency justice rather than to ordinary legal process alone.",
+      "acceptable_access": [
+        "Brigandage under the Consulate",
+        "Chauffeurs",
+        "Special criminal courts, 1801",
+        "Law and order, Consulate"
+      ],
+      "relationships": [
+        {
+          "type": "fed_by",
+          "target_labels": [
+            "Jourdan conscription law and the renewed levee en masse"
+          ],
+          "note": "Conscription evasion expanded criminal bands.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-008"
+          ]
+        },
+        {
+          "type": "addressed_by",
+          "target_labels": [
+            "Prefects and administrative centralization"
+          ],
+          "note": "Prefects and returned troops enforced central policy.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-045"
+          ]
+        },
+        {
+          "type": "reveals_tension_with",
+          "target_labels": [
+            "Rule of law in ordinary life versus arbitrariness in high politics"
+          ],
+          "note": "Special justice complicates claims of restored rule of law.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-047"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "Conscription fugitives, royalist gangs, and criminal bands overwhelm local order while troops remain at the front."
+        },
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Peace permits troop deployment and special courts against brigandage, allowing disorder to subside."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-047",
+      "label": "Rule of law in ordinary life versus arbitrariness in high politics",
+      "priority": "major",
+      "meaning": "Bonaparte cultivated regular laws, property rules, and safer administration for everyday life while repeatedly ignoring legal safeguards against political opponents and representative bodies.",
+      "stance": "The contrast is explicit: legal ordering was a real achievement but not evidence that political government itself respected legality.",
+      "acceptable_access": [
+        "Rule of law under Bonaparte",
+        "Political arbitrariness, Consulate",
+        "Law and order versus liberty",
+        "Consular legality"
+      ],
+      "relationships": [
+        {
+          "type": "includes",
+          "target_labels": [
+            "Civil Code: preparation and property ordering"
+          ],
+          "note": "Civil Code work supplied the strongest everyday-law example.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-065"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "Legislative opposition and purge of the Tribunate and Legislative Body"
+          ],
+          "note": "Legislative purge demonstrates political arbitrariness.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-058"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How does the chapter reconcile Bonaparte's legal reforms with authoritarian politics?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 383,
+          "source_page_label": "383",
+          "locator_class": "supporting",
+          "evidence_summary": "Legal formalities are discarded to punish known Jacobins for a royalist attack."
+        },
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "The source contrasts contempt for high-political procedure with efforts to present ordinary government as lawful."
+        },
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "supporting",
+          "evidence_summary": "Civil Code preparation exemplifies practical legal ordering."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Ambiguous constitutional provisions are used to purge legislators without resistance."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-048",
+      "label": "Security of national lands and the revolutionary property settlement",
+      "priority": "essential",
+      "meaning": "The Consulate protected land and property transfers made during the Revolution against emigre or church restitution, making new ownership a durable basis of the regime.",
+      "stance": "This was not restoration: social and proprietary gains of the Revolution were preserved even as political principles and representative institutions were curtailed.",
+      "acceptable_access": [
+        "National lands, security",
+        "Revolutionary property settlement",
+        "Confiscated property, non-restoration",
+        "Land titles under the Consulate"
+      ],
+      "relationships": [
+        {
+          "type": "preserves",
+          "target_labels": [
+            "Revolutionary gains and conditional popular support"
+          ],
+          "note": "Property security anchors popular attachment to revolutionary gains.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-001"
+          ]
+        },
+        {
+          "type": "conditions",
+          "target_labels": [
+            "Church lands and the non-restoration settlement"
+          ],
+          "note": "Church reconciliation proceeds without restitution.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-052"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Reconciliation of middle classes and property holders"
+          ],
+          "note": "Purchasers and creditors gain confidence.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-043"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Which social and property changes of the Revolution survived the Consulate?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 369,
+          "source_page_label": "369",
+          "locator_class": "supporting",
+          "evidence_summary": "Peasant ownership of national land helps explain continuing preference for the new social order."
+        },
+        {
+          "document_page": 383,
+          "source_page_label": "383",
+          "locator_class": "principal",
+          "evidence_summary": "The emigre settlement makes confiscated property irrevocably vested in the Republic."
+        },
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "supporting",
+          "evidence_summary": "Civil Code preparation and church reconciliation are tied to removing remaining doubts about revolutionary land titles."
+        },
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "principal",
+          "evidence_summary": "Bonaparte excludes any return of church lands as a precondition for Concordat negotiations."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-049",
+      "label": "Revolutionary religious conflict and Catholic revival",
+      "priority": "essential",
+      "meaning": "The failed attempt to reorganize the Church opened the Revolution's deepest and most persistent domestic wound, while post-1795 religious revival outlasted renewed directorial anticlericalism.",
+      "stance": "The author rejects assumptions that the institutional Church was collapsing and treats religious reconciliation as indispensable to ending the Revolution.",
+      "acceptable_access": [
+        "Religion and the French Revolution",
+        "Catholic revival after 1795",
+        "Directory, anticlericalism",
+        "Church, resilience"
+      ],
+      "relationships": [
+        {
+          "type": "resolved_through",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "The Concordat supplies the negotiated settlement.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        },
+        {
+          "type": "part_of",
+          "target_labels": [
+            "The Revolution declared over: stability purchased by sacrificing 1789 principles"
+          ],
+          "note": "Religious peace is one condition of the Revolution's end.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-027"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Why was religion central to ending the Revolution?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "principal",
+          "evidence_summary": "Religious division is described as the deepest unresolved wound, despite official claims that the Church was disappearing."
+        },
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "supporting",
+          "evidence_summary": "The election of Pius VII and Bonaparte's conciliatory signals demonstrate institutional resilience and a route to compromise."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Restored public worship becomes one of the settlements celebrated as the Revolution's burial."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-050",
+      "label": "Bonaparte's instrumental and pragmatic use of religion",
+      "priority": "major",
+      "meaning": "Personally unbelieving, Bonaparte treated religion as a durable social force, a source of morality, and an instrument for stabilizing rule, whether Catholic in Europe or Islamic in Egypt.",
+      "stance": "His policy was neither devotional conversion nor simple restoration; it subordinated religious accommodation to political order and state strength.",
+      "acceptable_access": [
+        "Bonaparte and religion",
+        "Religion as instrument of government",
+        "Bonaparte and Islam",
+        "Catholic policy of the First Consul"
+      ],
+      "relationships": [
+        {
+          "type": "drives",
+          "target_labels": [
+            "Pius VII and the possibility of papal compromise"
+          ],
+          "note": "Pragmatism makes negotiations with Pius VII possible.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-051"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Religious reconciliation strengthens personal rule.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "supporting",
+          "evidence_summary": "Earlier restraint toward the Pope is introduced as evidence that Bonaparte did not underestimate the Church."
+        },
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "principal",
+          "evidence_summary": "His advice to treat religion like property, display of Islam in Egypt, and public case for religion as moral support reveal a consistent instrumental outlook."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-051",
+      "label": "Pius VII and the possibility of papal compromise",
+      "priority": "major",
+      "meaning": "Pius VII's earlier claim that Christianity could coexist with democracy and equality made him a plausible partner for France's pragmatic ruler.",
+      "stance": "The Pope accepted non-restoration of confiscated lands and major episcopal changes to restore Catholic life, but did not concede the legality of revolutionary confiscation or annexation.",
+      "acceptable_access": [
+        "Pius VII",
+        "Chiaramonti",
+        "Papacy and the French Revolution",
+        "Pius VII and Concordat"
+      ],
+      "relationships": [
+        {
+          "type": "negotiates",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "Pius VII is the indispensable papal party to the Concordat.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        },
+        {
+          "type": "qualified_by",
+          "target_labels": [
+            "Organic Articles, Gallican controls, and the papal-authority paradox"
+          ],
+          "note": "The Organic Articles later restrict papal action in France.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-056"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "principal",
+          "evidence_summary": "Chiaramonti's election and reputation for reconciling Christianity with democratic equality create an opening for settlement."
+        },
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "supporting",
+          "evidence_summary": "Papal acceptance of negotiations does not include recognition that church land confiscation was lawful."
+        },
+        {
+          "document_page": 388,
+          "source_page_label": "388",
+          "locator_class": "supporting",
+          "evidence_summary": "Papal removal of refractory bishops demonstrates extraordinary cooperation and expanded spiritual authority."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-052",
+      "label": "Church lands and the non-restoration settlement",
+      "priority": "major",
+      "meaning": "Bonaparte made non-return of confiscated church lands a condition of negotiation; the Pope accepted the practical fact without endorsing its legality.",
+      "stance": "Religious reconciliation therefore secured revolutionary property transfers rather than reversing them.",
+      "acceptable_access": [
+        "Church lands, confiscation",
+        "Concordat and national property",
+        "Avignon, papal claim",
+        "Ecclesiastical property, non-restoration"
+      ],
+      "relationships": [
+        {
+          "type": "preserves",
+          "target_labels": [
+            "Security of national lands and the revolutionary property settlement"
+          ],
+          "note": "The Church settlement confirms revolutionary land titles.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-048"
+          ]
+        },
+        {
+          "type": "condition_of",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "Negotiations begin only after the issue is settled.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "principal",
+          "evidence_summary": "No church property sold since 1790 would be returned, and papal reservations about legality and Avignon are explicitly retained."
+        },
+        {
+          "document_page": 388,
+          "source_page_label": "388",
+          "locator_class": "supporting",
+          "evidence_summary": "The final settlement proceeds after both sides accept a completely new institutional beginning rather than old-regime restoration."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-053",
+      "label": "Concordat of 1801: negotiated religious settlement",
+      "priority": "essential",
+      "meaning": "The Concordat restored Catholic public life and hierarchy while accepting religious freedom, state financing, government nomination of bishops, clerical oaths, and the permanent property settlement.",
+      "stance": "It was a difficult bargain rather than a French diktat: it reconciled Church and state without restoring the old-regime Church or accepting Jacobin separation.",
+      "acceptable_access": [
+        "Concordat of 1801",
+        "Church-state settlement, Consulate",
+        "Catholic Church, restoration in France",
+        "Law on Cults, Concordat"
+      ],
+      "relationships": [
+        {
+          "type": "resolves",
+          "target_labels": [
+            "Revolutionary religious conflict and Catholic revival"
+          ],
+          "note": "It addresses the Revolution's deepest religious division.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-049"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_labels": [
+            "Religious freedom and a state-controlled Catholic majority church"
+          ],
+          "note": "State control is built into the institutional settlement.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-054"
+          ]
+        },
+        {
+          "type": "modified_by",
+          "target_labels": [
+            "Organic Articles, Gallican controls, and the papal-authority paradox"
+          ],
+          "note": "The unilateral Organic Articles restrict papal operation.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-056"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "What did the Concordat concede to the Church, the state, and religious minorities?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "supporting",
+          "evidence_summary": "Bonaparte initiates negotiations immediately after Marengo and promises public restoration of Catholic worship."
+        },
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "principal",
+          "evidence_summary": "Protracted bargaining yields recognition of Catholicism as the majority faith alongside freedom of belief and a publicly funded, government-influenced church."
+        },
+        {
+          "document_page": 388,
+          "source_page_label": "388",
+          "locator_class": "principal",
+          "evidence_summary": "A fresh episcopal settlement defeats both full royalist restoration and complete Jacobin separation."
+        },
+        {
+          "document_page": 389,
+          "source_page_label": "389",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Restored free exercise, hierarchy, and papal authority outweigh remaining conflicts in the author's assessment."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "supporting",
+          "evidence_summary": "The legislature passes the settlement amid the public celebration of peace."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-054",
+      "label": "Religious freedom and a state-controlled Catholic majority church",
+      "priority": "major",
+      "meaning": "Catholicism was acknowledged as the majority religion but not made France's exclusive state faith; Protestants and sceptics retained freedom of belief and worship.",
+      "stance": "At the same time the state paid clergy, nominated bishops, and required oaths, producing establishment without full confessional monopoly.",
+      "acceptable_access": [
+        "Religious freedom under the Concordat",
+        "Catholicism, majority religion",
+        "Protestants under the Consulate",
+        "State Church, Concordat"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "The balance is central to the Concordat.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        },
+        {
+          "type": "contrasts_with",
+          "target_labels": [
+            "Revolutionary religious conflict and Catholic revival"
+          ],
+          "note": "It rejects both anticlerical destruction and old-regime monopoly.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-049"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "principal",
+          "evidence_summary": "The first article preserves freedom of belief while public funding and governmental appointment make the restored Church a state institution."
+        },
+        {
+          "document_page": 388,
+          "source_page_label": "388",
+          "locator_class": "supporting",
+          "evidence_summary": "Bishops become clerical counterparts of prefects within an organization aligned to state geography."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-055",
+      "label": "Episcopal reset: constitutional and refractory churches",
+      "priority": "major",
+      "meaning": "The Revolution left rival constitutional and refractory hierarchies; the settlement required displacement of all existing bishops and creation of a new bench.",
+      "stance": "The Pope's removal of refractory bishops enhanced papal authority, while Bonaparte's nomination of some constitutional clergy denied a simple royalist restoration.",
+      "acceptable_access": [
+        "Constitutional Church, Concordat",
+        "Refractory bishops, removal",
+        "French episcopate, 1801",
+        "Tam multa"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "A completely fresh hierarchy makes the Concordat workable.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        },
+        {
+          "type": "increases",
+          "target_labels": [
+            "Pius VII and the possibility of papal compromise"
+          ],
+          "note": "The papal removal of bishops recognizes unprecedented spiritual authority.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-051"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "supporting",
+          "evidence_summary": "Rival legitimate hierarchies and future appointment posed core obstacles to agreement."
+        },
+        {
+          "document_page": 388,
+          "source_page_label": "388",
+          "locator_class": "principal",
+          "evidence_summary": "The Pope seeks resignations or deprives refractory bishops, the constitutional council is dismissed, and former constitutional clergy enter the new bench."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-056",
+      "label": "Organic Articles, Gallican controls, and the papal-authority paradox",
+      "priority": "major",
+      "meaning": "The Organic Articles unilaterally restricted papal communication and revived Gallican teachings even as the Concordat restored hierarchy and gave the papacy unprecedented authority over French bishops.",
+      "stance": "The settlement simultaneously strengthened papal spiritual recognition and tightened state control, so it cannot be reduced to either ultramontane victory or Gallican continuity.",
+      "acceptable_access": [
+        "Organic Articles",
+        "Gallicanism under the Consulate",
+        "Papal authority, Concordat",
+        "Law on Cults of 18 Germinal"
+      ],
+      "relationships": [
+        {
+          "type": "modifies",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "The Articles accompanied the Concordat in French law.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        },
+        {
+          "type": "qualifies",
+          "target_labels": [
+            "Pius VII and the possibility of papal compromise"
+          ],
+          "note": "Papal gains came with new unilateral limits.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-051"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 388,
+          "source_page_label": "388",
+          "locator_class": "principal",
+          "evidence_summary": "The Organic Articles revive Gallican restraints and sharply circumscribe papal communication after the episcopal reset."
+        },
+        {
+          "document_page": 389,
+          "source_page_label": "389",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The author weighs those restrictions against restored worship, hierarchy, and a level of papal recognition exceeding that of the old monarchy."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-057",
+      "label": "Sunday, the decadi, and restoration of public worship",
+      "priority": "major",
+      "meaning": "The Consulate quietly abandoned compulsory revolutionary decadi observance, restored Sunday, and culminated religious reconciliation in public Catholic worship.",
+      "stance": "Calendar change and public ritual symbolized the retreat of revolutionary anticlerical culture while remaining compatible with the new political settlement.",
+      "acceptable_access": [
+        "Decadi, abandonment",
+        "Sunday, restoration",
+        "Public worship, Consulate",
+        "Easter mass, 1802"
+      ],
+      "relationships": [
+        {
+          "type": "symbolizes",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "The calendar and ritual changes made the Concordat socially visible.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "April 1802 celebrations as the burial of the Revolution"
+          ],
+          "note": "The Easter celebration becomes the chapter's final image of burial.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-061"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "principal",
+          "evidence_summary": "The decadi requirement is dropped and official gestures toward Catholic mourning and worship prepare negotiations."
+        },
+        {
+          "document_page": 389,
+          "source_page_label": "389",
+          "locator_class": "supporting",
+          "evidence_summary": "The final abandonment of decadi for Sunday is counted among the settlement's welcome provisions."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "A solemn Easter mass at Notre-Dame publicly marks the restored Church and the perceived end of revolutionary conflict."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-058",
+      "label": "Legislative opposition and purge of the Tribunate and Legislative Body",
+      "priority": "essential",
+      "meaning": "Experienced legislators used their limited functions to criticize treaties, special courts, Civil Code procedure, and the Concordat; Bonaparte used constitutional ambiguity and the Senate to remove eighty members.",
+      "stance": "The purge extinguished the remaining independent parliamentary life and shows that even constrained deliberation was incompatible with the First Consul's developing rule.",
+      "acceptable_access": [
+        "Tribunate, purge",
+        "Legislative Body, purge",
+        "Parliamentary opposition under the Consulate",
+        "Legislative renewal, Year X",
+        "Daunou"
+      ],
+      "relationships": [
+        {
+          "type": "uses",
+          "target_labels": [
+            "Senate as conservative constitutional power"
+          ],
+          "note": "The Senate implements the purge.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-023"
+          ]
+        },
+        {
+          "type": "weakens",
+          "target_labels": [
+            "Tribunate, Legislative Body, and Council of State"
+          ],
+          "note": "Already limited chambers lose their remaining independent voices.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-024"
+          ]
+        },
+        {
+          "type": "advances",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Personal rule becomes less contestable.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "How and why did Bonaparte purge the Tribunate and Legislative Body?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 389,
+          "source_page_label": "389",
+          "locator_class": "principal",
+          "evidence_summary": "Tribunes and legislators resist bills and nominate an opposition figure, prompting Bonaparte to invoke obscure renewal provisions before the Concordat debate."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "principal",
+          "evidence_summary": "The Senate drops sixty legislators and twenty tribunes without resistance, after which the religious settlement passes overwhelmingly."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-059",
+      "label": "Depoliticization, disappearance of the independent press, and public preference for stability",
+      "priority": "major",
+      "meaning": "By 1802 independent press and representative debate had largely disappeared, while police reports suggested public contempt for legislators and concern centred on Bonaparte's safety.",
+      "stance": "The source explicitly qualifies the evidence: public reaction is difficult to gauge, and official police reporting cannot establish unanimous consent.",
+      "acceptable_access": [
+        "Depoliticization under the Consulate",
+        "Press, disappearance under Bonaparte",
+        "Public opinion, 1802",
+        "Stability and political withdrawal"
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_labels": [
+            "Political exhaustion, civic withdrawal, and peasant priorities"
+          ],
+          "note": "Earlier civic fatigue evolves into broader withdrawal from politics.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-002"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "The First Consul becomes the personal focus of order.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        },
+        {
+          "type": "qualified_by",
+          "target_labels": [
+            "Uncertainty in evidence for public reaction after press suppression"
+          ],
+          "note": "Available evidence is filtered through police reports and press suppression.",
+          "target_uncertainty_ids": [
+            "UNC-016-004"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "medium",
+      "adjudication_status": "required_at_benchmark_synthesis",
+      "evidence": [
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "principal",
+          "evidence_summary": "With independent reporting scarce, police summaries depict citizens preferring the First Consul's stability to politicians, but the author notes the limits of gauging reaction."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-060",
+      "label": "Life consulship and monarchical drift",
+      "priority": "major",
+      "meaning": "Measures prepared in 1802 would extend Bonaparte's term and make him Consul for life, leaving France with an executive increasingly similar to a king.",
+      "stance": "The trajectory confirms that the post-revolutionary settlement ended republican openness even before formal empire.",
+      "acceptable_access": [
+        "Consul for life",
+        "Life consulship",
+        "Consulate, monarchical drift",
+        "Bonaparte, term of office"
+      ],
+      "relationships": [
+        {
+          "type": "culmination_of",
+          "target_labels": [
+            "Bonaparte's consolidation of personal rule"
+          ],
+          "note": "Personal consolidation proceeds toward permanent tenure.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-028"
+          ]
+        },
+        {
+          "type": "qualifies",
+          "target_labels": [
+            "The Revolution declared over: stability purchased by sacrificing 1789 principles"
+          ],
+          "note": "The Revolution ends in near-monarchy rather than restored Bourbon rule.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-027"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "principal",
+          "evidence_summary": "New measures for extended tenure and honours are said to point within months toward life consulship and an almost monarchical France."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-061",
+      "label": "April 1802 celebrations as the burial of the Revolution",
+      "priority": "essential",
+      "meaning": "Peace, the defeat of visible political opposition, and restored Catholic worship converged in an Easter celebration presented as a new beginning and the public burial of revolutionary turmoil.",
+      "stance": "The conclusion does not claim restoration of the old regime; it depicts popular relief at a settlement that preserved selected gains while ending revolutionary political life.",
+      "acceptable_access": [
+        "Burial of the Revolution",
+        "Easter 1802, Notre-Dame",
+        "April 1802 celebrations",
+        "End of Revolution, public celebration"
+      ],
+      "relationships": [
+        {
+          "type": "synthesizes",
+          "target_labels": [
+            "The Revolution declared over: stability purchased by sacrificing 1789 principles"
+          ],
+          "note": "The public scene gives concrete form to the chapter's end-of-Revolution thesis.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-027"
+          ]
+        },
+        {
+          "type": "depends_on",
+          "target_labels": [
+            "Peace of Amiens (1802)"
+          ],
+          "note": "Foreign peace is one pillar.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-036"
+          ]
+        },
+        {
+          "type": "depends_on",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "Religious reconciliation is another.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        },
+        {
+          "type": "depends_on",
+          "target_labels": [
+            "Legislative opposition and purge of the Tribunate and Legislative Body"
+          ],
+          "note": "Political opposition has been curtailed.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-058"
+          ]
+        }
+      ],
+      "reader_tasks": [
+        "Why does the chapter end with the Easter 1802 mass?"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The Notre-Dame mass, bells, cannon, illuminated streets, peace, reduced political strife, and restored worship form the chapter's concluding image of burial."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-062",
+      "label": "Kingdom of Etruria and Bourbon accommodation",
+      "priority": "optional",
+      "meaning": "French-backed creation of a Bourbon kingdom in Tuscany showed that the Consular settlement could employ monarchy and legitimacy when strategically useful.",
+      "stance": "The author treats a republic creating kingdoms for Bourbons as a revealing sign that the era of ideological revolution abroad was ending.",
+      "acceptable_access": [
+        "Etruria, Kingdom of",
+        "Tuscany, settlement of 1801",
+        "Louis I of Etruria",
+        "Bourbon accommodation"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_labels": [
+            "French continental hegemony and pragmatic client settlement"
+          ],
+          "note": "Etruria exemplifies pragmatic client settlement.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-032"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 379,
+          "source_page_label": "379",
+          "locator_class": "supporting",
+          "evidence_summary": "Luneville expels Habsburg influence from Tuscany and prepares a new kingdom."
+        },
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "principal",
+          "evidence_summary": "The Bourbon kingdom is presented as an ironic marker that revolutionary republican expansion had become pragmatic statecraft."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-063",
+      "label": "Louisiana cession and pressure on Spain",
+      "priority": "optional",
+      "meaning": "France acquired Louisiana from its Spanish client while Spain hoped to regain influence in Italy.",
+      "stance": "The transfer illustrates that Consular France could extract more from an ally than from defeated enemies and rearrange territories through client diplomacy.",
+      "acceptable_access": [
+        "Louisiana, cession to France",
+        "Spain and France, 1801",
+        "Treaty of San Ildefonso, context",
+        "French territorial acquisition, Louisiana"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_labels": [
+            "French continental hegemony and pragmatic client settlement"
+          ],
+          "note": "The cession is part of French hegemonic bargaining.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-032"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "principal",
+          "evidence_summary": "Spain cedes the vast Louisiana territory as the price of hoped-for influence in the French-directed Italian settlement."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-064",
+      "label": "Bank of France",
+      "priority": "optional",
+      "meaning": "Creation of the Bank of France signalled a decisive break with long revolutionary distrust of banking and supported restored public credit.",
+      "stance": "The institution matters in the chapter as one element of a wider fiscal stabilization rather than as an isolated technical reform.",
+      "acceptable_access": [
+        "Bank of France, foundation",
+        "State bank, 1800",
+        "Banking and the Revolution"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Financial stabilization under the Consulate"
+          ],
+          "note": "The bank belongs to the broader financial stabilization programme.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-044"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "A state bank founded in February 1800 is presented as a reversal of decades of suspicion and part of renewed creditor confidence."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-065",
+      "label": "Civil Code: preparation and property ordering",
+      "priority": "major",
+      "meaning": "Bonaparte drove a long-delayed codification project, personally participating in drafting a clear framework for holding and transferring property.",
+      "stance": "Although promulgation came later, the chapter treats preparation by 1801 as evidence of active legal capacity and as reinforcement of revolutionary land titles.",
+      "acceptable_access": [
+        "Civil Code, preparation",
+        "Code civil",
+        "Legal codification under Bonaparte",
+        "Property law, Consulate"
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_labels": [
+            "Rule of law in ordinary life versus arbitrariness in high politics"
+          ],
+          "note": "Codification embodies practical legal ordering.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-047"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Security of national lands and the revolutionary property settlement"
+          ],
+          "note": "Clear property rules strengthen land-title security.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-048"
+          ]
+        },
+        {
+          "type": "provokes",
+          "target_labels": [
+            "Legislative opposition and purge of the Tribunate and Legislative Body"
+          ],
+          "note": "Debate over procedure contributes to the legislative purge.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-058"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "principal",
+          "evidence_summary": "Bonaparte creates and presses a commission, participates extensively, and circulates preliminary drafts focused on property rules."
+        },
+        {
+          "document_page": 389,
+          "source_page_label": "389",
+          "locator_class": "supporting",
+          "evidence_summary": "Legislative resistance to expedited drafting helps trigger Bonaparte's attack on the Tribunate."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-066",
+      "label": "Law on Cults of 18 Germinal, Year X",
+      "priority": "major",
+      "meaning": "French law promulgated the Concordat together with the unilateral Organic Articles, making religious reconciliation inseparable from state restrictions on the Church.",
+      "stance": "The enactment passed after legislative opponents were removed and therefore belongs to both the religious settlement and authoritarian consolidation.",
+      "acceptable_access": [
+        "Law on Cults, 18 Germinal Year X",
+        "Concordat, promulgation",
+        "Organic Articles, enactment"
+      ],
+      "relationships": [
+        {
+          "type": "enacts",
+          "target_labels": [
+            "Concordat of 1801: negotiated religious settlement"
+          ],
+          "note": "It gives the Concordat domestic legal force.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-053"
+          ]
+        },
+        {
+          "type": "includes",
+          "target_labels": [
+            "Organic Articles, Gallican controls, and the papal-authority paradox"
+          ],
+          "note": "The Organic Articles accompany the treaty.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-056"
+          ]
+        },
+        {
+          "type": "facilitated_by",
+          "target_labels": [
+            "Legislative opposition and purge of the Tribunate and Legislative Body"
+          ],
+          "note": "Removal of critics eases passage.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-058"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 389,
+          "source_page_label": "389",
+          "locator_class": "supporting",
+          "evidence_summary": "The source identifies the Law on Cults as the package containing both the Concordat and Organic Articles and links it to the impending purge."
+        },
+        {
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "principal",
+          "evidence_summary": "The package is presented and overwhelmingly passed amid news of Amiens after the chambers have been reduced."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-067",
+      "label": "Manege Club",
+      "priority": "optional",
+      "meaning": "The revived Jacobin club gathered veterans and deputies in the former Convention hall, becoming the most visible institutional focus of the 1799 left before eviction and closure.",
+      "stance": "Its size and rhetoric revived memories of Year II, but hostile harassment and official framing also magnified it as a public-order threat.",
+      "acceptable_access": [
+        "Manege Club",
+        "Jacobin club, 1799",
+        "Salle du Manege"
+      ],
+      "relationships": [
+        {
+          "type": "organization_of",
+          "target_labels": [
+            "Neo-Jacobin resurgence after Prairial"
+          ],
+          "note": "The club embodied the neo-Jacobin resurgence.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-007"
+          ]
+        },
+        {
+          "type": "closed_in",
+          "target_labels": [
+            "Suppression of the 1799 Jacobin resurgence"
+          ],
+          "note": "Its suppression is the key anti-Jacobin action of summer 1799.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-011"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 371,
+          "source_page_label": "371",
+          "locator_class": "principal",
+          "evidence_summary": "The club forms under surviving Jacobin leaders and attracts thousands of members including deputies."
+        },
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "principal",
+          "evidence_summary": "A press campaign, eviction from legislative precincts, royalist harassment, relocation, and Fouche's closure end the club."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-068",
+      "label": "Battle of Novi and Joubert's death",
+      "priority": "optional",
+      "meaning": "Joubert's death and the catastrophic defeat at Novi destroyed Sieyes's preferred military partner and intensified the emergency driving radical legislation and coup planning.",
+      "stance": "The event is significant less as a tactical account than as a political turning point in the 1799 crisis.",
+      "acceptable_access": [
+        "Novi, battle of",
+        "Joubert, death at Novi",
+        "Italy campaign, 1799"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Military crisis and recovery in 1799"
+          ],
+          "note": "Novi deepens the 1799 military emergency.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-013"
+          ]
+        },
+        {
+          "type": "affects",
+          "target_labels": [
+            "Sieyes: constitutional strategy and executive concentration"
+          ],
+          "note": "Joubert's death forces Sieyes to seek another general.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-006"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 372,
+          "source_page_label": "372",
+          "locator_class": "principal",
+          "evidence_summary": "Joubert is killed and his army defeated, immediately followed by further coalition advances and invasion news."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-069",
+      "label": "Lucien Bonaparte in the coup of Brumaire",
+      "priority": "optional",
+      "meaning": "As president of the Five Hundred, Lucien helped arrange the transfer to Saint-Cloud and persuaded troops that Jacobins had attacked his brother, enabling military expulsion of the chamber.",
+      "stance": "His intervention was operationally decisive even though the larger constitutional project belonged to Sieyes and Napoleon Bonaparte.",
+      "acceptable_access": [
+        "Lucien Bonaparte",
+        "Lucien Bonaparte, Brumaire",
+        "Five Hundred, Brumaire"
+      ],
+      "relationships": [
+        {
+          "type": "participant_in",
+          "target_labels": [
+            "Coup of Brumaire (18-19 Brumaire, Year VIII)"
+          ],
+          "note": "His actions help the coup recover from Bonaparte's failure before the chamber.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-016"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 374,
+          "source_page_label": "374",
+          "locator_class": "supporting",
+          "evidence_summary": "Lucien is identified as a close participant in the coup coalition and uses his presidency to advance the alleged-plot narrative."
+        },
+        {
+          "document_page": 375,
+          "source_page_label": "375",
+          "locator_class": "principal",
+          "evidence_summary": "After Bonaparte is driven from the chamber, Lucien tells troops that Jacobins attempted assassination and secures their intervention."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-070",
+      "label": "Country in Danger motion (September 1799)",
+      "priority": "major",
+      "meaning": "Jourdan's proposal to declare the country in danger would have activated broad emergency powers, but deputies rejected it because suspension of ordinary procedure evoked the road to 1793.",
+      "stance": "The vote shows that military danger did not automatically restore revolutionary emergency government and marked a decisive limit on the Jacobin resurgence.",
+      "acceptable_access": [
+        "Country in Danger, motion of 1799",
+        "Jourdan, Country in Danger",
+        "Emergency powers, September 1799"
+      ],
+      "relationships": [
+        {
+          "type": "part_of",
+          "target_labels": [
+            "Neo-Jacobin resurgence after Prairial"
+          ],
+          "note": "The proposal was the last major initiative of the 1799 Jacobin resurgence.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-007"
+          ]
+        },
+        {
+          "type": "confirms",
+          "target_labels": [
+            "Suppression of the 1799 Jacobin resurgence"
+          ],
+          "note": "Its defeat validates the government's anti-Jacobin course.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-011"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 373,
+          "source_page_label": "373",
+          "locator_class": "principal",
+          "evidence_summary": "A substantial debate weighs renewed revolutionary mobilization against the constitutional danger of suspending normal procedure, and the motion loses clearly."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-071",
+      "label": "Pius VI's death and mistaken expectations of Catholic collapse",
+      "priority": "optional",
+      "meaning": "The death of captive Pius VI encouraged French anticlericals to imagine that the papacy and institutional Church were disappearing, an expectation quickly disproved by a new conclave and religious revival.",
+      "stance": "The episode illustrates official misreading of Catholic resilience rather than the actual extinction of papal authority.",
+      "acceptable_access": [
+        "Pius VI, death",
+        "Papacy, survival after 1799",
+        "Catholic Church, supposed collapse"
+      ],
+      "relationships": [
+        {
+          "type": "illustrates",
+          "target_labels": [
+            "Revolutionary religious conflict and Catholic revival"
+          ],
+          "note": "The papacy's survival confirms the resilience of religion.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-049"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Pius VII and the possibility of papal compromise"
+          ],
+          "note": "Pius VII becomes Bonaparte's negotiating partner.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-051"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "principal",
+          "evidence_summary": "Pius VI dies in captivity while Parisian opinion assumes there may be no successor and treats the Church as an exhausted enemy."
+        },
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The conclave's election of Pius VII immediately disproves expectations that the papacy had ended."
+        }
+      ]
+    },
+    {
+      "local_subject_id": "CH16-SUBJ-072",
+      "label": "Kingdom of Naples and Consular recognition of Bourbon legitimacy",
+      "priority": "optional",
+      "meaning": "France did not restore the Parthenopean Republic; instead it made peace with the Bourbon rulers of Naples, accepted their legitimacy, and retained strategic leverage through territorial losses and French garrisons.",
+      "stance": "The arrangement demonstrates that Consular diplomacy preferred control and stability to renewed republican revolution in Italy.",
+      "acceptable_access": [
+        "Naples, peace with France in 1801",
+        "Parthenopean Republic, non-restoration",
+        "Bourbons of Naples, recognition"
+      ],
+      "relationships": [
+        {
+          "type": "example_of",
+          "target_labels": [
+            "French continental hegemony and pragmatic client settlement"
+          ],
+          "note": "Naples exemplifies pragmatic client settlement and the retreat from republican export.",
+          "target_local_subject_ids": [
+            "CH16-SUBJ-032"
+          ]
+        }
+      ],
+      "reader_tasks": [],
+      "confidence": "high",
+      "adjudication_status": "not_required",
+      "evidence": [
+        {
+          "document_page": 380,
+          "source_page_label": "380",
+          "locator_class": "principal",
+          "evidence_summary": "The Bourbon monarchy survives with recognized legitimacy while conceding territory and key-port garrisons to France."
+        }
+      ]
+    }
+  ],
+  "reader_tasks": [
+    {
+      "task_id": "CH16-TASK-001",
+      "question": "Why did the Directory collapse in 1799, and was the constitution itself chiefly responsible?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-003",
+        "CH16-SUBJ-004",
+        "CH16-SUBJ-005",
+        "CH16-SUBJ-017",
+        "CH16-SUBJ-018",
+        "CH16-SUBJ-019"
+      ],
+      "acceptable_routes": [
+        "Directory -- collapse",
+        "Constitution of Year III -- failure",
+        "Elections -- 1799",
+        "Party politics -- Directory"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-002",
+      "question": "How did Prairial and Brumaire differ in actors, methods, and constitutional effect?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-005",
+        "CH16-SUBJ-006",
+        "CH16-SUBJ-016",
+        "CH16-SUBJ-069"
+      ],
+      "acceptable_routes": [
+        "Prairial coup",
+        "Brumaire coup",
+        "Sieyes",
+        "Lucien Bonaparte"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-003",
+      "question": "What did the Jacobin resurgence of 1799 achieve, and how was it suppressed?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-007",
+        "CH16-SUBJ-008",
+        "CH16-SUBJ-009",
+        "CH16-SUBJ-010",
+        "CH16-SUBJ-011",
+        "CH16-SUBJ-067",
+        "CH16-SUBJ-070"
+      ],
+      "acceptable_routes": [
+        "Jacobins -- resurgence, 1799",
+        "Manege Club",
+        "Law of Hostages",
+        "Forced loan"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-004",
+      "question": "How did conscription connect foreign war, royalist resistance, and rural crime?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-008",
+        "CH16-SUBJ-012",
+        "CH16-SUBJ-015",
+        "CH16-SUBJ-046"
+      ],
+      "acceptable_routes": [
+        "Conscription -- 1799",
+        "Royalist insurrection",
+        "Chouannerie",
+        "Brigandage"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-005",
+      "question": "How did Sieyes's constitutional intentions differ from the regime Bonaparte created?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-006",
+        "CH16-SUBJ-020",
+        "CH16-SUBJ-021",
+        "CH16-SUBJ-022",
+        "CH16-SUBJ-023",
+        "CH16-SUBJ-025",
+        "CH16-SUBJ-028"
+      ],
+      "acceptable_routes": [
+        "Sieyes -- constitutional plans",
+        "Grand Elector",
+        "First Consul -- powers",
+        "Constitution of Year VIII"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-006",
+      "question": "How did the Constitution of Year VIII preserve the language of representation while concentrating power?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-021",
+        "CH16-SUBJ-022",
+        "CH16-SUBJ-023",
+        "CH16-SUBJ-024",
+        "CH16-SUBJ-025",
+        "CH16-SUBJ-026"
+      ],
+      "acceptable_routes": [
+        "Constitution of Year VIII",
+        "Lists of notables",
+        "Senate",
+        "Tribunate",
+        "Plebiscite"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-007",
+      "question": "How did France obtain peace with Austria and Britain, and what did it retain?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-029",
+        "CH16-SUBJ-030",
+        "CH16-SUBJ-031",
+        "CH16-SUBJ-032",
+        "CH16-SUBJ-033",
+        "CH16-SUBJ-035",
+        "CH16-SUBJ-036",
+        "CH16-SUBJ-072"
+      ],
+      "acceptable_routes": [
+        "Second Coalition -- collapse",
+        "Marengo",
+        "Hohenlinden",
+        "Treaty of Luneville",
+        "Peace of Amiens"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-008",
+      "question": "What distinction does the chapter draw between revolutionary expansion and later Napoleonic war?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-032",
+        "CH16-SUBJ-036",
+        "CH16-SUBJ-037"
+      ],
+      "acceptable_routes": [
+        "Revolutionary war -- consequences",
+        "French expansion -- revolutionary versus Napoleonic",
+        "Peace of Amiens"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-009",
+      "question": "How did Bonaparte neutralize royalism without restoring the Bourbons?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-038",
+        "CH16-SUBJ-039",
+        "CH16-SUBJ-040",
+        "CH16-SUBJ-048"
+      ],
+      "acceptable_routes": [
+        "Royalism under the Consulate",
+        "Louis XVIII and Bonaparte",
+        "Chouannerie -- pacification",
+        "Emigres -- amnesty"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-010",
+      "question": "Why were Jacobins punished for a royalist assassination attempt?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-041",
+        "CH16-SUBJ-042",
+        "CH16-SUBJ-043"
+      ],
+      "acceptable_routes": [
+        "Infernal machine",
+        "Jacobins -- deportation",
+        "Fouche",
+        "Middle classes and the Consulate"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-011",
+      "question": "Which fiscal, administrative, legal, and property measures made the Consulate appear stable?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-043",
+        "CH16-SUBJ-044",
+        "CH16-SUBJ-045",
+        "CH16-SUBJ-046",
+        "CH16-SUBJ-047",
+        "CH16-SUBJ-048",
+        "CH16-SUBJ-064",
+        "CH16-SUBJ-065"
+      ],
+      "acceptable_routes": [
+        "Finances under the Consulate",
+        "Prefects",
+        "Brigandage",
+        "Civil Code",
+        "National lands -- security"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-012",
+      "question": "How did the Concordat reconcile Catholic restoration, religious freedom, state control, and papal authority?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-049",
+        "CH16-SUBJ-050",
+        "CH16-SUBJ-051",
+        "CH16-SUBJ-052",
+        "CH16-SUBJ-053",
+        "CH16-SUBJ-054",
+        "CH16-SUBJ-055",
+        "CH16-SUBJ-056",
+        "CH16-SUBJ-066",
+        "CH16-SUBJ-071"
+      ],
+      "acceptable_routes": [
+        "Concordat of 1801",
+        "Religious freedom",
+        "Constitutional Church",
+        "Organic Articles",
+        "Pius VII"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-013",
+      "question": "How did Bonaparte combine legal ordering with political arbitrariness?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-041",
+        "CH16-SUBJ-046",
+        "CH16-SUBJ-047",
+        "CH16-SUBJ-058",
+        "CH16-SUBJ-065"
+      ],
+      "acceptable_routes": [
+        "Rule of law under Bonaparte",
+        "Civil Code",
+        "Special criminal courts",
+        "Tribunate -- purge"
+      ]
+    },
+    {
+      "task_id": "CH16-TASK-014",
+      "question": "In what qualified sense does the author say the Revolution ended by 1802?",
+      "expected_subject_ids": [
+        "CH16-SUBJ-001",
+        "CH16-SUBJ-027",
+        "CH16-SUBJ-028",
+        "CH16-SUBJ-036",
+        "CH16-SUBJ-048",
+        "CH16-SUBJ-053",
+        "CH16-SUBJ-058",
+        "CH16-SUBJ-060",
+        "CH16-SUBJ-061"
+      ],
+      "acceptable_routes": [
+        "End of the French Revolution",
+        "Stability versus principles of 1789",
+        "Peace of Amiens",
+        "Concordat",
+        "Consul for life"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "exclusion_id": "CH16-EXCL-001",
+      "label": "Unnamed directorial commissioner and other quoted observers",
+      "document_pages": [
+        369,
+        370,
+        381,
+        385,
+        386
+      ],
+      "reason": "Their statements supply evidence for substantive subjects, but the individuals are not independently identified or analyzed in the supplied body text."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-002",
+      "label": "Routine replacement Directors and officeholders",
+      "document_pages": [
+        370,
+        371
+      ],
+      "examples": [
+        "Treilhard",
+        "Gohier",
+        "Ducos",
+        "Moulin",
+        "La Revelliere",
+        "Merlin"
+      ],
+      "reason": "Their appointments and resignations are narrative components of Prairial and Brumaire; the chapter does not independently analyze most of them."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-003",
+      "label": "Election tallies and individual split assemblies",
+      "document_pages": [
+        370
+      ],
+      "reason": "The counts substantiate the Year VII election subject but do not create separate independently searchable concepts."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-004",
+      "label": "Schere impeachment allegations",
+      "document_pages": [
+        372
+      ],
+      "reason": "The allegation is part of the Jacobin programme and its defeat; Schere receives no sustained independent treatment."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-005",
+      "label": "Individual royalist gang incidents and damaged symbols",
+      "document_pages": [
+        372,
+        373,
+        384
+      ],
+      "reason": "Specific attacks and local examples evidence broader royalist insurrection, chouannerie, and brigandage subjects."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-006",
+      "label": "Minor coup intermediaries and social contacts",
+      "document_pages": [
+        374
+      ],
+      "examples": [
+        "Talleyrand's search for office",
+        "unnamed deputations",
+        "individual Parisian visitors"
+      ],
+      "reason": "They support the Brumaire coalition and Bonaparte's appeal but are not independently developed here."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-007",
+      "label": "Individual coalition commanders not independently analyzed",
+      "document_pages": [
+        378,
+        379,
+        380
+      ],
+      "examples": [
+        "Thugut",
+        "Archduke Charles",
+        "Suvorov",
+        "Brune",
+        "Daendels"
+      ],
+      "reason": "Their actions are material evidence for coalition disintegration and campaigns, while the chapter's analytical emphasis remains on alliance dynamics and settlement."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-008",
+      "label": "Individual Amiens colonial clauses as standalone subjects",
+      "document_pages": [
+        381
+      ],
+      "examples": [
+        "Ceylon",
+        "Trinidad",
+        "Cape Colony",
+        "Stadtholder compensation"
+      ],
+      "reason": "The clauses are retained within the Peace of Amiens evidence and do not receive separate analytical development."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-009",
+      "label": "Individual chouan leaders other than Cadoudal",
+      "document_pages": [
+        382
+      ],
+      "reason": "Unnamed or briefly mentioned leaders illustrate a collective pacification process rather than separately treated biographies."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-010",
+      "label": "Individual victims and police-known Jacobins in the infernal-machine purge",
+      "document_pages": [
+        383
+      ],
+      "reason": "The source analyzes the political logic and collective repression, not individual cases."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-011",
+      "label": "Individual fiscal statistics and securities prices",
+      "document_pages": [
+        384
+      ],
+      "reason": "Figures are evidence for financial stabilization and creditor confidence rather than independent subjects."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-012",
+      "label": "Quoted Spanish emissary and individual Concordat negotiators",
+      "document_pages": [
+        385,
+        386,
+        387
+      ],
+      "reason": "Their statements and resistance illuminate Bonaparte's religious pragmatism and negotiation difficulty; the chapter does not sustain separate treatment of most participants."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-013",
+      "label": "Individual bishops and clergy at the 1802 celebration",
+      "document_pages": [
+        388,
+        390
+      ],
+      "examples": [
+        "Boisgelin",
+        "individual constitutional nominees"
+      ],
+      "reason": "They are examples within the episcopal settlement or public ritual, not independently analyzed subjects in this chapter."
+    },
+    {
+      "exclusion_id": "CH16-EXCL-014",
+      "label": "Context-page subjects from adjacent chapters",
+      "document_pages": [
+        367,
+        368,
+        391,
+        392
+      ],
+      "reason": "These pages were read for continuity only; judgment ownership belongs to CHUNK-015 or CHUNK-017 and no evidence record in this artifact uses them."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "UNC-016-001",
+      "document_pages": [
+        389
+      ],
+      "issue": "The printed page dates the legislative purge to January 1801, while the same passage places it in the Year X session (1801-1802) shortly before the April 1802 Concordat vote.",
+      "alternatives": [
+        "The printed year is intended as 1801.",
+        "The printed year is a typographical error for 1802."
+      ],
+      "evidence_needed": "Comparison with another authoritative edition or an external chronology of the first renewal of the Tribunate and Legislative Body.",
+      "handling": "The subject record avoids silently correcting the date and describes the purge relative to the Year X session and Concordat debate.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "UNC-016-002",
+      "document_pages": [
+        369
+      ],
+      "issue": "The opening peasant-attitude evidence comes from a commissioner describing Seine-et-Oise and should not be generalized without qualification to every region or all French peasants.",
+      "alternatives": [
+        "Representative of a wider rural settlement.",
+        "Primarily a regional observation used illustratively."
+      ],
+      "evidence_needed": "Cross-chapter synthesis and additional regional evidence.",
+      "handling": "The subject records describe conditional rural support and retain the source's regional basis.",
+      "confidence": "medium"
+    },
+    {
+      "uncertainty_id": "UNC-016-003",
+      "document_pages": [
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390
+      ],
+      "issue": "Footnotes and endnotes cited by superscript markers are absent from the supplied source PDF.",
+      "alternatives": [
+        "Body-text claims can be evaluated as presented.",
+        "Source attribution and supporting-note nuance may be unavailable."
+      ],
+      "evidence_needed": "The omitted endnote section from the same 2002 edition.",
+      "handling": "No body-text page is uninspectable, but quotation provenance and note-only qualifications are recorded as a source limitation rather than inferred.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "UNC-016-004",
+      "document_pages": [
+        390
+      ],
+      "issue": "Public reaction to the legislative purge is explicitly hard to gauge because the independent press had largely disappeared and the surviving evidence includes police reports.",
+      "alternatives": [
+        "Widespread genuine approval of Bonaparte's stability.",
+        "Apparent approval amplified by surveillance and loss of independent reporting."
+      ],
+      "evidence_needed": "Independent diaries, correspondence, local reports, or press evidence outside the supplied chapter.",
+      "handling": "The depoliticization subject is retained with medium confidence and does not claim unanimous consent.",
+      "confidence": "medium"
+    }
+  ],
+  "source_limitations": [
+    "The supplied 2002-edition-derived PDF contains body pages 1-425 but omits front matter, endnotes, bibliography, and publisher index.",
+    "CHUNK-016 body text and page labels were fully inspectable; no candidate index was present or consulted."
+  ],
+  "discovery_assessment": {
+    "reasoning_pass": "fresh high-depth candidate-blind source-led discovery; prior chapter artifacts consulted afterward only for schema and procedural consistency",
+    "page_level_review_complete": true,
+    "subject_count": 72,
+    "priority_counts": {
+      "essential": 14,
+      "major": 49,
+      "optional": 9,
+      "exclude_by_default": 0
+    },
+    "evidence_count": 153,
+    "evidence_owned_page_coverage": [
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390
+    ],
+    "owned_pages_without_subject_evidence": [],
+    "reader_task_count": 14,
+    "exclusion_count": 14,
+    "uncertainty_count": 4,
+    "density_used_as_subject_quota": false,
+    "discovery_standard": "full scholarly-readership source-led discovery",
+    "priority_status": "provisional until whole-source synthesis"
+  }
+}
