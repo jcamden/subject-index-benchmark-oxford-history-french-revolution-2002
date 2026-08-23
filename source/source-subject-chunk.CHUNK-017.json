@@ -1,0 +1,1852 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "chunk": {
+    "chunk_id": "CHUNK-017",
+    "chapter_labels": [
+      "17. The Revolution in Perspective"
+    ],
+    "source_units": [
+      "Chapter 17"
+    ],
+    "owned_document_pages": [
+      391, 392, 393, 394, 395, 396, 397, 398, 399, 400,
+      401, 402, 403, 404, 405, 406, 407, 408, 409, 410,
+      411, 412, 413, 414, 415, 416, 417, 418, 419, 420,
+      421, 422, 423, 424, 425
+    ],
+    "context_document_pages": [389, 390]
+  },
+  "candidate_blindness": "preserved",
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_path": "source/evaluation-policy.v2.json",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "source_chunk_pdf_sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2",
+    "source_chunk_sidecar_sha256": "0d58ce5bc2a9e81e9c8adb53f2c44c9461abfbbfa70198300109dbed98079cbc",
+    "edition_identity": "2002 edition",
+    "source_filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
+    "checkpoint_filename": "oxford-2002-after-chunk-002-discovery-portable.zip",
+    "repository": "jcamden/subject-index-benchmark-oxford-history-french-revolution-2002",
+    "base_branch": "main",
+    "base_commit": "e675ba83a13cd761b5cf32573eaf3cf7fdf86d1b",
+    "worker_branch": "source-discovery/chunk-017",
+    "fresh_source_led_draft_completed_before_prior_discovery_consultation": true
+  },
+  "page_review": {
+    "expected_owned_pages": 35,
+    "reviewed_owned_pages": 35,
+    "reviewed_context_pages": 2,
+    "reviewed_owned_document_pages": [
+      391, 392, 393, 394, 395, 396, 397, 398, 399, 400,
+      401, 402, 403, 404, 405, 406, 407, 408, 409, 410,
+      411, 412, 413, 414, 415, 416, 417, 418, 419, 420,
+      421, 422, 423, 424, 425
+    ],
+    "reviewed_context_document_pages": [389, 390],
+    "indexable_source_words": 15969,
+    "word_count_method": {
+      "basis": "owned indexable body text only",
+      "method": "Unicode alphanumeric word tokens after removing running heads, printed page numbers, and the chapter display title; words hyphenated across line breaks were rejoined",
+      "context_pages_excluded": true,
+      "excluded_regions_excluded": true
+    },
+    "excluded_regions": [
+      {
+        "document_pages": [391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425],
+        "region": "running heads and printed page numbers",
+        "reason": "navigation furniture"
+      },
+      {
+        "document_pages": [391],
+        "region": "chapter number and display title",
+        "reason": "paratext excluded from the word-count denominator"
+      }
+    ],
+    "unavailable_regions": [],
+    "complete": true
+  },
+  "page_reviews": [
+    {"document_page": 389, "source_page_label": "389", "role": "context", "status": "reviewed", "word_count_in_denominator": 0, "scope_note": "Prior chapter's closing discussion of the Concordat and suppression of legislative opposition."},
+    {"document_page": 390, "source_page_label": "390", "role": "context", "status": "reviewed", "word_count_in_denominator": 0, "scope_note": "Prior chapter's conclusion on peace, restored worship, and the perceived burial of the Revolution."},
+    {"document_page": 391, "source_page_label": "391", "role": "owned", "status": "reviewed", "indexable_source_words": 331, "scope_note": "British visitors encounter the physical and symbolic aftermath of revolution in 1802."},
+    {"document_page": 392, "source_page_label": "392", "role": "owned", "status": "reviewed", "indexable_source_words": 462, "scope_note": "Visible disruption and continuity lead into the Revolution's intellectual origins and crisis of confidence."},
+    {"document_page": 393, "source_page_label": "393", "role": "owned", "status": "reviewed", "indexable_source_words": 463, "scope_note": "Enlightened national regeneration and the Revolution's lasting rationalizing reforms."},
+    {"document_page": 394, "source_page_label": "394", "role": "owned", "status": "reviewed", "indexable_source_words": 472, "scope_note": "Resistance, intolerance of opposition, anti-noble mobilization, and equality as a revolutionary aspiration."},
+    {"document_page": 395, "source_page_label": "395", "role": "owned", "status": "reviewed", "indexable_source_words": 484, "scope_note": "Abolition of noble privilege and feudalism, emigration, confiscation, and elite survival."},
+    {"document_page": 396, "source_page_label": "396", "role": "owned", "status": "reviewed", "indexable_source_words": 480, "scope_note": "Noble trauma and the beginning of the clergy's institutional and material losses."},
+    {"document_page": 397, "source_page_label": "397", "role": "owned", "status": "reviewed", "indexable_source_words": 501, "scope_note": "Dissolution of monastic life, clerical schism, persecution, and dechristianization."},
+    {"document_page": 398, "source_page_label": "398", "role": "owned", "status": "reviewed", "indexable_source_words": 466, "scope_note": "Papal revival, the Concordat settlement, lasting Church-Republic conflict, and loss of clerical social services."},
+    {"document_page": 399, "source_page_label": "399", "role": "owned", "status": "reviewed", "indexable_source_words": 487, "scope_note": "Collapse of education and the gap between ambitious poor-relief declarations and implementation."},
+    {"document_page": 400, "source_page_label": "400", "role": "owned", "status": "reviewed", "indexable_source_words": 463, "scope_note": "Destruction and partial local recovery of hospitals, charity, and nursing."},
+    {"document_page": 401, "source_page_label": "401", "role": "owned", "status": "reviewed", "indexable_source_words": 456, "scope_note": "Human cost of institutional destruction and the subsistence crisis shaping revolutionary economic expectations."},
+    {"document_page": 402, "source_page_label": "402", "role": "owned", "status": "reviewed", "indexable_source_words": 483, "scope_note": "Economic losses from elite and Church dispossession, followed by the assignat mechanism."},
+    {"document_page": 403, "source_page_label": "403", "role": "owned", "status": "reviewed", "indexable_source_words": 483, "scope_note": "Inflation's social effects and wartime destruction of overseas trade."},
+    {"document_page": 404, "source_page_label": "404", "role": "owned", "status": "reviewed", "indexable_source_words": 465, "scope_note": "Port decline, continental-market reorientation, sectoral winners, and delayed recovery."},
+    {"document_page": 405, "source_page_label": "405", "role": "owned", "status": "reviewed", "indexable_source_words": 450, "scope_note": "Limited modernization, land-biased investment, agricultural continuity, and an adverse material verdict for ordinary people."},
+    {"document_page": 406, "source_page_label": "406", "role": "owned", "status": "reviewed", "indexable_source_words": 466, "scope_note": "Expansion of coercive state power and the popular, often anti-revolutionary character of resistance."},
+    {"document_page": 407, "source_page_label": "407", "role": "owned", "status": "reviewed", "indexable_source_words": 462, "scope_note": "Sansculotte divergence from 1789 liberalism and the gains of property owners."},
+    {"document_page": 408, "source_page_label": "408", "role": "owned", "status": "reviewed", "indexable_source_words": 453, "scope_note": "Durability of the land settlement, professional deregulation, and expansion of administration."},
+    {"document_page": 409, "source_page_label": "409", "role": "owned", "status": "reviewed", "indexable_source_words": 472, "scope_note": "Bureaucratic careers, military opportunity, mass casualties, and militarization of political order."},
+    {"document_page": 410, "source_page_label": "410", "role": "owned", "status": "reviewed", "indexable_source_words": 467, "scope_note": "Permanent Protestant emancipation and the opening of the Jewish emancipation question."},
+    {"document_page": 411, "source_page_label": "411", "role": "owned", "status": "reviewed", "indexable_source_words": 483, "scope_note": "Delayed Jewish citizenship and the political origins of colonial emancipation."},
+    {"document_page": 412, "source_page_label": "412", "role": "owned", "status": "reviewed", "indexable_source_words": 494, "scope_note": "Saint-Domingue's revolt and war force racial equality and abolition beyond metropolitan intentions."},
+    {"document_page": 413, "source_page_label": "413", "role": "owned", "status": "reviewed", "indexable_source_words": 453, "scope_note": "Failed restoration of slavery, Haitian independence, and revolutionary influence in Latin America and Europe."},
+    {"document_page": 414, "source_page_label": "414", "role": "owned", "status": "reviewed", "indexable_source_words": 443, "scope_note": "Permanent transformation of European states and the territorial limits of France's gains."},
+    {"document_page": 415, "source_page_label": "415", "role": "owned", "status": "reviewed", "indexable_source_words": 485, "scope_note": "British ascendancy and the emergence of mass, national warfare."},
+    {"document_page": 416, "source_page_label": "416", "role": "owned", "status": "reviewed", "indexable_source_words": 456, "scope_note": "European conscription, taxation, policing, and anti-French national response."},
+    {"document_page": 417, "source_page_label": "417", "role": "owned", "status": "reviewed", "indexable_source_words": 461, "scope_note": "Nationalism as both revolutionary export and resistance, followed by the survival of universal revolutionary ideology."},
+    {"document_page": 418, "source_page_label": "418", "role": "owned", "status": "reviewed", "indexable_source_words": 477, "scope_note": "Popular sovereignty, democracy's violent association, plebiscitary legitimacy, and the meanings of liberty."},
+    {"document_page": 419, "source_page_label": "419", "role": "owned", "status": "reviewed", "indexable_source_words": 485, "scope_note": "Liberty's durable ideological place and the sharp property and political limits of equality."},
+    {"document_page": 420, "source_page_label": "420", "role": "owned", "status": "reviewed", "indexable_source_words": 464, "scope_note": "Women's decisive revolutionary interventions and political exclusion."},
+    {"document_page": 421, "source_page_label": "421", "role": "owned", "status": "reviewed", "indexable_source_words": 470, "scope_note": "Sex-specific citizenship, Babeuf's egalitarianism, and the right of insurrection."},
+    {"document_page": 422, "source_page_label": "422", "role": "owned", "status": "reviewed", "indexable_source_words": 451, "scope_note": "The Revolution as a model for later revolutionaries and the birth of Left, Right, and conservative ideology."},
+    {"document_page": 423, "source_page_label": "423", "role": "owned", "status": "reviewed", "indexable_source_words": 453, "scope_note": "Reactionary intransigence, reformist conservatism, and the Revolution's status as the modern archetype."},
+    {"document_page": 424, "source_page_label": "424", "role": "owned", "status": "reviewed", "indexable_source_words": 434, "scope_note": "Counterfactual distinction between accelerated trends and specifically revolutionary transformations."},
+    {"document_page": 425, "source_page_label": "425", "role": "owned", "status": "reviewed", "indexable_source_words": 194, "scope_note": "Final judgment of the Revolution as an inspiring but catastrophic cultural tragedy."}
+  ],
+  "selection_method": {
+    "unit": "independently searchable source subject rather than proposed index heading",
+    "principles": [
+      "Retain principal subjects and significant localized or subsidiary subjects even when confined to one passage.",
+      "Split subjects when a reader could plausibly seek one without the other or when a combined label would overstate page support.",
+      "Retain named people, institutions, works, and events only when the chapter analyzes them, uses them as sustained explanatory cases, or makes them independently useful to scholarly readers.",
+      "Use optional only for defensible supplemental access whose absence would not materially reduce usefulness.",
+      "Do not use density calibration to set the subject count or priority."
+    ]
+  },
+  "subjects": [
+    {
+      "local_subject_id": "CHUNK-017-S001",
+      "label": "France's visible revolutionary aftermath in 1802",
+      "priority": "major",
+      "meaning": "Foreign visitors found damaged infrastructure, ruined religious and aristocratic property, erased royal symbols, and ubiquitous republican emblems, alongside striking urban continuity and revived elite sociability.",
+      "stance": "The visible scene mixed temporary disruption with irreversible change and did not correspond neatly to the reformers' original goals.",
+      "acceptable_access": ["revolutionary aftermath", "France in 1802", "physical and symbolic legacy of the Revolution"],
+      "relationships": [
+        {"type": "frames", "target": "overall assessment of revolutionary change"},
+        {"type": "contrast", "target": "original project of national regeneration"}
+      ],
+      "evidence": [
+        {"document_page": 391, "source_page_label": "391", "locator_class": "principal", "evidence_summary": "British visitors observed damaged roads, abandoned elite and religious buildings, altered churches, and surviving republican symbols after peace reopened France."},
+        {"document_page": 392, "source_page_label": "392", "locator_class": "principal", "evidence_summary": "Paris combined erased royal traces and revolutionary memory with commercial animation, renewed fashionable life, improved policing, and frequent military display."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S002",
+      "label": "Enlightenment, public opinion, and the Revolution's intellectual origins",
+      "priority": "essential",
+      "meaning": "Expanding education and prosperity produced a critical reading public and a market for ideas that weakened confidence in an unreformed monarchy and supplied the Revolution's initial intellectual momentum.",
+      "stance": "The chapter treats the Revolution's first impulse as more intellectual than social or economic, while emphasizing that state collapse was unexpected.",
+      "acceptable_access": ["Enlightenment and the French Revolution", "critical public opinion", "intellectual origins of the Revolution"],
+      "relationships": [
+        {"type": "cause", "target": "crisis of confidence in absolute monarchy"},
+        {"type": "inspires", "target": "national regeneration"}
+      ],
+      "evidence": [
+        {"document_page": 392, "source_page_label": "392", "locator_class": "principal", "evidence_summary": "Education, cultural investment, and widening independent thought created an informed public whose lost confidence underlay the monarchy's political and fiscal crisis."},
+        {"document_page": 393, "source_page_label": "393", "locator_class": "supporting", "evidence_summary": "The revolutionary leadership understood itself as the instrument of enlightened reason and inspired like-minded activists across France."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S003",
+      "label": "Estates-General, cahiers, and nationwide political possibility",
+      "priority": "major",
+      "meaning": "Once royal collapse seemed irreversible, the Estates-General and grievance-drafting process invited people well beyond the educated elite to imagine remedies and settle accumulated grievances.",
+      "stance": "The sudden openness of 1788-1789 generated extraordinary hope precisely because neither collapse nor its replacement had been prepared.",
+      "acceptable_access": ["cahiers and revolutionary expectations", "Estates-General and political participation", "possibilities of 1789"],
+      "relationships": [
+        {"type": "broadens", "target": "Enlightenment reform into national revolution"}
+      ],
+      "evidence": [
+        {"document_page": 393, "source_page_label": "393", "locator_class": "principal", "evidence_summary": "The calling of the Estates-General and preparation of cahiers turned constitutional uncertainty into a nationwide invitation to redesign public life and remedy grievances."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S004",
+      "label": "National regeneration and Jacobin idealism",
+      "priority": "major",
+      "meaning": "Educated revolutionaries sought a rational, just, and humane reorganization of society, and the early spread of Jacobin clubs expressed this principled commitment to civic rights.",
+      "stance": "The idealism was genuine and historically important, although it dwindled among revolutionaries as events radicalized.",
+      "acceptable_access": ["national regeneration", "Jacobin clubs and rights", "revolutionary idealism"],
+      "relationships": [
+        {"type": "derived_from", "target": "Enlightenment intellectual culture"},
+        {"type": "contrast", "target": "violence and coercion"}
+      ],
+      "evidence": [
+        {"document_page": 393, "source_page_label": "393", "locator_class": "principal", "evidence_summary": "The National Assembly and proliferating Jacobin clubs cast the Revolution as an enlightened programme of rational and humane civic reconstruction."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S005",
+      "label": "Administrative departments as a permanent revolutionary reform",
+      "priority": "major",
+      "meaning": "The department system replaced overlapping historic jurisdictions with a rational territorial administration that endured with little alteration.",
+      "stance": "This is presented as one of the Revolution's clearest permanent achievements in rational governance.",
+      "acceptable_access": ["departments", "administrative reorganization", "territorial rationalization"],
+      "relationships": [
+        {"type": "example_of", "target": "lasting rationalizing reforms"}
+      ],
+      "evidence": [
+        {"document_page": 393, "source_page_label": "393", "locator_class": "principal", "evidence_summary": "Replacing inherited jurisdictional complexity with departments is identified as a durable institutional success."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S006",
+      "label": "Metric and decimal systems",
+      "priority": "major",
+      "meaning": "Revolutionary standardization replaced a confusing inherited system of measures with a rational scheme that later spread internationally.",
+      "stance": "The metric and decimal reforms are judged among the Revolution's most successful and globally consequential achievements.",
+      "acceptable_access": ["metric system", "decimal system", "standardized weights and measures"],
+      "relationships": [
+        {"type": "example_of", "target": "lasting rationalizing reforms"},
+        {"type": "supports", "target": "preconditions for economic modernization"}
+      ],
+      "evidence": [
+        {"document_page": 393, "source_page_label": "393", "locator_class": "principal", "evidence_summary": "The metric and decimal system is credited with replacing an irrational patchwork and subsequently achieving worldwide adoption."},
+        {"document_page": 405, "source_page_label": "405", "locator_class": "supporting", "evidence_summary": "Standard measures are included among useful preconditions for later economic progress, though insufficient to generate growth by themselves."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S007",
+      "label": "Civil Code as revolutionary legacy",
+      "priority": "essential",
+      "meaning": "The Revolution initiated a long-desired legal codification that Bonaparte completed, clarifying civil law and strengthening property transmission while also embedding patriarchal limits.",
+      "stance": "The Code is a major rationalizing achievement, but its completion depended on authoritarian executive power and its social effects were not uniformly emancipatory.",
+      "acceptable_access": ["Civil Code", "legal codification", "Napoleonic Code as revolutionary legacy"],
+      "relationships": [
+        {"type": "consolidates", "target": "property owners' gains"},
+        {"type": "limits", "target": "women's rights"},
+        {"type": "completed_by", "target": "Napoleon Bonaparte"}
+      ],
+      "evidence": [
+        {"document_page": 393, "source_page_label": "393", "locator_class": "principal", "evidence_summary": "Revolutionary drafting begun in 1790 culminated under the First Consul in a concise codification long sought before 1789."},
+        {"document_page": 407, "source_page_label": "407", "locator_class": "supporting", "evidence_summary": "The completed Code secured and clarified landowners' property and inheritance rights."},
+        {"document_page": 420, "source_page_label": "420", "locator_class": "supporting", "evidence_summary": "Bonaparte's interventions in drafting reinforced restrictions on women's property rights."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S008",
+      "label": "Criminal-law reform and the guillotine's paradox",
+      "priority": "major",
+      "meaning": "Revolutionary criminal-law reform permanently removed old-regime cruelties, while the guillotine transformed a theoretically humane technology into the emblematic instrument of state terror.",
+      "stance": "Rational humanitarian design cannot be evaluated apart from the coercive political use to which it was put.",
+      "acceptable_access": ["criminal-law reform", "guillotine", "humanitarian punishment and Terror"],
+      "relationships": [
+        {"type": "contrast", "target": "revolutionary violence and Terror"},
+        {"type": "example_of", "target": "reason's unintended consequences"}
+      ],
+      "evidence": [
+        {"document_page": 393, "source_page_label": "393", "locator_class": "principal", "evidence_summary": "Old criminal-law abuses vanished, but the supposedly humane guillotine became inseparable from mass political killing."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The concluding comparison emphasizes the unprecedented spectacle of systematic executions conducted through a device designed to reduce suffering."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S009",
+      "label": "Resistance, intolerance, and the origins of revolutionary violence",
+      "priority": "essential",
+      "meaning": "Revolutionary violence grew from real resistance to change and from patriots' assumption that opponents were ignorant, selfish, or illegitimate, making intimidation in 1789 a precedent for later coercion.",
+      "stance": "Resistance made violence more likely, but the revolutionaries' refusal to recognize honest opposition also helped create the Terror; the violent tendency cannot be assigned only to later emergency.",
+      "acceptable_access": ["origins of revolutionary violence", "resistance and Terror", "political intolerance from 1789"],
+      "relationships": [
+        {"type": "cause", "target": "Terror"},
+        {"type": "contradicts", "target": "national regeneration's benevolent self-image"},
+        {"type": "resolved_by", "target": "Bonapartist imposition of stability"}
+      ],
+      "evidence": [
+        {"document_page": 394, "source_page_label": "394", "locator_class": "principal", "evidence_summary": "Early intimidation and public defence of lynching established coercive precedents, while patriots treated opposition as bad faith rather than legitimate disagreement."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "synthesis_or_conclusion", "evidence_summary": "War radicalized the Revolution and produced the Terror's systematic state violence, a break with inherited patterns of political conflict."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S010",
+      "label": "Society of Thirty and anti-noble mobilization",
+      "priority": "optional",
+      "meaning": "An organized intellectual circle exploited tensions within the educated elite to build support for a single legislature and helped turn a constitutional dispute into broad hostility toward nobles.",
+      "stance": "The nobility was not uniformly hostile to reform before polemical mobilization cast it as the Revolution's social enemy.",
+      "acceptable_access": ["Society of Thirty", "anti-noble rhetoric", "campaign for an undivided legislature"],
+      "relationships": [
+        {"type": "contributes_to", "target": "abolition of noble privilege"}
+      ],
+      "evidence": [
+        {"document_page": 394, "source_page_label": "394", "locator_class": "principal", "evidence_summary": "The Society of Thirty is credited with organizing opinion against separate noble representation and intensifying class antagonism before the Estates met."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S011",
+      "label": "Abolition of noble privilege, feudalism, and inherited status",
+      "priority": "essential",
+      "meaning": "The Revolution removed noble corporate representation, fiscal and feudal privileges, venal ennoblement, legal recognition of nobility, and automatic deference, making equality and talent-based advancement durable norms.",
+      "stance": "Nobles were the first and greatest losers, but the lasting achievement was the destruction of legally privileged status rather than the elimination of elite wealth.",
+      "acceptable_access": ["nobility and the Revolution", "abolition of feudalism", "end of inherited privilege", "careers open to talent"],
+      "relationships": [
+        {"type": "advances", "target": "equality"},
+        {"type": "benefits", "target": "property-owning bourgeoisie"},
+        {"type": "contrast", "target": "continued noble wealth"}
+      ],
+      "evidence": [
+        {"document_page": 394, "source_page_label": "394", "locator_class": "principal", "evidence_summary": "Anti-aristocratic politics made equality and advancement by talent defining aspirations even though nobles had initially shown willingness to reform."},
+        {"document_page": 395, "source_page_label": "395", "locator_class": "principal", "evidence_summary": "Separate representation, feudal profits, ennoblement, and legal insignia disappeared, while inherited deference became contestable rather than automatic."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S012",
+      "label": "Noble emigration, confiscation, recovery, and psychological trauma",
+      "priority": "major",
+      "meaning": "Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "stance": "The nobility's material losses were less complete than its political and psychological dislocation, which permanently weakened assumptions of social subordination.",
+      "acceptable_access": ["noble emigration", "emigre property confiscation", "noble survival after the Revolution", "psychological impact on nobility"],
+      "relationships": [
+        {"type": "consequence_of", "target": "abolition of noble privilege"},
+        {"type": "feeds", "target": "counter-revolution"},
+        {"type": "partially_reversed_by", "target": "Napoleonic nobility"}
+      ],
+      "evidence": [
+        {"document_page": 395, "source_page_label": "395", "locator_class": "principal", "evidence_summary": "Emigration and confiscation affected many noble families, yet repurchase and later elite taxation records show substantial continuity of landed wealth."},
+        {"document_page": 396, "source_page_label": "396", "locator_class": "principal", "evidence_summary": "Exile, military defeat, suspicion, and curtailed public influence created a lasting emotional and political rupture greater than aggregate material loss."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S013",
+      "label": "Catholic clergy's dispossession and institutional destruction",
+      "priority": "essential",
+      "meaning": "The Revolution removed tithes, feudal rights, lands, corporate self-government, monastic institutions, and much parish capacity, dismantling the old Gallican Church beyond what the Concordat restored.",
+      "stance": "The clergy suffered a more cataclysmic institutional transformation than the nobility, despite initial clerical cooperation with reform.",
+      "acceptable_access": ["Catholic clergy and the Revolution", "Gallican Church dismantling", "nationalization of Church property", "clerical losses"],
+      "relationships": [
+        {"type": "causes", "target": "collapse of education and poor relief"},
+        {"type": "precedes", "target": "Concordat settlement"}
+      ],
+      "evidence": [
+        {"document_page": 396, "source_page_label": "396", "locator_class": "principal", "evidence_summary": "Tithe abolition, feudal losses, and nationalization eliminated the Church's economic base even though many clergy had helped form the National Assembly."},
+        {"document_page": 397, "source_page_label": "397", "locator_class": "principal", "evidence_summary": "Corporate autonomy and monastic structures disappeared, leaving a Church fundamentally different from its old-regime predecessor."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S014",
+      "label": "Monasticism and women religious",
+      "priority": "major",
+      "meaning": "Revolutionary policy dissolved monasteries and convents despite strong resistance from nuns, and the Concordat did not restore the cloistered system on its former scale.",
+      "stance": "Claims that religious life liberated unwilling inmates are rejected by evidence of widespread female religious opposition and long-term institutional loss.",
+      "acceptable_access": ["monasticism", "nuns and convent dissolution", "women religious", "religious orders"],
+      "relationships": [
+        {"type": "part_of", "target": "Catholic clergy's dispossession"},
+        {"type": "affects", "target": "hospital nursing and charity"}
+      ],
+      "evidence": [
+        {"document_page": 397, "source_page_label": "397", "locator_class": "principal", "evidence_summary": "Nuns broadly opposed convent dissolution, and later religious restoration never recreated the density of old-regime monastic life."},
+        {"document_page": 400, "source_page_label": "400", "locator_class": "supporting", "evidence_summary": "Suppression and oath requirements removed nursing sisters from hospitals until post-Terror releases enabled partial recovery."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S015",
+      "label": "Clerical oath, refractory clergy, and Church schism",
+      "priority": "essential",
+      "meaning": "The Civil Constitution's oath divided clergy into constitutional and refractory camps, exposed refusers to deprivation, exile, massacre, or execution, and left both sides with wounds the Concordat could not fully heal.",
+      "stance": "The Revolution created a bitter religious schism whose trauma and popular loyalties made the settlement of 1801 necessary but incomplete.",
+      "acceptable_access": ["Civil Constitution of the Clergy", "clerical oath", "refractory priests", "constitutional clergy", "Little Church"],
+      "relationships": [
+        {"type": "causes", "target": "dechristianization and religious conflict"},
+        {"type": "partially_resolved_by", "target": "Concordat"}
+      ],
+      "evidence": [
+        {"document_page": 397, "source_page_label": "397", "locator_class": "principal", "evidence_summary": "Oath refusal made priests political suspects and targets of massacre, execution, deportation, and exile, while oath-takers lost papal and popular legitimacy."},
+        {"document_page": 398, "source_page_label": "398", "locator_class": "supporting", "evidence_summary": "The 1801 settlement restored public worship but could not erase clerical trauma or reconcile every constitutional priest."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S016",
+      "label": "Papal revival and the Concordat's transformation of French Catholicism",
+      "priority": "essential",
+      "meaning": "Persecution enhanced papal prestige, popular loyalty discredited Gallican assumptions, and the Concordat restored worship through a poorer, salaried clergy under stronger Roman spiritual authority.",
+      "stance": "The papacy paradoxically emerged as a major beneficiary of revolutionary assault, while the restored Church remained institutionally reduced and dependent on the state.",
+      "acceptable_access": ["papacy and the French Revolution", "Concordat of 1801", "Roman authority in France", "Catholic restoration"],
+      "relationships": [
+        {"type": "consequence_of", "target": "clerical persecution"},
+        {"type": "restructures", "target": "French Catholic Church"},
+        {"type": "associated_with", "target": "Napoleon Bonaparte"}
+      ],
+      "evidence": [
+        {"document_page": 398, "source_page_label": "398", "locator_class": "principal", "evidence_summary": "Revolutionary martyrdom and popular loyalty restored papal authority, and Bonaparte accepted a settlement that re-established worship without rebuilding the old ecclesiastical order."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The conclusion treats the papacy's renewed authority as a specifically revolutionary consequence unlikely without the Church conflict."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S017",
+      "label": "Long-term Catholic-Republican conflict and Church-state separation",
+      "priority": "major",
+      "meaning": "Church memory of persecution and republican memory of clerical opposition hardened into mutual hostility that shaped nineteenth-century politics and ultimately produced formal separation in 1905.",
+      "stance": "Later polarization on both sides is traced back to the religious rupture of 1790 rather than treated as an independent later conflict.",
+      "acceptable_access": ["Catholic-Republican conflict", "Church and republicanism", "separation of Church and State in 1905"],
+      "relationships": [
+        {"type": "long_term_consequence_of", "target": "clerical oath and schism"},
+        {"type": "long_term_consequence_of", "target": "dechristianization"}
+      ],
+      "evidence": [
+        {"document_page": 398, "source_page_label": "398", "locator_class": "principal", "evidence_summary": "Catholic denunciation of the Revolution and republican suspicion of the Church escalated through the nineteenth century until institutional separation was enacted."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S018",
+      "label": "Revolutionary collapse of education",
+      "priority": "major",
+      "meaning": "Confiscation, clerical removal, suppression of teaching orders and universities, weak replacement institutions, and lack of primary funding produced teacher shortages, falling enrolment, and declining literacy.",
+      "stance": "The Revolution's educational rhetoric was not matched by workable institutions; a movement born of expanding education temporarily reversed that advance.",
+      "acceptable_access": ["education during the Revolution", "central schools", "abolition of universities", "literacy decline"],
+      "relationships": [
+        {"type": "consequence_of", "target": "dismantling of the Catholic Church"},
+        {"type": "example_of", "target": "rhetoric-reality gap"},
+        {"type": "partially_repaired_by", "target": "Napoleonic reorganization"}
+      ],
+      "evidence": [
+        {"document_page": 398, "source_page_label": "398", "locator_class": "supporting", "evidence_summary": "The break with clerical control left education as a major social function requiring rational reconstruction."},
+        {"document_page": 399, "source_page_label": "399", "locator_class": "principal", "evidence_summary": "Institutional destruction outpaced reform plans, producing inadequate central schools, little primary provision, a severe fall in secondary enrolment, and lower literacy."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S019",
+      "label": "Poor relief, hospitals, and the destruction of charity",
+      "priority": "essential",
+      "meaning": "Ambitious declarations of a public right to aid coexisted with war-driven incapacity, while nationalization, religious policy, inflation, and fiscal change dismantled parish relief, hospitals, and nursing before alternatives existed.",
+      "stance": "The chapter gives its harshest social-policy verdict here: the poor and sick bore multigenerational harm from institutional destruction unmatched by funding or implementation.",
+      "acceptable_access": ["poor relief during the Revolution", "hospitals and charity", "Great Book of National Benevolence", "nursing orders"],
+      "relationships": [
+        {"type": "consequence_of", "target": "dismantling of the Catholic Church"},
+        {"type": "example_of", "target": "rhetoric-reality gap"},
+        {"type": "harms", "target": "ordinary people"}
+      ],
+      "evidence": [
+        {"document_page": 399, "source_page_label": "399", "locator_class": "principal", "evidence_summary": "Revolutionary assemblies proclaimed public responsibility for need but lacked wartime resources to implement national relief and even prohibited private almsgiving."},
+        {"document_page": 400, "source_page_label": "400", "locator_class": "principal", "evidence_summary": "Church-based charity, hospital income, and nursing personnel were stripped away; limited local and post-Terror recovery did not restore prior capacity."},
+        {"document_page": 401, "source_page_label": "401", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The poor and sick are judged the clearest victims of destructive reform undertaken before viable and funded replacements existed."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S020",
+      "label": "Economic crisis of 1788 and popular revolutionary expectations",
+      "priority": "major",
+      "meaning": "Harvest failure, winter hardship, high food prices, and manufacturing slump made the Estates-General a vehicle for hopes of cheap bread and shaped both sansculotte provisioning demands and peasant anti-feudal action.",
+      "stance": "The Revolution began in exceptional economic distress, and the expectations formed then constrained governments long after educated leaders' free-market assumptions diverged from popular needs.",
+      "acceptable_access": ["economic crisis of 1788", "bread and revolutionary expectations", "subsistence crisis", "harvest failure"],
+      "relationships": [
+        {"type": "shapes", "target": "sansculotte moral economy"},
+        {"type": "shapes", "target": "anti-feudal legislation"}
+      ],
+      "evidence": [
+        {"document_page": 401, "source_page_label": "401", "locator_class": "principal", "evidence_summary": "Subsistence and employment shocks amplified hope in the Estates-General, tied Parisian patriotism to cheap bread, and made rural fear central to anti-feudal policy."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S021",
+      "label": "Economic losses from elite and Church dispossession",
+      "priority": "major",
+      "meaning": "The destruction of noble, judicial, provincial, and ecclesiastical institutions removed demand, jobs, service employment, and luxury consumption across towns and regions.",
+      "stance": "Redistribution imposed substantial indirect costs on workers and local economies beyond the privileged groups whose income and property were targeted.",
+      "acceptable_access": ["economic effects of noble dispossession", "economic effects of Church nationalization", "luxury trades", "urban decline"],
+      "relationships": [
+        {"type": "consequence_of", "target": "abolition of privilege and Church property"},
+        {"type": "component_of", "target": "revolutionary economic disaster"}
+      ],
+      "evidence": [
+        {"document_page": 401, "source_page_label": "401", "locator_class": "supporting", "evidence_summary": "Reduced feudal income prompted rent increases and helped transmit elite losses to tenant farmers."},
+        {"document_page": 402, "source_page_label": "402", "locator_class": "principal", "evidence_summary": "Cities lost institutional spending, household service, ecclesiastical employment, and luxury demand, producing severe local and sectoral contraction."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S022",
+      "label": "Assignats, inflation, and social dislocation",
+      "priority": "essential",
+      "meaning": "Land-backed paper money was over-issued because governments avoided debt reduction and effective taxation, driving depreciation that weakened land-sale returns, credit, wages, fixed incomes, employment, and social stability.",
+      "stance": "Most depreciation is attributed to policy-driven over-issue rather than unavoidable market distrust; war intensified but did not originate the problem.",
+      "acceptable_access": ["assignats", "revolutionary inflation", "paper money", "debtors and creditors"],
+      "relationships": [
+        {"type": "finances", "target": "revolutionary war"},
+        {"type": "harms", "target": "wage earners, creditors, and fixed-income households"},
+        {"type": "distorts", "target": "sale of national lands"}
+      ],
+      "evidence": [
+        {"document_page": 402, "source_page_label": "402", "locator_class": "principal", "evidence_summary": "Land security was converted into paper currency, but fiscal reluctance and wartime need led to massive issuance beyond the original plan."},
+        {"document_page": 403, "source_page_label": "403", "locator_class": "principal", "evidence_summary": "Depreciation enriched debtors, impoverished creditors and wage earners, discouraged normal investment and exchange, and contributed to unemployment, crime, and suicide."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S023",
+      "label": "War and the destruction of French overseas trade",
+      "priority": "essential",
+      "meaning": "The Saint-Domingue crisis, war with Britain, blockade, embargoes, and maritime insecurity permanently displaced France's leading pre-revolutionary commercial sector and devastated major ports.",
+      "stance": "War produced the most durable economic damage of the Revolution, accelerating a structural shift away from Atlantic trade.",
+      "acceptable_access": ["overseas trade", "British blockade", "port economies", "colonial trade", "economic effects of war"],
+      "relationships": [
+        {"type": "consequence_of", "target": "revolutionary war"},
+        {"type": "benefits", "target": "British commercial ascendancy"},
+        {"type": "linked_to", "target": "Saint-Domingue revolution"}
+      ],
+      "evidence": [
+        {"document_page": 403, "source_page_label": "403", "locator_class": "principal", "evidence_summary": "Colonial rebellion and conflict with Britain disrupted the most successful part of the old-regime economy and exposed French shipping to blockade."},
+        {"document_page": 404, "source_page_label": "404", "locator_class": "principal", "evidence_summary": "Foreign trade's share collapsed and port populations fell, establishing a lasting shift from maritime to continental markets."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S024",
+      "label": "Continental markets and wartime industrial winners",
+      "priority": "major",
+      "meaning": "French conquest redirected commerce toward protected continental markets and created opportunities for arms, metallurgy, woollens, Belgian industry, and a revived but technologically lagging cotton sector.",
+      "stance": "Some industries benefited from exclusion and military demand, but these gains do not overturn the broader judgment of economic setback.",
+      "acceptable_access": ["continental trade reorientation", "war industries", "French cotton industry", "Belgian industry"],
+      "relationships": [
+        {"type": "contrast", "target": "collapse of overseas trade"},
+        {"type": "qualified_component_of", "target": "revolutionary economic record"}
+      ],
+      "evidence": [
+        {"document_page": 404, "source_page_label": "404", "locator_class": "principal", "evidence_summary": "Protected continental demand and wartime purchasing allowed selected industries and annexed Belgian centres to expand while older maritime sectors contracted."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S025",
+      "label": "Long-term economic retardation and land-biased investment",
+      "priority": "essential",
+      "meaning": "The Revolution delayed French growth for roughly a generation; institutional simplification did not release enterprise, while insecurity, national-land sales, and abolition of venal office reinforced bourgeois preference for land over productive investment.",
+      "stance": "Useful preconditions for modernization existed, but the revolutionary decade made structures no more dynamic and strengthened conservative investment habits.",
+      "acceptable_access": ["economic legacy of the Revolution", "economic retardation", "investment in land", "bourgeois investment habits"],
+      "relationships": [
+        {"type": "outcome_of", "target": "inflation, war, and insecurity"},
+        {"type": "qualifies", "target": "rationalizing economic reforms"}
+      ],
+      "evidence": [
+        {"document_page": 404, "source_page_label": "404", "locator_class": "principal", "evidence_summary": "Recovery in silk and overseas trade took decades, supporting the judgment that revolutionary disruption postponed expansion."},
+        {"document_page": 405, "source_page_label": "405", "locator_class": "principal", "evidence_summary": "Customs reform and standardization did not generate entrepreneurship, while insecurity and abundant land channelled wealth into traditional landed investment."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The conclusion notes that conservative investment and weak enterprise survived the upheaval, suggesting acceleration or delay rather than structural transformation in this field."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S026",
+      "label": "Agriculture after the Revolution",
+      "priority": "major",
+      "meaning": "Feudal abolition was offset by rents and taxes, inheritance rules preserved small holdings, war drained labour and livestock, and modest output growth occurred without major technical innovation.",
+      "stance": "The Revolution neither transformed cultivation nor substantially improved productivity; fundamental change awaited railways.",
+      "acceptable_access": ["agriculture", "peasant holdings", "rural economy", "agricultural productivity"],
+      "relationships": [
+        {"type": "qualifies", "target": "benefits of feudal abolition"},
+        {"type": "example_of", "target": "structural continuity"}
+      ],
+      "evidence": [
+        {"document_page": 405, "source_page_label": "405", "locator_class": "principal", "evidence_summary": "Higher rents, fragmented inheritance, sharecropping, conscription, and livestock losses preserved old agricultural patterns despite feeding a somewhat larger population."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "supporting", "evidence_summary": "Agricultural inertia is cited as a structure the Revolution did not materially alter."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S027",
+      "label": "Ordinary people's material losses and expanded coercive government",
+      "priority": "essential",
+      "meaning": "Most ordinary citizens received insecurity, institutional disruption, greater state intrusion, conscription, and coercion rather than the autonomy and stability expressed in 1789 grievances.",
+      "stance": "For ordinary people the Revolution was not materially worth its costs; state power remained permanently enlarged even after the Terror ended.",
+      "acceptable_access": ["ordinary people and the Revolution", "material verdict on the Revolution", "state interference", "coercive state"],
+      "relationships": [
+        {"type": "causes", "target": "popular anti-revolution"},
+        {"type": "contrast", "target": "property owners' gains"},
+        {"type": "long_term_result", "target": "growth of state capacity"}
+      ],
+      "evidence": [
+        {"document_page": 405, "source_page_label": "405", "locator_class": "principal", "evidence_summary": "Material insecurity and damage to communal religious and cultural supports outweighed gains for most people who became citizens."},
+        {"document_page": 406, "source_page_label": "406", "locator_class": "principal", "evidence_summary": "The coercive apparatus outlived emergency rule, and popular resistance focused on recovering local autonomy and stability from intrusive authorities."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S028",
+      "label": "Popular anti-revolution distinguished from counter-revolution",
+      "priority": "essential",
+      "meaning": "Resistance in the Vendee, chouannerie regions, the south, and elsewhere often invoked Church or monarchy but usually sought local stability and autonomy rather than restoration of the old order.",
+      "stance": "Anti-revolution was a mass popular phenomenon broader than organized counter-revolution and, by emigration, execution, and draft-evasion evidence, more socially extensive than the celebrated sansculotte movement.",
+      "acceptable_access": ["anti-revolution", "popular resistance", "counter-revolution distinguished", "Vendee and chouannerie", "draft evasion"],
+      "relationships": [
+        {"type": "caused_by", "target": "religious policy and state intrusion"},
+        {"type": "escalates", "target": "repression"},
+        {"type": "contrast", "target": "organized royalist counter-revolution"}
+      ],
+      "evidence": [
+        {"document_page": 406, "source_page_label": "406", "locator_class": "principal", "evidence_summary": "Regional rebellion, labouring-class emigration and Terror deaths, and widespread avoidance of military service reveal resistance rooted in community autonomy rather than a simple royalist programme."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S029",
+      "label": "Sansculottes, moral economy, and revolutionary disillusion",
+      "priority": "essential",
+      "meaning": "Sansculottes defended a moral economy, popular democracy, and suspicion of wealth and expertise that conflicted with the market liberalism and property priorities of 1789; after serving revolutionary governments, they were suppressed and left without gains.",
+      "stance": "In relation to the founding liberal programme, sansculotte resistance can itself be called anti-revolutionary, despite its familiar status as the paradigm of popular revolution.",
+      "acceptable_access": ["sansculottes", "moral economy", "popular democracy", "sansculotte disillusion"],
+      "relationships": [
+        {"type": "contrast", "target": "economic liberalism of 1789"},
+        {"type": "parallel", "target": "rural anti-revolution"},
+        {"type": "contributes_to", "target": "violent democracy's later reputation"}
+      ],
+      "evidence": [
+        {"document_page": 406, "source_page_label": "406", "locator_class": "supporting", "evidence_summary": "The chapter reframes sansculotte commitments as opposed to the property and market assumptions of the Revolution's founders."},
+        {"document_page": 407, "source_page_label": "407", "locator_class": "principal", "evidence_summary": "Popular militants were used when useful, rejected by deputies as independent political masters, then labelled opponents and suppressed without durable material reward."},
+        {"document_page": 418, "source_page_label": "418", "locator_class": "supporting", "evidence_summary": "The violence associated with sansculotte power is judged to have delayed later acceptance of mass democracy."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S030",
+      "label": "Property owners, national lands, and the bourgeois land settlement",
+      "priority": "essential",
+      "meaning": "Feudal and tithe abolition, national-land sales, and strengthened property law chiefly benefited existing landowners and bourgeois purchasers, while only modestly increasing small peasant ownership.",
+      "stance": "The bourgeoisie, not the peasantry as a whole, gained most from redistribution, and fear for those gains helped transfer the Revolution to authoritarian protection.",
+      "acceptable_access": ["national lands", "property owners", "bourgeois land gains", "land settlement", "Notables"],
+      "relationships": [
+        {"type": "beneficiary_of", "target": "Church and emigre confiscations"},
+        {"type": "secured_by", "target": "Civil Code"},
+        {"type": "protected_by", "target": "Bonapartist dictatorship"}
+      ],
+      "evidence": [
+        {"document_page": 407, "source_page_label": "407", "locator_class": "principal", "evidence_summary": "Property became the central social and political qualification, while national-land redistribution chiefly strengthened bourgeois ownership and the Notable class."},
+        {"document_page": 408, "source_page_label": "408", "locator_class": "principal", "evidence_summary": "The restored monarchy compensated some former owners but accepted the redistribution as irreversible, confirming the durability of bourgeois title."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S031",
+      "label": "Careers open to talents and professional re-regulation",
+      "priority": "major",
+      "meaning": "Abolition of venal office and corporate barriers opened professions but also removed training and validation, creating disorder that Napoleonic licensing and bureaucracy later corrected.",
+      "stance": "Equal access was a genuine gain, but unregulated freedom initially damaged standards and culminated in a more bureaucratic professional order.",
+      "acceptable_access": ["careers open to talents", "professions", "abolition of venal office", "professional licensing"],
+      "relationships": [
+        {"type": "benefits", "target": "bourgeoisie"},
+        {"type": "qualified_by", "target": "professional disorder"},
+        {"type": "stabilized_by", "target": "Napoleonic state"}
+      ],
+      "evidence": [
+        {"document_page": 408, "source_page_label": "408", "locator_class": "principal", "evidence_summary": "Opening professions ended inherited and purchased barriers but also eliminated effective credentialing until state licensing restored standards."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S032",
+      "label": "Expansion and professionalization of state administration",
+      "priority": "essential",
+      "meaning": "War reversed early decentralizing aspirations, multiplied administrators and central personnel, and created stable bourgeois careers with qualifications, promotion structures, and pensions.",
+      "stance": "The Revolution's durable administrative result was a larger and more bureaucratic state, despite the anti-administrative grievances of 1789.",
+      "acceptable_access": ["bureaucracy", "state administration", "centralization", "administrative careers", "growth of state power"],
+      "relationships": [
+        {"type": "accelerated_by", "target": "war"},
+        {"type": "benefits", "target": "bourgeoisie"},
+        {"type": "consolidated_by", "target": "Napoleonic Empire"}
+      ],
+      "evidence": [
+        {"document_page": 408, "source_page_label": "408", "locator_class": "principal", "evidence_summary": "Wartime central administration expanded dramatically after elected localism proved inadequate to national emergency."},
+        {"document_page": 409, "source_page_label": "409", "locator_class": "principal", "evidence_summary": "A large professional bureaucracy became a secure path of advancement and persisted near revolutionary peak levels under the Empire."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The conclusion notes that stronger government had pre-1789 precedents but was greatly accelerated by revolutionary developments."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S033",
+      "label": "Soldiers as beneficiaries and militarization of the revolutionary state",
+      "priority": "essential",
+      "meaning": "Officer emigration opened rapid promotion from the ranks, large armies provided advancement and plunder, and military guardianship of the Revolution culminated in a state ordered around soldiers and hierarchy.",
+      "stance": "Military opportunity was real but accompanied by enormous death, evasion, coercion, and political dominance; it was not a universal social gain.",
+      "acceptable_access": ["soldiers and the Revolution", "military careers", "promotion from the ranks", "militarization of the state"],
+      "relationships": [
+        {"type": "beneficiary_of", "target": "careers open to talents"},
+        {"type": "culminates_in", "target": "Napoleonic rule"},
+        {"type": "component_of", "target": "mass warfare"}
+      ],
+      "evidence": [
+        {"document_page": 409, "source_page_label": "409", "locator_class": "principal", "evidence_summary": "The collapse of aristocratic officer monopoly enabled rank promotion and long military careers, while casualties and draft resistance exposed the opportunity's extreme cost."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S034",
+      "label": "Protestant emancipation and its limits",
+      "priority": "major",
+      "meaning": "The Revolution permanently granted Protestants equal civil and religious rights, though southern confessional conflict, dechristianization, worship restrictions, and state restructuring disrupted communities and reduced democratic church traditions.",
+      "stance": "Despite serious revolutionary and post-revolutionary violence, Protestant legal equality was an irreversible emancipation.",
+      "acceptable_access": ["Protestants", "Protestant emancipation", "religious equality", "Gard and Cevennes"],
+      "relationships": [
+        {"type": "example_of", "target": "conscious emancipation"},
+        {"type": "confirmed_by", "target": "Bonapartist religious settlement"}
+      ],
+      "evidence": [
+        {"document_page": 410, "source_page_label": "410", "locator_class": "principal", "evidence_summary": "Equal rights transformed Protestant status despite southern conflict, dechristianization, later worship restrictions, and authoritarian reshaping of church organization."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S035",
+      "label": "Jewish emancipation, assimilation, and persistent prejudice",
+      "priority": "major",
+      "meaning": "Jews gained full citizenship only after hesitation over whether Yiddish-speaking Alsatian communities could be treated as French; equality survived revolutionary persecution and later Napoleonic control despite continuing antisemitism.",
+      "stance": "Jewish emancipation was delayed, conditional in social imagination, and accompanied by surveillance, but it ended the legal marginality of the old regime.",
+      "acceptable_access": ["Jews and the Revolution", "Jewish emancipation", "Alsatian Jews", "antisemitism", "Napoleonic Jewish policy"],
+      "relationships": [
+        {"type": "parallel", "target": "Protestant emancipation"},
+        {"type": "qualified_by", "target": "assimilation demands and prejudice"}
+      ],
+      "evidence": [
+        {"document_page": 410, "source_page_label": "410", "locator_class": "supporting", "evidence_summary": "Pre-revolutionary reform signals did not prevent the National Assembly from questioning the national belonging of most French Jews."},
+        {"document_page": 411, "source_page_label": "411", "locator_class": "principal", "evidence_summary": "Full citizenship arrived late and survived Montagnard religious persecution, immigration-driven hostility, and later state regulation without a return to old legal exclusion."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S036",
+      "label": "Colonial racial equality and abolition of slavery",
+      "priority": "essential",
+      "meaning": "Metropolitan hesitation gave way first to rights for free people of colour and then to universal colonial emancipation because revolt, invasion, and war made non-white military support indispensable.",
+      "stance": "Abolition was a profound emancipatory outcome, but it was belated and forced by colonial events rather than a straightforward application of metropolitan principle.",
+      "acceptable_access": ["abolition of slavery", "racial equality", "free people of colour", "Saint-Domingue emancipation decree", "colonial citizenship"],
+      "relationships": [
+        {"type": "forced_by", "target": "Saint-Domingue slave revolt and international war"},
+        {"type": "leads_to", "target": "Haitian independence"}
+      ],
+      "evidence": [
+        {"document_page": 411, "source_page_label": "411", "locator_class": "principal", "evidence_summary": "Organized colonial interests delayed action until conflict over representation and free-coloured rights destabilized Saint-Domingue."},
+        {"document_page": 412, "source_page_label": "412", "locator_class": "principal", "evidence_summary": "Slave rebellion, foreign invasion, and colonial civil war drove escalating rights decrees and the Convention's abolition of slavery throughout the French colonies."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S037",
+      "label": "Sonthonax and wartime emancipation in Saint-Domingue",
+      "priority": "major",
+      "meaning": "Commissioner Leger-Felicite Sonthonax moved from defending slavery to freeing black soldiers and then abolishing slavery locally as white resistance and foreign invasion made black support decisive.",
+      "stance": "His emancipation was unauthorized but strategically and politically transformative, forcing metropolitan ratification rather than merely implementing a prior programme.",
+      "acceptable_access": ["Sonthonax", "Saint-Domingue commissioners", "wartime emancipation"],
+      "relationships": [
+        {"type": "agent_of", "target": "colonial abolition"},
+        {"type": "precedes", "target": "Convention abolition decree"}
+      ],
+      "evidence": [
+        {"document_page": 412, "source_page_label": "412", "locator_class": "principal", "evidence_summary": "Facing armed white opposition and Spanish invasion, Sonthonax recruited black defenders and extended freedom before Paris authorized general abolition."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S038",
+      "label": "Toussaint L'Ouverture, restored slavery, and Haitian independence",
+      "priority": "essential",
+      "meaning": "Black military power expelled foreign armies and made Toussaint autonomous; Bonaparte's attempt to regain control and restore slavery renewed resistance, producing Haiti as the only independent state directly created by the French Revolution.",
+      "stance": "Emancipation's military logic made slavery impossible to restore in Saint-Domingue even though France reversed abolition elsewhere; independence emerged through violent and contingent struggle rather than metropolitan design.",
+      "acceptable_access": ["Toussaint L'Ouverture", "Haitian Revolution", "Haiti independence", "restoration of slavery", "Saint-Domingue"],
+      "relationships": [
+        {"type": "consequence_of", "target": "colonial abolition and war"},
+        {"type": "resists", "target": "Napoleonic restoration of metropolitan control"}
+      ],
+      "evidence": [
+        {"document_page": 412, "source_page_label": "412", "locator_class": "principal", "evidence_summary": "Toussaint's switch to the Republic and the mobilization of formerly enslaved troops defeated Spanish forces and entrenched black military authority."},
+        {"document_page": 413, "source_page_label": "413", "locator_class": "principal", "evidence_summary": "Bonaparte captured Toussaint but failed to restore slavery as disease, renewed black resistance, and war severed France's control, allowing Haitian independence."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S039",
+      "label": "Napoleon Bonaparte as heir, consolidator, and terminator of the Revolution",
+      "priority": "essential",
+      "meaning": "Bonaparte ended revolutionary political conflict while preserving selected legal, social, religious, military, and administrative transformations; he protected property and equality of careers but narrowed political freedom, militarized rule, restricted women, and attempted to restore colonial slavery.",
+      "stance": "Napoleon is neither simple counter-revolutionary nor uncomplicated fulfiller of 1789: he secured durable gains through authoritarian power and reversed emancipatory elements when they conflicted with control.",
+      "acceptable_access": ["Napoleon and the Revolution", "Bonaparte as revolutionary heir", "end of the Revolution", "revolutionary legacy under the Consulate and Empire"],
+      "relationships": [
+        {"type": "consolidates", "target": "Civil Code, property settlement, bureaucracy, and careers open to talent"},
+        {"type": "terminates", "target": "revolutionary political pluralism"},
+        {"type": "reverses", "target": "colonial abolition and women's legal gains"},
+        {"type": "exports", "target": "European territorial and political transformation"}
+      ],
+      "evidence": [
+        {"document_page": 391, "source_page_label": "391", "locator_class": "supporting", "evidence_summary": "Visitors approached Bonaparte as the compelling general who had brought the revolutionary era to a close."},
+        {"document_page": 393, "source_page_label": "393", "locator_class": "principal", "evidence_summary": "His authority completed legal codification initiated during the Revolution."},
+        {"document_page": 398, "source_page_label": "398", "locator_class": "principal", "evidence_summary": "He recognized popular Catholic realities and preserved a settlement that restored worship under stronger papal influence."},
+        {"document_page": 407, "source_page_label": "407", "locator_class": "principal", "evidence_summary": "Bourgeois fears for land and property helped deliver the Revolution to a dictator who guaranteed title."},
+        {"document_page": 409, "source_page_label": "409", "locator_class": "principal", "evidence_summary": "A successful general converted military guardianship of revolutionary politics into a militarized state and privileged soldierly hierarchy."},
+        {"document_page": 413, "source_page_label": "413", "locator_class": "principal", "evidence_summary": "His attempt to restore slavery and metropolitan authority in Saint-Domingue provoked renewed resistance and failed."},
+        {"document_page": 418, "source_page_label": "418", "locator_class": "supporting", "evidence_summary": "Plebiscitary endorsement illustrates how post-revolutionary authoritarianism still sought a display of popular consent."},
+        {"document_page": 420, "source_page_label": "420", "locator_class": "supporting", "evidence_summary": "His Civil Code interventions reflected and entrenched the Revolution's refusal of political and legal equality for women."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S040",
+      "label": "French revolutionary influence on Latin American independence",
+      "priority": "major",
+      "meaning": "Latin American movements adopted revolutionary rights language, constitutions, and tricolour symbolism, though their immediate geopolitical opening came from Napoleon's later assault on the Spanish monarchy.",
+      "stance": "The Revolution supplied political vocabulary and imagery, but its heir rather than the original movement precipitated the imperial break.",
+      "acceptable_access": ["Latin American independence", "French Revolution's influence in Latin America", "Miranda"],
+      "relationships": [
+        {"type": "inspired_by", "target": "Rights of Man and revolutionary symbolism"},
+        {"type": "precipitated_by", "target": "Napoleonic invasion of Spain"}
+      ],
+      "evidence": [
+        {"document_page": 413, "source_page_label": "413", "locator_class": "principal", "evidence_summary": "Independence leaders drew on revolutionary constitutional forms and imagery, while Napoleon's removal of Spain's dynasty created the decisive political opening."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S041",
+      "label": "Permanent transformation of European states",
+      "priority": "essential",
+      "meaning": "Revolutionary and French military power erased city republics, transformed the Netherlands and Switzerland, ended Irish legislative independence indirectly, secularized Germany, and prepared the Holy Roman Empire's destruction.",
+      "stance": "Many imposed transformations outlasted French control and made restoration of the earlier European state system impossible.",
+      "acceptable_access": ["European state system", "secularization of Germany", "Holy Roman Empire", "French revolutionary expansion"],
+      "relationships": [
+        {"type": "caused_by", "target": "French military expansion"},
+        {"type": "component_of", "target": "European legacy of the Revolution"}
+      ],
+      "evidence": [
+        {"document_page": 413, "source_page_label": "413", "locator_class": "supporting", "evidence_summary": "By the early nineteenth century revolutionary influence had already made Europe's inherited political map scarcely recognizable."},
+        {"document_page": 414, "source_page_label": "414", "locator_class": "principal", "evidence_summary": "French power eliminated or restructured states and secularized German territories in changes that post-Napoleonic settlement did not undo."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S042",
+      "label": "France's territorial reversals and its enemies' long-term gains",
+      "priority": "major",
+      "meaning": "After Napoleon's defeat France lost most expanded frontiers, while Austria, Prussia, Russia, Spain, and Britain demonstrated resilience or gained strategic advantage from the wars.",
+      "stance": "The long-term geopolitical winners were often the powers revolutionary France had expected to destroy, exposing firm limits to French military power.",
+      "acceptable_access": ["post-Napoleonic territorial settlement", "France's territorial losses", "European victors over France", "limits of French power"],
+      "relationships": [
+        {"type": "outcome_of", "target": "revolutionary and Napoleonic wars"},
+        {"type": "contrast", "target": "permanent transformation of European states"}
+      ],
+      "evidence": [
+        {"document_page": 414, "source_page_label": "414", "locator_class": "principal", "evidence_summary": "France retained few territorial gains, while Austria and Prussia emerged stronger and Russia and Spain exposed the practical boundary of conquest."},
+        {"document_page": 415, "source_page_label": "415", "locator_class": "supporting", "evidence_summary": "British endurance and economic reach made it the most consequential beneficiary of France's failure."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S043",
+      "label": "British economic and world-power ascendancy",
+      "priority": "essential",
+      "meaning": "British sea power, subsidies, market capture, colonial acquisition, and intervention in Iberia widened an existing economic lead and opened a century of unmatched global power after France's defeat.",
+      "stance": "Britain probably would have advanced without the Revolution, but French disruption made the economic gap irreversible and converted maritime strength into decisive continental influence.",
+      "acceptable_access": ["Great Britain and the French Revolution", "British economic ascendancy", "British sea power", "world power after 1815"],
+      "relationships": [
+        {"type": "beneficiary_of", "target": "collapse of French overseas trade"},
+        {"type": "victor_in", "target": "revolutionary and Napoleonic wars"},
+        {"type": "qualified_by", "target": "pre-existing British industrial lead"}
+      ],
+      "evidence": [
+        {"document_page": 415, "source_page_label": "415", "locator_class": "principal", "evidence_summary": "British commerce absorbed markets and resources lost by France, while sea power, finance, and the Iberian campaign enabled ultimate victory and global predominance."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The counterfactual assessment considers British maritime and commercial dominance likely even without the Revolution, with the upheaval chiefly accelerating the trend."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S044",
+      "label": "Mass warfare and the nation in arms",
+      "priority": "essential",
+      "meaning": "Revolutionary France mobilized a populous citizen nation and forced rivals to draw whole societies into war, ending the contained, limited warfare of earlier dynastic states.",
+      "stance": "Popular participation removed conventional limits from war and created the model for future conflicts fought by entire peoples.",
+      "acceptable_access": ["mass warfare", "nation in arms", "levee en masse", "total mobilization", "Clausewitz"],
+      "relationships": [
+        {"type": "causes", "target": "growth of state power"},
+        {"type": "causes", "target": "modern nationalism"},
+        {"type": "distinctive_result_of", "target": "revolutionary war"}
+      ],
+      "evidence": [
+        {"document_page": 415, "source_page_label": "415", "locator_class": "principal", "evidence_summary": "The Republic's mobilization of citizens and resources forced rival monarchies into wars involving huge armies and populations rather than limited professional forces."},
+        {"document_page": 416, "source_page_label": "416", "locator_class": "principal", "evidence_summary": "Conscription, reserve forces, and social mobilization spread across Europe as governments copied or answered the French model."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Arming the population and the resulting transformation of warfare are judged developments no old-regime government would likely have initiated."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S045",
+      "label": "Wartime expansion of European state power",
+      "priority": "essential",
+      "meaning": "To mobilize against France, governments expanded conscription, police surveillance, taxation, paper finance, and administrative authority throughout Europe.",
+      "stance": "Modern state-building was a transnational consequence of mass war, not solely a French domestic development; anti-French fear made burdens more acceptable abroad than within France.",
+      "acceptable_access": ["state power and war", "European conscription", "wartime taxation", "policing and surveillance", "paper finance"],
+      "relationships": [
+        {"type": "required_by", "target": "mass warfare"},
+        {"type": "parallel", "target": "French administrative expansion"}
+      ],
+      "evidence": [
+        {"document_page": 416, "source_page_label": "416", "locator_class": "principal", "evidence_summary": "European states introduced mass levies, enlarged militia systems, intensified surveillance, and developed new taxes and paper currencies to sustain war."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S046",
+      "label": "Nationalism as revolutionary export and anti-French resistance",
+      "priority": "essential",
+      "meaning": "French national mobilization and claims of popular sovereignty reinforced existing patriotisms and created new national consciousness, but occupation turned the same principles against France.",
+      "stance": "Nationalism could only be defeated by rival nationalism; its double-edged spread transformed wars into uncompromising conflicts between peoples.",
+      "acceptable_access": ["nationalism", "national sovereignty", "anti-French nationalism", "Italian nationalism", "wars of peoples"],
+      "relationships": [
+        {"type": "stimulated_by", "target": "nation in arms"},
+        {"type": "turns_against", "target": "French imperial domination"},
+        {"type": "appropriates", "target": "popular sovereignty"}
+      ],
+      "evidence": [
+        {"document_page": 416, "source_page_label": "416", "locator_class": "principal", "evidence_summary": "Knowledge of French occupation strengthened popular loyalty to rival states and converted national sovereignty into a weapon against France."},
+        {"document_page": 417, "source_page_label": "417", "locator_class": "principal", "evidence_summary": "Italian and other national movements learned unity from France but rejected foreign mastery, while mass volunteering made national war increasingly absolute."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S047",
+      "label": "Universal Rights of Man and the survival of revolutionary ideology",
+      "priority": "essential",
+      "meaning": "Universal rights language remained linked to the French Revolution even after French governments violated or abandoned many of its values, threatening monarchical legitimacy across Europe.",
+      "stance": "French political conduct compromised universalism without extinguishing its long-term ideological force.",
+      "acceptable_access": ["Rights of Man", "revolutionary universalism", "French revolutionary ideology", "universal rights versus French practice"],
+      "relationships": [
+        {"type": "contains", "target": "liberty, equality, popular sovereignty, and resistance to oppression"},
+        {"type": "inspires", "target": "later revolutions and reform movements"}
+      ],
+      "evidence": [
+        {"document_page": 417, "source_page_label": "417", "locator_class": "principal", "evidence_summary": "European rulers rejected revolutionary principles as threats to legitimacy, yet those principles ultimately survived both counter-revolution and Napoleon."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S048",
+      "label": "Popular sovereignty, representative legitimacy, and plebiscitary rule",
+      "priority": "essential",
+      "meaning": "The Revolution established the people as the ultimate source of authority, though practice ranged from elected representation to crowd pressure, violent direct democracy, and manipulated plebiscites.",
+      "stance": "Popular sovereignty conquered global political legitimacy even while its institutional meaning remained disputed and often abused.",
+      "acceptable_access": ["popular sovereignty", "representative government", "democracy", "plebiscites", "political legitimacy"],
+      "relationships": [
+        {"type": "principle_of", "target": "Rights of Man and revolutionary ideology"},
+        {"type": "qualified_by", "target": "sansculotte violence and rigged endorsement"}
+      ],
+      "evidence": [
+        {"document_page": 417, "source_page_label": "417", "locator_class": "principal", "evidence_summary": "The principle that sovereignty belongs to the people is identified as the Revolution's most globally successful political message."},
+        {"document_page": 418, "source_page_label": "418", "locator_class": "principal", "evidence_summary": "Crowd domination and 1792 violence damaged democracy's reputation, yet hereditary legitimacy never recovered and even dictators increasingly staged popular consent."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S049",
+      "label": "Liberty: definitions, symbols, and coercive paradox",
+      "priority": "essential",
+      "meaning": "Liberty meant freedom from arbitrary power, freedom of thought and worship, and action limited by others' equal rights, but revolutionary governments also used its symbolism to justify coercion and foreign domination.",
+      "stance": "Liberty remained the Revolution's central aspiration and durable myth even though practice repeatedly contradicted its clearest definitions.",
+      "acceptable_access": ["liberty", "revolutionary symbols of liberty", "freedom from arbitrary power", "religious and intellectual freedom", "forcing people to be free"],
+      "relationships": [
+        {"type": "component_of", "target": "Rights of Man"},
+        {"type": "contradicted_by", "target": "Terror and French occupation"}
+      ],
+      "evidence": [
+        {"document_page": 418, "source_page_label": "418", "locator_class": "principal", "evidence_summary": "Revolutionary regimes filled public life with liberty imagery while stretching the term to cover political compulsion and French rule abroad."},
+        {"document_page": 419, "source_page_label": "419", "locator_class": "principal", "evidence_summary": "More precise revolutionary definitions protected harmless action, freedom from arbitrary authority, thought, writing, and worship, and these remained central to later revolutionary belief."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S050",
+      "label": "Equality: legal achievement and property-based limits",
+      "priority": "essential",
+      "meaning": "The Revolution abolished hereditary legal privilege and affirmed equal law and opportunity, but protected unequal property, rejected redistribution, restricted meaningful political power to substantial owners, and excluded women.",
+      "stance": "Its practical egalitarianism was transformative but narrow: civil equality did not entail economic, political, or gender equality.",
+      "acceptable_access": ["equality", "equality before the law", "equality of opportunity", "property qualifications", "limits of revolutionary equality"],
+      "relationships": [
+        {"type": "component_of", "target": "Rights of Man"},
+        {"type": "constrained_by", "target": "property rights and Notable rule"},
+        {"type": "excludes", "target": "women's political equality"}
+      ],
+      "evidence": [
+        {"document_page": 419, "source_page_label": "419", "locator_class": "principal", "evidence_summary": "Equal law and opportunity displaced privilege, but property redistribution was criminalized and durable voting power remained concentrated among substantial owners."},
+        {"document_page": 421, "source_page_label": "421", "locator_class": "supporting", "evidence_summary": "Babeuf's radical alternative reveals how limited the accepted revolutionary definition of equality remained."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S051",
+      "label": "Women's revolutionary agency and exclusion from equality",
+      "priority": "essential",
+      "meaning": "Women shaped decisive journées, religious resistance and revival, elite politics, clubs, pamphlet debate, and street conflict, yet male revolutionaries banned women's organizations, denied political citizenship, and restricted legal and property rights.",
+      "stance": "Women's intervention was crucial but was stereotyped as disorderly and used to justify an explicitly domestic, subordinate role; revolutionary equality stopped at sex.",
+      "acceptable_access": ["women and the French Revolution", "women's political participation", "women's clubs", "women's rights", "gender exclusion"],
+      "relationships": [
+        {"type": "exposes_limit_of", "target": "revolutionary equality"},
+        {"type": "restricted_by", "target": "Convention and Civil Code"}
+      ],
+      "evidence": [
+        {"document_page": 419, "source_page_label": "419", "locator_class": "principal", "evidence_summary": "The chapter introduces gender equality as a question revolutionaries largely refused despite women's unprecedented public role."},
+        {"document_page": 420, "source_page_label": "420", "locator_class": "principal", "evidence_summary": "Women repeatedly drove political and religious events, but female clubs and activists were represented as dangerous and formally suppressed."},
+        {"document_page": 421, "source_page_label": "421", "locator_class": "principal", "evidence_summary": "Public ideology confined women to sex-specific domestic duties and denied that equal citizenship extended to them."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S052",
+      "label": "Olympe de Gouges and women's political rights",
+      "priority": "major",
+      "meaning": "The playwright and pamphleteer asserted women's equal political citizenship, opposed Robespierre, defended the king, advocated plebiscitary government, and was executed during the Terror.",
+      "stance": "Her claims demonstrate that political equality for women was imaginable within the Revolution but had no realistic support from its male rulers.",
+      "acceptable_access": ["Olympe de Gouges", "Rights of Woman and the Female Citizen", "women's citizenship"],
+      "relationships": [
+        {"type": "example_of", "target": "women's revolutionary agency"},
+        {"type": "challenges", "target": "gender limits of equality"}
+      ],
+      "evidence": [
+        {"document_page": 420, "source_page_label": "420", "locator_class": "principal", "evidence_summary": "De Gouges publicly claimed equal political rights and challenged leading revolutionary authority, but her programme remained politically isolated and she was guillotined."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S053",
+      "label": "Women's revolutionary clubs and militants",
+      "priority": "optional",
+      "meaning": "Figures such as Theroigne de Mericourt and Claire Lacombe used uniforms, clubs, street mobilization, and organized militancy to enter political life outside accepted female roles.",
+      "stance": "Their visibility reveals genuine female activism but also supplied male authorities with a disorder narrative used to ban women's organizations.",
+      "acceptable_access": ["Theroigne de Mericourt", "Claire Lacombe", "Society of Revolutionary Republican Women", "women's political clubs"],
+      "relationships": [
+        {"type": "example_of", "target": "women's revolutionary agency"},
+        {"type": "provokes", "target": "ban on women's organizations"}
+      ],
+      "evidence": [
+        {"document_page": 420, "source_page_label": "420", "locator_class": "principal", "evidence_summary": "Prominent female militants entered clubs and street politics, and conflict involving their organizations preceded the Convention's blanket prohibition."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S054",
+      "label": "Babeuf's Conspiracy of Equals",
+      "priority": "major",
+      "meaning": "Babeuf's movement turned the Revolution's own rights language toward a radical programme of material equality and resistance to an oppressive government.",
+      "stance": "It was the era's most imaginative egalitarian experiment precisely because mainstream revolutionary equality protected property rather than redistributing it.",
+      "acceptable_access": ["Babeuf", "Conspiracy of Equals", "radical equality", "agrarian equality"],
+      "relationships": [
+        {"type": "challenges", "target": "property-based limits of equality"},
+        {"type": "invokes", "target": "right of resistance to oppression"}
+      ],
+      "evidence": [
+        {"document_page": 421, "source_page_label": "421", "locator_class": "principal", "evidence_summary": "The conspiracy used revolutionary declarations to justify a far more material conception of equality than any governing constitution accepted."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S055",
+      "label": "Right of insurrection and the modern idea of revolution",
+      "priority": "essential",
+      "meaning": "Because every revolutionary regime derived from an extra-legal seizure of sovereignty, resistance to oppression remained a legitimate principle and made planned overthrow on general principles a permanent political possibility.",
+      "stance": "The Revolution created both the modern concept of a consciously engineered revolution and the self-conscious revolutionary as a historical actor.",
+      "acceptable_access": ["right of insurrection", "resistance to oppression", "modern revolution", "revolutionaries", "overthrow of government"],
+      "relationships": [
+        {"type": "component_of", "target": "Rights of Man"},
+        {"type": "legitimates", "target": "later revolutionary movements"}
+      ],
+      "evidence": [
+        {"document_page": 421, "source_page_label": "421", "locator_class": "principal", "evidence_summary": "Revolutionary legitimacy rested on the nation's extra-legal seizure of power, leaving insurrection available against later governments said to violate rights."},
+        {"document_page": 422, "source_page_label": "422", "locator_class": "principal", "evidence_summary": "After 1789 activists could deliberately prepare revolution using a recognized model, whereas no comparable professional revolutionary identity had preceded it."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S056",
+      "label": "French Revolution as a model for later revolutionaries and Marxism",
+      "priority": "major",
+      "meaning": "Later movements borrowed French revolutionary symbols, calendars, ceremonies, tactics, and historical lessons, while Marxist theory treated the 1790s as a foundational political and social case.",
+      "stance": "The Revolution's influence operates through remembered and mythologized models as well as accurate historical precedent.",
+      "acceptable_access": ["revolutionary model", "revolutionary symbolism", "Marxism and the French Revolution", "Marseillaise", "tricolour"],
+      "relationships": [
+        {"type": "long_term_consequence_of", "target": "modern idea of revolution"},
+        {"type": "influences", "target": "global revolutionary culture"}
+      ],
+      "evidence": [
+        {"document_page": 421, "source_page_label": "421", "locator_class": "supporting", "evidence_summary": "The Revolution supplied later activists with proof, techniques, warnings, style, and political language."},
+        {"document_page": 422, "source_page_label": "422", "locator_class": "principal", "evidence_summary": "Global revolutionary movements reused French symbols, while Marx, Lenin, and Trotsky studied the 1790s as a guide and theoretical precedent."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S057",
+      "label": "Origins of Left and Right as political categories",
+      "priority": "major",
+      "meaning": "Seating patterns in the Constituent Assembly created the enduring labels Left and Right, later adapted as socialism claimed the revolutionary heritage and conservatives rejected it.",
+      "stance": "The Revolution permanently changed political vocabulary and organized ideological identity beyond its immediate institutions.",
+      "acceptable_access": ["Left and Right", "political vocabulary", "origins of left-wing and right-wing politics"],
+      "relationships": [
+        {"type": "leads_to", "target": "socialist revolutionary identity"},
+        {"type": "leads_to", "target": "conservative reaction"}
+      ],
+      "evidence": [
+        {"document_page": 422, "source_page_label": "422", "locator_class": "principal", "evidence_summary": "Assembly seating supplied durable ideological labels that later movements redefined around acceptance or rejection of the revolutionary legacy."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S058",
+      "label": "Birth of self-conscious conservatism",
+      "priority": "essential",
+      "meaning": "The Revolution forced defenders of property, hierarchy, religion, and monarchy to formulate an explicit political theory and programme where inherited order had previously seemed self-justifying.",
+      "stance": "Modern conservatism arose as a transnational reaction to revolutionary destruction; uncompromising restoration later generated the revolutions it meant to prevent.",
+      "acceptable_access": ["conservatism", "counter-revolutionary thought", "Burke", "Gentz", "Joseph de Maistre", "altar and throne"],
+      "relationships": [
+        {"type": "reaction_to", "target": "revolutionary ideology"},
+        {"type": "opposes", "target": "free thought, representation, and popular sovereignty"},
+        {"type": "provokes", "target": "later revolutionary opposition"}
+      ],
+      "evidence": [
+        {"document_page": 422, "source_page_label": "422", "locator_class": "principal", "evidence_summary": "Attacks on the foundations of order made their theoretical defence necessary and produced a coherent right-wing worldview."},
+        {"document_page": 423, "source_page_label": "423", "locator_class": "principal", "evidence_summary": "Restorationist suspicion of representation and free opinion hardened into transnational intransigence that often forced reformers toward conspiracy and revolt."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S059",
+      "label": "Joseph de Maistre's counter-revolutionary interpretation",
+      "priority": "major",
+      "meaning": "De Maistre interpreted the Revolution as the catastrophic result of abstract rationalism and prescribed restoration of aristocracy, monarchy, and Catholic authority with unrelenting vigilance.",
+      "stance": "His history-based theory exemplifies the early Right's powerful but self-defeating refusal of compromise.",
+      "acceptable_access": ["Joseph de Maistre", "Considerations on France", "counter-revolutionary theory"],
+      "relationships": [
+        {"type": "example_of", "target": "self-conscious conservatism"}
+      ],
+      "evidence": [
+        {"document_page": 422, "source_page_label": "422", "locator_class": "principal", "evidence_summary": "De Maistre made the Revolution itself the historical proof that rational abstraction destroys order and that throne, altar, and aristocracy must be restored."},
+        {"document_page": 423, "source_page_label": "423", "locator_class": "supporting", "evidence_summary": "The no-compromise programme derived from this interpretation became a broad nineteenth-century governing outlook."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S060",
+      "label": "Reformist conservatism as prevention of revolution",
+      "priority": "major",
+      "meaning": "Moderate conservatives accepted that selective reform and engagement with post-revolutionary realities could preserve order better than attempts to recreate unquestioned authority.",
+      "stance": "Reform was not always successful, but it was more historically realistic than restorationist refusal because revolutionary aspirations and memory could not be erased.",
+      "acceptable_access": ["moderate conservatism", "reform to prevent revolution", "conservative reform"],
+      "relationships": [
+        {"type": "contrast", "target": "reactionary intransigence"},
+        {"type": "response_to", "target": "permanent revolutionary legacy"}
+      ],
+      "evidence": [
+        {"document_page": 423, "source_page_label": "423", "locator_class": "principal", "evidence_summary": "A moderate current treated reform as the most practical defence against renewed revolution because neither the event nor its political imagination could be undone."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S061",
+      "label": "French Revolution as the first modern and archetypal revolution",
+      "priority": "essential",
+      "meaning": "The Revolution became the dominant model of modern political transformation, shattering inherited acceptance and placing every later European order in its shadow.",
+      "stance": "Even after 1917 its claim to primacy remains strong, although some developments credited to it were continuations of older trends.",
+      "acceptable_access": ["first modern revolution", "archetypal revolution", "world-historical significance", "legacy of the French Revolution"],
+      "relationships": [
+        {"type": "synthesizes", "target": "modern revolution, conservatism, rights, nationalism, and mass war"},
+        {"type": "qualified_by", "target": "continuity with pre-1789 trends"}
+      ],
+      "evidence": [
+        {"document_page": 423, "source_page_label": "423", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The Revolution is presented as the modern archetype whose political and cultural effects defined the nineteenth century and beyond."},
+        {"document_page": 425, "source_page_label": "425", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Its cultural drama changed the very meaning of political transformation and remains indispensable to understanding the present."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S062",
+      "label": "Continuity, acceleration, and counterfactual limits of revolutionary change",
+      "priority": "essential",
+      "meaning": "Elite convergence, legal and fiscal reform, state growth, clerical change, British ascendancy, Latin American independence, and other developments had pre-1789 foundations that the Revolution often accelerated or delayed rather than created.",
+      "stance": "The Revolution's effects must be distinguished from structural trends likely to have continued without it; not every later change is evidence of revolutionary causation.",
+      "acceptable_access": ["continuity and change", "counterfactual assessment", "pre-revolutionary reform trends", "limits of revolutionary causation"],
+      "relationships": [
+        {"type": "qualifies", "target": "French Revolution as first modern revolution"},
+        {"type": "contrast", "target": "specifically revolutionary transformations"}
+      ],
+      "evidence": [
+        {"document_page": 423, "source_page_label": "423", "locator_class": "principal", "evidence_summary": "Property-based elite convergence, bourgeois expansion, representative participation, legal reform, and stronger government all had visible roots before 1789."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "principal", "evidence_summary": "Economic inertia, British maritime leadership, European rivalries, and colonial independence are treated as trends whose direction the Revolution altered more in timing than in destination."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S063",
+      "label": "Specifically revolutionary transformations",
+      "priority": "essential",
+      "meaning": "Anti-aristocratic Rights of Man ideology, dechristianization and papal revival, sansculotte mass democracy, nation-in-arms warfare, and state Terror depended on contingent revolutionary choices unlikely under the old regime.",
+      "stance": "Against structural continuity, these developments mark genuine breaks produced by French circumstances, miscalculations, and wartime radicalization.",
+      "acceptable_access": ["distinctive consequences of the Revolution", "revolutionary contingency", "dechristianization", "popular democracy", "war and Terror"],
+      "relationships": [
+        {"type": "contrast", "target": "continuity and acceleration"},
+        {"type": "contains", "target": "Rights of Man, papal revival, mass democracy, mass war, and Terror"}
+      ],
+      "evidence": [
+        {"document_page": 424, "source_page_label": "424", "locator_class": "principal", "evidence_summary": "The conclusion identifies anti-feudal rights, Church conflict, expanded democracy, popular armament, and Terror as outcomes not plausibly reducible to pre-existing trends."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S064",
+      "label": "War and Terror as transformation of political change",
+      "priority": "essential",
+      "meaning": "The decision for war radicalized the Revolution, enabled mass mobilization, and culminated in systematic government execution that permanently altered political memory and the imagined possibilities of change.",
+      "stance": "Violence and massacre were not new, but bureaucratized mass killing by a self-described civilized state was a horrifying novelty central to the Revolution's distinctiveness.",
+      "acceptable_access": ["war revolutionized the Revolution", "Terror", "state execution", "political violence", "revolutionary memory"],
+      "relationships": [
+        {"type": "component_of", "target": "specifically revolutionary transformations"},
+        {"type": "culmination_of", "target": "resistance and political intolerance"},
+        {"type": "shapes", "target": "modern meaning of revolution"}
+      ],
+      "evidence": [
+        {"document_page": 424, "source_page_label": "424", "locator_class": "principal", "evidence_summary": "Popular armament and wartime emergency created the Terror's unprecedented machinery of continuous political execution."},
+        {"document_page": 425, "source_page_label": "425", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The resulting drama made modern political change impossible to imagine in the same terms as before 1789."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S065",
+      "label": "Revolution as cultural transformation and tragedy",
+      "priority": "essential",
+      "meaning": "The Revolution enacted Enlightenment confidence that people could master their destiny, but showed that reason and benevolent intention could not safely replace accumulated institutions and experience without grave unintended consequences.",
+      "stance": "The final verdict is deliberately double: the Revolution was courageous, inspiring, and ennobling, yet also catastrophic, appalling, and tragic in its immense human cost.",
+      "acceptable_access": ["cultural transformation", "tragedy of the French Revolution", "human cost", "Enlightenment reason and unintended consequences", "overall assessment"],
+      "relationships": [
+        {"type": "synthesizes", "target": "achievements, failures, continuity, and distinctive ruptures"},
+        {"type": "qualifies", "target": "Enlightenment national regeneration"}
+      ],
+      "evidence": [
+        {"document_page": 425, "source_page_label": "425", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The final assessment pairs the founders' rare courage and idealism with the failure of reason alone, institutional destruction, vast death, and ruined lives."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S066",
+      "label": "Peace of Luneville and Amiens and the reopening of France",
+      "priority": "optional",
+      "meaning": "The peace settlements ended an unusually total conflict, restored civilian travel, and brought British observers into direct contact with post-revolutionary France.",
+      "stance": "The renewed encounter exposed a gulf between British wartime demonology and the damaged but recognizably human society visitors found.",
+      "acceptable_access": ["Peace of Luneville", "Peace of Amiens", "British travel to France in 1802", "postwar tourism"],
+      "relationships": [
+        {"type": "enables", "target": "retrospective observation of revolutionary France"},
+        {"type": "follows", "target": "revolutionary total war"}
+      ],
+      "evidence": [
+        {"document_page": 391, "source_page_label": "391", "locator_class": "principal", "evidence_summary": "Peace reopened continental travel and sent large numbers of British visitors to inspect a France previously known chiefly through wartime fear."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S067",
+      "label": "Consular depoliticization and militarized public life",
+      "priority": "major",
+      "meaning": "By 1802 fashionable sociability and entertainment had returned, overt political discussion had receded, policing was stronger, and military reviews dominated public spectacle.",
+      "stance": "Urban normality had revived under an order that displaced revolutionary political participation with disciplined security and military display.",
+      "acceptable_access": ["political life under the Consulate", "depoliticization", "Paris in 1802", "military spectacle"],
+      "relationships": [
+        {"type": "component_of", "target": "Bonaparte's termination of revolutionary politics"},
+        {"type": "contrast", "target": "political ferment of 1789"}
+      ],
+      "evidence": [
+        {"document_page": 392, "source_page_label": "392", "locator_class": "principal", "evidence_summary": "The Palais Royal remained crowded but no longer politically animated, while safer streets, elite display, and frequent military parades characterized the new order."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S068",
+      "label": "Aristocracy as a revolutionary political label",
+      "priority": "major",
+      "meaning": "Revolutionaries generalized aristocracy from a legal social order into a term condemning anyone judged hostile to national regeneration.",
+      "stance": "This rhetorical transformation helped make an entire category appear intransigent even though noble grievance lists had shown substantial willingness to reform.",
+      "acceptable_access": ["aristocracy as political abuse", "anti-aristocratic rhetoric", "political meaning of aristocracy"],
+      "relationships": [
+        {"type": "contributes_to", "target": "political intolerance"},
+        {"type": "supports", "target": "abolition of inherited privilege"}
+      ],
+      "evidence": [
+        {"document_page": 394, "source_page_label": "394", "locator_class": "principal", "evidence_summary": "Months of polemic recast aristocracy as a universal label for opponents and obscured the reformism previously expressed by many nobles."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S069",
+      "label": "Abolition of feudalism and its uneven economic effects",
+      "priority": "essential",
+      "meaning": "The August decrees permanently ended nearly all feudal rights and lordly income, but rent increases and the predominance of tenancy meant many peasants received limited immediate benefit.",
+      "stance": "Feudal abolition was a fundamental legal achievement whose material gains varied sharply by ownership and region.",
+      "acceptable_access": ["abolition of feudalism", "August Decrees", "feudal dues", "peasant benefits and limits"],
+      "relationships": [
+        {"type": "advances", "target": "legal equality"},
+        {"type": "benefits", "target": "landowners"},
+        {"type": "qualified_by", "target": "higher rents and tenancy"}
+      ],
+      "evidence": [
+        {"document_page": 395, "source_page_label": "395", "locator_class": "principal", "evidence_summary": "The abolition of feudal rights destroyed the principal economic privileges of lords and endured despite minor local survivals."},
+        {"document_page": 401, "source_page_label": "401", "locator_class": "supporting", "evidence_summary": "Landlords responded to lost dues by raising rents, and tenant regions became centres of persistent resistance."},
+        {"document_page": 405, "source_page_label": "405", "locator_class": "supporting", "evidence_summary": "For agriculture, taxes and rents offset much of the formal gain from removing feudal burdens."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S070",
+      "label": "Abolition of venal office and the transformation of nobility into a caste",
+      "priority": "major",
+      "meaning": "Ending purchasable office and ennoblement closed the old route by which new wealth entered the nobility, turning a previously open elite into a hereditary identity even as the law ceased to recognize it.",
+      "stance": "Revolutionary abolition paradoxically made social nobility more caste-like while destroying its formal corporate existence.",
+      "acceptable_access": ["venal office", "ennoblement", "nobility as caste", "abolition of offices"],
+      "relationships": [
+        {"type": "part_of", "target": "abolition of noble privilege"},
+        {"type": "affects", "target": "professional officeholders"}
+      ],
+      "evidence": [
+        {"document_page": 395, "source_page_label": "395", "locator_class": "principal", "evidence_summary": "Eliminating venal office stopped new ennoblement and altered the social character of the noble elite before legal nobility itself disappeared."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S071",
+      "label": "Dechristianization and its long religious legacy",
+      "priority": "essential",
+      "meaning": "Revolutionary attacks on worship, clergy, sacred buildings, and religious orders deepened the Church schism, strengthened memories of martyrdom, and polarized Catholic and republican politics.",
+      "stance": "Dechristianization was not an inevitable extension of pre-1789 secularization but a contingent rupture that helped revive papal authority and lasting anticlerical conflict.",
+      "acceptable_access": ["dechristianization", "religious persecution", "cult suppression", "religious legacy of the Revolution"],
+      "relationships": [
+        {"type": "deepens", "target": "clerical schism"},
+        {"type": "strengthens", "target": "papal authority"},
+        {"type": "causes", "target": "Catholic-Republican polarization"}
+      ],
+      "evidence": [
+        {"document_page": 397, "source_page_label": "397", "locator_class": "principal", "evidence_summary": "Refractory and constitutional clergy alike suffered within a campaign that profaned worship and intensified the Church's institutional trauma."},
+        {"document_page": 398, "source_page_label": "398", "locator_class": "principal", "evidence_summary": "Catholic memory of persecution and republican anticlericalism remained mutually reinforcing well beyond the revolutionary decade."},
+        {"document_page": 424, "source_page_label": "424", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The conclusion treats dechristianization and the resulting papal revival as distinctive outcomes of the revolutionary Church conflict."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S072",
+      "label": "Persecution, emigration, and mortality of the clergy",
+      "priority": "major",
+      "meaning": "Priests became early victims of massacre and Terror, while deportation and emigration removed a large share of parish clergy and left the Church unable to sustain its former local presence.",
+      "stance": "The scale and concentration of clerical loss made religious policy a social as well as institutional catastrophe.",
+      "acceptable_access": ["clerical persecution", "September Massacres and priests", "clerical emigration", "deportation of priests"],
+      "relationships": [
+        {"type": "consequence_of", "target": "clerical oath and war"},
+        {"type": "contributes_to", "target": "papal revival and popular Catholic loyalty"}
+      ],
+      "evidence": [
+        {"document_page": 397, "source_page_label": "397", "locator_class": "principal", "evidence_summary": "Priests were prominent among the September victims, Terror convictions, deportees, and exiles, sharply reducing the secular clergy available to parishes."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S073",
+      "label": "Education as a declared right and the central-school experiment",
+      "priority": "major",
+      "meaning": "The 1793 constitution declared education a basic right, but later policy retreated to departmental central schools and locally financed primary provision after suppressing universities and clerical teaching.",
+      "stance": "Rights language and organizational experimentation did not amount to an effective national education system.",
+      "acceptable_access": ["right to education", "central schools", "revolutionary constitutions and education", "primary education"],
+      "relationships": [
+        {"type": "component_of", "target": "revolutionary educational policy"},
+        {"type": "example_of", "target": "rhetoric-reality gap"}
+      ],
+      "evidence": [
+        {"document_page": 399, "source_page_label": "399", "locator_class": "principal", "evidence_summary": "A constitutional promise of education gave way to underfunded central schools and local primary initiative after universities and teaching orders were dismantled."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S074",
+      "label": "Right to public assistance and the Great Book of National Benevolence",
+      "priority": "major",
+      "meaning": "Revolutionary law declared support for needy citizens a public obligation, created a national register, and prohibited private alms and begging on the assumption that the state would provide.",
+      "stance": "The programme was normatively ambitious but practically hollow under wartime scarcity and was abandoned by the Directory.",
+      "acceptable_access": ["right to public assistance", "Great Book of National Benevolence", "poor-relief legislation", "begging and almsgiving"],
+      "relationships": [
+        {"type": "component_of", "target": "poor relief"},
+        {"type": "fails_for", "target": "lack of resources and implementation"}
+      ],
+      "evidence": [
+        {"document_page": 399, "source_page_label": "399", "locator_class": "principal", "evidence_summary": "The state announced an enforceable social duty to support need and displaced private charity without possessing the resources to honour the promise."},
+        {"document_page": 400, "source_page_label": "400", "locator_class": "supporting", "evidence_summary": "The Directory abandoned national provision as local communities improvised partial alternatives."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S075",
+      "label": "Hospitals, nursing sisters, and post-Terror recovery",
+      "priority": "major",
+      "meaning": "Hospitals lost endowments, royal support, toll income, investment value, property, and nursing communities, then recovered only partially through restored lands, returning nuns, lay management, and local taxes.",
+      "stance": "Pragmatic reversal prevented complete collapse but never restored pre-revolutionary provision for a growing population.",
+      "acceptable_access": ["hospitals", "nursing sisters", "hospital nationalization", "post-Terror charitable recovery"],
+      "relationships": [
+        {"type": "part_of", "target": "poor relief and charity"},
+        {"type": "damaged_by", "target": "religious and fiscal policy"}
+      ],
+      "evidence": [
+        {"document_page": 400, "source_page_label": "400", "locator_class": "principal", "evidence_summary": "Successive fiscal, monetary, property, and religious measures removed hospital income and personnel before later governments restored unsold land and tolerated returning nursing sisters."},
+        {"document_page": 401, "source_page_label": "401", "locator_class": "synthesis_or_conclusion", "evidence_summary": "Long-run hospital numbers remained far below their 1789 level despite population growth."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S076",
+      "label": "Rent increases and tenant-peasant resistance",
+      "priority": "major",
+      "meaning": "Landlords compensated for lost feudal and tithe income by raising rents, transmitting reform costs to tenants and helping make leaseholding regions persistent centres of resistance.",
+      "stance": "Formal emancipation from feudal burdens did not guarantee improvement for peasants without landownership.",
+      "acceptable_access": ["rents", "tenant peasants", "leaseholders", "rural resistance", "economic effects of feudal abolition"],
+      "relationships": [
+        {"type": "qualifies", "target": "abolition of feudalism"},
+        {"type": "contributes_to", "target": "popular anti-revolution"}
+      ],
+      "evidence": [
+        {"document_page": 401, "source_page_label": "401", "locator_class": "principal", "evidence_summary": "Authorized rent additions and larger increases on some estates shifted lost elite revenue onto tenants and correlated with durable peasant resistance."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S077",
+      "label": "National-land sales, assignat depreciation, and fiscal sacrifice",
+      "priority": "major",
+      "meaning": "The paper-money system caused nationalized property to sell for a fraction of real value, enriching purchasers while weakening the fiscal return that had justified expropriation.",
+      "stance": "Redistribution and inflation were inseparable: cheap acquisition secured social beneficiaries but squandered public assets.",
+      "acceptable_access": ["sale of national lands", "biens nationaux", "assignats and land sales", "depreciated public assets"],
+      "relationships": [
+        {"type": "linked_to", "target": "assignat inflation"},
+        {"type": "benefits", "target": "bourgeois property purchasers"}
+      ],
+      "evidence": [
+        {"document_page": 402, "source_page_label": "402", "locator_class": "supporting", "evidence_summary": "Nationalized land backed the currency and was intended to retire notes as it sold."},
+        {"document_page": 403, "source_page_label": "403", "locator_class": "principal", "evidence_summary": "Inflation reduced sale proceeds to a small share of the property's real value and transferred advantage to buyers paying in depreciated paper."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S078",
+      "label": "Internal customs, guild abolition, and the Le Chapelier Law",
+      "priority": "major",
+      "meaning": "The Revolution unified the domestic market, removed guild restrictions, and curtailed labour organization, creating legal preconditions for freer exchange without immediately producing enterprise or growth.",
+      "stance": "Institutional liberalization mattered but was not self-executing; insecurity outweighed its economic stimulus and labour freedom was itself constrained.",
+      "acceptable_access": ["internal customs barriers", "guild abolition", "Le Chapelier Law", "labour organizations", "economic liberalization"],
+      "relationships": [
+        {"type": "component_of", "target": "rationalizing economic reforms"},
+        {"type": "qualified_by", "target": "long-term economic retardation"}
+      ],
+      "evidence": [
+        {"document_page": 405, "source_page_label": "405", "locator_class": "principal", "evidence_summary": "Market unification and removal of corporate restrictions established useful legal conditions but did not overcome fear, land preference, or weak investment."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S079",
+      "label": "Vendee, chouannerie, and religious rural revolt",
+      "priority": "major",
+      "meaning": "Western rebellion arose where revolutionary religious policy disrupted village bonds and the abolition of feudalism brought limited benefit to predominantly tenant populations.",
+      "stance": "These revolts were rooted in community defence and material geography, not reducible to elite royalist manipulation.",
+      "acceptable_access": ["Vendee", "chouannerie", "western rebellion", "religious rural resistance"],
+      "relationships": [
+        {"type": "example_of", "target": "popular anti-revolution"},
+        {"type": "caused_by", "target": "religious rupture and weak peasant gains"}
+      ],
+      "evidence": [
+        {"document_page": 406, "source_page_label": "406", "locator_class": "principal", "evidence_summary": "Western insurgency is explained through disrupted religious communities and the limited rewards of feudal abolition for tenants."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S080",
+      "label": "Draft evasion, insoumis, and rural banditry as protest",
+      "priority": "major",
+      "meaning": "The return of military levies and systematic conscription produced widespread desertion and draft avoidance that blended with rural crime and functioned as popular resistance to state authority.",
+      "stance": "Labelling deserters criminals obscures their political character as opponents of an intrusive order.",
+      "acceptable_access": ["draft evasion", "insoumis", "deserters", "rural banditry", "conscription resistance"],
+      "relationships": [
+        {"type": "example_of", "target": "popular anti-revolution"},
+        {"type": "response_to", "target": "expanded coercive state"}
+      ],
+      "evidence": [
+        {"document_page": 406, "source_page_label": "406", "locator_class": "principal", "evidence_summary": "Systematic military service generated mass evasion and armed bands that contemporaries called criminal but that the chapter interprets as a classic form of social protest."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S081",
+      "label": "Notables and the property-based political nation",
+      "priority": "essential",
+      "meaning": "Post-revolutionary constitutions tied effective political participation to property and created a durable Notable elite of electors and officeholders.",
+      "stance": "Hereditary privilege fell, but political equality remained bounded by wealth from the Directory through the Consulate and far into the nineteenth century.",
+      "acceptable_access": ["Notables", "property-based suffrage", "political nation", "property qualifications"],
+      "relationships": [
+        {"type": "beneficiary_of", "target": "property settlement"},
+        {"type": "limits", "target": "political equality and popular sovereignty"}
+      ],
+      "evidence": [
+        {"document_page": 407, "source_page_label": "407", "locator_class": "principal", "evidence_summary": "Property defined the post-revolutionary ruling class and the effective exercise of political rights."},
+        {"document_page": 419, "source_page_label": "419", "locator_class": "principal", "evidence_summary": "The constitutions of 1795 and the Consulate placed real electoral power with substantial owners, a settlement not challenged again until 1848."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S082",
+      "label": "Compensation for abolished venal offices",
+      "priority": "major",
+      "meaning": "Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "stance": "The abolition of privilege imposed a real and uneven property loss even where compensation was formally promised.",
+      "acceptable_access": ["venal-office compensation", "dispossessed officeholders", "abolition of offices", "assignat compensation"],
+      "relationships": [
+        {"type": "component_of", "target": "professional transformation"},
+        {"type": "affected_by", "target": "assignat depreciation"}
+      ],
+      "evidence": [
+        {"document_page": 408, "source_page_label": "408", "locator_class": "principal", "evidence_summary": "Compensation used outdated declared values and depreciating paper, so former officeholders bore losses much greater than the formal settlement acknowledged."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S083",
+      "label": "Revolutionary armies as political guardians",
+      "priority": "major",
+      "meaning": "Republican armies developed a militant revolutionary identity, profited from conquest, intervened in domestic politics, and transferred the sansculotte claim to guard revolutionary purity to successful generals.",
+      "stance": "Military political power emerged from revolutionary enthusiasm and opportunity, not simply from Bonaparte's later personal ambition.",
+      "acceptable_access": ["revolutionary armies", "Army of Italy", "military intervention in politics", "army as guardian of the Revolution"],
+      "relationships": [
+        {"type": "prepares", "target": "Bonapartist rule"},
+        {"type": "succeeds", "target": "sansculotte political guardianship"}
+      ],
+      "evidence": [
+        {"document_page": 409, "source_page_label": "409", "locator_class": "principal", "evidence_summary": "Armies embraced radical politics, conquest and plunder, then claimed authority to rescue the Republic under a victorious general."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S084",
+      "label": "Military casualties and the human price of revolutionary war",
+      "priority": "essential",
+      "meaning": "Hundreds of thousands of French soldiers had died by 1802, with far more to follow under Napoleon, while widespread evasion showed the army's opportunities did not offset its mortal danger.",
+      "stance": "Military advancement must be assessed within an enormous demographic and personal catastrophe.",
+      "acceptable_access": ["military casualties", "war deaths", "human cost of revolutionary war", "Napoleonic casualties"],
+      "relationships": [
+        {"type": "cost_of", "target": "mass warfare and military careers"},
+        {"type": "component_of", "target": "Revolution as tragedy"}
+      ],
+      "evidence": [
+        {"document_page": 409, "source_page_label": "409", "locator_class": "principal", "evidence_summary": "Battle deaths by 1802 already reached several hundred thousand and would expand dramatically through the Napoleonic wars."},
+        {"document_page": 425, "source_page_label": "425", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The final reckoning places French and foreign deaths and ruined lives at the centre of the Revolution's tragic verdict."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S085",
+      "label": "Protestant-Catholic conflict in the south and the White Terror",
+      "priority": "major",
+      "meaning": "Protestant emancipation shifted civic power in southern cities, provoking Catholic resentment, Federalist conflict, revolutionary reprisals, and renewed Catholic violence after the Bourbon restoration.",
+      "stance": "Legal equality did not dissolve confessional antagonism; emancipation was permanent but socially contested across regimes.",
+      "acceptable_access": ["Protestants in the Gard", "White Terror of 1815", "southern confessional conflict", "Federalist revolt"],
+      "relationships": [
+        {"type": "qualifies", "target": "Protestant emancipation"},
+        {"type": "long_term_consequence_of", "target": "revolutionary redistribution of civic power"}
+      ],
+      "evidence": [
+        {"document_page": 410, "source_page_label": "410", "locator_class": "principal", "evidence_summary": "Southern Protestant gains and revolutionary alignments fed reciprocal violence culminating in renewed Catholic retaliation in 1815."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S086",
+      "label": "Free people of colour and the first steps toward racial equality",
+      "priority": "major",
+      "meaning": "Conflict over representation, the execution of Vincent Oge, and armed struggle forced successive French assemblies to recognize civil rights first for some and then all free people of colour.",
+      "stance": "Metropolitan racial reform followed colonial pressure and violence rather than consistent application of universal rights.",
+      "acceptable_access": ["free people of colour", "Vincent Oge", "racial equality", "colonial civil rights"],
+      "relationships": [
+        {"type": "precedes", "target": "abolition of slavery"},
+        {"type": "driven_by", "target": "Saint-Domingue political conflict"}
+      ],
+      "evidence": [
+        {"document_page": 411, "source_page_label": "411", "locator_class": "principal", "evidence_summary": "Debate over colonial representation and brutal suppression of free-coloured claims made racial citizenship a metropolitan issue."},
+        {"document_page": 412, "source_page_label": "412", "locator_class": "principal", "evidence_summary": "Assemblies expanded rights from a limited parentage qualification to all free people of colour as colonial conflict worsened."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S087",
+      "label": "Saint-Domingue slave uprising of 1791",
+      "priority": "essential",
+      "meaning": "Enslaved people rose amid violent conflict among whites and free people of colour, creating the military crisis that forced metropolitan policy toward emancipation.",
+      "stance": "The uprising, not abolitionist persuasion alone, set the decisive pace of racial transformation.",
+      "acceptable_access": ["Saint-Domingue slave uprising", "slave revolt of August 1791", "Haitian Revolution origins"],
+      "relationships": [
+        {"type": "forces", "target": "colonial racial equality and abolition"},
+        {"type": "leads_to", "target": "Haitian independence"}
+      ],
+      "evidence": [
+        {"document_page": 412, "source_page_label": "412", "locator_class": "principal", "evidence_summary": "The mass uprising began before news of limited free-coloured reform arrived and transformed a political struggle into a revolutionary war over slavery."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S088",
+      "label": "Convention's abolition decree of 4 February 1794",
+      "priority": "major",
+      "meaning": "The Convention ratified colonial emancipation throughout the French empire and declared all colonial inhabitants citizens after local abolition reached Paris.",
+      "stance": "The decree universalized emancipation but was motivated as much by wartime strategy against Britain and Spain as by rights principle.",
+      "acceptable_access": ["abolition decree of 1794", "Convention and slavery", "colonial citizenship"],
+      "relationships": [
+        {"type": "ratifies", "target": "Sonthonax's wartime emancipation"},
+        {"type": "responds_to", "target": "foreign invasion and black military support"}
+      ],
+      "evidence": [
+        {"document_page": 412, "source_page_label": "412", "locator_class": "principal", "evidence_summary": "Paris converted an unauthorized colonial measure into empire-wide abolition and citizenship after recognizing its military value."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S089",
+      "label": "Black military power and racial conflict under Toussaint",
+      "priority": "major",
+      "meaning": "Formerly enslaved soldiers became the decisive force in Saint-Domingue, defeated Spanish and British intervention, and enabled Toussaint's autonomy, while also generating new violence against whites and free people of colour.",
+      "stance": "Emancipation created irreversible black power but not racial harmony or stable republican government.",
+      "acceptable_access": ["black armies in Saint-Domingue", "Toussaint's military power", "racial conflict after emancipation"],
+      "relationships": [
+        {"type": "consequence_of", "target": "abolition and war"},
+        {"type": "enables", "target": "Haitian independence"}
+      ],
+      "evidence": [
+        {"document_page": 412, "source_page_label": "412", "locator_class": "supporting", "evidence_summary": "Black forces rallied to the Republic, expelled Spain, and violently punished collaborators."},
+        {"document_page": 413, "source_page_label": "413", "locator_class": "principal", "evidence_summary": "Militarized former slaves sustained Toussaint beyond metropolitan control and also persecuted the free-coloured population."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S090",
+      "label": "Napoleonic restoration of slavery in 1802",
+      "priority": "essential",
+      "meaning": "Bonaparte restored slavery in French colonies and attempted to reassert metropolitan control in Saint-Domingue, triggering renewed black resistance and the final loss of the colony.",
+      "stance": "The reversal exposes the limits of Napoleonic preservation of revolutionary emancipation and directly accelerated Haitian independence.",
+      "acceptable_access": ["restoration of slavery in 1802", "Napoleon and slavery", "Leclerc expedition", "Saint-Domingue reconquest"],
+      "relationships": [
+        {"type": "reverses", "target": "abolition decree of 1794"},
+        {"type": "provokes", "target": "renewed resistance and Haitian independence"}
+      ],
+      "evidence": [
+        {"document_page": 413, "source_page_label": "413", "locator_class": "principal", "evidence_summary": "The decree restoring slavery changed the loyalties of black commanders and converted a weakened reconquest into a renewed war France could not win."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S091",
+      "label": "Holy Roman Empire and German secularization",
+      "priority": "major",
+      "meaning": "French annexation of the Rhine's left bank displaced German princes, whose compensation through ecclesiastical lands secularized the Empire before its final destruction in 1806.",
+      "stance": "The territorial consequences of French victory irreversibly dismantled the Empire's traditional political and religious structure.",
+      "acceptable_access": ["Holy Roman Empire", "German secularization", "Rhine left bank", "ecclesiastical principalities"],
+      "relationships": [
+        {"type": "component_of", "target": "European state transformation"},
+        {"type": "caused_by", "target": "French territorial expansion"}
+      ],
+      "evidence": [
+        {"document_page": 414, "source_page_label": "414", "locator_class": "principal", "evidence_summary": "Territorial compensation after French annexation secularized German states and removed the institutional basis on which the Empire had long rested."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S092",
+      "label": "Natural frontiers and the loss of French territorial gains",
+      "priority": "major",
+      "meaning": "France's proclaimed natural-frontier acquisitions in Belgium, Luxembourg, the Rhineland, and Savoy largely passed to new or rival states after Napoleon's defeat.",
+      "stance": "Revolutionary territorial expansion proved far less durable for France than the institutional transformations it imposed on conquered Europe.",
+      "acceptable_access": ["natural frontiers", "Belgium", "Luxembourg", "Rhineland", "Savoy", "French territorial losses"],
+      "relationships": [
+        {"type": "contrast", "target": "permanent European state transformation"},
+        {"type": "outcome_of", "target": "post-Napoleonic settlement"}
+      ],
+      "evidence": [
+        {"document_page": 414, "source_page_label": "414", "locator_class": "principal", "evidence_summary": "The postwar settlement stripped France of most expanded frontiers while retaining many political changes beyond them."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S093",
+      "label": "Clausewitz's interpretation of revolutionary war",
+      "priority": "major",
+      "meaning": "Clausewitz explained the wars after 1792 through popular participation that placed the full weight of nations into conflict and removed conventional limits on military effort.",
+      "stance": "His theory is used as authoritative synthesis of a genuinely new form of war created by the Revolution and its international effects.",
+      "acceptable_access": ["Clausewitz", "On War", "people's war", "unlimited war"],
+      "relationships": [
+        {"type": "interprets", "target": "mass warfare and nation in arms"}
+      ],
+      "evidence": [
+        {"document_page": 415, "source_page_label": "415", "locator_class": "supporting", "evidence_summary": "The chapter introduces Clausewitz's theory as derived from the mobilized conflicts between 1792 and 1815."},
+        {"document_page": 416, "source_page_label": "416", "locator_class": "principal", "evidence_summary": "His analysis links popular participation to the disappearance of fixed limits on the resources and force available for war."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S094",
+      "label": "Conscription, militia, and popular resistance across Europe",
+      "priority": "major",
+      "meaning": "Austria, Prussia, Britain, Ireland, and Scotland expanded citizen levies, militias, auxiliary forces, and coercive recruiting in response to French mass mobilization, provoking recurrent unrest.",
+      "stance": "Conscription became a European norm, but rival governments generally avoided treating all resistance as treason and benefited from stronger anti-French legitimacy.",
+      "acceptable_access": ["European conscription", "Landwehr", "Landsturm", "militia riots", "press gangs"],
+      "relationships": [
+        {"type": "response_to", "target": "French nation in arms"},
+        {"type": "component_of", "target": "wartime state expansion"}
+      ],
+      "evidence": [
+        {"document_page": 416, "source_page_label": "416", "locator_class": "principal", "evidence_summary": "States broadened compulsory and auxiliary service and faced riots and recruiting tension as warfare became a responsibility of citizens."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S095",
+      "label": "Wartime surveillance, taxation, and paper finance in Europe",
+      "priority": "major",
+      "meaning": "Fear of Jacobin exploitation encouraged larger police networks and informers, while unprecedented military costs produced new taxes, including income levies, and depreciating paper currencies.",
+      "stance": "The fiscal and surveillance state expanded internationally as a direct consequence of confronting revolutionary France.",
+      "acceptable_access": ["wartime policing", "spies and informers", "income tax", "European paper money", "wartime taxation"],
+      "relationships": [
+        {"type": "required_by", "target": "mass warfare"},
+        {"type": "component_of", "target": "European state expansion"}
+      ],
+      "evidence": [
+        {"document_page": 416, "source_page_label": "416", "locator_class": "principal", "evidence_summary": "Governments enlarged surveillance and invented heavier taxes and paper finance to mobilize resources and contain political unrest during prolonged war."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S096",
+      "label": "Italian nationalism and the double edge of French liberation",
+      "priority": "major",
+      "meaning": "French conquest demonstrated that Italy's divisions could be swept away and encouraged national thought, but occupation exposed French liberation as foreign mastery and discredited Italian Jacobins.",
+      "stance": "French power helped create Italian national consciousness while simultaneously provoking its anti-French content.",
+      "acceptable_access": ["Italian nationalism", "Italian Jacobins", "French occupation of Italy", "national unity"],
+      "relationships": [
+        {"type": "example_of", "target": "nationalism as export and resistance"},
+        {"type": "contradiction_within", "target": "French revolutionary liberation"}
+      ],
+      "evidence": [
+        {"document_page": 417, "source_page_label": "417", "locator_class": "principal", "evidence_summary": "Italian patriots learned the possibility of unity from French rule but recognized that a foreign protector could become another master and were compromised by popular revolt against occupation."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S097",
+      "label": "Direct democracy, sansculotte power, and democracy's violent reputation",
+      "priority": "major",
+      "meaning": "Public galleries, the overthrow of the monarchy, and sansculotte claims to direct popular authority associated democracy with coercive crowds and bloodshed for generations of property-owning observers.",
+      "stance": "The events of 1792 offered later democrats a precedent but probably delayed broad acceptance of mass democracy.",
+      "acceptable_access": ["direct democracy", "tumultuous democracy", "sansculotte political power", "democracy and violence"],
+      "relationships": [
+        {"type": "contested_form_of", "target": "popular sovereignty"},
+        {"type": "damages", "target": "later democratic legitimacy"}
+      ],
+      "evidence": [
+        {"document_page": 418, "source_page_label": "418", "locator_class": "principal", "evidence_summary": "Crowd pressure and the violent establishment of the republic made mass democracy appear threatening even while supplying a later democratic precedent."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S098",
+      "label": "Plebiscites and the modern need for popular endorsement",
+      "priority": "major",
+      "meaning": "After hereditary legitimacy lost unquestioned authority, monarchs and dictators increasingly staged elections or plebiscites to claim the people's consent, even when outcomes were manipulated.",
+      "stance": "The Revolution permanently changed the grammar of legitimacy: token popular authorization became difficult to dispense with.",
+      "acceptable_access": ["plebiscites", "popular endorsement", "rigged elections", "post-revolutionary legitimacy"],
+      "relationships": [
+        {"type": "consequence_of", "target": "popular sovereignty"},
+        {"type": "used_by", "target": "Napoleonic authoritarianism"}
+      ],
+      "evidence": [
+        {"document_page": 418, "source_page_label": "418", "locator_class": "principal", "evidence_summary": "Even rulers who denied meaningful participation increasingly sought a public vote or display of assent to validate their authority."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S099",
+      "label": "Symbols of liberty and Roman republicanism",
+      "priority": "major",
+      "meaning": "Liberty trees, Phrygian caps, allegorical figures, fasces, axes, and classical republican heroes supplied a widely recognizable visual and ceremonial language of revolutionary freedom.",
+      "stance": "Symbolic ubiquity reinforced liberty's durable myth even when governments contradicted it in practice.",
+      "acceptable_access": ["liberty trees", "Phrygian cap", "Roman republican symbolism", "revolutionary iconography", "fasces"],
+      "relationships": [
+        {"type": "expresses", "target": "liberty"},
+        {"type": "influences", "target": "later revolutionary culture"}
+      ],
+      "evidence": [
+        {"document_page": 418, "source_page_label": "418", "locator_class": "principal", "evidence_summary": "Public objects, clothing, emblems, and classical references created a portable iconography of revolutionary liberty."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S100",
+      "label": "Liberty, Equality, Fraternity and the changing revolutionary motto",
+      "priority": "major",
+      "meaning": "Liberty and equality were foundational, but fraternity entered the political vocabulary only in 1793 and rapidly faded as sansculotte influence waned before later republics canonized the three-part formula.",
+      "stance": "The familiar motto retrospectively compresses values that had different chronologies and durability during the Revolution itself.",
+      "acceptable_access": ["Liberty Equality Fraternity", "fraternity", "revolutionary motto", "Third Republic motto"],
+      "relationships": [
+        {"type": "contains", "target": "liberty and equality"},
+        {"type": "later_memory_of", "target": "revolutionary values"}
+      ],
+      "evidence": [
+        {"document_page": 419, "source_page_label": "419", "locator_class": "principal", "evidence_summary": "The later state motto obscures that fraternity arrived late, served a particular popular politics, and largely disappeared after 1794."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S101",
+      "label": "Property as a natural right and rejection of redistribution",
+      "priority": "essential",
+      "meaning": "Revolutionary declarations protected property as an imprescriptible right, while legislators criminalized proposals for agrarian redistribution and limited equality to law and opportunity.",
+      "stance": "Protection of unequal property was not an accidental retreat but a central boundary of mainstream revolutionary egalitarianism.",
+      "acceptable_access": ["property as a Right of Man", "agrarian law", "redistribution", "property and equality"],
+      "relationships": [
+        {"type": "limits", "target": "economic equality"},
+        {"type": "supports", "target": "Notable political order"},
+        {"type": "challenged_by", "target": "Babeuf's Conspiracy of Equals"}
+      ],
+      "evidence": [
+        {"document_page": 419, "source_page_label": "419", "locator_class": "principal", "evidence_summary": "The Revolution elevated property to natural-right status and attached capital punishment to advocacy of compulsory equalization."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S102",
+      "label": "Women in religious resistance and revival",
+      "priority": "major",
+      "meaning": "Nuns formed the most cohesive clerical resistance to the oath, and lay women played a leading role in the late-1790s return to Catholic observance.",
+      "stance": "Women's political importance extended beyond urban journées into the religious sphere, where their agency frequently pushed events against official policy.",
+      "acceptable_access": ["women and religion", "nuns and clerical oath", "women in Catholic revival", "female religious resistance"],
+      "relationships": [
+        {"type": "component_of", "target": "women's revolutionary agency"},
+        {"type": "supports", "target": "popular Catholic resistance"}
+      ],
+      "evidence": [
+        {"document_page": 420, "source_page_label": "420", "locator_class": "principal", "evidence_summary": "Female religious commitment produced unusually cohesive oath resistance and helped restore popular practice after dechristianization."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S103",
+      "label": "Convention's ban on women's political organizations",
+      "priority": "major",
+      "meaning": "After conflicts involving militant female clubs and market women, the Convention prohibited women's political organizations in October 1793.",
+      "stance": "The ban institutionalized the male belief that women's public politics was inherently disorderly and incompatible with their assigned domestic role.",
+      "acceptable_access": ["ban on women's clubs", "women's political organizations", "Convention and women", "October 1793"],
+      "relationships": [
+        {"type": "restricts", "target": "women's revolutionary agency"},
+        {"type": "expresses", "target": "gender limits of citizenship"}
+      ],
+      "evidence": [
+        {"document_page": 420, "source_page_label": "420", "locator_class": "principal", "evidence_summary": "Authorities responded to female militancy and street conflict by excluding women collectively from organized political life."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S104",
+      "label": "The overthrow of monarchy in August 1792 as a second revolution",
+      "priority": "major",
+      "meaning": "Popular and militant forces used the declared right of resistance to remove the monarchy, creating a second revolutionary rupture within the process begun in 1789.",
+      "stance": "The event demonstrated how revolutionary legitimacy could authorize renewed overthrow and became both a democratic precedent and a warning about violent popular power.",
+      "acceptable_access": ["10 August 1792", "overthrow of the monarchy", "second revolution", "insurrection"],
+      "relationships": [
+        {"type": "exercise_of", "target": "right of resistance to oppression"},
+        {"type": "establishes", "target": "republic and direct democracy"}
+      ],
+      "evidence": [
+        {"document_page": 421, "source_page_label": "421", "locator_class": "principal", "evidence_summary": "The monarchy's overthrow is presented as an internally legitimate second revolution based on the people's right to resist a rights-violating regime."}
+      ]
+    },
+    {
+      "local_subject_id": "CHUNK-017-S105",
+      "label": "Aggregate human cost of the Revolution and Napoleonic aftermath",
+      "priority": "essential",
+      "meaning": "By 1802 roughly a million French citizens were dead, another million would die under Napoleon, and uncounted people inside and outside France had their lives damaged by decades of upheaval.",
+      "stance": "Human cost is not a peripheral qualification but a central measure in the author's final tragic assessment.",
+      "acceptable_access": ["human cost", "revolutionary deaths", "Napoleonic deaths", "lives ruined by the Revolution"],
+      "relationships": [
+        {"type": "component_of", "target": "Revolution as tragedy"},
+        {"type": "includes", "target": "military casualties, Terror, institutional collapse, and foreign war"}
+      ],
+      "evidence": [
+        {"document_page": 425, "source_page_label": "425", "locator_class": "synthesis_or_conclusion", "evidence_summary": "The closing reckoning totals immense French mortality, anticipates further Napoleonic losses, and stresses suffering that cannot be captured by death counts alone."}
+      ]
+    }
+  ],
+  "reader_tasks": [
+    {"task_id": "CHUNK-017-T001", "question": "Which revolutionary reforms survived as durable rational improvements, and what were their limits?", "subject_ids": ["CHUNK-017-S005", "CHUNK-017-S006", "CHUNK-017-S007", "CHUNK-017-S008"]},
+    {"task_id": "CHUNK-017-T002", "question": "Why does the author trace revolutionary violence to both resistance and the patriots' intolerance of opposition?", "subject_ids": ["CHUNK-017-S009", "CHUNK-017-S064"]},
+    {"task_id": "CHUNK-017-T003", "question": "How did the Revolution transform the nobility, clergy, papacy, and long-term Church-state conflict?", "subject_ids": ["CHUNK-017-S011", "CHUNK-017-S012", "CHUNK-017-S013", "CHUNK-017-S014", "CHUNK-017-S015", "CHUNK-017-S016", "CHUNK-017-S017"]},
+    {"task_id": "CHUNK-017-T004", "question": "Why are education, poor relief, and hospitals treated as failures of institution-building and funding?", "subject_ids": ["CHUNK-017-S018", "CHUNK-017-S019"]},
+    {"task_id": "CHUNK-017-T005", "question": "What mechanisms made the Revolution an economic disaster, and which sectors nevertheless benefited?", "subject_ids": ["CHUNK-017-S020", "CHUNK-017-S021", "CHUNK-017-S022", "CHUNK-017-S023", "CHUNK-017-S024", "CHUNK-017-S025", "CHUNK-017-S026"]},
+    {"task_id": "CHUNK-017-T006", "question": "Who gained and who lost materially and politically from the Revolution?", "subject_ids": ["CHUNK-017-S027", "CHUNK-017-S030", "CHUNK-017-S031", "CHUNK-017-S032", "CHUNK-017-S033", "CHUNK-017-S034", "CHUNK-017-S035"]},
+    {"task_id": "CHUNK-017-T007", "question": "How does popular anti-revolution differ from organized counter-revolution, and where do the sansculottes fit?", "subject_ids": ["CHUNK-017-S028", "CHUNK-017-S029"]},
+    {"task_id": "CHUNK-017-T008", "question": "How did colonial revolt and war force abolition, and why did Haiti remain independent when slavery returned elsewhere?", "subject_ids": ["CHUNK-017-S036", "CHUNK-017-S037", "CHUNK-017-S038", "CHUNK-017-S039"]},
+    {"task_id": "CHUNK-017-T009", "question": "How did the Revolution remake the European state system, warfare, state power, and nationalism?", "subject_ids": ["CHUNK-017-S041", "CHUNK-017-S042", "CHUNK-017-S043", "CHUNK-017-S044", "CHUNK-017-S045", "CHUNK-017-S046"]},
+    {"task_id": "CHUNK-017-T010", "question": "What survived from the Rights of Man despite coercion, property limits, and authoritarian rule?", "subject_ids": ["CHUNK-017-S047", "CHUNK-017-S048", "CHUNK-017-S049", "CHUNK-017-S050"]},
+    {"task_id": "CHUNK-017-T011", "question": "How did women act politically, and how did revolutionary institutions exclude them from equal citizenship?", "subject_ids": ["CHUNK-017-S051", "CHUNK-017-S052", "CHUNK-017-S053"]},
+    {"task_id": "CHUNK-017-T012", "question": "How did the Revolution create modern revolutionary, left-right, and conservative political traditions?", "subject_ids": ["CHUNK-017-S054", "CHUNK-017-S055", "CHUNK-017-S056", "CHUNK-017-S057", "CHUNK-017-S058", "CHUNK-017-S059", "CHUNK-017-S060"]},
+    {"task_id": "CHUNK-017-T013", "question": "Which later developments merely accelerated older trends, and which were genuinely contingent revolutionary ruptures?", "subject_ids": ["CHUNK-017-S061", "CHUNK-017-S062", "CHUNK-017-S063", "CHUNK-017-S064", "CHUNK-017-S065"]},
+    {"task_id": "CHUNK-017-T014", "question": "How can the Revolution be judged simultaneously as an inspiring liberation and a human tragedy?", "subject_ids": ["CHUNK-017-S047", "CHUNK-017-S061", "CHUNK-017-S065"]}
+  ],
+  "exclusions": [
+    {"label": "Context-page events from the prior chapter", "document_pages": [389, 390], "reason": "Reviewed only for boundary context; CHUNK-017 does not own these pages and makes no evidence judgment from them."},
+    {"label": "Fanny Burney and unnamed British visitors", "document_pages": [391, 392], "reason": "Travel testimony illustrates the visible aftermath but is not independently analyzed as a biographical subject."},
+    {"label": "Arthur Young, Versailles, the Tuileries, and the Palais Royal", "document_pages": [391, 392], "reason": "Sites and comparisons function as scene-setting examples rather than sustained independent subjects in this chapter."},
+    {"label": "Malouet, Barnave, Foulon, and Bertier", "document_pages": [394], "reason": "Named incidents provide evidence for political intolerance and violence; the chapter does not develop separate biographical treatments."},
+    {"label": "Marquise de Falaiseau and Count de Villele", "document_pages": [396], "reason": "Quoted testimony supports noble trauma and weakened subordination without independent treatment of the speakers."},
+    {"label": "Carmelites of the Paris diocese and Cardinal Antonelli", "document_pages": [397, 398], "reason": "Their statements document religious experience and the Concordat dilemma but remain evidentiary examples."},
+    {"label": "Condorcet and individual revolutionary education committees", "document_pages": [399], "reason": "Plans and bodies are components of the education-policy record rather than independently sustained subjects here."},
+    {"label": "Individual towns and industry statistics", "document_pages": [401, 402, 403, 404], "reason": "Versailles, Bayeux, Lyons, Marseille, Bordeaux, Nantes, and Rouen illustrate regional and sectoral economic mechanisms; the chapter does not separately analyze each locality."},
+    {"label": "John Law and isolated economic quotations", "document_pages": [402, 403], "reason": "Comparative and rhetorical evidence does not amount to independent treatment."},
+    {"label": "Grégoire, Reubell, and individual confessional reformers", "document_pages": [410, 411, 412, 420], "reason": "They appear as actors or commentators within emancipation and gender narratives but do not receive a coherent independent treatment in this chapter."},
+    {"label": "Amis des Noirs and Brissot as separate subjects", "document_pages": [411, 412], "reason": "They are important components of the abolition chronology but the substantive treatment here is organized around racial rights, colonial revolt, and wartime emancipation."},
+    {"label": "Dessalines and Miranda as separate subjects", "document_pages": [413], "reason": "Brief appearances support Haitian and Latin American outcomes without sustained independent analysis."},
+    {"label": "Geneva, Genoa, Venice, Poland, Ireland, the Dutch Republic, and Switzerland as separate entries", "document_pages": [413, 414], "reason": "They form an evidentiary series demonstrating European state transformation rather than distinct treatments."},
+    {"label": "Individual European tax and militia measures", "document_pages": [415, 416], "reason": "Country examples support the transnational subjects of mass warfare and state expansion."},
+    {"label": "Clausewitz as a stand-alone biographical subject", "document_pages": [415, 416], "reason": "His theory is substantively used as an interpretive access term under mass warfare, but his life and work are not independently treated."},
+    {"label": "Prudhomme", "document_pages": [420, 421], "reason": "His advice is evidence for the gender ideology that confined women to domestic citizenship."},
+    {"label": "Marx, Lenin, Trotsky, and the Beijing student protesters as separate subjects", "document_pages": [421, 422], "reason": "They illustrate the Revolution's later model and symbolism rather than receiving independent analysis."},
+    {"label": "Burke and Gentz as separate subjects", "document_pages": [422], "reason": "They are named alongside de Maistre as founders of counter-revolutionary thought; only de Maistre's interpretation is developed enough here for a separate record."}
+  ],
+  "uncertainties": [
+    {"uncertainty_id": "CHUNK-017-U001", "subject": "Granularity of named-person access", "alternatives": ["Retain major actors only as acceptable access under thematic subjects", "Promote every named actor with a full paragraph to a separate optional subject"], "resolution": "Separate records were created for Sonthonax, Toussaint L'Ouverture, Napoleon, Olympe de Gouges, Babeuf, and Joseph de Maistre because the chapter assigns them an explanatory role; brief witnesses and illustrative names remain exclusions.", "confidence": "high", "adjudication_status": "resolved"},
+    {"uncertainty_id": "CHUNK-017-U002", "subject": "Chapter-opening travel evidence", "alternatives": ["Treat every place as separately indexable", "Treat the sequence as one retrospective subject"], "resolution": "The places and visitors operate collectively to establish the visible aftermath, so one broader subject preserves the author's comparative purpose without example clutter.", "confidence": "high", "adjudication_status": "resolved"},
+    {"uncertainty_id": "CHUNK-017-U003", "subject": "Word-count denominator", "alternatives": ["Include display title and running furniture", "Count only owned body text"], "resolution": "The denominator uses owned indexable body text, removes navigation furniture and the chapter display title, rejoins line-break hyphenation, and excludes context pages.", "confidence": "high", "adjudication_status": "resolved"},
+    {"uncertainty_id": "CHUNK-017-U004", "subject": "Unavailable notes and front matter", "alternatives": ["Treat note references as missing source", "Follow the frozen scope exclusion"], "resolution": "The supplied 2002 PDF lacks front matter and notes; frozen policy excludes these unavailable regions, so no discovery claim is made from them.", "confidence": "high", "adjudication_status": "resolved"}
+  ],
+  "source_limitations": [
+    "The supplied 2002 source PDF begins with body page 1 and omits front matter, endnotes, bibliography, and publisher index.",
+    "Footnote callout markers are visible, but the note texts are unavailable and excluded by the frozen evaluation policy.",
+    "No candidate index was present in the discovery packet or inspected during this run."
+  ],
+  "discovery_assessment": {
+    "reasoning_pass": "initial high-depth candidate-blind discovery followed by a source-led granularity review",
+    "page_level_review_complete": true,
+    "subject_count": 105,
+    "priority_counts": {
+      "essential": 45,
+      "major": 57,
+      "optional": 3,
+      "exclude_by_default": 0
+    },
+    "reader_task_count": 14,
+    "evidence_count": 173,
+    "exclusion_count": 18,
+    "uncertainty_count": 4,
+    "density_used_as_subject_quota": false,
+    "priority_status": "provisional until whole-source synthesis",
+    "coverage_statement": "Every owned page and each declared context page was read. Discovery followed substantive scholarly retrieval value rather than term frequency or density targets."
+  }
+}
