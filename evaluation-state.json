@@ -893,11 +893,11 @@
       "recorded_at": "2026-08-23T04:56:27Z"
     },
     {
-      "artifact_id": "ART-2BFC5E5D4069",
+      "artifact_id": "ART-9DF84C566C35",
       "stage": "benchmark_freeze",
       "artifact_type": "source_benchmark_qa",
       "path": "validation/source-benchmark-qa.v1.json",
-      "sha256": "c0b7a285d3f3ab4d53dda55aff7f45b68979894ee32f97f4d2d2c158868598d9",
+      "sha256": "dcf55825d787c4de6aa43b6239dc5480340700d14e9c8f17bcb5de4a3006a962",
       "visibility": "public",
       "retention": "required",
       "frozen": true,

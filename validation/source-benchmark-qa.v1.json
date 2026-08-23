@@ -39,7 +39,10 @@
     "candidate_material_inspected": false
   },
   "reviewed_denominators": {
+    "local_discovery_records": 1432,
     "semantic_subjects": 1378,
+    "preexisting_explicit_cross_chapter_merge_groups": 52,
+    "preexisting_split_source_records": 3,
     "priority_subjects": 1378,
     "essential_subjects": 234,
     "major_subjects": 1084,
@@ -48,6 +51,7 @@
     "resolved_relationships": 2938,
     "ambiguous_relationships": 86,
     "label_only_relationships": 444,
+    "relationships_requiring_individual_resolution_review": 530,
     "reader_tasks": 1026,
     "fallback_generated_reader_tasks": 100,
     "source_first_omission_themes": 15,
@@ -56,7 +60,8 @@
     "uncertainties": 94,
     "subjects_with_access_terminology": 1378,
     "evidence_records": 3246,
-    "owned_source_pages": 425
+    "owned_source_pages": 425,
+    "indexable_source_words": 194718
   },
   "change_summary": {
     "merges": 12,
