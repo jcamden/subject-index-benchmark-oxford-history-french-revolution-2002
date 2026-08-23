@@ -1,0 +1,4451 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "chunk": {
+    "chunk_id": "CHUNK-008",
+    "chapter_labels": [
+      "Chapter 8: The Republican Revolution, October 1791-January 1793"
+    ],
+    "owned_document_pages": [
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196
+    ],
+    "context_document_pages": [
+      172,
+      173,
+      197,
+      198
+    ]
+  },
+  "candidate_blindness": "preserved",
+  "page_review": {
+    "expected_owned_pages": 23,
+    "reviewed_owned_pages": 23,
+    "expected_context_pages": 4,
+    "reviewed_context_pages": 4,
+    "reviewed_owned_document_pages": [
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196
+    ],
+    "reviewed_context_document_pages": [
+      172,
+      173,
+      197,
+      198
+    ],
+    "indexable_source_words": 10909,
+    "word_count_method": "Whitespace-delimited tokens extracted from owned pages 174-196 after removing running heads, source page numbers, and chapter-title wording; substantive chapter body text and block quotations retained. Context pages were reviewed but excluded from the count.",
+    "excluded_regions": [
+      {
+        "document_pages": [
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196
+        ],
+        "role": "running furniture and source page numbers"
+      },
+      {
+        "document_page": 174,
+        "role": "chapter-title wording excluded from the source-word denominator; the title remains unit metadata and an access concept"
+      }
+    ],
+    "unavailable_regions": [
+      {
+        "role": "chapter endnotes",
+        "reason": "Absent from the supplied special edition. Superscript note markers remain in body text, but note text is unavailable and excluded from discovery."
+      }
+    ],
+    "complete": true
+  },
+  "selection_method": {
+    "unit": "independently searchable source subject rather than proposed index heading",
+    "principles": [
+      "Retain principal subjects and significant localized or subsidiary subjects even when confined to one passage.",
+      "Split subjects when a reader could plausibly seek one without the other or when a combined label would overstate page support.",
+      "Retain named people, institutions, works, and events only when the chapter analyzes them, uses them as sustained explanatory cases, or makes them independently useful to scholarly readers.",
+      "Preserve qualifications, reported beliefs, disputed causation, and the author's degree of commitment.",
+      "Use optional only for defensible supplemental access whose absence would not materially reduce usefulness.",
+      "Do not use density calibration to set the subject count or priority.",
+      "Complete the fresh source-led inventory before consulting prior chapter artifacts for schema and procedural consistency."
+    ]
+  },
+  "reader_tasks": [
+    {
+      "task_id": "TASK-008-01",
+      "prompt": "Trace how constitutional monarchy moved from the October 1791 accommodation to suspension on 10 August 1792.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S004",
+        "CHUNK-008-S005",
+        "CHUNK-008-S062",
+        "CHUNK-008-S063",
+        "CHUNK-008-S066"
+      ]
+    },
+    {
+      "task_id": "TASK-008-02",
+      "prompt": "Explain why Brissotins, the royal family, generals, and other deputies supported war for incompatible reasons.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S018",
+        "CHUNK-008-S034",
+        "CHUNK-008-S035",
+        "CHUNK-008-S036"
+      ]
+    },
+    {
+      "task_id": "TASK-008-03",
+      "prompt": "Compare Brissot's regenerative case for war with Robespierre's warnings about dictatorship, defeat, and domestic enemies.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S018",
+        "CHUNK-008-S019",
+        "CHUNK-008-S037"
+      ]
+    },
+    {
+      "task_id": "TASK-008-04",
+      "prompt": "Follow the refractory-priest problem from the Assembly's opening priorities through veto conflict and post-10 August deportation.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S005",
+        "CHUNK-008-S029",
+        "CHUNK-008-S030",
+        "CHUNK-008-S033"
+      ]
+    },
+    {
+      "task_id": "TASK-008-05",
+      "prompt": "Explain how the Saint-Domingue uprising connected colonial policy, slavery, Bordeaux interests, sugar scarcity, and Parisian price-fixing.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S049",
+        "CHUNK-008-S050",
+        "CHUNK-008-S051",
+        "CHUNK-008-S052"
+      ]
+    },
+    {
+      "task_id": "TASK-008-06",
+      "prompt": "Connect currency decline, provisioning, and grain or sugar unrest to revived popular organization.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S052",
+        "CHUNK-008-S053",
+        "CHUNK-008-S054",
+        "CHUNK-008-S060"
+      ]
+    },
+    {
+      "task_id": "TASK-008-07",
+      "prompt": "Explain the causes and meaning assigned to southern anti-feudal violence in spring 1792.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S031",
+        "CHUNK-008-S055",
+        "CHUNK-008-S056",
+        "CHUNK-008-S057",
+        "CHUNK-008-S058",
+        "CHUNK-008-S059"
+      ]
+    },
+    {
+      "task_id": "TASK-008-08",
+      "prompt": "Trace the organizational path from popular societies and 20 June through federes, democratized sections, and the 10 August insurrection.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S028",
+        "CHUNK-008-S044",
+        "CHUNK-008-S045",
+        "CHUNK-008-S060",
+        "CHUNK-008-S061",
+        "CHUNK-008-S062",
+        "CHUNK-008-S063"
+      ]
+    },
+    {
+      "task_id": "TASK-008-09",
+      "prompt": "Explain how the Brunswick Manifesto and military reverses accelerated democratization and deposition demands.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S041",
+        "CHUNK-008-S042",
+        "CHUNK-008-S043",
+        "CHUNK-008-S045",
+        "CHUNK-008-S063"
+      ]
+    },
+    {
+      "task_id": "TASK-008-10",
+      "prompt": "Identify how power shifted from the Legislative Assembly to the insurrectionary Commune after 10 August.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S003",
+        "CHUNK-008-S063",
+        "CHUNK-008-S065",
+        "CHUNK-008-S067"
+      ]
+    },
+    {
+      "task_id": "TASK-008-11",
+      "prompt": "Reconstruct the causes, actors, victims, scale, and political afterlife of the September Massacres without treating most victims as genuine counter-revolutionaries.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S025",
+        "CHUNK-008-S046",
+        "CHUNK-008-S065",
+        "CHUNK-008-S069",
+        "CHUNK-008-S070",
+        "CHUNK-008-S071",
+        "CHUNK-008-S072",
+        "CHUNK-008-S073"
+      ]
+    },
+    {
+      "task_id": "TASK-008-12",
+      "prompt": "Explain the relationship between invasion panic, internal repression, volunteering, and Valmy.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S041",
+        "CHUNK-008-S046",
+        "CHUNK-008-S047",
+        "CHUNK-008-S048",
+        "CHUNK-008-S069",
+        "CHUNK-008-S074"
+      ]
+    },
+    {
+      "task_id": "TASK-008-13",
+      "prompt": "Describe how the Convention was elected, who served in it, and why political continuity remained high despite broad male suffrage.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S006",
+        "CHUNK-008-S007",
+        "CHUNK-008-S008",
+        "CHUNK-008-S009"
+      ]
+    },
+    {
+      "task_id": "TASK-008-14",
+      "prompt": "Trace the emerging Girondin-Montagnard division from conflict over the Commune through the appeal-to-the-people debate.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S013",
+        "CHUNK-008-S014",
+        "CHUNK-008-S018",
+        "CHUNK-008-S019",
+        "CHUNK-008-S025"
+      ]
+    },
+    {
+      "task_id": "TASK-008-15",
+      "prompt": "Reconstruct the legal arguments, four roll calls, execution, and consequences of the trial of Louis XVI.",
+      "supporting_subject_ids": [
+        "CHUNK-008-S010",
+        "CHUNK-008-S011",
+        "CHUNK-008-S012",
+        "CHUNK-008-S014",
+        "CHUNK-008-S015",
+        "CHUNK-008-S026"
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "local_subject_id": "CHUNK-008-S001",
+      "label": "The Republican Revolution, October 1791-January 1793",
+      "priority": "essential",
+      "meaning": "The chapter's governing transformation from constitutional monarchy through war and popular insurrection to republic and regicide.",
+      "stance": "The transformation is an irreversible rupture, but its regicidal climax is presented as a dangerous challenge rather than an uncomplicated victory.",
+      "acceptable_access": [
+        "Republican Revolution",
+        "republican revolution of 1791-1793",
+        "collapse of constitutional monarchy",
+        "road to regicide"
+      ],
+      "relationships": [
+        {
+          "type": "parent_or_synthesis",
+          "target_labels": [
+            "Collapse of constitutional monarchy",
+            "Insurrection of 10 August 1792 and assault on the Tuileries",
+            "Abolition of monarchy and establishment of the Republic",
+            "Execution of Louis XVI and regicide"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 174,
+          "source_page_label": "174",
+          "locator_class": "principal",
+          "evidence_summary": "The chapter opens with a new legislature shaped by post-1789 local experience and hostility toward perceived domestic enemies."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "supporting",
+          "evidence_summary": "The failed June confrontation and preparations for another make the constitutional settlement appear exhausted."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "The 10 August victory suspends monarchy and transfers effective power away from the legislature."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "principal",
+          "evidence_summary": "Valmy coincides with the Convention's meeting and immediate declaration of a republic."
+        },
+        {
+          "document_page": 196,
+          "source_page_label": "196",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The king's execution is interpreted as completing the break with the old order while escalating opposition."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S002",
+      "label": "Legislative Assembly: composition, experience, and priorities",
+      "priority": "major",
+      "meaning": "The 745 deputies were predominantly propertied lawyers whose local revolutionary service gave them substantial practical experience.",
+      "stance": "The text corrects the departing Constituent deputies' view that the new legislators were obscure and callow; local office had taught them both administration and suspicion of domestic enemies.",
+      "acceptable_access": [
+        "Legislative Assembly, composition",
+        "Legislative Assembly deputies",
+        "legislators elected in 1791"
+      ],
+      "relationships": [
+        {
+          "type": "institutional_context_for",
+          "target_labels": [
+            "Refractory/non-juring priests as a political crisis",
+            "Emigres: emigration, decrees, and war pretext"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 174,
+          "source_page_label": "174",
+          "locator_class": "principal",
+          "evidence_summary": "The Assembly's social composition, local prominence, and practical experience in guards, clubs, courts, and administration are analyzed."
+        },
+        {
+          "document_page": 175,
+          "source_page_label": "175",
+          "locator_class": "supporting",
+          "evidence_summary": "Clerical resistance and emigration are identified as the deputies' most urgent opening problems."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S003",
+      "label": "Legislative Assembly: declining authority and subordination to the Commune",
+      "priority": "major",
+      "meaning": "By August 1792 the Assembly could neither control insurrection nor command a full attendance, and its remaining deputies largely complied with the new Commune.",
+      "stance": "The decline is not treated as a single formal surrender; it emerges from indecision, absenteeism, and the superior mobilizing power of the sections and Commune.",
+      "acceptable_access": [
+        "Legislative Assembly, decline",
+        "Legislative Assembly, loss of authority",
+        "Assembly and Paris Commune"
+      ],
+      "relationships": [
+        {
+          "type": "consequence_of",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        },
+        {
+          "type": "subordinated_to",
+          "target_labels": [
+            "Insurrectionary Paris Commune"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "supporting",
+          "evidence_summary": "Deposition and Lafayette questions move beyond the deputies' ability to manage them."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "The Assembly watches the decisive confrontation and then suspends monarchy under insurrectionary pressure."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "Fewer than three hundred deputies make appointments, and the rump usually follows Commune demands."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-10"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S004",
+      "label": "Collapse of constitutional monarchy",
+      "priority": "essential",
+      "meaning": "The constitutional experiment disintegrated through royal vetoes, war, ministerial conflict, popular pressure, and finally armed overthrow.",
+      "stance": "The monarchy's fall is cumulative: neither the king's legal constitutional powers nor the demonstrators' early failures preserved trust or authority.",
+      "acceptable_access": [
+        "constitutional monarchy, collapse",
+        "Louis XVI and constitutional monarchy",
+        "fall of the monarchy"
+      ],
+      "relationships": [
+        {
+          "type": "central_process_within",
+          "target_labels": [
+            "The Republican Revolution, October 1791-January 1793"
+          ]
+        },
+        {
+          "type": "culminates_in",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 175,
+          "source_page_label": "175",
+          "locator_class": "supporting",
+          "evidence_summary": "A brief accommodation joins royal gestures, Feuillant advice, and initial legislative cooperation."
+        },
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "principal",
+          "evidence_summary": "The emigre veto ends the early honeymoon and revives suspicions of palace conspiracy."
+        },
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "principal",
+          "evidence_summary": "Military reverses and new veto conflicts produce a ministerial and security crisis."
+        },
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "principal",
+          "evidence_summary": "The failed 20 June invasion demonstrates both popular hostility and the king's remaining personal resolve."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The fall of the Tuileries destroys royal authority and results in suspension of monarchy."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S005",
+      "label": "Royal veto as constitutional and political crisis",
+      "priority": "major",
+      "meaning": "Louis XVI used his lawful veto against emigre, clerical, and federe measures, but opponents interpreted the pattern as protection of enemies and obstruction of national defense.",
+      "stance": "The text acknowledges the veto's constitutional legitimacy while showing why its political meaning became fatal to trust.",
+      "acceptable_access": [
+        "Louis XVI, vetoes",
+        "royal veto",
+        "veto crisis"
+      ],
+      "relationships": [
+        {
+          "type": "drives",
+          "target_labels": [
+            "Collapse of constitutional monarchy"
+          ]
+        },
+        {
+          "type": "conflict_with",
+          "target_labels": [
+            "Legislative Assembly: composition, experience, and priorities"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "principal",
+          "evidence_summary": "The king rejects the punitive emigre decree despite having a constitutional right to do so."
+        },
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "principal",
+          "evidence_summary": "His later rejection of the nonjuror decree deepens suspicions of royal sympathy with enemies."
+        },
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "supporting",
+          "evidence_summary": "The king plans vetoes of clerical deportation and the proposed federe camp."
+        },
+        {
+          "document_page": 185,
+          "source_page_label": "185",
+          "locator_class": "principal",
+          "evidence_summary": "Ministerial criticism of the veto delays brings the executive conflict into the open."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-04"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S006",
+      "label": "Popular sovereignty versus representative authority",
+      "priority": "major",
+      "meaning": "Sections, the insurrectionary Commune, the Convention, and rival trial theories made competing claims to act for the sovereign people.",
+      "stance": "The source does not treat popular and representative sovereignty as harmoniously aligned; each claim could undermine another institution's legitimacy.",
+      "acceptable_access": [
+        "popular sovereignty",
+        "sovereignty of the people",
+        "popular will and representation"
+      ],
+      "relationships": [
+        {
+          "type": "expressed_by",
+          "target_labels": [
+            "Paris sections and popular societies",
+            "Insurrectionary Paris Commune",
+            "National Convention: formation, elections, and composition"
+          ]
+        },
+        {
+          "type": "contested_in",
+          "target_labels": [
+            "Trial of Louis XVI: legality and procedure"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "supporting",
+          "evidence_summary": "Sections remove active-citizen restrictions and coordinate political action outside established representative limits."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "The insurrectionary Commune compels the legislature to suspend monarchy and convoke a Convention."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention is framed as a new assembly formed to secure popular sovereignty, but through a mediated electoral process."
+        },
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "principal",
+          "evidence_summary": "Debate over trying the king turns on whether popular judgment was already complete or required representative procedure."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-13",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S007",
+      "label": "Democratization of citizenship and political participation",
+      "priority": "major",
+      "meaning": "Emergency politics eroded the active-passive citizen distinction in sections, the National Guard, and Convention elections.",
+      "stance": "Broader formal participation did not ensure broad turnout or eliminate institutional mediation.",
+      "acceptable_access": [
+        "active and passive citizens",
+        "political democratization",
+        "manhood suffrage",
+        "universal male suffrage, 1792"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Paris sections and popular societies",
+            "National Guard: politicization and democratization",
+            "National Convention: formation, elections, and composition"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "Sections begin admitting citizens without the former status distinction and receive authority for continuous sittings."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "All defenders are treated as active citizens, opening arms and National Guard membership beyond property holders."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "principal",
+          "evidence_summary": "Convention elections use broad manhood suffrage but retain two stages and draw only a minority of eligible voters."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08",
+        "TASK-008-13"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S008",
+      "label": "National Convention: formation, elections, and composition",
+      "priority": "essential",
+      "meaning": "The Convention arose from the 10 August settlement, was elected through a broad but indirect male franchise, and combined new social breadth with substantial political continuity.",
+      "stance": "Low participation and uncertain provincial information qualify any simple claim that the Convention directly represented a fully mobilized nation.",
+      "acceptable_access": [
+        "National Convention, elections",
+        "National Convention, composition",
+        "Convention of 1792"
+      ],
+      "relationships": [
+        {
+          "type": "successor_to",
+          "target_labels": [
+            "Legislative Assembly: declining authority and subordination to the Commune"
+          ]
+        },
+        {
+          "type": "institutionalizes",
+          "target_labels": [
+            "Abolition of monarchy and establishment of the Republic"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "principal",
+          "evidence_summary": "Electoral rules, low turnout, and the return of many experienced deputies are analyzed."
+        },
+        {
+          "document_page": 194,
+          "source_page_label": "194",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention's age, professions, property base, limited artisan presence, and revolutionary experience are described."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-13"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S009",
+      "label": "Abolition of monarchy and establishment of the Republic",
+      "priority": "essential",
+      "meaning": "The Convention abolished monarchy and established a republic immediately after meeting in September 1792.",
+      "stance": "The institutional break was decisive, but it did not by itself settle the fate of Louis XVI or eliminate political conflict.",
+      "acceptable_access": [
+        "French Republic, establishment",
+        "abolition of monarchy",
+        "declaration of the Republic",
+        "First Republic"
+      ],
+      "relationships": [
+        {
+          "type": "consequence_of",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Trial of Louis XVI: legality and procedure"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention's first action is to declare a republic as the Prussians retreat after Valmy."
+        },
+        {
+          "document_page": 194,
+          "source_page_label": "194",
+          "locator_class": "principal",
+          "evidence_summary": "Monarchy is formally abolished and the later revolutionary calendar dates Year I from the republican foundation."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-13",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S010",
+      "label": "Trial of Louis XVI: legality and procedure",
+      "priority": "essential",
+      "meaning": "The Convention confronted the king's former constitutional inviolability, the claim that 10 August had already judged him, and deputies' insistence on a hearing before the sovereign representatives.",
+      "stance": "The verdict is presented as politically inevitable, yet legal training and procedural legitimacy still mattered to the deputies.",
+      "acceptable_access": [
+        "Louis XVI, trial",
+        "trial of the king",
+        "Louis Capet, trial",
+        "king's inviolability"
+      ],
+      "relationships": [
+        {
+          "type": "tests",
+          "target_labels": [
+            "Popular sovereignty versus representative authority"
+          ]
+        },
+        {
+          "type": "leads_to",
+          "target_labels": [
+            "Execution of Louis XVI and regicide"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 194,
+          "source_page_label": "194",
+          "locator_class": "principal",
+          "evidence_summary": "Evidence from the palace and the king's former inviolability generate arguments over whether a trial is legitimate at all."
+        },
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention chooses a hearing, presents an indictment, permits counsel, and debates the political meaning of procedure."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S011",
+      "label": "Execution of Louis XVI and regicide",
+      "priority": "essential",
+      "meaning": "Four Convention decisions established guilt, rejected a popular appeal, selected death over imprisonment or delay, and refused reprieve before the king's execution.",
+      "stance": "The execution rested on close and politically pressured divisions, not unanimous enthusiasm for immediate death.",
+      "acceptable_access": [
+        "Louis XVI, execution",
+        "regicide",
+        "execution of the king",
+        "Louis XVI, death sentence"
+      ],
+      "relationships": [
+        {
+          "type": "outcome_of",
+          "target_labels": [
+            "Trial of Louis XVI: legality and procedure"
+          ]
+        },
+        {
+          "type": "culminates",
+          "target_labels": [
+            "The Republican Revolution, October 1791-January 1793"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "principal",
+          "evidence_summary": "Near-unanimous guilt contrasts with a large minority favoring an appeal to the people."
+        },
+        {
+          "document_page": 196,
+          "source_page_label": "196",
+          "locator_class": "principal",
+          "evidence_summary": "Closely divided punishment and reprieve votes lead to execution on 21 January 1793."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S012",
+      "label": "Consequences and meaning of regicide",
+      "priority": "essential",
+      "meaning": "Regicide made compromise and return to the old order far less possible while strengthening and multiplying the Revolution's enemies.",
+      "stance": "The chapter calls regicide a logical climax but stresses that it posed a challenge whose consequences would intensify conflict in 1793.",
+      "acceptable_access": [
+        "regicide, consequences",
+        "meaning of Louis XVI's execution",
+        "irreversibility after regicide"
+      ],
+      "relationships": [
+        {
+          "type": "synthesis_or_conclusion",
+          "target_labels": [
+            "The Republican Revolution, October 1791-January 1793"
+          ]
+        },
+        {
+          "type": "reinforces",
+          "target_labels": [
+            "Irreversibility of the destruction of the old order"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 196,
+          "source_page_label": "196",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The closing synthesis presents execution as irreversible rupture that satisfies militants but generates wider domestic and European hostility."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S013",
+      "label": "Emergence of the Girondin-Montagnard conflict",
+      "priority": "major",
+      "meaning": "Conflict over the Commune, the massacres, the king, and provincial consultation hardened Brissot's circle and the Paris deputies into rival groupings.",
+      "stance": "The terminology is historically staged: the text shows a faction taking shape rather than projecting a fully organized party backward over the entire chapter.",
+      "acceptable_access": [
+        "Girondins and Montagnards",
+        "Gironde and Mountain",
+        "factional conflict in the Convention"
+      ],
+      "relationships": [
+        {
+          "type": "develops_from",
+          "target_labels": [
+            "Brissotins/Girondins: war leadership and loss of popular control"
+          ]
+        },
+        {
+          "type": "expressed_in",
+          "target_labels": [
+            "Appeal to the people in the king's trial",
+            "Political memory and blame for the September Massacres"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre names a Gironde faction during the Commune's conflict with Brissot and allied ministers."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "supporting",
+          "evidence_summary": "Each emerging side accuses the other of responsibility or complicity in the massacres."
+        },
+        {
+          "document_page": 194,
+          "source_page_label": "194",
+          "locator_class": "principal",
+          "evidence_summary": "Paris deputies on the high benches form the Montagnard kernel and oppose Girondin hesitation over the king."
+        },
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "principal",
+          "evidence_summary": "The appeal-to-the-people proposal produces the bitterest division yet in the Convention."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-14"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S014",
+      "label": "Appeal to the people in the king's trial",
+      "priority": "major",
+      "meaning": "Girondins proposed submitting the sentence to popular confirmation, while opponents saw a provincial rejection of death as a path to civil war.",
+      "stance": "The proposal is treated as a substantive constitutional and factional issue, not merely a device for saving the king.",
+      "acceptable_access": [
+        "appeal to the people",
+        "referendum on Louis XVI",
+        "Louis XVI, sentence and popular appeal"
+      ],
+      "relationships": [
+        {
+          "type": "conflict_with",
+          "target_labels": [
+            "Execution of Louis XVI and regicide"
+          ]
+        },
+        {
+          "type": "episode_within",
+          "target_labels": [
+            "Emergence of the Girondin-Montagnard conflict"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "principal",
+          "evidence_summary": "The Girondin proposal seeks provincial confirmation amid fears that disagreement between Paris and the provinces would cause civil war."
+        },
+        {
+          "document_page": 196,
+          "source_page_label": "196",
+          "locator_class": "principal",
+          "evidence_summary": "The roll call rejects the appeal by a substantial but not overwhelming margin."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-14",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S015",
+      "label": "Sans-culotte pressure on Convention voting",
+      "priority": "major",
+      "meaning": "Threats and rumors of renewed street and prison violence formed part of the environment in which deputies voted on the king's punishment.",
+      "stance": "The source says fear may have influenced some votes; it does not claim that coercion alone determined the sentence.",
+      "acceptable_access": [
+        "sans-culottes and king's trial",
+        "popular pressure on the Convention",
+        "Convention voting under pressure"
+      ],
+      "relationships": [
+        {
+          "type": "influences",
+          "target_labels": [
+            "Execution of Louis XVI and regicide"
+          ]
+        },
+        {
+          "type": "agent",
+          "target_labels": [
+            "Sans-culottes as a political movement"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 196,
+          "source_page_label": "196",
+          "locator_class": "principal",
+          "evidence_summary": "Rumors that militants would attack the Temple or Convention accompany the close punishment vote and may sway some deputies."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S016",
+      "label": "Feuillants: constitutional reconciliation and political decline",
+      "priority": "major",
+      "meaning": "The Feuillants advised royal conciliation and initially attracted many deputies, but private organization, lack of public political appeal, antiwar caution, and association with weak ministries marginalized them.",
+      "stance": "Their decline is attributed to organizational and political disadvantages, not to an absence of constitutional ideas or supporters at the chapter's start.",
+      "acceptable_access": [
+        "Feuillants",
+        "Feuillant Club",
+        "constitutional monarchists"
+      ],
+      "relationships": [
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Jacobin Club: ascendancy and radicalization"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Collapse of constitutional monarchy"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 175,
+          "source_page_label": "175",
+          "locator_class": "principal",
+          "evidence_summary": "Feuillant leaders encourage reconciliation and initially draw far more new deputies than the Jacobins."
+        },
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "principal",
+          "evidence_summary": "Private meetings and the absence of compelling public leaders cause rapid decline."
+        },
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "supporting",
+          "evidence_summary": "Feuillant leaders join Robespierre in warning against a wider war."
+        },
+        {
+          "document_page": 185,
+          "source_page_label": "185",
+          "locator_class": "supporting",
+          "evidence_summary": "Replacement ministers are dismissed as weak Feuillant figures associated with Lafayette."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-03"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S017",
+      "label": "Jacobin Club: ascendancy and radicalization",
+      "priority": "major",
+      "meaning": "The Jacobins' public forum, recognized leaders, and national debate displaced the Feuillants and later supported insurrectionary and factional politics.",
+      "stance": "The club was not politically uniform: the war controversy sharply divided Brissot and Robespierre before it moved toward overthrow of monarchy.",
+      "acceptable_access": [
+        "Jacobin Club",
+        "Jacobins",
+        "Jacobin radicalization"
+      ],
+      "relationships": [
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Feuillants: constitutional reconciliation and political decline"
+          ]
+        },
+        {
+          "type": "arena_for",
+          "target_labels": [
+            "Brissot-Robespierre war controversy"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 175,
+          "source_page_label": "175",
+          "locator_class": "supporting",
+          "evidence_summary": "Ambitious deputies prefer public Jacobin sessions and access to established national figures."
+        },
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "principal",
+          "evidence_summary": "The club becomes the place where nationally important questions are debated while the Feuillants fade."
+        },
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "principal",
+          "evidence_summary": "Nightly debate pits Brissot's war program against Robespierre's objections."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "The club increasingly supports overthrow by insurrection, with Robespierre joining the call for direct action."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "supporting",
+          "evidence_summary": "The massacres become material for factional accusation within Jacobin politics."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-03",
+        "TASK-008-08",
+        "TASK-008-14"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S018",
+      "label": "Brissotins/Girondins: war leadership and loss of popular control",
+      "priority": "essential",
+      "meaning": "Brissot and allied Bordeaux deputies drove war policy and ministry formation, blamed rivals for reverses, attempted to use popular pressure, and then lost control as sections moved toward complete overthrow.",
+      "stance": "The chapter distinguishes their early revolutionary initiative from their later equivocation and provincial strategy; it does not present a fixed Girondin party from the outset.",
+      "acceptable_access": [
+        "Brissotins",
+        "Girondins",
+        "Brissot and the Gironde",
+        "Bordeaux deputies"
+      ],
+      "relationships": [
+        {
+          "type": "advocates",
+          "target_labels": [
+            "Origins and declaration of the war of April 1792"
+          ]
+        },
+        {
+          "type": "conflict_with",
+          "target_labels": [
+            "Insurrectionary Paris Commune",
+            "Emergence of the Girondin-Montagnard conflict"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "principal",
+          "evidence_summary": "Brissot links punitive emigre policy to possible war and shapes the Assembly's decree."
+        },
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "principal",
+          "evidence_summary": "Brissot and Bordeaux allies promote war as national regeneration and a test of the king."
+        },
+        {
+          "document_page": 180,
+          "source_page_label": "180",
+          "locator_class": "principal",
+          "evidence_summary": "A ministry largely aligned with Brissot replaces the dismissed royal ministers and clears the path to war."
+        },
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "supporting",
+          "evidence_summary": "Early reverses lead the war party to accuse king, generals, and palace plotters."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "Girondin efforts to recover office fail as they oppose the deposition movement they helped unleash."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "Their effort to disband the Commune provokes a confrontation with Robespierre and sectional power."
+        },
+        {
+          "document_page": 194,
+          "source_page_label": "194",
+          "locator_class": "supporting",
+          "evidence_summary": "Girondin deputies hesitate over immediate disposal of the king."
+        },
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "principal",
+          "evidence_summary": "They champion an appeal to the people and sharpen conflict with the Mountain."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-02",
+        "TASK-008-03",
+        "TASK-008-14"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S019",
+      "label": "Robespierre: antiwar case, turn to insurrection, and position on Louis XVI",
+      "priority": "major",
+      "meaning": "Robespierre opposed the war as a route to dictatorship or counter-revolution, later endorsed direct action against monarchy, attacked the Gironde, and argued that popular victory had already condemned Louis.",
+      "stance": "His positions change with circumstances but retain a focus on domestic enemies and distrust of generals and representative delay.",
+      "acceptable_access": [
+        "Robespierre",
+        "Robespierre and war",
+        "Robespierre and insurrection",
+        "Robespierre and trial of Louis XVI"
+      ],
+      "relationships": [
+        {
+          "type": "opposes",
+          "target_labels": [
+            "Brissot-Robespierre war controversy"
+          ]
+        },
+        {
+          "type": "supports",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        },
+        {
+          "type": "develops",
+          "target_labels": [
+            "Saint-Just's argument that the king had already been judged"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "principal",
+          "evidence_summary": "He warns that victory could empower Lafayette and defeat could enable the Court and foreign forces."
+        },
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "supporting",
+          "evidence_summary": "He continues opposing escalation even after Austrian threats strengthen the war party."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "He abandons defense of the constitution and publicly supports direct action."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "He identifies a Gironde faction during conflict over the Commune."
+        },
+        {
+          "document_page": 194,
+          "source_page_label": "194",
+          "locator_class": "supporting",
+          "evidence_summary": "He endorses Saint-Just's claim that the people have already judged the king."
+        },
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "principal",
+          "evidence_summary": "He argues that a conventional trial risks placing the Revolution itself under judgment."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-03",
+        "TASK-008-14",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S020",
+      "label": "Lafayette: war aims, coup suspicion, political failure, and flight",
+      "priority": "major",
+      "meaning": "Lafayette supported war as a means to restore military and domestic order, became the central object of fears of military dictatorship, failed to rally political support, and fled after 10 August.",
+      "stance": "The text presents coup suspicions as politically powerful and partly grounded in his interventions, without stating that a completed coup plan existed.",
+      "acceptable_access": [
+        "Lafayette",
+        "Lafayette and war",
+        "Lafayette, alleged military coup",
+        "Lafayette, flight"
+      ],
+      "relationships": [
+        {
+          "type": "embodies_risk_in",
+          "target_labels": [
+            "Brissot-Robespierre war controversy"
+          ]
+        },
+        {
+          "type": "opposes",
+          "target_labels": [
+            "Paris sections and popular societies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "principal",
+          "evidence_summary": "Lafayette expects war to revive the army and enable restoration of domestic stability."
+        },
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "supporting",
+          "evidence_summary": "Robespierre identifies a successful Lafayette as a potential military dictator."
+        },
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "principal",
+          "evidence_summary": "Security measures and military reorganization are shaped by fear of a coup associated with him."
+        },
+        {
+          "document_page": 185,
+          "source_page_label": "185",
+          "locator_class": "principal",
+          "evidence_summary": "His letter from the front denounces Jacobins and intensifies coup suspicions."
+        },
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "supporting",
+          "evidence_summary": "His attempt to rally the Guard and Crown fails, leaving him politically isolated."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "After considering action against Paris, he crosses enemy lines and is imprisoned by Austria."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-03",
+        "TASK-008-09"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S021",
+      "label": "Danton: sectional leadership and crisis government",
+      "priority": "major",
+      "meaning": "Danton helped democratize sectional politics, became justice minister after 10 August, restrained an attempted Commune purge, rallied resistance during invasion, and entered the Convention.",
+      "stance": "He is shown as a bridge between sans-culotte power and government rather than as the sole organizer of either insurrection or massacre.",
+      "acceptable_access": [
+        "Danton",
+        "Danton, justice minister",
+        "Danton and the sections",
+        "Danton and September crisis"
+      ],
+      "relationships": [
+        {
+          "type": "leader_within",
+          "target_labels": [
+            "Paris sections and popular societies"
+          ]
+        },
+        {
+          "type": "mediates",
+          "target_labels": [
+            "Insurrectionary Paris Commune",
+            "Legislative Assembly: declining authority and subordination to the Commune"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "Under Danton's leadership a section rejects active-citizen restrictions and broadens participation."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "He enters the ministry to connect the new government with the sans-culottes and dominates the crisis response."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "He prevents arrests sought by the Commune and calls for mass volunteering as invasion advances."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "supporting",
+          "evidence_summary": "His election to the Convention ends his ministerial role."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08",
+        "TASK-008-10",
+        "TASK-008-11",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S022",
+      "label": "Petion: mayoral role in the popular-monarchical crisis",
+      "priority": "major",
+      "meaning": "Petion's mayoralty symbolized Jacobin ascendancy; his handling of 20 June, suspension and restoration became mobilizing issues, and he later supported formal trial procedure.",
+      "stance": "His movement away from Robespierre is gradual and should not be projected backward over his earlier popularity with radicals.",
+      "acceptable_access": [
+        "Petion",
+        "Petion, mayor of Paris",
+        "Petion and 20 June"
+      ],
+      "relationships": [
+        {
+          "type": "participant_in",
+          "target_labels": [
+            "Demonstration of 20 June 1792"
+          ]
+        },
+        {
+          "type": "influences",
+          "target_labels": [
+            "Trial of Louis XVI: legality and procedure"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "supporting",
+          "evidence_summary": "His decisive mayoral victory over Lafayette illustrates the appeal of prominent Jacobin figures."
+        },
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "principal",
+          "evidence_summary": "He ends the palace invasion but is then publicly blamed and suspended for failing to prevent it."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "His restoration becomes a demand of federes and a concession around the 14 July festival."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "supporting",
+          "evidence_summary": "He presents the deposition demand in the name of the sections but is kept symbolically out of the insurrectionary seizure."
+        },
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "principal",
+          "evidence_summary": "His motion secures a trial before the Convention rather than immediate punishment without hearing."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-08",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S023",
+      "label": "Roland ministry and the June ministerial crisis",
+      "priority": "major",
+      "meaning": "Roland's Brissotin-aligned ministry helped launch war; his public rebuke of the king precipitated the June purge, and the ousted ministers' restoration became an immediate popular demand.",
+      "stance": "The ministerial crisis is treated as both a constitutional conflict and a catalyst deliberately used by popular and factional actors.",
+      "acceptable_access": [
+        "Roland",
+        "Roland ministry",
+        "June 1792 ministerial crisis",
+        "dismissal of the Girondin ministers"
+      ],
+      "relationships": [
+        {
+          "type": "episode_within",
+          "target_labels": [
+            "Collapse of constitutional monarchy"
+          ]
+        },
+        {
+          "type": "triggers",
+          "target_labels": [
+            "Demonstration of 20 June 1792"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 180,
+          "source_page_label": "180",
+          "locator_class": "supporting",
+          "evidence_summary": "Roland joins the ministry formed under Brissotin pressure before the declaration of war."
+        },
+        {
+          "document_page": 185,
+          "source_page_label": "185",
+          "locator_class": "principal",
+          "evidence_summary": "His public letter blames royal delay and results in dismissal of the principal ministers."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "supporting",
+          "evidence_summary": "The fallen ministers return after 10 August, though now burdened by Girondin equivocation."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-02",
+        "TASK-008-08"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S024",
+      "label": "Dumouriez: war ministry and Valmy diplomacy",
+      "priority": "major",
+      "meaning": "Dumouriez replaced Delessart, helped bring the declaration of war, later commanded at Valmy, and opened negotiations that briefly made an early peace possible.",
+      "stance": "His patriotic performance coexisted with pragmatic diplomacy; he is not reduced to the public war rhetoric he used in Paris.",
+      "acceptable_access": [
+        "Dumouriez",
+        "Dumouriez, foreign minister",
+        "Dumouriez at Valmy"
+      ],
+      "relationships": [
+        {
+          "type": "agent_in",
+          "target_labels": [
+            "Origins and declaration of the war of April 1792"
+          ]
+        },
+        {
+          "type": "agent_in",
+          "target_labels": [
+            "Battle of Valmy and its political significance"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 180,
+          "source_page_label": "180",
+          "locator_class": "principal",
+          "evidence_summary": "He becomes foreign minister, sustains war enthusiasm, and unsuccessfully explores Prussian neutrality before the declaration."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "supporting",
+          "evidence_summary": "His forces join Kellermann's in outnumbering and halting the Prussians at Valmy."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "principal",
+          "evidence_summary": "He initiates negotiations after the battle, but the new Republic causes the Prussians to break them off."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-02",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S025",
+      "label": "Marat and advocacy of massacre",
+      "priority": "major",
+      "meaning": "After 10 August Marat's call to kill imprisoned suspects and selected political leaders gained influence in Commune politics.",
+      "stance": "The source records his advocacy and institutional role without making him the sole cause of the massacres.",
+      "acceptable_access": [
+        "Marat",
+        "Marat and September Massacres",
+        "Marat, Commune surveillance committee"
+      ],
+      "relationships": [
+        {
+          "type": "advocates",
+          "target_labels": [
+            "September Massacres"
+          ]
+        },
+        {
+          "type": "participant_in",
+          "target_labels": [
+            "Insurrectionary Paris Commune"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "His previously marginal demand for massacre becomes politically influential after the overthrow."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "The Commune adds him to prison surveillance during its confrontation with the Assembly."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "supporting",
+          "evidence_summary": "His notoriety helps secure election to the Convention."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11",
+        "TASK-008-14"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S026",
+      "label": "Saint-Just's argument that the king had already been judged",
+      "priority": "major",
+      "meaning": "Saint-Just argued that the people's victory on 10 August had already established guilt, leaving punishment rather than trial as the Convention's task.",
+      "stance": "The argument is presented as a radical challenge to ordinary legal process and later taken up by Robespierre.",
+      "acceptable_access": [
+        "Saint-Just",
+        "Saint-Just on Louis XVI",
+        "king already judged"
+      ],
+      "relationships": [
+        {
+          "type": "influences",
+          "target_labels": [
+            "Robespierre: antiwar case, turn to insurrection, and position on Louis XVI"
+          ]
+        },
+        {
+          "type": "alternative_to",
+          "target_labels": [
+            "Trial of Louis XVI: legality and procedure"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 194,
+          "source_page_label": "194",
+          "locator_class": "principal",
+          "evidence_summary": "Saint-Just's first Convention speech treats 10 August as a completed popular verdict and demands punishment."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S027",
+      "label": "Marie Antoinette, secret correspondence, and the alleged Austrian Committee",
+      "priority": "major",
+      "meaning": "Deputies interpreted royal vetoes as proof of a queen-led palace conspiracy, although her real secret correspondence sought confrontation and foreign intervention rather than protection of emigres from legislation.",
+      "stance": "The alleged Austrian Committee must remain identified as suspicion or rumor; real correspondence does not validate every conspiratorial inference.",
+      "acceptable_access": [
+        "Marie Antoinette",
+        "Austrian Committee",
+        "queen's secret correspondence",
+        "palace conspiracy, alleged"
+      ],
+      "relationships": [
+        {
+          "type": "alleged_agent_in",
+          "target_labels": [
+            "Counter-revolution and the enemy within"
+          ]
+        },
+        {
+          "type": "supports_secret_aims_in",
+          "target_labels": [
+            "Competing public and secret war aims"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "principal",
+          "evidence_summary": "The emigre veto is interpreted by Brissot's allies as concrete evidence of a queen-coordinated counter-revolutionary committee."
+        },
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "principal",
+          "evidence_summary": "The text distinguishes extensive secret correspondence and a desire for confrontation from the deputies' specific theory about protecting emigres."
+        },
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "supporting",
+          "evidence_summary": "The queen's indifference to constitutional pacification contributes to Barnave's withdrawal and continued mistrust."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-02"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S028",
+      "label": "Cordeliers-centered popular coordination",
+      "priority": "major",
+      "meaning": "Popular societies and Cordeliers networks coordinated the 20 June action and helped rebuild the organizational capacity later used for insurrection.",
+      "stance": "The Cordeliers are an organizing center among multiple sections, not a substitute label for the entire popular movement.",
+      "acceptable_access": [
+        "Cordeliers Club",
+        "Cordeliers and 20 June",
+        "popular coordination from the Cordeliers"
+      ],
+      "relationships": [
+        {
+          "type": "organizes",
+          "target_labels": [
+            "Demonstration of 20 June 1792"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Paris sections and popular societies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 185,
+          "source_page_label": "185",
+          "locator_class": "supporting",
+          "evidence_summary": "A radical secession and new popular leaders illustrate revived organization around Cordeliers politics."
+        },
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "principal",
+          "evidence_summary": "Eastern sections coordinate their mass demonstration from the Cordeliers."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S029",
+      "label": "Refractory/non-juring priests as a political crisis",
+      "priority": "major",
+      "meaning": "Clerical refusal of revolutionary oaths drove local repression, national decrees, royal vetoes, deportation, and widening suspicion before and after the monarchy fell.",
+      "stance": "The source treats nonjuror resistance as a major political problem while also showing how the category of suspect clergy expanded beyond those originally subject to oaths.",
+      "acceptable_access": [
+        "refractory priests",
+        "non-juring priests",
+        "nonjurors",
+        "clerical resistance",
+        "priests, deportation"
+      ],
+      "relationships": [
+        {
+          "type": "central_problem_for",
+          "target_labels": [
+            "Legislative Assembly: composition, experience, and priorities"
+          ]
+        },
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Counter-revolution and the enemy within"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 174,
+          "source_page_label": "174",
+          "locator_class": "principal",
+          "evidence_summary": "Local Jacobins, guards, and officials had already supervised, exiled, or imprisoned refractory clergy before the new Assembly met."
+        },
+        {
+          "document_page": 175,
+          "source_page_label": "175",
+          "locator_class": "supporting",
+          "evidence_summary": "Large-scale oath refusal in the Vendee confirms the issue's urgency."
+        },
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "principal",
+          "evidence_summary": "The Assembly imposes a new oath, surveillance, possible exile, and restrictions on worship before the king vetoes the decree."
+        },
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "principal",
+          "evidence_summary": "Military panic revives deportation legislation, which becomes part of another veto conflict."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "After 10 August deportation expands, including clergy not originally bound by the oaths."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "supporting",
+          "evidence_summary": "More than two hundred priests are among the massacre victims."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-04",
+        "TASK-008-11"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S030",
+      "label": "Vendee clerical resistance",
+      "priority": "optional",
+      "meaning": "The Vendee supplied a concentrated example of parish priests rejecting the revolutionary oath and resisting the new ecclesiastical settlement.",
+      "stance": "The chapter uses the episode to demonstrate scale and urgency; it does not yet provide a full account of later Vendee rebellion.",
+      "acceptable_access": [
+        "Vendee, refractory priests",
+        "clerical resistance in the Vendee"
+      ],
+      "relationships": [
+        {
+          "type": "case_of",
+          "target_labels": [
+            "Refractory/non-juring priests as a political crisis"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 175,
+          "source_page_label": "175",
+          "locator_class": "principal",
+          "evidence_summary": "Reports that most parish priests in the department refused the oath make the Vendee a leading example in the opening debate."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-04"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S031",
+      "label": "Avignon violence and annexation conflict",
+      "priority": "major",
+      "meaning": "Reciprocal killings between opponents and supporters of French annexation made Avignon a symbol and cause of widening religious-counterrevolutionary conflict in the south.",
+      "stance": "The text presents violence on both sides and does not describe annexationist action as a simple restoration of order.",
+      "acceptable_access": [
+        "Avignon",
+        "Avignon massacres",
+        "Avignon annexation conflict"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Southern peasant anti-feudal violence"
+          ]
+        },
+        {
+          "type": "regional_context_for",
+          "target_labels": [
+            "Marseilles: regional radicalism and intervention"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "principal",
+          "evidence_summary": "A municipal killing and the retaliatory murder of imprisoned papal supporters enter the clerical debate."
+        },
+        {
+          "document_page": 182,
+          "source_page_label": "182",
+          "locator_class": "supporting",
+          "evidence_summary": "The Avignon prison killings remain part of the rumor complex behind later southern violence."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-07"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S032",
+      "label": "Emigres: emigration, decrees, and war pretext",
+      "priority": "major",
+      "meaning": "Continuing emigration, armed organization abroad, punitive legislation, royal resistance, and pressure on German rulers converted a domestic opposition problem into a route toward war.",
+      "stance": "The chapter distinguishes the emigres' symbolic and political importance from Robespierre's judgment that they were less dangerous than domestic counter-revolutionaries.",
+      "acceptable_access": [
+        "emigres",
+        "emigre armies",
+        "emigre decree of November 1791",
+        "emigres and war"
+      ],
+      "relationships": [
+        {
+          "type": "problem_prompting",
+          "target_labels": [
+            "Origins and declaration of the war of April 1792"
+          ]
+        },
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Counter-revolution and the enemy within"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 175,
+          "source_page_label": "175",
+          "locator_class": "principal",
+          "evidence_summary": "Emigration accelerates despite amnesty, while armed activity near the frontier sustains suspicion."
+        },
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "principal",
+          "evidence_summary": "The Assembly sequesters revenues and threatens absent citizens with severe penalties before the king vetoes the decree."
+        },
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "principal",
+          "evidence_summary": "The Assembly redirects pressure toward German rulers harboring armed emigres."
+        },
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "principal",
+          "evidence_summary": "The Trier ultimatum briefly appears to solve the immediate problem when the electors disperse emigre forces."
+        },
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "supporting",
+          "evidence_summary": "Austrian intervention shifts the war focus from the Rhine electors to the Habsburg ruler."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-02",
+        "TASK-008-03"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S033",
+      "label": "Counter-revolution and the enemy within",
+      "priority": "major",
+      "meaning": "The category of internal enemies expanded from nonjurors and royalist plotters to foreigners, guards, ministers, prisoners, criminals, and other presumed conspirators.",
+      "stance": "The source repeatedly exposes the gap between real opposition and indiscriminate suspicion; many targets were not demonstrably dangerous.",
+      "acceptable_access": [
+        "counter-revolution",
+        "internal enemies",
+        "enemy within",
+        "counter-revolutionary suspicion"
+      ],
+      "relationships": [
+        {
+          "type": "drives",
+          "target_labels": [
+            "Political surveillance after 10 August",
+            "Domiciliary visits, mass arrests, and prison overcrowding",
+            "September Massacres"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 174,
+          "source_page_label": "174",
+          "locator_class": "supporting",
+          "evidence_summary": "Local political experience teaches new deputies to identify refractory clergy as domestic enemies."
+        },
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "supporting",
+          "evidence_summary": "Royal veto is interpreted through a broad alleged palace-emigre-foreign conspiracy."
+        },
+        {
+          "document_page": 182,
+          "source_page_label": "182",
+          "locator_class": "principal",
+          "evidence_summary": "Southern rumor turns an accidental-looking disaster into evidence of a coordinated counter-revolutionary plot."
+        },
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "principal",
+          "evidence_summary": "Military defeat prompts surveillance, disbandment, deportation, and claims that betrayal is everywhere."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "Passports, searches, clerical arrests, and thousands of new detentions operationalize suspicion."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Most massacre victims prove not to be politically dangerous despite perpetrators' belief in a prison conspiracy."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-04",
+        "TASK-008-09",
+        "TASK-008-11"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S034",
+      "label": "Origins and declaration of the war of April 1792",
+      "priority": "essential",
+      "meaning": "Emigre politics, Austrian threats, Brissotin regeneration, royal and military hopes, diplomatic escalation, and ministerial change converged in an overwhelmingly approved declaration of war.",
+      "stance": "No single motive explains the war; shared support concealed incompatible expectations about the Revolution's survival or defeat.",
+      "acceptable_access": [
+        "war of April 1792",
+        "declaration of war, 20 April 1792",
+        "origins of revolutionary war",
+        "France and Austria, war declaration"
+      ],
+      "relationships": [
+        {
+          "type": "caused_by",
+          "target_labels": [
+            "Emigres: emigration, decrees, and war pretext",
+            "Austrian escalation and Austro-Prussian alignment",
+            "War as panacea and instrument of national regeneration",
+            "Competing public and secret war aims"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "supporting",
+          "evidence_summary": "Brissot first makes war a possible final solution to the emigre problem."
+        },
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "principal",
+          "evidence_summary": "The king, Lafayette, Narbonne, and Brissotins discover different advantages in confrontation."
+        },
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "principal",
+          "evidence_summary": "The Assembly embraces the Trier ultimatum while Robespierre warns against war."
+        },
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "principal",
+          "evidence_summary": "Austrian threats, alliance politics, and ministry conflict convert the question into direct war against the Habsburg ruler."
+        },
+        {
+          "document_page": 180,
+          "source_page_label": "180",
+          "locator_class": "principal",
+          "evidence_summary": "A Brissotin-aligned ministry is installed and the Assembly approves war with only a handful of dissenters."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-02",
+        "TASK-008-03"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S035",
+      "label": "War as panacea and instrument of national regeneration",
+      "priority": "major",
+      "meaning": "War advocates expected conflict to restore honor, regenerate nation and army, expose traitors, spread liberty, support the currency, and redirect domestic antagonism.",
+      "stance": "The chapter emphasizes the breadth and unreality of these expectations; war briefly distracted from domestic problems but did not solve them.",
+      "acceptable_access": [
+        "war as panacea",
+        "regenerative war",
+        "war and national unity",
+        "war and assignats"
+      ],
+      "relationships": [
+        {
+          "type": "rationale_for",
+          "target_labels": [
+            "Origins and declaration of the war of April 1792"
+          ]
+        },
+        {
+          "type": "challenged_by",
+          "target_labels": [
+            "Opening military collapse and the army's crisis"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "principal",
+          "evidence_summary": "Brissotins describe war as a way to regenerate the nation, restore honor, expose plotters, and liberate Europe."
+        },
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "principal",
+          "evidence_summary": "Patriotic enthusiasm and expectations that liberated peoples will imitate France overwhelm caution."
+        },
+        {
+          "document_page": 180,
+          "source_page_label": "180",
+          "locator_class": "supporting",
+          "evidence_summary": "The declared defensive war carries expansive aims and divergent hopes."
+        },
+        {
+          "document_page": 181,
+          "source_page_label": "181",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "War temporarily directs attention outward, but domestic crises multiply by the time fighting begins."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-02",
+        "TASK-008-03"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S036",
+      "label": "Competing public and secret war aims",
+      "priority": "major",
+      "meaning": "Revolutionaries publicly promised defense and liberation, while the king, queen, and generals expected defeat, intervention, restored authority, or domestic discipline.",
+      "stance": "Common support for war must not be mistaken for agreement about its desired outcome; the public no-conquest and civilian-protection pledges were later broken.",
+      "acceptable_access": [
+        "war aims, 1792",
+        "royal war aims",
+        "revolutionary war aims",
+        "secret hopes for war"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Origins and declaration of the war of April 1792"
+          ]
+        },
+        {
+          "type": "contrast",
+          "target_labels": [
+            "Revolutionary internationalism and liberation war"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "principal",
+          "evidence_summary": "The king and military leaders expect war to invite intervention or restore discipline, unlike Brissotin liberation goals."
+        },
+        {
+          "document_page": 180,
+          "source_page_label": "180",
+          "locator_class": "principal",
+          "evidence_summary": "The declaration's defensive promises are set beside the manifold and incompatible aims of factions, generals, and the royal family."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-02"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S037",
+      "label": "Brissot-Robespierre war controversy",
+      "priority": "major",
+      "meaning": "Brissot defended war as necessary consolidation and international liberation, while Robespierre warned that victory could empower generals and defeat could enable court-led counter-revolution.",
+      "stance": "The controversy is substantive rather than merely personal: it offers competing diagnoses of where the Revolution's most dangerous enemies were located.",
+      "acceptable_access": [
+        "Brissot and Robespierre, war debate",
+        "Jacobin war debate",
+        "Robespierre against war"
+      ],
+      "relationships": [
+        {
+          "type": "conflict_between",
+          "target_labels": [
+            "Brissotins/Girondins: war leadership and loss of popular control",
+            "Robespierre: antiwar case, turn to insurrection, and position on Louis XVI"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "principal",
+          "evidence_summary": "Robespierre identifies military dictatorship, defeat, foreign intervention, and domestic enemies as the central risks."
+        },
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "principal",
+          "evidence_summary": "Brissot's optimism dominates Assembly enthusiasm while Robespierre and Feuillants remain isolated opponents."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-03"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S038",
+      "label": "Austrian escalation and Austro-Prussian alignment",
+      "priority": "major",
+      "meaning": "Habsburg threats on behalf of the Rhine electors and a defensive pact with Prussia convinced French war advocates that a monarchical league was forming against the Revolution.",
+      "stance": "Vienna believed calibrated threats would defuse crisis, but the strategy instead strengthened the French case for war.",
+      "acceptable_access": [
+        "Austria and France, 1791-1792",
+        "Austro-Prussian alliance",
+        "Leopold II and French war crisis",
+        "Prussia and Austria, defensive pact"
+      ],
+      "relationships": [
+        {
+          "type": "accelerates",
+          "target_labels": [
+            "Origins and declaration of the war of April 1792"
+          ]
+        },
+        {
+          "type": "conflict_with",
+          "target_labels": [
+            "Revolutionary internationalism and liberation war"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "principal",
+          "evidence_summary": "Leopold's threat and the Prussian pact reinforce the belief in a league of despots and provoke escalating French demands."
+        },
+        {
+          "document_page": 180,
+          "source_page_label": "180",
+          "locator_class": "principal",
+          "evidence_summary": "A defiant Austrian reply, ministerial collapse, and Austrian mobilization remove remaining obstacles to war."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-02"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S039",
+      "label": "Revolutionary internationalism and liberation war",
+      "priority": "major",
+      "meaning": "War rhetoric treated French liberty as universally valid and expected subject peoples to rise with French assistance.",
+      "stance": "The source stresses that claims of no conquest and protection of civilians were incompatible with the conflict's later course.",
+      "acceptable_access": [
+        "revolutionary internationalism",
+        "liberation war",
+        "exporting the Revolution",
+        "war of peoples against despots"
+      ],
+      "relationships": [
+        {
+          "type": "rationale_for",
+          "target_labels": [
+            "Origins and declaration of the war of April 1792"
+          ]
+        },
+        {
+          "type": "expressed_by",
+          "target_labels": [
+            "The Marseillaise: composition and naming"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 177,
+          "source_page_label": "177",
+          "locator_class": "supporting",
+          "evidence_summary": "The Assembly threatens German rulers with the awakening of their subject peoples."
+        },
+        {
+          "document_page": 178,
+          "source_page_label": "178",
+          "locator_class": "principal",
+          "evidence_summary": "Brissotin and exile rhetoric predicts liberation throughout Europe."
+        },
+        {
+          "document_page": 179,
+          "source_page_label": "179",
+          "locator_class": "principal",
+          "evidence_summary": "Advocates interpret Habsburg action as a league of despots to be confronted directly."
+        },
+        {
+          "document_page": 180,
+          "source_page_label": "180",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The declaration promises defense without conquest, followed by the author's warning that every pledge will be broken."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-02",
+        "TASK-008-03"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S040",
+      "label": "Opening military collapse and the army's crisis",
+      "priority": "major",
+      "meaning": "The first advance ended in panic, desertion, and the killing of a suspected commander, exposing the weakness of an army war advocates had imagined as liberating.",
+      "stance": "Defeat is explained through military condition and expectation, not simply through treason despite contemporary accusations.",
+      "acceptable_access": [
+        "French army, early defeats of 1792",
+        "opening campaign of 1792",
+        "army crisis, April 1792"
+      ],
+      "relationships": [
+        {
+          "type": "contradicts",
+          "target_labels": [
+            "War as panacea and instrument of national regeneration"
+          ]
+        },
+        {
+          "type": "triggers",
+          "target_labels": [
+            "Military defeat, treason panic, and domestic radicalization"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 183,
+          "source_page_label": "183",
+          "locator_class": "principal",
+          "evidence_summary": "The first Belgian advance collapses, and French troops kill a commander they suspect of betrayal."
+        },
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "principal",
+          "evidence_summary": "Other units fail, cavalry desertion increases, and Paris responds by seeking political scapegoats."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-09",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S041",
+      "label": "Military defeat, treason panic, and domestic radicalization",
+      "priority": "essential",
+      "meaning": "Defeat and invasion transformed military danger into beliefs that king, generals, clergy, foreigners, prisoners, and political rivals were betraying the nation.",
+      "stance": "The source treats military emergency as a major accelerator of repression and revolution while repeatedly qualifying the truth of alleged plots.",
+      "acceptable_access": [
+        "war crisis and radicalization",
+        "treason panic",
+        "military defeat and domestic revolution",
+        "invasion and political violence"
+      ],
+      "relationships": [
+        {
+          "type": "caused_by",
+          "target_labels": [
+            "Opening military collapse and the army's crisis",
+            "Longwy and Verdun: invasion panic"
+          ]
+        },
+        {
+          "type": "drives",
+          "target_labels": [
+            "Political surveillance after 10 August",
+            "September Massacres"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "principal",
+          "evidence_summary": "Opening reverses produce widespread betrayal claims and rapid security legislation."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "Enemy invasion and the Brunswick threat intensify democratization and the deposition movement."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "The fall of Longwy leads to searches, arrests, and prison overcrowding."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "Verdun's danger triggers panic and the opening attacks on prisoners."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "After the internal purge, popular volunteering and Valmy connect domestic mobilization to military recovery."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-09",
+        "TASK-008-11",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S042",
+      "label": "Brunswick Manifesto and the overthrow of monarchy",
+      "priority": "major",
+      "meaning": "The allied commander's threat to restore royal authority and punish Paris radicalized the capital and made the king appear aligned with invasion.",
+      "stance": "The manifesto's political effect in France is central; its threats backfired rather than intimidating Parisians into passivity.",
+      "acceptable_access": [
+        "Brunswick Manifesto",
+        "Duke of Brunswick declaration",
+        "Brunswick threat to Paris"
+      ],
+      "relationships": [
+        {
+          "type": "accelerates",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        },
+        {
+          "type": "drives",
+          "target_labels": [
+            "National Guard: politicization and democratization"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "The manifesto threatens vengeance, prompts arms for all citizens, and intensifies petitions for immediate deposition."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-09"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S043",
+      "label": "Country in Danger and emergency mobilization",
+      "priority": "major",
+      "meaning": "The Country in Danger procedure placed public bodies in permanent session and authorized volunteer mobilization alongside the line army.",
+      "stance": "Emergency mobilization was simultaneously military and political, bringing provincial militants into Paris and widening participation.",
+      "acceptable_access": [
+        "Country in Danger",
+        "La Patrie en danger",
+        "emergency mobilization, July 1792"
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_labels": [
+            "Federes as military volunteers and political actors"
+          ]
+        },
+        {
+          "type": "reinforces",
+          "target_labels": [
+            "Democratization of citizenship and political participation"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "The Assembly defines and invokes the emergency, enabling permanent sessions and volunteer recruitment."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "supporting",
+          "evidence_summary": "Invasion and the Brunswick threat deepen the emergency's democratizing consequences."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-09",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S044",
+      "label": "Federes as military volunteers and political actors",
+      "priority": "major",
+      "meaning": "Provincial National Guard volunteers entered Paris en route to the front, joined deposition politics, and became an armed component of the 10 August insurrection.",
+      "stance": "They were not merely military replacements; sections and clubs deliberately integrated them into the capital's political struggle.",
+      "acceptable_access": [
+        "federes",
+        "provincial federes in Paris",
+        "federes and 10 August",
+        "Marseilles federes"
+      ],
+      "relationships": [
+        {
+          "type": "enabled_by",
+          "target_labels": [
+            "Country in Danger and emergency mobilization"
+          ]
+        },
+        {
+          "type": "agent_in",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "supporting",
+          "evidence_summary": "The proposed camp of provincial guards becomes a new point of veto and political conflict."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "Federes continue arriving, receive Jacobin and sectional support, and demand action against royal and military opponents."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "They coordinate with the sections as insurrection approaches."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "Federes march with the Commune's forces and suffer substantial casualties at the Tuileries."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08",
+        "TASK-008-09"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S045",
+      "label": "National Guard: politicization and democratization",
+      "priority": "major",
+      "meaning": "The Guard was a school of revolutionary administration, an object of conflict between Paris officers and provincial volunteers, and an armed institution opened beyond propertied active citizens in the invasion crisis.",
+      "stance": "It should not be treated as a politically uniform body; officers, local units, and newly admitted citizens took different positions.",
+      "acceptable_access": [
+        "National Guard",
+        "National Guard, democratization",
+        "Paris National Guard",
+        "National Guard and 10 August"
+      ],
+      "relationships": [
+        {
+          "type": "institutional_basis_for",
+          "target_labels": [
+            "Legislative Assembly: composition, experience, and priorities"
+          ]
+        },
+        {
+          "type": "agent_in",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 174,
+          "source_page_label": "174",
+          "locator_class": "supporting",
+          "evidence_summary": "Service in the Guard provided new deputies with practical revolutionary experience."
+        },
+        {
+          "document_page": 184,
+          "source_page_label": "184",
+          "locator_class": "principal",
+          "evidence_summary": "The royal guard, regular troops, Paris officers, and proposed provincial camp become competing security projects."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "The Guard is opened to all citizens after the Brunswick threat, displacing the earlier property-based dominance."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "Many guards at the Tuileries defect to the Commune's side during the assault."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08",
+        "TASK-008-09"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S046",
+      "label": "Longwy and Verdun: invasion panic",
+      "priority": "major",
+      "meaning": "The rapid fall of frontier positions made traitors seem ubiquitous and created immediate fear that no fortress protected the road to Paris.",
+      "stance": "The military news is a trigger for searches and massacres, not evidence that imprisoned suspects actually formed a coordinated plot.",
+      "acceptable_access": [
+        "Longwy, fall of",
+        "Verdun, siege",
+        "Prussian invasion panic",
+        "road to Paris, 1792 invasion"
+      ],
+      "relationships": [
+        {
+          "type": "triggers",
+          "target_labels": [
+            "Domiciliary visits, mass arrests, and prison overcrowding",
+            "September Massacres"
+          ]
+        },
+        {
+          "type": "component_of",
+          "target_labels": [
+            "Military defeat, treason panic, and domestic radicalization"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "News that Longwy falls with little resistance drives a general search and thousands of arrests."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "The danger at Verdun creates panic and immediately precedes the first prison killings."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S047",
+      "label": "Battle of Valmy and its political significance",
+      "priority": "essential",
+      "meaning": "French forces halted the Prussians at Valmy, opened negotiations, and achieved a military turn at the moment the Convention met and declared a republic.",
+      "stance": "Its world-historical meaning is partly conveyed through a witness's judgment; the secure chapter-level claims are the stopped invasion, negotiations, and political conjunction with the Republic.",
+      "acceptable_access": [
+        "Valmy",
+        "Battle of Valmy",
+        "Valmy and the Republic",
+        "Valmy, significance"
+      ],
+      "relationships": [
+        {
+          "type": "turning_point_after",
+          "target_labels": [
+            "Longwy and Verdun: invasion panic"
+          ]
+        },
+        {
+          "type": "coincides_with",
+          "target_labels": [
+            "Abolition of monarchy and establishment of the Republic"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "principal",
+          "evidence_summary": "French numerical and artillery advantages, combined with patriotic resolve, stop the Prussian advance."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The Prussians negotiate and withdraw as the Convention meets and declares a republic."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S048",
+      "label": "Transformation of warfare through patriotic mass participation",
+      "priority": "major",
+      "meaning": "Popular volunteering and national enthusiasm challenged assumptions about orderly eighteenth-century warfare and helped convert panic into effective resistance.",
+      "stance": "The transformation is qualified: Valmy also depended on trained commanders and superior professional artillery, so patriotic energy alone is not the explanation.",
+      "acceptable_access": [
+        "revolutionary warfare",
+        "patriotic volunteers and war",
+        "mass participation in war",
+        "nation in arms, early development"
+      ],
+      "relationships": [
+        {
+          "type": "expressed_in",
+          "target_labels": [
+            "From massacre panic to patriotic volunteering",
+            "Battle of Valmy and its political significance"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "principal",
+          "evidence_summary": "Mass volunteering and battlefield enthusiasm surprise a professional observer and precede the stand at Valmy."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "supporting",
+          "evidence_summary": "Valmy is interpreted as the beginning of a new historical epoch, while its immediate result is Prussian negotiation."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S049",
+      "label": "Saint-Domingue slave uprising and colonial civil war",
+      "priority": "major",
+      "meaning": "The August 1791 uprising grew into the largest and only successful slave rebellion, embedded in a fast-moving colonial civil war and plantation expansion.",
+      "stance": "The source emphasizes both enslaved agency and the destabilizing background of racial conflict and metropolitan incoherence; it does not reduce the revolt to a single decree.",
+      "acceptable_access": [
+        "Saint-Domingue slave uprising",
+        "Haitian Revolution, uprising of 1791",
+        "slave rebellion in Saint-Domingue",
+        "colonial civil war"
+      ],
+      "relationships": [
+        {
+          "type": "conditioned_by",
+          "target_labels": [
+            "Failure of revolutionary colonial policy"
+          ]
+        },
+        {
+          "type": "causes",
+          "target_labels": [
+            "Sugar shortage and women's popular price-fixing"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 181,
+          "source_page_label": "181",
+          "locator_class": "principal",
+          "evidence_summary": "The uprising's scale, plantation destruction, historical importance, and development into a complex civil war are analyzed."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-05"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S050",
+      "label": "Failure of revolutionary colonial policy",
+      "priority": "major",
+      "meaning": "The Constituent Assembly failed to produce coherent policy on slavery, the slave trade, free people of color, and colonial autonomy, worsening conflict in Saint-Domingue and other islands.",
+      "stance": "Policy failure is one contributor among plantation growth, racial struggle, and communication delay; it is not presented as the sole cause of revolt.",
+      "acceptable_access": [
+        "colonial policy",
+        "slavery and the Constituent Assembly",
+        "rights of free people of color",
+        "colonial autonomy"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Saint-Domingue slave uprising and colonial civil war"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 181,
+          "source_page_label": "181",
+          "locator_class": "principal",
+          "evidence_summary": "Inconsistent metropolitan decisions and a three-month information lag compound racial and political conflict in the colonies."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-05"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S051",
+      "label": "Bordeaux and Brissotin entanglement with the Caribbean slave economy",
+      "priority": "optional",
+      "meaning": "The uprising embarrassed antislavery Brissot and allied Bordeaux politicians because their port's prosperity was closely tied to Caribbean slavery.",
+      "stance": "The point is a political-economic tension, not a claim that every Bordeaux deputy held the same position on slavery.",
+      "acceptable_access": [
+        "Bordeaux and slavery",
+        "Brissot and antislavery",
+        "Girondins and Caribbean trade"
+      ],
+      "relationships": [
+        {
+          "type": "tension_within",
+          "target_labels": [
+            "Brissotins/Girondins: war leadership and loss of popular control"
+          ]
+        },
+        {
+          "type": "context_for",
+          "target_labels": [
+            "Saint-Domingue slave uprising and colonial civil war"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 181,
+          "source_page_label": "181",
+          "locator_class": "principal",
+          "evidence_summary": "Brissot's antislavery background and Bordeaux's dependence on the Caribbean economy make the colonial crisis politically awkward for his circle."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-05"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S052",
+      "label": "Sugar shortage and women's popular price-fixing",
+      "priority": "major",
+      "meaning": "Colonial disruption tripled sugar prices and prompted largely female crowds to seize sugar and coffee and sell them at older prices.",
+      "stance": "The action is popular economic regulation arising from scarcity, not simple looting detached from price claims.",
+      "acceptable_access": [
+        "sugar shortage",
+        "women and price-fixing",
+        "popular price control",
+        "coffee and sugar riots"
+      ],
+      "relationships": [
+        {
+          "type": "consequence_of",
+          "target_labels": [
+            "Saint-Domingue slave uprising and colonial civil war"
+          ]
+        },
+        {
+          "type": "parallel_to",
+          "target_labels": [
+            "Food provisioning and grain riots"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 181,
+          "source_page_label": "181",
+          "locator_class": "principal",
+          "evidence_summary": "Severe sugar scarcity reaches Paris and produces organized, predominantly female price-fixing actions in eastern districts."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-05",
+        "TASK-008-06"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S053",
+      "label": "Food provisioning and grain riots",
+      "priority": "major",
+      "meaning": "Paris protected its own bread supply by drawing down surrounding reserves, while smaller towns faced grain-price conflict, export resistance, and lethal disorder.",
+      "stance": "The chapter links capital provisioning to regional scarcity and unrest rather than treating each riot as an isolated local failure.",
+      "acceptable_access": [
+        "grain riots",
+        "food provisioning",
+        "Paris grain stocks",
+        "Etampes grain riot",
+        "Dunkirk grain disturbances"
+      ],
+      "relationships": [
+        {
+          "type": "economic_context_for",
+          "target_labels": [
+            "Paris sections and popular societies"
+          ]
+        },
+        {
+          "type": "reinforced_by",
+          "target_labels": [
+            "Depreciation of the livre and assignats"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 181,
+          "source_page_label": "181",
+          "locator_class": "principal",
+          "evidence_summary": "Parisian stockpiling keeps bread relatively secure but depletes reserves over a wide surrounding area."
+        },
+        {
+          "document_page": 182,
+          "source_page_label": "182",
+          "locator_class": "principal",
+          "evidence_summary": "Price conflict kills the mayor of Etampes and an attempted export provokes major disorder at Dunkirk."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-06"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S054",
+      "label": "Depreciation of the livre and assignats",
+      "priority": "major",
+      "meaning": "Falling exchange value of both monetary instruments raised prices, especially for imports, and intensified popular accusations against merchants and hoarders.",
+      "stance": "Currency depreciation compounds scarcity; the source does not treat all price rises as the product of hoarding.",
+      "acceptable_access": [
+        "assignats, depreciation",
+        "livre, depreciation",
+        "inflation, 1791-1792",
+        "currency crisis"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Food provisioning and grain riots"
+          ]
+        },
+        {
+          "type": "economic_context_for",
+          "target_labels": [
+            "Paris sections and popular societies"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 182,
+          "source_page_label": "182",
+          "locator_class": "principal",
+          "evidence_summary": "The declining livre and assignat are quantified and connected to rising prices and municipal threats against merchants."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-06"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S055",
+      "label": "Marseilles: regional radicalism and intervention",
+      "priority": "major",
+      "meaning": "Marseilles sought regional primacy through armed intervention in Avignon, Aix, and Arles and later supplied politically influential federes to Paris.",
+      "stance": "Its activism is presented as both patriotic and destabilizing, not as neutral enforcement of national policy.",
+      "acceptable_access": [
+        "Marseilles",
+        "Marseillais intervention",
+        "Marseilles federes",
+        "Marseilles and southern radicalism"
+      ],
+      "relationships": [
+        {
+          "type": "agent_in",
+          "target_labels": [
+            "Arles and the Chiffon counter-revolution"
+          ]
+        },
+        {
+          "type": "source_of",
+          "target_labels": [
+            "Federes as military volunteers and political actors",
+            "The Marseillaise: composition and naming"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 182,
+          "source_page_label": "182",
+          "locator_class": "principal",
+          "evidence_summary": "Marseilles intervenes militarily across the department and leads the siege and seizure of Arles."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "Its delayed contingent enters Paris singing the Rhine Army hymn and becomes central to federe politics."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-07",
+        "TASK-008-08"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S056",
+      "label": "Arles and the Chiffon counter-revolution",
+      "priority": "major",
+      "meaning": "Arles became a regional center of refractory counter-revolution under the Chiffon until a Marseilles-led force captured the city and expelled its leaders.",
+      "stance": "The conflict intensified an already polarized south and fed rumors of continuing plots; it was not a self-contained municipal dispute.",
+      "acceptable_access": [
+        "Arles",
+        "Chiffon",
+        "counter-revolution in Arles",
+        "siege of Arles"
+      ],
+      "relationships": [
+        {
+          "type": "opposed_by",
+          "target_labels": [
+            "Marseilles: regional radicalism and intervention"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Southern peasant anti-feudal violence"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 182,
+          "source_page_label": "182",
+          "locator_class": "principal",
+          "evidence_summary": "The Chiffon controls Arles until a large Marseilles-led force besieges and captures it."
+        },
+        {
+          "document_page": 183,
+          "source_page_label": "183",
+          "locator_class": "supporting",
+          "evidence_summary": "Fear that reactionaries in Arles and Avignon could reverse revolutionary gains helps explain rural action."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-07"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S057",
+      "label": "Pont-Saint-Esprit drownings as catalyst",
+      "priority": "optional",
+      "meaning": "The drowning of National Guardsmen was widely interpreted as a counter-revolutionary plot and triggered a broad wave of southern rural violence.",
+      "stance": "The source reports the conspiratorial interpretation as contemporary belief; it does not affirm that the deaths were deliberately caused.",
+      "acceptable_access": [
+        "Pont-Saint-Esprit",
+        "Pont-Saint-Esprit drownings",
+        "drowned National Guardsmen"
+      ],
+      "relationships": [
+        {
+          "type": "triggers",
+          "target_labels": [
+            "Southern peasant anti-feudal violence"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 182,
+          "source_page_label": "182",
+          "locator_class": "principal",
+          "evidence_summary": "The disaster is immediately understood as revenge for patriotic victories and becomes a trigger for attacks."
+        },
+        {
+          "document_page": 183,
+          "source_page_label": "183",
+          "locator_class": "supporting",
+          "evidence_summary": "Belief in a plot sustains fear that counter-revolution might succeed indirectly."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-07"
+      ],
+      "confidence": "medium",
+      "adjudication_status": "uncertain_priority"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S058",
+      "label": "Southern peasant anti-feudal violence",
+      "priority": "major",
+      "meaning": "Peasants attacked castles, records, symbols, nobles, and nonjurors across the south because they believed the gains of 1789 remained reversible and state authority could not secure them.",
+      "stance": "The interpretation emphasizes defense of revolutionary gains amid rumor and weak government, not undirected rural criminality.",
+      "acceptable_access": [
+        "anti-feudal violence in southern France",
+        "peasant attacks on castles",
+        "rural violence, spring 1792",
+        "Midi peasant violence"
+      ],
+      "relationships": [
+        {
+          "type": "triggered_by",
+          "target_labels": [
+            "Pont-Saint-Esprit drownings as catalyst"
+          ]
+        },
+        {
+          "type": "responds_to",
+          "target_labels": [
+            "Arles and the Chiffon counter-revolution"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Irreversibility of the destruction of the old order"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 182,
+          "source_page_label": "182",
+          "locator_class": "principal",
+          "evidence_summary": "Rumor after the drownings produces attacks on nonjurors, nobles, property, and feudal records."
+        },
+        {
+          "document_page": 183,
+          "source_page_label": "183",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The geographic spread and anti-feudal targets support an interpretation centered on fear that 1789 could be reversed."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-07"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S059",
+      "label": "Irreversibility of the destruction of the old order",
+      "priority": "major",
+      "meaning": "Popular anti-feudal action, war, republican overthrow, and regicide progressively reduced the possibility of restoring the old social and political order.",
+      "stance": "Irreversibility is a chapter-level synthesis, not a claim that every institution of the old order vanished at once.",
+      "acceptable_access": [
+        "old order, irreversible destruction",
+        "ancien regime, destruction",
+        "irreversibility of the Revolution"
+      ],
+      "relationships": [
+        {
+          "type": "synthesis_of",
+          "target_labels": [
+            "Southern peasant anti-feudal violence",
+            "Consequences and meaning of regicide"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 183,
+          "source_page_label": "183",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Peasants act to make feudal destruction irreversible, and the newly begun war is said to do still more toward that end."
+        },
+        {
+          "document_page": 196,
+          "source_page_label": "196",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Regicide completes a total political rupture and makes compromise or return far less plausible."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-07",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S060",
+      "label": "Paris sections and popular societies",
+      "priority": "essential",
+      "meaning": "Neighborhood organizations revived under economic and military pressure, broadened participation, coordinated petitions and armed action, formed a central committee, and seized municipal power.",
+      "stance": "The sections became an alternative locus of sovereignty and mobilization; they were numerous and not always unanimous despite later collective claims.",
+      "acceptable_access": [
+        "Paris sections",
+        "popular societies",
+        "sectional assemblies",
+        "sections in permanent session",
+        "central committee of sections"
+      ],
+      "relationships": [
+        {
+          "type": "organizational_basis_for",
+          "target_labels": [
+            "Sans-culottes as a political movement",
+            "Insurrection of 10 August 1792 and assault on the Tuileries",
+            "Insurrectionary Paris Commune"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 185,
+          "source_page_label": "185",
+          "locator_class": "principal",
+          "evidence_summary": "Popular societies multiply in eastern and central sections and press for continuous assembly during the emergency."
+        },
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "principal",
+          "evidence_summary": "Sections coordinate the 20 June demonstration and learn from its failure."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "Assemblies admit wider participation, sit continuously, and coordinate with federes."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "A central committee and deposition petitions move beyond legislative control."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The central committee seizes municipal power as an insurrectionary Commune and directs armed forces."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-06",
+        "TASK-008-08",
+        "TASK-008-10"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S061",
+      "label": "Sans-culottes as a political movement",
+      "priority": "essential",
+      "meaning": "Ordinary artisans and tradesmen claimed a political identity, drove demonstrations and insurrection, demanded vengeance, participated in massacres, volunteered for war, and pressured representative institutions.",
+      "stance": "The movement is socially and politically consequential but not homogeneous; its members' beliefs and actions are explained without endorsing violence.",
+      "acceptable_access": [
+        "sans-culottes",
+        "sansculottes",
+        "popular movement in Paris",
+        "artisans and tradesmen in the Revolution"
+      ],
+      "relationships": [
+        {
+          "type": "organized_through",
+          "target_labels": [
+            "Paris sections and popular societies"
+          ]
+        },
+        {
+          "type": "agent_in",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries",
+            "September Massacres",
+            "From massacre panic to patriotic volunteering"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "principal",
+          "evidence_summary": "Demonstrators publicly adopt the sans-culotte identity while invading the Tuileries and demanding ministerial change."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "Sections widen participation to mobilize ordinary citizens for a future confrontation."
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "Armed citizens and federes coordinate deposition and insurrectionary action."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "Shopkeepers, tradesmen, and artisans form much of the force that defeats the palace defense."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "Their demand for vengeance and influence over ministry and surveillance shape post-insurrectionary government."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "Prison-plot fears and popular justice lead sans-culottes into the first massacre attacks."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "principal",
+          "evidence_summary": "Artisans carry out killings they believe necessary, then volunteer for the front in large numbers."
+        },
+        {
+          "document_page": 196,
+          "source_page_label": "196",
+          "locator_class": "supporting",
+          "evidence_summary": "Fear of renewed sans-culotte action forms part of the environment surrounding the king's sentence."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08",
+        "TASK-008-10",
+        "TASK-008-11",
+        "TASK-008-12",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S062",
+      "label": "Demonstration of 20 June 1792",
+      "priority": "major",
+      "meaning": "An armed mass entered the Tuileries to demand restoration of ministers and an end to royal obstruction but failed to intimidate Louis XVI.",
+      "stance": "Its immediate failure and the sympathy it generated for the royal family are as important as its precedent for the more decisive August confrontation.",
+      "acceptable_access": [
+        "20 June 1792",
+        "demonstration of 20 June",
+        "Tuileries invasion, June 1792",
+        "journee of 20 June"
+      ],
+      "relationships": [
+        {
+          "type": "organized_by",
+          "target_labels": [
+            "Cordeliers-centered popular coordination",
+            "Paris sections and popular societies"
+          ]
+        },
+        {
+          "type": "prepares",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "principal",
+          "evidence_summary": "A large armed procession occupies the palace, confronts the king, and leaves without securing its demands."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The episode's lessons, rather than its immediate outcome, establish the pattern for a decisive second attempt."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-08"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S063",
+      "label": "Insurrection of 10 August 1792 and assault on the Tuileries",
+      "priority": "essential",
+      "meaning": "Sections, federes, and a democratized Guard overthrew royal authority, defeated the palace defense, suspended monarchy, and shifted effective power to the Commune.",
+      "stance": "The event is both a popular revolution and a bloody armed conflict; its decisiveness does not erase internal divisions among former allies.",
+      "acceptable_access": [
+        "10 August 1792",
+        "insurrection of 10 August",
+        "storming of the Tuileries",
+        "overthrow of Louis XVI"
+      ],
+      "relationships": [
+        {
+          "type": "culmination_of",
+          "target_labels": [
+            "Demonstration of 20 June 1792",
+            "Paris sections and popular societies",
+            "Brunswick Manifesto and the overthrow of monarchy"
+          ]
+        },
+        {
+          "type": "creates",
+          "target_labels": [
+            "Insurrectionary Paris Commune"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "A central committee, federes, and democratized guards prepare direct action as legislative decisions fail."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "The Commune seizes power, armed forces attack the Tuileries, the Swiss are defeated, and monarchy is suspended."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The aftermath leaves a rump Assembly governing under Commune pressure."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-08",
+        "TASK-008-10"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S064",
+      "label": "Swiss Guards and violence of 10 August",
+      "priority": "major",
+      "meaning": "The Swiss garrison opened fire, was overwhelmed, and suffered extensive killing during retreat and even after supposed safe custody.",
+      "stance": "The source records both the guards' initial fire and the disproportionate retaliatory massacre; it does not present all deaths as ordinary combat.",
+      "acceptable_access": [
+        "Swiss Guards",
+        "Swiss Guards at the Tuileries",
+        "Tuileries massacre",
+        "violence of 10 August"
+      ],
+      "relationships": [
+        {
+          "type": "episode_within",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        },
+        {
+          "type": "victims_in",
+          "target_labels": [
+            "September Massacres"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "The Swiss open fire, retreat, and are pursued and killed in large numbers, including some after the fighting."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "supporting",
+          "evidence_summary": "Surviving defenders later form one politically identified group among massacre victims."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08",
+        "TASK-008-11"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S065",
+      "label": "Insurrectionary Paris Commune",
+      "priority": "essential",
+      "meaning": "The sectional central committee seized municipal power, directed the 10 August forces, dominated the remaining Assembly, pursued vengeance and surveillance, resisted new elections, and coordinated prison killings.",
+      "stance": "The Commune is a powerful collective actor, but the text does not make it the sole originator of every popular action or massacre.",
+      "acceptable_access": [
+        "Paris Commune, insurrectionary",
+        "revolutionary Commune of 1792",
+        "Commune after 10 August"
+      ],
+      "relationships": [
+        {
+          "type": "created_by",
+          "target_labels": [
+            "Paris sections and popular societies",
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        },
+        {
+          "type": "dominates",
+          "target_labels": [
+            "Legislative Assembly: declining authority and subordination to the Commune"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "The central committee proclaims an insurrectionary Commune and orders the march on the palace."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "The Commune dictates much of the rump Assembly's agenda and pursues vengeance and surveillance."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "It rejects disbandment, threatens opponents, supervises prisons, and coordinates rather than halts the killings."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "supporting",
+          "evidence_summary": "It pays perpetrators and becomes a central object of later factional blame."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-10",
+        "TASK-008-11",
+        "TASK-008-14"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S066",
+      "label": "Suspension of monarchy and confinement in the Temple",
+      "priority": "major",
+      "meaning": "The fall of the palace ended effective royal authority; the Assembly suspended monarchy and the royal family entered close confinement pending the Convention.",
+      "stance": "Suspension was formally provisional, but contemporaries doubted any restoration without foreign victory.",
+      "acceptable_access": [
+        "monarchy, suspension",
+        "Louis XVI, confinement in Temple",
+        "Temple prison",
+        "royal family after 10 August"
+      ],
+      "relationships": [
+        {
+          "type": "consequence_of",
+          "target_labels": [
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        },
+        {
+          "type": "precedes",
+          "target_labels": [
+            "Trial of Louis XVI: legality and procedure"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "principal",
+          "evidence_summary": "The Assembly suspends monarchy and transfers the royal family to the Temple under guard while awaiting a Convention decision."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-01",
+        "TASK-008-15"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S067",
+      "label": "Political surveillance after 10 August",
+      "priority": "major",
+      "meaning": "Passports, certificates of civism, sectional committees, clerical arrests, and broad monitoring restricted movement and defined presumed enemies after the overthrow.",
+      "stance": "Surveillance grew from genuine invasion danger but operated through expansive and often indiscriminate suspicion.",
+      "acceptable_access": [
+        "political surveillance",
+        "certificates of civism",
+        "passports after 10 August",
+        "sectional surveillance committees"
+      ],
+      "relationships": [
+        {
+          "type": "instrument_of",
+          "target_labels": [
+            "Insurrectionary Paris Commune"
+          ]
+        },
+        {
+          "type": "driven_by",
+          "target_labels": [
+            "Counter-revolution and the enemy within"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "Movement out of Paris requires passports and civic certificates while section vigilantes arrest priests and other suspects."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-10",
+        "TASK-008-11"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S068",
+      "label": "Special tribunal, guillotine, and revolutionary justice",
+      "priority": "major",
+      "meaning": "A machine introduced as reliable, humane, and egalitarian became an instrument of political execution, while dissatisfaction with a slow special tribunal encouraged demands for direct popular justice.",
+      "stance": "The text distinguishes legal revolutionary punishment from the later makeshift prison tribunals, even as impatience linked them politically.",
+      "acceptable_access": [
+        "revolutionary justice",
+        "special tribunal of August 1792",
+        "guillotine and political execution",
+        "popular justice"
+      ],
+      "relationships": [
+        {
+          "type": "institutional_response_to",
+          "target_labels": [
+            "Counter-revolution and the enemy within"
+          ]
+        },
+        {
+          "type": "contrasted_with",
+          "target_labels": [
+            "Popular justice, acquittals, and perpetrators' motives in the massacres"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 183,
+          "source_page_label": "183",
+          "locator_class": "supporting",
+          "evidence_summary": "The guillotine is introduced as a mechanical, egalitarian, and supposedly painless method of capital punishment."
+        },
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "A tribunal is established for political crimes and carries out its first political execution."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "Commune activists' anger at the tribunal's pace feeds support for prison massacre and improvised courts."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S069",
+      "label": "Domiciliary visits, mass arrests, and prison overcrowding",
+      "priority": "major",
+      "meaning": "The invasion crisis produced a general search of Paris dwellings, thousands of arrests, and prisons filled with presumed traitors.",
+      "stance": "The arrests created the setting for prison-plot fears but did not establish that detainees were collectively dangerous.",
+      "acceptable_access": [
+        "domiciliary visits",
+        "house searches, August 1792",
+        "mass arrests in Paris",
+        "Paris prisons, overcrowding"
+      ],
+      "relationships": [
+        {
+          "type": "triggered_by",
+          "target_labels": [
+            "Longwy and Verdun: invasion panic"
+          ]
+        },
+        {
+          "type": "precondition_for",
+          "target_labels": [
+            "September Massacres"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 190,
+          "source_page_label": "190",
+          "locator_class": "principal",
+          "evidence_summary": "Danton's crisis response orders house searches that add roughly three thousand prisoners to already crowded jails."
+        },
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "supporting",
+          "evidence_summary": "Militants fear that the concentrated prison population will threaten families when volunteers leave for the front."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S070",
+      "label": "September Massacres",
+      "priority": "essential",
+      "meaning": "Invasion panic, prison-plot beliefs, Commune politics, and improvised tribunals produced the killing of roughly half the Paris prison population over several days.",
+      "stance": "The Commune coordinated and encouraged the killings but is not described as their sole origin; most victims were not politically dangerous.",
+      "acceptable_access": [
+        "September Massacres",
+        "prison massacres of September 1792",
+        "massacres in Paris prisons"
+      ],
+      "relationships": [
+        {
+          "type": "triggered_by",
+          "target_labels": [
+            "Longwy and Verdun: invasion panic",
+            "Domiciliary visits, mass arrests, and prison overcrowding"
+          ]
+        },
+        {
+          "type": "political_afterlife",
+          "target_labels": [
+            "Political memory and blame for the September Massacres"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "Bad news from Verdun precedes attacks on prisoner convoys and prisons, with improvised courts and Commune coordination."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The scale, mixed victim population, perpetrator beliefs, public horror, and long factional afterlife are assessed."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S071",
+      "label": "Popular justice, acquittals, and perpetrators' motives in the massacres",
+      "priority": "major",
+      "meaning": "Makeshift prison courts acquitted many detainees, while ordinary artisans believed killing presumed plotters protected the Revolution and their families.",
+      "stance": "The presence of acquittals and sincere belief explains the structure and motivation of violence without legitimating it or proving the alleged conspiracy.",
+      "acceptable_access": [
+        "popular justice in September 1792",
+        "massacre tribunals",
+        "September Massacres, perpetrators",
+        "prison acquittals"
+      ],
+      "relationships": [
+        {
+          "type": "mechanism_within",
+          "target_labels": [
+            "September Massacres"
+          ]
+        },
+        {
+          "type": "contrast_with",
+          "target_labels": [
+            "Special tribunal, guillotine, and revolutionary justice"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 191,
+          "source_page_label": "191",
+          "locator_class": "principal",
+          "evidence_summary": "Improvised courts claim to dispense justice and publicly celebrate acquittals while killings continue."
+        },
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "principal",
+          "evidence_summary": "Tradesmen and artisans believe the purge necessary and beneficial, and the Commune rewards them."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S072",
+      "label": "Victims and indiscriminate scope of the September Massacres",
+      "priority": "major",
+      "meaning": "Victims included Swiss defenders, priests, former elites, and political prisoners, but most were common criminals with no serious counter-revolutionary role.",
+      "stance": "Victim categories must preserve the source's corrective emphasis that political danger was not the norm.",
+      "acceptable_access": [
+        "September Massacres, victims",
+        "priests in September Massacres",
+        "common criminals in September Massacres",
+        "Swiss Guards in September Massacres"
+      ],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target_labels": [
+            "September Massacres"
+          ]
+        },
+        {
+          "type": "contradicts",
+          "target_labels": [
+            "Counter-revolution and the enemy within"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "principal",
+          "evidence_summary": "The victim profile ranges from identifiable political targets to a majority of ordinary criminals whose offenses were not politically subversive."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S073",
+      "label": "Political memory and blame for the September Massacres",
+      "priority": "major",
+      "meaning": "The massacres horrified observers and became a durable weapon in mutual accusations between Brissotin/Girondin and Robespierrist/Montagnard factions.",
+      "stance": "No side's accusation is accepted as a complete causal account; the political label associated with the killings outlived the immediate event.",
+      "acceptable_access": [
+        "September Massacres, political blame",
+        "septembriseur",
+        "Girondins and September Massacres",
+        "Montagnards and September Massacres"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Emergence of the Girondin-Montagnard conflict"
+          ]
+        },
+        {
+          "type": "afterlife_of",
+          "target_labels": [
+            "September Massacres"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "principal",
+          "evidence_summary": "Public horror, factional charges, an enduring term of abuse, and continuing fear make the killings a long-lived political issue."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11",
+        "TASK-008-14"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S074",
+      "label": "From massacre panic to patriotic volunteering",
+      "priority": "major",
+      "meaning": "Believing internal threats had been removed, Parisian militants volunteered in large numbers and contributed to the mobilization that preceded Valmy.",
+      "stance": "The source describes the militants' sense of reassurance and the sequence into volunteering; it does not morally validate the killings as necessary.",
+      "acceptable_access": [
+        "volunteering after September Massacres",
+        "patriotic volunteers, September 1792",
+        "Paris volunteers and Valmy"
+      ],
+      "relationships": [
+        {
+          "type": "follows",
+          "target_labels": [
+            "September Massacres"
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_labels": [
+            "Transformation of warfare through patriotic mass participation",
+            "Battle of Valmy and its political significance"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 192,
+          "source_page_label": "192",
+          "locator_class": "principal",
+          "evidence_summary": "Large numbers volunteer once militants believe their families no longer face a prison conspiracy."
+        },
+        {
+          "document_page": 193,
+          "source_page_label": "193",
+          "locator_class": "supporting",
+          "evidence_summary": "Valmy turns the resulting mobilization into a decisive halt to invasion."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11",
+        "TASK-008-12"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S075",
+      "label": "The Marseillaise: composition and naming",
+      "priority": "optional",
+      "meaning": "Rouget de Lisle composed a Rhine Army battle hymn during the first war enthusiasm; it acquired its enduring name when Marseilles volunteers entered Paris singing it.",
+      "stance": "The hymn expresses militant patriotic defiance and is not treated as a neutral ceremonial song.",
+      "acceptable_access": [
+        "Marseillaise",
+        "Rouget de Lisle",
+        "Army of the Rhine hymn",
+        "Marseilles volunteers and Marseillaise"
+      ],
+      "relationships": [
+        {
+          "type": "symbol_of",
+          "target_labels": [
+            "Revolutionary internationalism and liberation war"
+          ]
+        },
+        {
+          "type": "carried_by",
+          "target_labels": [
+            "Federes as military volunteers and political actors"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 183,
+          "source_page_label": "183",
+          "locator_class": "principal",
+          "evidence_summary": "The battle hymn is composed for the Rhine Army and conveys the violent defiance of early war enthusiasm."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "Marseilles volunteers bring the song into Paris and give it the name by which it becomes known."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S076",
+      "label": "The guillotine's introduction",
+      "priority": "optional",
+      "meaning": "Retention of capital punishment led to a mechanical decapitation method presented as reliable, egalitarian, and humane before it became political machinery.",
+      "stance": "The text explicitly distinguishes Guillotin's original proposal from actual invention of the device.",
+      "acceptable_access": [
+        "guillotine",
+        "Guillotin",
+        "mechanical decapitation",
+        "capital punishment"
+      ],
+      "relationships": [
+        {
+          "type": "precursor_to",
+          "target_labels": [
+            "Special tribunal, guillotine, and revolutionary justice"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 183,
+          "source_page_label": "183",
+          "locator_class": "principal",
+          "evidence_summary": "The device's rationale, disputed attribution, and first ordinary criminal execution are explained."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-11"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S077",
+      "label": "Revolutionary anniversaries and the journee model",
+      "priority": "optional",
+      "meaning": "Anniversaries, liberty-tree rituals, the 14 July festival, the tocsin, and memories of 1789 supplied symbols and scripts for popular mobilization.",
+      "stance": "Ceremonial continuity did not imply political consensus; official festivals could appear empty to militants preparing insurrection.",
+      "acceptable_access": [
+        "revolutionary anniversaries",
+        "journees",
+        "Festival of Federation, 1792",
+        "liberty tree",
+        "tocsin"
+      ],
+      "relationships": [
+        {
+          "type": "structures",
+          "target_labels": [
+            "Demonstration of 20 June 1792",
+            "Insurrection of 10 August 1792 and assault on the Tuileries"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "supporting",
+          "evidence_summary": "The June action uses the Tennis Court anniversary and liberty-tree planting as its public occasion."
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "The 14 July festival mobilizes federes but is judged emotionally hollow by radicals preparing a new Bastille-like assault."
+        },
+        {
+          "document_page": 189,
+          "source_page_label": "189",
+          "locator_class": "supporting",
+          "evidence_summary": "The tocsin and remembered popular days of 1789 provide the signal and model for insurrection."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-08"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    },
+    {
+      "local_subject_id": "CHUNK-008-S078",
+      "label": "Revolutionary calendar and Year I",
+      "priority": "optional",
+      "meaning": "The later revolutionary calendar dated Year I from the Republic's foundation in September 1792, formalizing the break with monarchy.",
+      "stance": "The calendar is retrospective institutionalization of the republican rupture, not an event that caused the September declaration.",
+      "acceptable_access": [
+        "revolutionary calendar",
+        "Year I",
+        "French Republican calendar"
+      ],
+      "relationships": [
+        {
+          "type": "memorializes",
+          "target_labels": [
+            "Abolition of monarchy and establishment of the Republic"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 194,
+          "source_page_label": "194",
+          "locator_class": "principal",
+          "evidence_summary": "The calendar is said to begin from the first day of the Republic following abolition of monarchy."
+        }
+      ],
+      "reader_tasks": [
+        "TASK-008-13"
+      ],
+      "confidence": "high",
+      "adjudication_status": "not_required"
+    }
+  ],
+  "exclusions": [
+    {
+      "label": "Attribution-only local speakers and officials",
+      "reason": "Couthon, Isnard, Count d'Antraigues, the mayor of Etampes, and the unnamed murdered general support larger subjects but receive no sustained independent analysis in this chunk."
+    },
+    {
+      "label": "Secondary ministers and factional associates as separate subjects",
+      "reason": "Servan, Claviere, Narbonne, Guadet, Gensonne, and Vergniaud are accessible through the Roland ministry, Brissotins/Girondins, war politics, or trial subjects; isolated separate records would duplicate access."
+    },
+    {
+      "label": "One-passage radical personalities",
+      "reason": "Clootz, Chaumette, and Jacques Roux are useful names within internationalist or popular-radical evidence, but separate absence would not materially reduce chapter retrieval."
+    },
+    {
+      "label": "Convention election examples",
+      "reason": "Orleans/Philippe-Egalite, Paine, and Priestley illustrate the Convention's composition and international associations but are not independently analyzed here."
+    },
+    {
+      "label": "Louis XVI's counsel as an independent subject",
+      "reason": "Raymond de Seze and the defense speech are evidence within the trial; the chapter does not sustain a separate analysis of counsel."
+    },
+    {
+      "label": "Named observers and quoted witnesses",
+      "reason": "The English visitor, American ambassador, British agent, and Goethe supply perspective or interpretation rather than independently treated subjects."
+    },
+    {
+      "label": "German electors as separate subjects",
+      "reason": "Trier and Mainz are elements in the emigre and war-origin sequence; the chapter does not independently analyze either polity."
+    },
+    {
+      "label": "Neighboring-chapter military expansion",
+      "reason": "The post-Valmy conquests and military recovery discussion on context pages 197-198 belong to CHUNK-009 ownership."
+    },
+    {
+      "label": "Polish crisis of 1792",
+      "reason": "The Targowica, Kosciuszko, and partition material occurs on context page 198 and belongs to the next chunk."
+    },
+    {
+      "label": "Dates, casualty figures, and vote totals as standalone subjects",
+      "reason": "They remain important attributes and evidence within events but do not create independent concepts."
+    },
+    {
+      "label": "Running furniture and note markers",
+      "reason": "Running heads, page numbers, chapter numerals, and superscript note markers are not substantive source matter."
+    },
+    {
+      "label": "Absent notes and endnotes",
+      "reason": "The supplied PDF omits their text, so they are unavailable and excluded rather than treated as omissions."
+    }
+  ],
+  "uncertainties": [
+    {
+      "item": "Historical staging of Brissotin and Girondin terminology",
+      "alternatives": [
+        "Use Brissotins for the earlier war group and Girondins/Gironde faction only as the conflict coheres",
+        "Use a combined access label with an explicit chronology note"
+      ],
+      "evidence_needed": "Whole-book synthesis should confirm preferred terminology and cross-chapter identity continuity.",
+      "confidence": "high"
+    },
+    {
+      "item": "Alleged Austrian Committee",
+      "alternatives": [
+        "Index as an alleged conspiracy",
+        "Route through Marie Antoinette's secret correspondence with a qualification"
+      ],
+      "evidence_needed": "No further source evidence is required for this chunk; whole-book synthesis should preserve the distinction between rumor and actual correspondence.",
+      "confidence": "high"
+    },
+    {
+      "item": "Commune responsibility for the September Massacres",
+      "alternatives": [
+        "Coordination and encouragement",
+        "Central direction of all killings"
+      ],
+      "evidence_needed": "Retain the chapter's narrower claim that the Commune coordinated rather than stopped the killings; do not infer a single comprehensive order.",
+      "confidence": "high"
+    },
+    {
+      "item": "Perpetrators' belief and the political status of massacre victims",
+      "alternatives": [
+        "Popular defense against a believed prison plot",
+        "Actual elimination of a largely counter-revolutionary prisoner body"
+      ],
+      "evidence_needed": "Keep both perpetrator belief and the source's conclusion that most victims were not politically dangerous.",
+      "confidence": "high"
+    },
+    {
+      "item": "Causal link from the massacres to volunteering",
+      "alternatives": [
+        "Perceived internal security released volunteers",
+        "The massacres objectively made volunteering safe"
+      ],
+      "evidence_needed": "Use the first, source-grounded formulation and avoid moral or causal overstatement.",
+      "confidence": "high"
+    },
+    {
+      "item": "Effect of sans-culotte pressure on the king's death vote",
+      "alternatives": [
+        "Fear perhaps influenced some deputies",
+        "Coercion determined the sentence"
+      ],
+      "evidence_needed": "Preserve the author's qualified modal claim and the independently recorded vote divisions.",
+      "confidence": "high"
+    },
+    {
+      "item": "War and the irreversibility of anti-feudal change",
+      "alternatives": [
+        "War reinforced and secured the destruction of the old order",
+        "War alone caused the southern attacks"
+      ],
+      "evidence_needed": "Use the reinforcing relationship; the attacks also arose from local polarization, rumor, and weak government.",
+      "confidence": "high"
+    },
+    {
+      "item": "World-historical meaning of Valmy",
+      "alternatives": [
+        "A new epoch as reported through Goethe",
+        "A military and political turning point directly supported by the chapter narrative"
+      ],
+      "evidence_needed": "Use the second as the principal stance and retain the first as attributed contemporary interpretation.",
+      "confidence": "high"
+    },
+    {
+      "item": "Priority of the Saint-Domingue material within this chapter",
+      "alternatives": [
+        "Major localized subject",
+        "Essential chapter subject"
+      ],
+      "evidence_needed": "Whole-book synthesis should decide global priority; the chunk assigns major because the material is consequential but not the chapter's organizing center.",
+      "confidence": "medium"
+    },
+    {
+      "item": "Priority of the Pont-Saint-Esprit drownings",
+      "alternatives": [
+        "Optional named catalyst",
+        "Evidence only within southern rural violence"
+      ],
+      "evidence_needed": "Whole-book synthesis should determine whether the named event warrants direct access beyond the major regional subject.",
+      "confidence": "medium"
+    },
+    {
+      "item": "Chunk boundary around Valmy and post-Valmy war",
+      "alternatives": [
+        "Own Valmy through page 193",
+        "Transfer post-battle military explanation to the next chapter"
+      ],
+      "evidence_needed": "The frozen manifest owns pages 174-196 here; pages 197-198 were used only as context. Valmy evidence is therefore limited to owned pages 192-193.",
+      "confidence": "high"
+    }
+  ],
+  "discovery_assessment": {
+    "reasoning_pass": "fresh high-depth candidate-blind source discovery",
+    "page_level_review_complete": true,
+    "context_page_review_complete": true,
+    "fresh_source_led_draft_completed_before_prior_discovery_consultation": true,
+    "prior_discoveries_used_only_for_schema_and_procedural_consistency": true,
+    "density_used_as_subject_quota": false,
+    "subject_count": 78,
+    "priority_counts": {
+      "essential": 16,
+      "major": 55,
+      "optional": 7,
+      "exclude_by_default": 0
+    },
+    "evidence_count": 221,
+    "reader_task_count": 15,
+    "priority_status": "provisional until whole-source synthesis"
+  },
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "policy_path": "source/evaluation-policy.v2.json",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "source_chunk_pdf_sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81",
+    "source_chunk_sidecar_sha256": "be52821ccc83f0449e9230ea1d0eebab1ca21509bf5757a8281f9ecd35b256ef",
+    "repository": "jcamden/subject-index-benchmark-oxford-history-french-revolution-2002",
+    "base_commit": "7b10688a87f131d0180f5aa353739972410fab29",
+    "worker_branch": "source-discovery/chunk-008"
+  }
+}
