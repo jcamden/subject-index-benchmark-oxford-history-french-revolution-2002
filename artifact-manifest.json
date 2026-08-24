@@ -2,8 +2,27 @@
   "schema_version": "subject-index-artifact-manifest-v1",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-23T12:49:22Z",
+  "updated_at": "2026-08-24T13:51:16Z",
   "artifacts": [
+    {
+      "artifact_id": "ART-FB4D2076FFEF",
+      "stage": "benchmark_freeze",
+      "artifact_type": "portable-checkpoint-v4",
+      "path": "exports/oxford-2002-benchmark-qa-v4-portable.zip",
+      "sha256": "0ae2563cdecbe895d35fb786bafa801e24e782f27bb79080a2d7f4b5295726d6",
+      "media_type": "application/zip",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-24T13:51:16Z",
+      "workflow_role": "v4_portable_checkpoint",
+      "input_sha256": [
+        "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+        "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+        "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+        "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9"
+      ]
+    },
     {
       "artifact_id": "ART-B728D6CB7F53",
       "stage": "chunk_definition",
@@ -524,15 +543,66 @@
     },
     {
       "artifact_id": "ART-823A6F6E4BFB",
-      "stage": "benchmark_freeze",
-      "artifact_type": "source_benchmark",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "source-benchmark-synthesis-baseline",
       "path": "source/source-benchmark.v1.json",
       "sha256": "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
       "media_type": "application/json",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-08-23T12:49:22Z"
+      "recorded_at": "2026-08-24T13:49:25Z",
+      "workflow_role": "benchmark_synthesis_baseline",
+      "canonical_sha256": "3a1d9d319d2a9d8a8aff812248bc92201e7bb9b1d92c9d9cd48432cb6c497d98"
+    },
+    {
+      "artifact_id": "ART-8BA0BE24201F",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source-benchmark-superseded-final",
+      "path": "source/source-benchmark.v2.json",
+      "sha256": "de16bd7bae84a5afcc9ff8b46ff1b29c9a6eb6824a592d970f9dad0bb5679cc1",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T15:23:10Z",
+      "supersedes": "ART-823A6F6E4BFB",
+      "input_sha256": [
+        "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
+        "3a1d9d319d2a9d8a8aff812248bc92201e7bb9b1d92c9d9cd48432cb6c497d98",
+        "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+        "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f"
+      ],
+      "workflow_role": "superseded_legacy_qa_benchmark",
+      "canonical_sha256": "39c84c1217aba4d5b3d5d81f6d12c0463caf2ab0fbaf8edf62ac50de4d5cc8d1",
+      "superseded_by": "ART-3778ECFC208D"
+    },
+    {
+      "artifact_id": "ART-3778ECFC208D",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source-benchmark-final",
+      "path": "source/source-benchmark.v3.json",
+      "sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-24T13:49:26Z",
+      "workflow_role": "final_frozen_benchmark",
+      "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+      "supersedes": "ART-8BA0BE24201F",
+      "input_sha256": [
+        "de16bd7bae84a5afcc9ff8b46ff1b29c9a6eb6824a592d970f9dad0bb5679cc1",
+        "39c84c1217aba4d5b3d5d81f6d12c0463caf2ab0fbaf8edf62ac50de4d5cc8d1",
+        "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+        "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+        "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+        "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f"
+      ]
     },
     {
       "artifact_id": "ART-47F33C920CD9",
@@ -751,6 +821,64 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-08-23T04:56:27Z"
+    },
+    {
+      "artifact_id": "ART-9DF84C566C35",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark_qa",
+      "path": "validation/source-benchmark-qa.v1.json",
+      "sha256": "dcf55825d787c4de6aa43b6239dc5480340700d14e9c8f17bcb5de4a3006a962",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-23T15:23:10Z",
+      "input_sha256": [
+        "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
+        "3a1d9d319d2a9d8a8aff812248bc92201e7bb9b1d92c9d9cd48432cb6c497d98",
+        "de16bd7bae84a5afcc9ff8b46ff1b29c9a6eb6824a592d970f9dad0bb5679cc1",
+        "39c84c1217aba4d5b3d5d81f6d12c0463caf2ab0fbaf8edf62ac50de4d5cc8d1",
+        "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+      ],
+      "workflow_role": "detailed_legacy_review_provenance"
+    },
+    {
+      "artifact_id": "ART-AE19B2E66CD6",
+      "stage": "benchmark_review",
+      "artifact_type": "source-benchmark-review-inventory",
+      "path": "validation/source-benchmark-review-inventory.json",
+      "sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-24T13:49:26Z",
+      "workflow_role": "benchmark_review_inventory",
+      "input_sha256": [
+        "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
+        "3a1d9d319d2a9d8a8aff812248bc92201e7bb9b1d92c9d9cd48432cb6c497d98"
+      ]
+    },
+    {
+      "artifact_id": "ART-4F33D1AA2E42",
+      "stage": "benchmark_review",
+      "artifact_type": "source-benchmark-review-ledger",
+      "path": "validation/source-benchmark-review.v1.json",
+      "sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-24T13:49:26Z",
+      "workflow_role": "benchmark_review_ledger",
+      "input_sha256": [
+        "db8b6c4446eb586c538b1c742f6f524fadd13543621dbf8f16892b89d89b971e",
+        "3a1d9d319d2a9d8a8aff812248bc92201e7bb9b1d92c9d9cd48432cb6c497d98",
+        "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+        "dcf55825d787c4de6aa43b6239dc5480340700d14e9c8f17bcb5de4a3006a962",
+        "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+        "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3"
+      ]
     }
   ]
 }
