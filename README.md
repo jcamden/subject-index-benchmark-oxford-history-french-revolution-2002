@@ -1,33 +1,68 @@
 # Subject Index Benchmark: The Oxford History of the French Revolution (2002)
 
-Candidate-independent, source-grounded artifacts for evaluating subject indexes to William Doyle's *The Oxford History of the French Revolution*, 2002 edition.
+This repository contains the frozen, candidate-independent source benchmark for evaluating subject indexes to William Doyle's *The Oxford History of the French Revolution*, 2002 edition.
 
-## Scope
+## Frozen benchmark release
 
-The supplied study source matches the IndexerLabs-distributed special PDF, which lacks front matter and endnotes. Its 425 supplied document pages map directly to source labels 1–425.
+Benchmark v3 is final. It completed source-led discovery, whole-book synthesis, and a full independent candidate-blind review before freeze.
 
-This repository contains:
+| Release fact | Value |
+| --- | --- |
+| Artifact freeze commit | [`98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab`](https://github.com/jcamden/subject-index-benchmark-oxford-history-french-revolution-2002/commit/98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab) |
+| Benchmark path | [`source/source-benchmark.v3.json`](source/source-benchmark.v3.json) |
+| Canonical benchmark SHA-256 | `b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3` |
+| Benchmark file SHA-256 | `34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27` |
+| Subjects | 1,366 |
+| Relationships | 3,460 |
+| Reader tasks | 1,026 |
+| Independent review | Full, completed, candidate blindness preserved |
 
-- the frozen page map and chapter manifest;
-- the instantiated standard evaluation policy;
-- candidate-blind chapter-level subject-discovery artifacts;
-- the eventual frozen whole-source benchmark;
-- evaluation state, artifact manifest, and portable checkpoints.
+The machine-readable release bindings are in [`benchmark-release.v3.json`](benchmark-release.v3.json). Commits after the artifact freeze may improve documentation, control metadata, checkpoints, or validation automation, but they do not redefine benchmark v3. Candidate repositories must continue to pin the artifact freeze commit above.
 
-It deliberately excludes source PDFs, chapter packet PDFs, extracted source text, absent endnotes, and any candidate index.
+## Source scope and limitations
 
-## Reuse
+The supplied study source is the IndexerLabs-distributed special PDF. Its 425 supplied document pages map directly to printed/source page labels 1–425.
 
-Candidate evaluations must identify the exact commit and benchmark/policy hashes used. This permits multiple indexes to be audited against the same frozen source benchmark without repeating source discovery.
+The supplied PDF omits the book's front matter and endnotes. Those unavailable regions are outside the benchmark denominator. The repository also excludes the copyrighted source PDF, chapter packet PDFs, and extracted source text; the book must be obtained separately from an authorized source.
 
-## Status
+The review retains 303 label-only relationships where no single stable subject is coextensive with the access route, plus 94 documented editorial uncertainties. These are nonblocking, explicit limitations rather than missing review work.
 
-Source-subject discovery is in progress. CHUNK-001 (Chapter 1) is complete; 16 chapter chunks remain.
+## Contents
 
-## Method
+- `source/page-map.json`: frozen one-record-per-page map;
+- `source/chunk-manifest.json`: the 17 user-approved chapter ownership units;
+- `source/evaluation-policy.v2.json`: active source-bound standard policy and rubric identity;
+- `source/source-subject-chunk.*.json`: candidate-blind chapter discoveries;
+- `source/source-benchmark.v3.json`: final frozen benchmark;
+- `validation/source-benchmark-review-inventory.json`: deterministic review denominator;
+- `validation/source-benchmark-review.v1.json`: completed independent review ledger;
+- `benchmark-release.v3.json`: release commit, hashes, counts, and reuse rules;
+- `evaluation-state.json` and `artifact-manifest.json`: current control state; and
+- `exports/`: versioned portable checkpoints.
 
-The benchmark is source-led and candidate-blind. Its size is determined by substantively treated subjects in the source, not by a fixed concept count or density quota. Density is evaluated later as a structural metric under the standard policy.
+## Reuse in candidate repositories
+
+Every candidate evaluation must:
+
+1. pin benchmark repository commit `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab` as its immutable benchmark artifact reference;
+2. bind `source/source-benchmark.v3.json` to canonical SHA-256 `b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3` and file SHA-256 `34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27`;
+3. verify the source, policy, page-map, chunk-manifest, rubric, audit-mode, and edition identities recorded in `benchmark-release.v3.json`; and
+4. preserve that lock for the entire candidate audit and any published comparison.
+
+Do not pin a later `main` head merely to receive documentation or checkpoint updates. The artifact freeze commit is the comparison boundary.
+
+## Review history and final control state
+
+The independent review found systemic defects in benchmark v2 and triggered a temporary merge stop. Focused candidate-blind adjudication corrected those defects in v3. The final coordinator then approved and merged corrected v3 at the artifact freeze commit. The review ledger preserves the contemporaneous stop decision as historical provenance; `evaluation-state.json` records that the stop is cleared and is not an active blocker.
+
+## Versioning and invalidation
+
+`source/source-benchmark.v3.json` is immutable. Any substantive change to benchmark meaning, subjects, priorities, relationships, evidence, exclusions, or reader tasks requires a new versioned benchmark artifact and a new freeze commit. Such a revision invalidates or makes non-comparable every dependent result tied to v3 until that candidate is explicitly re-evaluated and locked to the new version.
+
+## Automated validation
+
+Pull requests and pushes to `main` run [`scripts/validate_benchmark_release.py`](scripts/validate_benchmark_release.py). The check verifies the release hashes, frozen counts, independent-review status, cleared control gate, checkpoint integrity, and byte-for-byte identity of benchmark v3 with the artifact freeze commit.
 
 ## Rights
 
-This repository contains analytical metadata and evidence summaries, not the copyrighted source text. The book itself must be obtained separately from an authorized source.
+This repository contains source-derived analytical metadata and evidence summaries, not the copyrighted source text. No repository license has been selected; technical reuse instructions do not grant rights beyond those separately held or authorized by the repository owner.

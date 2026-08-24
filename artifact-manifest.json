@@ -2,8 +2,20 @@
   "schema_version": "subject-index-artifact-manifest-v1",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-24T13:51:16Z",
+  "updated_at": "2026-08-24T18:21:46Z",
   "artifacts": [
+    {
+      "artifact_id": "ART-7D2251DCC27C",
+      "stage": "benchmark_freeze",
+      "artifact_type": "benchmark-release-descriptor-v1",
+      "path": "benchmark-release.v3.json",
+      "sha256": "68701c2e7d0e3b16448180c19b16c4029a314c6f6e4d9c99bcae33dc034cbacf",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-24T18:20:20Z"
+    },
     {
       "artifact_id": "ART-FB4D2076FFEF",
       "stage": "benchmark_freeze",
@@ -22,6 +34,31 @@
         "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
         "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9"
       ]
+    },
+    {
+      "artifact_id": "ART-D32B30F71E86",
+      "stage": "benchmark_freeze",
+      "artifact_type": "portable-checkpoint-v4",
+      "path": "exports/oxford-2002-benchmark-v3-final-release-portable.zip",
+      "sha256": "14f465d3a139a773ca95f56605328df235282886e5b5a5411b1d7d59fa016aae",
+      "media_type": "application/zip",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-24T18:21:27Z",
+      "supersedes": "ART-FB4D2076FFEF",
+      "workflow_role": "final_release_portable_checkpoint",
+      "input_sha256": [
+        "68701c2e7d0e3b16448180c19b16c4029a314c6f6e4d9c99bcae33dc034cbacf",
+        "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+        "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+        "82f0f3c2dc5f6981831d4c8cda6cb3f96136ebd617af3d6d18d68117f823d09f",
+        "b186a8a9f9cb38448a587abe187dea40f8582e3ee21f2351c879fbb4e21c1ef2"
+      ],
+      "bundle_state_sha256": "82f0f3c2dc5f6981831d4c8cda6cb3f96136ebd617af3d6d18d68117f823d09f",
+      "bundle_manifest_sha256": "b186a8a9f9cb38448a587abe187dea40f8582e3ee21f2351c879fbb4e21c1ef2",
+      "included_count": 36,
+      "excluded_count": 35
     },
     {
       "artifact_id": "ART-B728D6CB7F53",

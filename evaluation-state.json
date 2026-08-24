@@ -3,7 +3,7 @@
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "artifact_manifest_path": "artifact-manifest.json",
   "created_at": "2026-08-21T16:45:54Z",
-  "updated_at": "2026-08-24T13:51:16Z",
+  "updated_at": "2026-08-24T18:21:46Z",
   "source": {
     "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
     "filename": "Oxford_History_of_the_French_Revolution--IndexerLabs.(3).pdf",
@@ -157,16 +157,21 @@
         "Independent candidate-blind benchmark review required before final freeze.",
         "Deterministic v4 review inventory generated from frozen v1 baseline.",
         "Deterministic full-review inventory registered with exact stable-ID queues.",
-        "Candidate-blind full review completed; systemic v2 defects required v3 and prohibit PR merge under the user gate."
+        "Candidate-blind full review completed; systemic v2 defects triggered the historical merge stop and required corrected v3.",
+        "The final coordinator cleared the historical stop after v3 adjudication and merged corrected v3 as PR #16 at artifact freeze commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab."
       ]
     },
     "benchmark_freeze": {
       "status": "completed",
-      "updated_at": "2026-08-24T13:51:16Z",
+      "updated_at": "2026-08-24T18:21:27Z",
       "notes": [
         "Final freeze must follow completed independent benchmark review.",
-        "Version 3 frozen after focused source adjudication; canonical SHA-256 b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3. PR merge remains prohibited because systemic defects were revealed.",
-        "Portable v4 checkpoint created, ZIP-tested, imported in isolation, and validated; restricted chunk PDFs and sidecars remain reconnect-only."
+        "Historical v2 stop: focused review revealed systemic defects and prohibited merging the then-pending correction under the original gate.",
+        "Version 3 frozen after focused source adjudication; canonical SHA-256 b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3.",
+        "Coordinator clearance: corrected v3 was approved and merged as PR #16 at artifact freeze commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; the historical v2 stop is no longer active.",
+        "Portable v4 artifact-freeze checkpoint created, ZIP-tested, imported in isolation, and validated; restricted chunk PDFs and sidecars remain reconnect-only.",
+        "Registered final benchmark-v3 release descriptor; candidate repositories remain pinned to artifact freeze commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab.",
+        "Created and ZIP-tested the benchmark-v3 final-release portable checkpoint after correcting control metadata; candidate pins remain fixed at 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab."
       ]
     },
     "candidate_normalization": {
@@ -1013,6 +1018,41 @@
         "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
         "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3"
       ]
+    },
+    {
+      "artifact_id": "ART-7D2251DCC27C",
+      "stage": "benchmark_freeze",
+      "artifact_type": "benchmark-release-descriptor-v1",
+      "path": "benchmark-release.v3.json",
+      "sha256": "68701c2e7d0e3b16448180c19b16c4029a314c6f6e4d9c99bcae33dc034cbacf",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-24T18:20:20Z"
+    },
+    {
+      "artifact_id": "ART-D32B30F71E86",
+      "stage": "benchmark_freeze",
+      "artifact_type": "portable-checkpoint-v4",
+      "path": "exports/oxford-2002-benchmark-v3-final-release-portable.zip",
+      "sha256": "14f465d3a139a773ca95f56605328df235282886e5b5a5411b1d7d59fa016aae",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-08-24T18:21:27Z",
+      "supersedes": "ART-FB4D2076FFEF",
+      "workflow_role": "final_release_portable_checkpoint",
+      "input_sha256": [
+        "68701c2e7d0e3b16448180c19b16c4029a314c6f6e4d9c99bcae33dc034cbacf",
+        "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+        "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+        "82f0f3c2dc5f6981831d4c8cda6cb3f96136ebd617af3d6d18d68117f823d09f",
+        "b186a8a9f9cb38448a587abe187dea40f8582e3ee21f2351c879fbb4e21c1ef2"
+      ],
+      "bundle_state_sha256": "82f0f3c2dc5f6981831d4c8cda6cb3f96136ebd617af3d6d18d68117f823d09f",
+      "bundle_manifest_sha256": "b186a8a9f9cb38448a587abe187dea40f8582e3ee21f2351c879fbb4e21c1ef2",
+      "included_count": 36,
+      "excluded_count": 35
     }
   ],
   "blockers": [],
@@ -1046,7 +1086,30 @@
       "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3"
     },
     "candidate_blindness": "preserved",
-    "merge_gate": "blocked_systemic_defect_revealed",
+    "release_status": "benchmark_frozen_v3_final",
+    "artifact_freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+    "merge_gate": "cleared_after_v3_adjudication_and_coordinator_merge",
+    "historical_merge_gate": {
+      "value": "blocked_systemic_defect_revealed",
+      "scope": "v2 defect-discovery and pre-v3 coordinator review",
+      "status": "cleared",
+      "cleared_by": "corrected v3 adjudication and coordinator merge",
+      "clearance_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab"
+    },
+    "release": {
+      "descriptor_path": "benchmark-release.v3.json",
+      "descriptor_artifact_id": "ART-7D2251DCC27C",
+      "descriptor_file_sha256": "68701c2e7d0e3b16448180c19b16c4029a314c6f6e4d9c99bcae33dc034cbacf",
+      "descriptor_canonical_sha256": "a9283a788bbb30615dd52ede86fa459feac827f17cf00e05b5882e6e2c6f43ce",
+      "freeze_checkpoint_path": "exports/oxford-2002-benchmark-qa-v4-portable.zip",
+      "freeze_checkpoint_sha256": "0ae2563cdecbe895d35fb786bafa801e24e782f27bb79080a2d7f4b5295726d6",
+      "final_release_checkpoint_path": "exports/oxford-2002-benchmark-v3-final-release-portable.zip",
+      "final_release_checkpoint_artifact_id": "ART-D32B30F71E86",
+      "final_release_checkpoint_sha256": "14f465d3a139a773ca95f56605328df235282886e5b5a5411b1d7d59fa016aae",
+      "checkpoint_state_sha256": "82f0f3c2dc5f6981831d4c8cda6cb3f96136ebd617af3d6d18d68117f823d09f",
+      "checkpoint_manifest_sha256": "b186a8a9f9cb38448a587abe187dea40f8582e3ee21f2351c879fbb4e21c1ef2",
+      "status": "final_release_complete"
+    },
     "next_command": "normalize-index"
   }
 }
