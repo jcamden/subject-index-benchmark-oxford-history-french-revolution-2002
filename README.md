@@ -8,7 +8,7 @@ Benchmark v3 is final. It completed source-led discovery, whole-book synthesis, 
 
 | Release fact | Value |
 | --- | --- |
-| Artifact freeze commit | [`98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab`](https://github.com/jcamden/subject-index-benchmark-oxford-history-french-revolution-2002/commit/98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab) |
+| Artifact freeze commit | [`98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab`](https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/commit/98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab) |
 | Benchmark path | [`source/source-benchmark.v3.json`](source/source-benchmark.v3.json) |
 | Canonical benchmark SHA-256 | `b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3` |
 | Benchmark file SHA-256 | `34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27` |
